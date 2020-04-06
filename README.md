@@ -24,11 +24,17 @@ Mathematical modelers in the Centre for the Mathematical Modelling of Infectious
 
 ## Current charts
 
-### ![Miami Beach - Number of Infections - April 6, 2020 11 AM](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20%20Analysis%20-%20Miami%20Beach%20-%20Number%20of%20Infections%20-%20April%206%202020%2011%20AM.png?raw=true)
+### Miami Beach - Number of Infections - April 6, 2020 11 AM
 
-### ![Miami Beach - Infection Percentage - April 6, 2020 11 AM](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Percentage%20-%20April%206%202020%2011%20AM.png?raw=true)
+![Miami Beach - Number of Infections - April 6, 2020 11 AM](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20%20Analysis%20-%20Miami%20Beach%20-%20Number%20of%20Infections%20-%20April%206%202020%2011%20AM.png?raw=true)
 
-### ![Miami Beach - Infection Odds - April 6, 2020 11 AM](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Odds%20-%20April%206%202020%2011%20AM.png?raw=true)
+### Miami Beach - Infection Percentage - April 6, 2020 11 AM
+
+![Miami Beach - Infection Percentage - April 6, 2020 11 AM](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Percentage%20-%20April%206%202020%2011%20AM.png?raw=true)
+
+### Miami Beach - Infection Odds - April 6, 2020 11 AM
+
+![Miami Beach - Infection Odds - April 6, 2020 11 AM](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Odds%20-%20April%206%202020%2011%20AM.png?raw=true)
 
 ## Next steps
 
