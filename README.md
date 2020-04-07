@@ -24,27 +24,27 @@ Mathematical modelers in the Centre for the Mathematical Modelling of Infectious
 
 ## Current charts
 
-### Miami Beach - Number of Cases - April 6, 2020 evening
+### Miami Beach - Number of COVID-19 Cases - April 6, 2020 evening
 
-![Miami Beach - Number of Cases - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Number%20of%20Cases%20-%20April%206%202020%206%20PM.png?raw=true)
+![Miami Beach - Number of COVID-19 Cases - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Number%20of%20Cases%20-%20April%206%202020%206%20PM.png?raw=true)
 
-### Miami Beach - Number of Cases - April 6, 2020 evening
+### Miami Beach - Estimated Number of SARS-CoV-2 Infections - April 6, 2020 evening
 
-![Miami Beach - Estimated Number of Infections - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20%20Analysis%20-%20Miami%20Beach%20-%20Number%20of%20Infections%20-%20April%206%202020%206%20PM.png?raw=true)
+![Miami Beach - Estimated Number of SARS-CoV-2 Infections - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20%20Analysis%20-%20Miami%20Beach%20-%20Number%20of%20Infections%20-%20April%206%202020%206%20PM.png?raw=true)
 
-### Miami Beach - Infection Percentage - April 6, 2020 evening
+### Miami Beach - SARS-CoV-2 Infection Percentage - April 6, 2020 evening
 
-![Miami Beach - Infection Percentage - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Percentage%20-%20April%206%202020%206%20PM.png?raw=true)
+![Miami Beach - SARS-CoV-2 Infection Percentage - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Percentage%20-%20April%206%202020%206%20PM.png?raw=true)
 
-### Miami Beach - Infection Odds - April 6, 2020 evening
+### Miami Beach - SARS-CoV-2 Infection Odds - April 6, 2020 evening
 
-![Miami Beach - Infection Odds - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Odds%20-%20April%206%202020%206%20PM.png?raw=true)
+![Miami Beach - SARS-CoV-2 Infection Odds - April 6, 2020 evening](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/charts/RP%20SARS-CoV-2%20Analysis%20-%20Miami%20Beach%20-%20Infection%20Odds%20-%20April%206%202020%206%20PM.png?raw=true)
 
 ## Next steps
 
 ### Daily updates
 
-I will update this data each day after the new data from the Florida Department of Health is published at around 5 PM each day.
+I will update this data each day after the new data from the Florida Department of Health is published at around 6 PM each day.
 
 ### Curve fitting
 
