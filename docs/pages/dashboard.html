@@ -6,11 +6,19 @@ folder: Info
 toc: false
 ---
 
-{% assign chart_files = site.static_files | where: "category","covid19_dashboard" | sort: 'name' | reverse %}
-{% for chart in chart_files limit:5 %}
-  <p>
-  tags: {{ chart.tags }}
-  {% capture chart_path %}{{ chart.path }}{% endcapture %}
-  {% include image.html file=chart_path max-width="100%" %}
-  </p>
-{% endfor %}
+Here are the latest dashboards that I have published for different areas that I'm tracking.
+
+Please see the
+<a href="/products/covid19-dashboard/index.html">COVID-19 Dashboard</a> analysis
+product section for an exaplanation of the metrics and citations to the data
+and research that form the basis of the dashboard images.
+
+{% include current_dashboard.html area="/miami-beach/" %}
+
+<hr/>
+
+{% include current_dashboard.html area="/miami/" %}
+
+<hr/>
+
+{% include current_dashboard.html area="/florida/" %}
