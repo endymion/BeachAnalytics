@@ -5,12 +5,13 @@ permalink: charts.html
 toc: false
 ---
 
-<h2>Recent</h2>
+<h2>Dashboards</h2>
 
-{% assign chart_files = site.static_files | where: "chart", true | sort: 'name' | reverse %}
-{% for chart in chart_files limit:4 %}
-  <p>
-  {% capture chart_path %}{{ chart.path }}{% endcapture %}
-  {% include image.html file=chart_path max-width="100%" %}
-  </p>
-{% endfor %}
+Please see the <a href="/products/covid19-dashboard">COVID-19 Dashboard</a>
+analysis product section for more information and archives of older versions.
+
+{% include current_dashboard.html area="/miami-beach/" %}
+
+{% include current_dashboard.html area="/miami/" %}
+
+{% include current_dashboard.html area="/florida/" %}
