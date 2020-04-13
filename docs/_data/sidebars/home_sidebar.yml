@@ -28,18 +28,99 @@ entries:
       external_url: https://github.com/endymion/BeachCov2
       output: web
 
-  - title: Products
+  - title: COVID-19 Dashboard
     output: web
     folderitems:
-    - title: Number of COVID-19 Cases
-      url: /number_of_covid19_cases.html
+    - title: Background
+      url: /products/covid19-dashboard/index.html
       output: web
-    - title: COVID-19 Cases As Percentage of Population
-      url: /covid19_cases_as_percentage_of_population.html
+    - title: Current
+      url: /products/covid19-dashboard/current.html
       output: web
-    - title: Estimated Number of SARS-SoV-2 Infections
-      url: /estimated_number_of_sarscov2_infections.html
+    - title: Older
+      url: /products/covid19-dashboard/older.html
       output: web
-    - title: Estimated SARS-SoV-2 Infections As Percentage of Population
-      url: /estimated_number_of_sarscov2_infections.html
+  - title: Number of Cases
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/number-of-covid19-cases/index.html
+      output: web
+    - title: Current
+      url: /products/number-of-covid19-cases/current.html
+      output: web
+    - title: Older
+      url: /products/number-of-covid19-cases/older.html
+      output: web
+  - title: Percent Increase in Cases
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/percent_increase_in_number_of_covid19_cases/index.html
+      output: web
+    - title: Current
+      url: /products/percent_increase_in_number_of_covid19_cases/current.html
+      output: web
+    - title: Older
+      url: /products/percent_increase_in_number_of_covid19_cases/older.html
+      output: web
+  - title: Case Doubling Time
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/doubling_time_for_number_of_covid19_cases/index.html
+      output: web
+    - title: Current
+      url: /products/doubling_time_for_number_of_covid19_cases/current.html
+      output: web
+    - title: Older
+      url: /products/doubling_time_for_number_of_covid19_cases/older.html
+      output: web
+  - title: Cases As Percentage
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/covid19-cases-as-percentage-of-population/index.html
+      output: web
+    - title: Current
+      url: /products/covid19-cases-as-percentage-of-population/current.html
+      output: web
+    - title: Older
+      url: /products/covid19-cases-as-percentage-of-population/older.html
+      output: web
+  - title: Cases Percentage Projection
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/covid19_case_percentage_projection/index.html
+      output: web
+    - title: Current
+      url: /products/covid19_case_percentage_projection/current.html
+      output: web
+    - title: Older
+      url: /products/covid19_case_percentage_projection/older.html
+      output: web
+  - title: Estimated Infections
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/estimated-number-of-sarscov2-infections/index.html
+      output: web
+    - title: Current
+      url: /products/estimated-number-of-sarscov2-infections/current.html
+      output: web
+    - title: Older
+      url: /products/estimated-number-of-sarscov2-infections/older.html
+      output: web
+  - title: Estimated Infection Percentage
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/index.html
+      output: web
+    - title: Current
+      url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/current.html
+      output: web
+    - title: Older
+      url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/older.html
       output: web

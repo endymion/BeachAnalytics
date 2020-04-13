@@ -20,11 +20,13 @@ topnav_dropdowns:
   folders:
     - title: Products
       folderitems:
+      - title: COVID-19 Dashboard
+        url: /products/covid19-dashboard/
       - title: Number of COVID-19 Cases
-        url: /number_of_covid19_cases.html
+        url: /products/number-of-covid19-cases
       - title: COVID-19 Cases As Percentage of Population
-        url: /covid19_cases_as_percentage_of_population.html
+        url: /products/covid19-cases-as-percentage-of-population
       - title: Estimated Number of SARS-SoV-2 Infections
-        url: /estimated_number_of_sarscov2_infections.html
+        url: /products/estimated-number-of-sarscov2-infections
       - title: Estimated SARS-SoV-2 Infections As Percentage of Population
-        url: /estimated_number_of_sarscov2_infections.html
+        url: /products/estimated_number-of-sarscov2-infections

@@ -72,13 +72,9 @@ defaults:
     values:
       chart: true
   - scope:
-      path: "charts/dashboard"
+      path: "charts/covid19-dashboard"
     values:
-      category: dashboard
-  - scope:
-      path: "charts/infection-percentage"
-    values:
-      category: infection-percentage
+      covid19dashboard: true
   -
     scope:
       path: ""
