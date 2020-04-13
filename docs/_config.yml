@@ -79,6 +79,10 @@ defaults:
       path: "charts/number-of-covid19-cases"
     values:
       numberofcovid19cases: true
+  - scope:
+      path: "charts/doubling-time-for-number-of-covid19-cases"
+    values:
+      doublingtimefornumberofcovid19cases: true
   -
     scope:
       path: ""

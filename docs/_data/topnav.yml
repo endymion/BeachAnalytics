@@ -29,4 +29,4 @@ topnav_dropdowns:
       - title: Estimated Number of SARS-SoV-2 Infections
         url: /products/estimated-number-of-sarscov2-infections
       - title: Estimated SARS-SoV-2 Infections As Percentage of Population
-        url: /products/estimated_number-of-sarscov2-infections
+        url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population

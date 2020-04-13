@@ -1,0 +1,27 @@
+---
+title: Doubling Time in Number of Confirmed COVID-19 Cases
+sidebar: home_sidebar
+permalink: /products/doubling-time-for-number-of-covid19-cases/index.html
+folder: Case Doubling Time
+toc: false
+---
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "doublingtimefornumberofcovid19cases", "true" | where_exp: "item", "item.path contains '/miami-beach/'" | sort: 'name' | reverse %}
+{% for chart in chart_files limit:1 %}
+  {% capture chart_path %}{{ chart.path }}{% endcapture %}
+  <img src="{{ chart.path }}" class="pull-right" style="width:50%; margin:0 0 2em 2em; ">
+{% endfor %}
+
+<p>This chart shows the number of days that it would take for the number of
+  confirmed COVID-19 cases to double, at the current rate each day.</p>
+
+<h2>Sources</h2>
+
+The confirmed case count data comes from the
+<a href="https://www.floridadisaster.org/news-media/news/">daily updates</a>
+from the Florida Division of Emergency Management.
+
+<h2>Current</h2>
+
+Please see the <a href="/products/doubling-time-for-number-of-covid19-cases/current.html">Current Doubling Time in Number of Confirmed COVID-19 Cases</a> page for the latest dashboard
+published for each area.

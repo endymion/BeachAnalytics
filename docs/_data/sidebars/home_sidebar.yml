@@ -68,13 +68,13 @@ entries:
     output: web
     folderitems:
     - title: Background
-      url: /products/doubling_time_for_number_of_covid19_cases/index.html
+      url: /products/doubling-time-for-number-of-covid19-cases/index.html
       output: web
     - title: Current
-      url: /products/doubling_time_for_number_of_covid19_cases/current.html
+      url: /products/doubling-time-for-number-of-covid19-cases/current.html
       output: web
     - title: Older
-      url: /products/doubling_time_for_number_of_covid19_cases/older.html
+      url: /products/doubling-time-for-number-of-covid19-cases/older.html
       output: web
   - title: Cases As Percentage
     output: web
