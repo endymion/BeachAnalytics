@@ -5,9 +5,13 @@ permalink: charts.html
 toc: false
 ---
 
+This page collects the most recent versions of each of the charts, for each
+area that I'm tracking.
+
 <h2>Dashboards</h2>
 
-Please see the <a href="/products/covid19-dashboard">COVID-19 Dashboard</a>
+The dashboard image is a bite-sized COVID-19 news nugget, designed for social
+feeds and mobile messaging.  Please see the <a href="/products/covid19-dashboard">COVID-19 Dashboard</a>
 analysis product section for more information and archives of older versions.
 
 {% include current_dashboard.html area="/miami-beach/" %}
@@ -15,3 +19,20 @@ analysis product section for more information and archives of older versions.
 {% include current_dashboard.html area="/miami/" %}
 
 {% include current_dashboard.html area="/florida/" %}
+
+<h2>Confirmed Cases</h2>
+
+This chart shows the number of confirmed cases over time.  The confirmed case count data comes from the
+<a href="https://www.floridadisaster.org/news-media/news/">daily updates</a>
+from the Florida Division of Emergency Management.  Please see the <a href="/products/number-of-covid19-cases">COVID-19 Dashboard</a>
+analysis product section for more information and archives of older versions.
+
+{% include current_number-of-covid19-cases.html area="/miami-beach/" %}
+
+<hr/>
+
+{% include current_number-of-covid19-cases.html area="/miami/" %}
+
+<hr/>
+
+{% include current_number-of-covid19-cases.html area="/florida/" %}

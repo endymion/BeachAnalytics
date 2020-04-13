@@ -1,0 +1,26 @@
+---
+title: COVID-19 Dashboard Archive
+sidebar: home_sidebar
+permalink: /products/number-of-covid19-cases/older.html
+folder: Number of Cases
+toc: false
+---
+
+An archive of older confirmed cases charts:
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "covid19dashboard", "true" | sort: 'name' | reverse %}
+
+<div class="home">
+
+    <div class="post-list">
+
+    <section id="archive">
+      <ul>
+      {% for chart in chart_files %}
+        <li><a href="{{ chart.path }}">{{ chart.path }}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+
+    </div>
+</div>

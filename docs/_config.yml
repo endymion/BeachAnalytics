@@ -75,6 +75,10 @@ defaults:
       path: "charts/covid19-dashboard"
     values:
       covid19dashboard: true
+  - scope:
+      path: "charts/number-of-covid19-cases"
+    values:
+      numberofcovid19cases: true
   -
     scope:
       path: ""
