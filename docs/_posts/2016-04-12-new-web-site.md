@@ -5,7 +5,7 @@ summary: "New web site, built with GitHub Pages."
 tags: [meta]
 ---
 
-I started a web site for documenting each product and exposing the most current visualizations.
+My Easter weekend project was starting a web site for documenting each product and exposing the most current visualizations.
 
 I need a place where I can explain the basis for any estimation or projection that I'm doing in the visualizations and provide citations.
 
