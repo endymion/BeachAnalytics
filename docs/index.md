@@ -56,7 +56,7 @@ Then I generalized the charts and added tracking for data for Miami and for the 
 
 ## Sources
 
-The infection estimates here are based on the confirmed case countes for the city of Miami Beach in the daily updates from the Florida Department of Health at https://www.floridadisaster.org/news-media/news/
+The infection estimates here are based on the confirmed case counts for the city of Miami Beach in the daily updates from the Florida Department of Health at https://www.floridadisaster.org/news-media/news/
 
 The FDOH has been publishing these city-by-city counts since March 23, so that's the start date on the data in this analysis.
 
