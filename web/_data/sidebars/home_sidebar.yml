@@ -1,22 +1,45 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Sidebar
-  levels: one
+- title: sidebar
+  product: SARS-CoV-2 Analysis
   folders:
+
+
+  - title: Info
+    output: web
+    folderitems:
+    - title: Background
+      url: /index.html
+      output: web
+    - title: News
+      url: /news.html
+      output: web
+    - title: Dashboard
+      url: /dashboard.html
+      output: web
+    - title: Charts
+      url: /charts.html
+      output: web
+    - title: Contact
+      url: /contact.html
+      output: web
+    - title: GitHub
+      external_url: https://github.com/endymion/BeachCov2
+      output: web
 
   - title: Products
     output: web
     folderitems:
-    - title: News
-      url: /news.html
+    - title: Number of COVID-19 Cases
+      url: /number_of_covid19_cases.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+    - title: COVID-19 Cases As Percentage of Population
+      url: /covid19_cases_as_percentage_of_population.html
       output: web
-    - title: Product 1
-      url: /p1_landing_page.html
+    - title: Estimated Number of SARS-SoV-2 Infections
+      url: /estimated_number_of_sarscov2_infections.html
       output: web
-    - title: Product 2
-      url: /p2_landing_page.html
+    - title: Estimated SARS-SoV-2 Infections As Percentage of Population
+      url: /estimated_number_of_sarscov2_infections.html
       output: web
