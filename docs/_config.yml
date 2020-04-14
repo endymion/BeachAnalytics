@@ -83,6 +83,10 @@ defaults:
       path: "charts/doubling-time-for-number-of-covid19-cases"
     values:
       doublingtimefornumberofcovid19cases: true
+  - scope:
+      path: "charts/estimated-number-of-sarscov2-infections"
+    values:
+      estimatednumberofsarscov2infections: true
   -
     scope:
       path: ""
