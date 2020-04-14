@@ -1,5 +1,10 @@
 body {
     font-size:15px;
+    background-color: #F0F0F0;
+}
+
+#tg-sb-content {
+  background-color: #F6F6F6;
 }
 
 .bs-callout {
