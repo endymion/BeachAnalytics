@@ -11,4 +11,6 @@ current versions of charts, and for chart archives.  Now I have the section
 of the site set up for the [COVID-19 Dashboard](/products/covid19-dashboard/)
 analysis product.  Here's the latest, with the new site branding.
 
+<center>
 {% include current_dashboard.html area="/miami-beach/" %}
+</center>

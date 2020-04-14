@@ -13,4 +13,6 @@ Estimated infection count charts for other areas are available in the
 [Estimated Number of SARS-CoV-2 Infections](/products/current_estimated-number-of-sarscov2-infections/)
 analysis product section.
 
+<center>
 {% include current_estimated-number-of-sarscov2-infections.html area="/miami-beach/" %}
+</center>
