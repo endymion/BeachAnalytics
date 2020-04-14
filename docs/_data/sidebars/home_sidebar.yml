@@ -88,18 +88,6 @@ entries:
   #   - title: Older
   #     url: /products/covid19-cases-as-percentage-of-population/older.html
   #     output: web
-  # - title: Cases Percentage Projection
-  #   output: web
-  #   folderitems:
-  #   - title: Background
-  #     url: /products/covid19_case_percentage_projection/index.html
-  #     output: web
-  #   - title: Current
-  #     url: /products/covid19_case_percentage_projection/current.html
-  #     output: web
-  #   - title: Older
-  #     url: /products/covid19_case_percentage_projection/older.html
-  #     output: web
   - title: Estimated Infections
     output: web
     folderitems:
@@ -124,3 +112,15 @@ entries:
   #   - title: Older
   #     url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/older.html
   #     output: web
+  - title: Infection Percentage Projection
+    output: web
+    folderitems:
+    - title: Background
+      url: /products/projected-percentage-of-sarscov2-infections/index.html
+      output: web
+    - title: Current
+      url: /products/projected-percentage-of-sarscov2-infections/current.html
+      output: web
+    - title: Older
+      url: /products/projected-percentage-of-sarscov2-infections/older.html
+      output: web

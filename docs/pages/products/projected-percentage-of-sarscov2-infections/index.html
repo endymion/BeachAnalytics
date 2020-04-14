@@ -1,0 +1,33 @@
+---
+title: SARS-CoV-2 Infection Percentage Projection
+sidebar: home_sidebar
+permalink: /products/projected-percentage-of-sarscov2-infections/index.html
+folder: Infection Percentage Projection
+toc: false
+---
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "projectedpercentageofsarscov2infections", "true" | where_exp: "item", "item.path contains '/miami/'" | sort: 'name' | reverse %}
+{% for chart in chart_files limit:1 %}
+  {% capture chart_path %}{{ chart.path }}{% endcapture %}
+  <img src="{{ chart.path }}" class="pull-right" style="width:50%; margin:0 0 2em 2em; ">
+{% endfor %}
+
+<p>Experts estimate the critical threshold for achieving that herd protection
+  for COVID-19 is between 50% and 66%.  How long will it take to get there?</p>
+
+<p>This chart uses the same technique as
+  <a href="/products/estimated-number-of-sarscov2-infections/">Estimated Number
+    of SARS-CoV-2 Infections</a> to estimate the percentage of the population
+    in the area that has been infected with SARS-CoV-2, based on the number
+    of confirmed COVID-19 cases.</a>
+
+<h2>Sources</h2>
+
+The confirmed case count data comes from the
+<a href="https://www.floridadisaster.org/news-media/news/">daily updates</a>
+from the Florida Division of Emergency Management.
+
+<h2>Current</h2>
+
+Please see the <a href="/products/projected-percentage-of-sarscov2-infections/current.html">Current COVID-19 Dashboards</a> page for the latest dashboard
+published for each area.

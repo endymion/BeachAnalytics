@@ -30,6 +30,8 @@ topnav_dropdowns:
         url: /products/doubling-time-for-number-of-covid19-cases
       - title: Estimated Number of SARS-CoV-2 Infections
         url: /products/estimated-number-of-sarscov2-infections
+      - title: SARS-CoV-2 Infection Percentage Projection
+        url: /products/projected-percentage-of-sarscov2-infections
       # - title: COVID-19 Cases As Percentage of Population
       #   url: /products/covid19-cases-as-percentage-of-population
       # - title: Estimated Number of SARS-SoV-2 Infections
