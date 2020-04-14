@@ -24,6 +24,8 @@ topnav_dropdowns:
         url: /products/covid19-dashboard/
       - title: Number of COVID-19 Cases
         url: /products/number-of-covid19-cases
+      - title: Percent Increase for Number of COVID-19 Cases
+        url: /products/percent-increase-in-number-of-covid19-cases
       - title: Doubling Time for Number of COVID-19 Cases
         url: /products/doubling-time-for-number-of-covid19-cases
       - title: Estimated Number of SARS-CoV-2 Infections

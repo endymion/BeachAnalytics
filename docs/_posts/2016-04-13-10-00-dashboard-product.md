@@ -1,5 +1,5 @@
 ---
-title:  Dashboard Product Documentation
+title:  Dashboard product documentation
 published: true
 summary: The background, current images page, and archive page are ready.
 tags: [meta]
