@@ -10,7 +10,7 @@ This project contains:
 
 ### Analysis
 
-The [Excel spreadsheet](https://github.com/endymion/BeachCov2/blob/master/SARS-CoV-2%20Analysis%20-%20Miami%20Beach.xlsm) was the start of my local COVID-19 analysis.  I used it to design the charts.  Pros: Excel can make some nice charts.  Cons: Updating all of the visualization products by hand twice a day sucks.
+The [Excel spreadsheet](https://github.com/endymion/BeachCov2/blob/master/analysis/SARS-CoV-2%20Analysis%20-%20Miami%20Beach.xlsm) was the start of my local COVID-19 analysis.  I used it to design the charts.  Pros: Excel can make some nice charts.  Cons: Updating all of the visualization products by hand twice a day sucks.
 
 Because of that, I'm moving the analysis to Google Data Studio.  That work is in progress.  The Excel spreadsheet will soon be obsolete.
 
