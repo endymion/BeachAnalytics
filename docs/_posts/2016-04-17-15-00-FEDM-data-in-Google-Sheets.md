@@ -11,9 +11,9 @@ The Florida Department of Emergency Management releases their twice-daily update
 
 ## Solution
 
-I wrote some code that extracts the city-by-city data from those PDF files into a spreadsheet in Google Sheets.  I can run it periodically to get the latest updates.  Then I can use that spreadsheet directly for visualizations with Google Data Studio, or I can transform the data to other spreadsheets with Ruby or R for further analysis and use those spreadsheets in visualizations.
+I wrote some [code](https://github.com/endymion/BeachCov2/tree/master/data) that extracts the city-by-city data from those PDF files into a spreadsheet in Google Sheets.  I can run it periodically to get the latest updates.  Then I can use that spreadsheet directly for visualizations with Google Data Studio, or I can transform the data to other spreadsheets with Ruby or R for further analysis and use those spreadsheets in visualizations.
 
-I made [the spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vTs88ZRLrHIs9YQyzyhuONV7lQfpGB6Y0KhmkfkJNpnYkcGMW2jOSyjXSabu3iUYyVnI8-hWajTXES_/pubhtml) public, and I'll update it with each new FDEM update:
+I made [the spreadsheet](https://docs.google.com/spreadsheets/d/1us_aePT2_OQoc3iBXckrBAeYZb8j4bVAY_cr8t6V8r0/edit?usp=sharing) public, and I'll update it with each new FDEM update:
 
 <iframe style="width:100%;" height="500px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTs88ZRLrHIs9YQyzyhuONV7lQfpGB6Y0KhmkfkJNpnYkcGMW2jOSyjXSabu3iUYyVnI8-hWajTXES_/pubhtml?widget=true&amp;headers=false"></iframe>
 
@@ -22,5 +22,3 @@ All that I have so far is the city-by-city data, but that's a start.  Next I'll 
 I'm currently not using the case-by-case data in the FDEM reports, and I don't have any plans to extract that data.  Please contact me if you need that data in machine-readable form and it might help you if I did extract it.  I'd be happy to do that.
 
 I still have to run this each time, but I designed all of the code to run in AWS Lambda.
-
-Here is the current
