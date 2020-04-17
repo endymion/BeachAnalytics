@@ -2,7 +2,7 @@
 title: "Meta"
 tagName: meta
 search: exclude
-permalink: tag_meta.html
+permalink: meta.html
 sidebar: home_sidebar
 folder: tags
 toc: false

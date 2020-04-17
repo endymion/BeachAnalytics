@@ -2,7 +2,7 @@
 title: How many infections?
 tagName: how-many-infections
 search: exclude
-permalink: tag_how-many-infections.html
+permalink: how-many-infections.html
 sidebar: home_sidebar
 folder: tags
 toc: false
