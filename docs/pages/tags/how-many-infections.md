@@ -1,7 +1,7 @@
 ---
 title: How many infections?
 tagName: how-many-infections
-search: exclude
+search: include
 permalink: how-many-infections.html
 sidebar: home_sidebar
 folder: tags
