@@ -7,7 +7,7 @@ tags: [meta, data-engineering]
 
 ## Problem
 
-The Florida Department of Emergency Management releases their twice-daily updates as PDF files.  The data in those files is not easy to analyze, without extracting it into a spreadsheet or a data file.  I have been pulling numbers by hand out of the PDF files into an Excel spreadsheet for analysis.  It's time-consuming and it delays my updates, and if I take a day off then the visualizations don't update themselves.
+The Florida Department of Emergency Management releases their twice-daily updates as PDF files.  The data in those files is not easy to analyze without extracting it into a spreadsheet or a data file.  I have been pulling numbers by hand out of the PDF files into an Excel spreadsheet for analysis.  It's time-consuming and it delays my updates, and if I take a day off then the visualizations don't update themselves.
 
 ## Solution
 
