@@ -8,7 +8,7 @@ tags: [how-many-infections, herd-immunity]
 
 ## How many people have been infected with SARS-CoV-2?
 
-One way to estimate the number of infections is from the number of confirmed cases.  Mathematical modelers in the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) at the London School of Hygiene & Tropical Medicine [found](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html) maintain a model for estimating an approximate fraction of cases reported.<sup>[1]</sup>  They update their model nearly daily.
+One way to estimate the number of infections is from the number of confirmed cases.  Mathematical modelers in the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) at the London School of Hygiene & Tropical Medicine maintain a model for estimating an approximate fraction of cases reported.<sup>[1]</sup>  They update their model nearly daily.
 
 At the time of this writing, that model estimates that only 12% of cases in the US are reported.  With a 95% confidence range from 11% to 26%.
 
@@ -32,7 +32,9 @@ Comparing the infection percentage estimates between Santa Clara County, Califor
 
 ## So then what about herd immunity?
 
-If our estimates for the percentage of people infected seem plausible, then what do they tell us about how close we are to reaching herd immunity?  Unfortunately, we're still a long way from that point.  Here's the chart above, basically zoomed out to show how long it would take to reach the critical herd immunity threshold (shaded green) at the current rate.  (Assuming a linear spread, which seems unlikely given the current political environment.)
+If our estimates for the percentage of people infected seem plausible, then what do they tell us about how close we are to reaching herd immunity?  Unfortunately, we're still a long way from that point.
+
+Here's the chart above, basically zoomed out to show how long it would take to reach the critical herd immunity threshold (shaded green) at the current rate.  (Assuming a linear spread, which seems unlikely given the current political environment.)
 
 <p>
 <center>
