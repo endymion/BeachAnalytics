@@ -20,4 +20,4 @@ The [`data`](https://github.com/endymion/BeachCov2/tree/master/data) folder cont
 
 ### Web site
 
-The [`docs`](https://github.com/endymion/BeachCov2/tree/master/docs) folder contains the code for https://BeachCoV2.info. It's a Jekyll site, intended for hosting on GitHub Pages.
+The [`site`](https://github.com/endymion/BeachCov2/tree/master/site) folder contains the code for https://BeachCoV2.info. It's a Jekyll site, intended for hosting on GitHub Pages.  The output goes to the [`docs`](https://github.com/endymion/BeachCov2/tree/master/docs) folder, and GitHub Pages publishes that folder in the `master` branch to the web site.
