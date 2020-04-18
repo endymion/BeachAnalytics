@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Apr 2020 19:01:21 -0400</pubDate>
-        <lastBuildDate>Sat, 18 Apr 2020 19:01:21 -0400</lastBuildDate>
+        <pubDate>Sat, 18 Apr 2020 19:06:53 -0400</pubDate>
+        <lastBuildDate>Sat, 18 Apr 2020 19:06:53 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -93,7 +93,7 @@
             <link>http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
             <guid isPermaLink="true">http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
             
-            <category>how-many-infections</category>
+            <category>how-widespread</category>
             
             <category>herd-immunity</category>
             
@@ -156,7 +156,7 @@
             <link>http://localhost:4000/2020/04/14/17-00-are-we-there-yet.html</link>
             <guid isPermaLink="true">http://localhost:4000/2020/04/14/17-00-are-we-there-yet.html</guid>
             
-            <category>how-many-infections</category>
+            <category>how-widespread</category>
             
             
         </item>
@@ -187,7 +187,7 @@ analysis product section.&lt;/p&gt;
             <link>http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</link>
             <guid isPermaLink="true">http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</guid>
             
-            <category>how-many-infections</category>
+            <category>how-widespread</category>
             
             
         </item>

@@ -127,10 +127,10 @@
 
 
 {
-"title": "How many infections?",
+"title": "How widespread is SARS-CoV-2?",
 "tags": "",
 "keywords": "",
-"url": "/how-many-infections.html",
+"url": "/how-widespread.html",
 "summary": ""
 }
 ,
@@ -333,7 +333,7 @@
 
 {
 "title": "New antibody research is consistent with the estimates here for number of infections",
-"tags": "how-many-infectionsherd-immunity",
+"tags": "how-widespreadherd-immunity",
 "keywords": "",
 "url": "/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html",
 "summary": "Antibody testing in California is consistent with BeachCov2 estimates."
@@ -353,7 +353,7 @@
 
 {
 "title": "Are we there yet?",
-"tags": "how-many-infections",
+"tags": "how-widespread",
 "keywords": "",
 "url": "/2020/04/14/17-00-are-we-there-yet.html",
 "summary": "Are we there yet?  Are we there yet?"
@@ -363,7 +363,7 @@
 
 {
 "title": "Wider infection estimate range",
-"tags": "how-many-infections",
+"tags": "how-widespread",
 "keywords": "",
 "url": "/2020/04/13/wider-infection-estimate-range.html",
 "summary": "The range for estimating the number of SARS-CoV-2 infections from the number of COVID-19 infections has changed."
