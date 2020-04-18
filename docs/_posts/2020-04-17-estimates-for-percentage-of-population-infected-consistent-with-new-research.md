@@ -70,6 +70,8 @@ And for Florida overall, the percentage may be lower.
 </center>
 </p>
 
+Is the percentage of the population who has been infected really that much lower for larger Florida than it is for Miami?  We'll know more as antibody testing becomes more widespread.
+
 <h2>Citations</h2>
 
 {% include citation.html number = "1" key = "202004171930" %}
