@@ -48,7 +48,7 @@ I'm a Miami Beach resident, sitting in my condo during the lockdown and trying t
 
 ### What does it look like over time?
 
-Once I had that estimate, I wanted to visualize the rate of change.  So I started an Excel spreadsheet for analysis, with charts.  I used the data released twice a data since March 23, 2020 from the Florida Department of Emergency Management.  I carefully designed charts showing the number of cases over time, the range in estimates for the number of infections over time, the number of cases as a percentage of the population, the number of infections as a percentage of the population, and the odds of any given person being infected.  I designed the charts to be easy to update, but they're intended to be updated by hand, with annotations for key insights.
+Once I had that estimate, I wanted to visualize the rate of change.  So I started an Excel spreadsheet for analysis, with charts.  I used the data released twice a data since March 23, 2020 from the Florida Division of Emergency Management.  I carefully designed charts showing the number of cases over time, the range in estimates for the number of infections over time, the number of cases as a percentage of the population, the number of infections as a percentage of the population, and the odds of any given person being infected.  I designed the charts to be easy to update, but they're intended to be updated by hand, with annotations for key insights.
 
 ### What about Miami?  And the rest of Florida?
 
