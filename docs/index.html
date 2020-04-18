@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" sample homepage">
+<title>SARS-CoV-2 Analysis for Miami Beach | BeachCov2 - Miami Beach SARS-CoV2 Analysis</title>
+<link rel="stylesheet" href="/css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="/css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/customstyles.css">
+<link rel="stylesheet" href="/css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="/css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+<meta property="og:image" content="/images/logo_big.png">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-sun-o fa-lg navbar-brand" href="/index.html"><span class="projectTitle"> BeachCov2</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="/news.html">News</a></li>
+                
+                
+                
+                <li><a href="/dashboard.html">Dashboard</a></li>
+                
+                
+                
+                <li><a href="/charts.html">Charts</a></li>
+                
+                
+                
+                <li><a href="/contact.html">Contact</a></li>
+                
+                
+                
+                <li><a href="https://github.com/endymion/BeachCov2" target="_blank" rel="noopener">GitHub</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="/products/covid19-dashboard/">COVID-19 Dashboard</a></li>
+                        
+                        
+                        
+                        <li><a href="/products/number-of-covid19-cases">Number of COVID-19 Cases</a></li>
+                        
+                        
+                        
+                        <li><a href="/products/percent-increase-in-number-of-covid19-cases">Percent Increase for Number of COVID-19 Cases</a></li>
+                        
+                        
+                        
+                        <li><a href="/products/doubling-time-for-number-of-covid19-cases">Doubling Time for Number of COVID-19 Cases</a></li>
+                        
+                        
+                        
+                        <li><a href="/products/estimated-number-of-sarscov2-infections">Estimated Number of SARS-CoV-2 Infections</a></li>
+                        
+                        
+                        
+                        <li><a href="/products/projected-percentage-of-sarscov2-infections">SARS-CoV-2 Infection Percentage Projection</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="/js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: '/search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="SARS-CoV-2 Analysis for Miami Beach">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">SARS-CoV-2 Analysis </li>
+  
+  
+  
+  <li>
+      <a title="Info" href="#">Info</a>
+      <ul>
+          
+          
+          
+          <li class="active"><a title="Background" href="/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="News" href="/news.html">News</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Dashboard" href="/dashboard.html">Dashboard</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Charts" href="/charts.html">Charts</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Contact" href="/contact.html">Contact</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="GitHub" href="https://github.com/endymion/BeachCov2" target="_blank" rel="noopener">GitHub</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="COVID-19 Dashboard" href="#">COVID-19 Dashboard</a>
+      <ul>
+          
+          
+          
+          <li><a title="Background" href="/products/covid19-dashboard/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Current" href="/products/covid19-dashboard/current.html">Current</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Older" href="/products/covid19-dashboard/older.html">Older</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Number of Cases" href="#">Number of Cases</a>
+      <ul>
+          
+          
+          
+          <li><a title="Background" href="/products/number-of-covid19-cases/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Current" href="/products/number-of-covid19-cases/current.html">Current</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Older" href="/products/number-of-covid19-cases/older.html">Older</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Percent Increase in Cases" href="#">Percent Increase in Cases</a>
+      <ul>
+          
+          
+          
+          <li><a title="Background" href="/products/percent-increase-in-number-of-covid19-cases/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Current" href="/products/percent-increase-in-number-of-covid19-cases/current.html">Current</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Older" href="/products/percent-increase-in-number-of-covid19-cases/older.html">Older</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Case Doubling Time" href="#">Case Doubling Time</a>
+      <ul>
+          
+          
+          
+          <li><a title="Background" href="/products/doubling-time-for-number-of-covid19-cases/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Current" href="/products/doubling-time-for-number-of-covid19-cases/current.html">Current</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Older" href="/products/doubling-time-for-number-of-covid19-cases/older.html">Older</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Estimated Infections" href="#">Estimated Infections</a>
+      <ul>
+          
+          
+          
+          <li><a title="Background" href="/products/estimated-number-of-sarscov2-infections/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Current" href="/products/estimated-number-of-sarscov2-infections/current.html">Current</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Older" href="/products/estimated-number-of-sarscov2-infections/older.html">Older</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Infection Percentage Projection" href="#">Infection Percentage Projection</a>
+      <ul>
+          
+          
+          
+          <li><a title="Background" href="/products/projected-percentage-of-sarscov2-infections/index.html">Background</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Current" href="/products/projected-percentage-of-sarscov2-infections/current.html">Current</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Older" href="/products/projected-percentage-of-sarscov2-infections/older.html">Older</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">SARS-CoV-2 Analysis for Miami Beach</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+
+
+    
+
+   <p>BeachCov2 is an exercise in <a href="https://en.wikipedia.org/wiki/Citizen_journalism">citizen</a> <a href="https://en.wikipedia.org/wiki/Community_journalism">community</a> <a href="https://en.wikipedia.org/wiki/Data_journalism">data journalism</a>.</p>
+
+<h2 id="mission">Mission</h2>
+
+<p>To visualize the data, the estimates and the projections that are relevant to our daily lives in Miami Beach, as we try to make sense of the COVID-19 pandemic.</p>
+
+<h2 id="values">Values</h2>
+
+<h3 id="continuous-iterative-improvement">Continuous, iterative improvement</h3>
+
+<p>Forecast models and scientific knowledge are always advancing, and I’m always trying to represent the most-current ideas.  I will adjust adjustments in my charts as things change.  For example, I recently updated the estimate range for the number of SARS-CoV-2 infections given the number of confirmed COVID-19 cases, based on updated computer models.</p>
+
+<h3 id="feedback">Feedback</h3>
+
+<p>Please contact me and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.</p>
+
+<h3 id="transparency">Transparency</h3>
+
+<p>My analysis spreadsheet and data are available <a href="https://github.com/endymion/BeachCov2">on GitHub</a>, along with the complete version history. As well as the code for this web site.</p>
+
+<h3 id="documentation">Documentation</h3>
+
+<p>I am to provide explanations for all of my estimations and projections, and citations.  I’m compiling a citation database, for storing references to news and research about the pandemic.</p>
+
+<h3 id="visualization-best-practices">Visualization best practices</h3>
+
+<p>Every chart should include a title, units, clear axis labeling, and a time stamp.</p>
+
+<h3 id="mobile-compatibility">Mobile compatibility</h3>
+
+<p>All images should be legible on any device, including tiny phone screens.</p>
+
+<h2 id="background">Background</h2>
+
+<p>I’m a Miami Beach resident, sitting in my condo during the lockdown and trying to make sense of all of it.  I also happen to be a data scientist.  I’m a technology executive at a hospitality company with my own pressing questions about what’s going to happen.  One of my professional responsibilities is data analysis and data engineering.  I make visualizations when I ask questions about data, and I’m publishing them so that my friends and neighbors can see how the data affects them too.</p>
+
+<h3 id="what-are-the-odds">What are the odds?</h3>
+
+<p>I wanted to know if it was safe to go to the grocery store, but I couldn’t find an estimate of the odds of any given person around me having been infected.  So I had to find my own way to estimate those odds.  I was surprised to conclude that a room full of fifty random people in Miami Beach almost certainly contained at least one person who had been infected.  And so I stopped going to the grocery store.</p>
+
+<h3 id="what-does-it-look-like-over-time">What does it look like over time?</h3>
+
+<p>Once I had that estimate, I wanted to visualize the rate of change.  So I started an Excel spreadsheet for analysis, with charts.  I used the data released twice a data since March 23, 2020 from the Florida Department of Emergency Management.  I carefully designed charts showing the number of cases over time, the range in estimates for the number of infections over time, the number of cases as a percentage of the population, the number of infections as a percentage of the population, and the odds of any given person being infected.  I designed the charts to be easy to update, but they’re intended to be updated by hand, with annotations for key insights.</p>
+
+<h3 id="what-about-miami--and-the-rest-of-florida">What about Miami?  And the rest of Florida?</h3>
+
+<p>Then I generalized the charts and added tracking for data for Miami and for the state of Florida.  Now I’m tracking all of those areas, and I have recorded their estimated populations for each so that I can visualize numbers as a percentage of the population.</p>
+
+<h2 id="sources">Sources</h2>
+
+<p>The infection estimates here are based on the confirmed case counts for the city of Miami Beach in the daily updates from the Florida Division of Emergency Management at https://www.floridadisaster.org/news-media/news/</p>
+
+<p>The FDOH has been publishing these city-by-city counts since March 23, so that’s the start date on the data in this analysis.</p>
+
+<h2 id="questions">Questions</h2>
+
+<ul>
+  <li>Based on the confirmed case count, what’s a good estimate for how many infections there have been?</li>
+  <li>What percentage of the population does the case count represent?</li>
+  <li>What percentage of the populaton has been infected?</li>
+  <li>What are the odds of any given person having been infected?</li>
+</ul>
+
+<h2 id="mechanism">Mechanism</h2>
+
+<p>I’m tracking the data in an <a href="https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/SARS-CoV-2%20Infection%20Odds%20-%20Miami%20Beach.xlsx">Excel spreadsheet</a> and using that to generate chart images.</p>
+
+<h2 id="daily-updates">Daily updates</h2>
+
+<p>I will update this data each day after the new data from the Florida Department of Health is published at around noon and 6 PM each day.</p>
+
+
+    <div class="tags">
+        
+    </div>
+
+</div>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2020 <a href="https://www.linkedin.com/in/ryanalynporter/">Ryan Alyn Porter</a> - <a href="/license.html">open source license.</a><br />
+ Site last generated: Apr 18, 2020 <br />
+<a class="fa fa-sun-o fa-lg" href="index.html"><span class="projectTitle"> BeachCov2</span></a>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-163571221-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
+
+
+</html>

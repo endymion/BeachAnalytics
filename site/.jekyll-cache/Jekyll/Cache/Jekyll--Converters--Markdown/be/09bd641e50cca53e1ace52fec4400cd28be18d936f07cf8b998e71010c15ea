@@ -1,0 +1,78 @@
+I"�<h2 id="how-many-people-have-been-infected-with-sars-cov-2">How many people have been infected with SARS-CoV-2?</h2>
+
+<p>One way to estimate the number of infections is from the number of confirmed cases.  Mathematical modelers in the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) at the London School of Hygiene &amp; Tropical Medicine maintain a model for estimating an approximate fraction of cases reported.<a class="citation" href="#cmmid">[1]</a>  They update their model nearly daily.</p>
+
+<p>At the time of this writing, that model estimates that only 12% of cases in the US are reported.  With a 95% confidence range from 11% to 26%.</p>
+
+<p>Applying that to the numbers for Miami Beach as of this writing, if the 607 confirmed cases for Miami Beach represent 12% of infections, then the real number of infections would be about 5,058.  With a Miami Beach population estimate of 91,718, about 5.5% of people here could be infected.  (From 2.5% to 6% in the 95% confidence range.)</p>
+
+<p>Here that is in a chart, to show how it has been rising fast over time:</p>
+
+<p>
+<center>
+<figure><img class="docimage" src="/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami-beach/2020-04-17-B-evening.png" alt="" style="max-width: 100%px" /></figure>
+
+</center>
+</p>
+
+<p>But can’t we measure it directly?  Yes, now we can test for antibodies, to determine if a person has ever been infected.  And the first studies that use antibody testing are consistent with the estimates based on the number of confirmed cases.  Two research teams in California are testing large numbers of people with the new antibody tests.<a class="citation" href="#abc:caantibodysurprise">[2]</a></p>
+
+<blockquote><p>"The first large-scale community test of 3,300 people in Santa Clara County found that 2.5 to 4.2% of those tested were positive for antibodies."</p><cite><a class="citation" href="#abc:caantibodysurprise">[2]</a></cite></blockquote>
+
+<p>Comparing the infection percentage estimates between Santa Clara County, California to Miami Beach without adjusting for the population size and confirmed case count is comparing apples to oranges.  But the 2.5% to 4.2% range from the antibody tests in California falls right into the estimated range for Miami Beach.  This makes the estimates for our area that are based on the CMMID range seem roughly plausible.  It’s some of the best information that we have until we get data from widespread antibody tests here.</p>
+
+<h2 id="so-then-what-about-herd-immunity">So then what about herd immunity?</h2>
+
+<p>Experts estimate the critical threshold for reaching herd immunity against SARS-CoV-2 to be about 50% to 66%.<a class="citation" href="#abc:herdimmunityrange">[3]</a>  If those estimates for the percentage of people infected seem plausible, then what do they tell us about how close we are to reaching herd immunity?  Unfortunately, we’re still a long way from that point.</p>
+
+<p>Here’s the chart above, basically zoomed out to show how long it would take to reach the critical herd immunity threshold (shaded green) at the current rate.  (Assuming a linear spread, which seems unlikely given the current political environment.)</p>
+
+<p>
+<center>
+<figure><img class="docimage" src="/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-17-B-evening.png" alt="" style="max-width: 100%px" /></figure>
+
+</center>
+</p>
+
+<h2 id="what-about-wider-areas">What about wider areas?</h2>
+
+<p>As we look outward from Miami Beach, the percentage of the population infected in Miami is larger, according to the CMMID estimation method.</p>
+
+<p>
+<center>
+<figure><img class="docimage" src="/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami/2020-04-17-B-evening.png" alt="" style="max-width: 100%px" /></figure>
+
+</center>
+</p>
+
+<p>
+<center>
+<figure><img class="docimage" src="/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png" alt="" style="max-width: 100%px" /></figure>
+
+</center>
+</p>
+
+<p>And for Florida overall, the percentage may be lower.</p>
+
+<p>
+<center>
+<figure><img class="docimage" src="/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/florida/2020-04-17-B-evening.png" alt="" style="max-width: 100%px" /></figure>
+
+</center>
+</p>
+
+<p>
+<center>
+<figure><img class="docimage" src="/charts/projected-percentage-of-sarscov2-infections/florida/2020-04-17-B-evening.png" alt="" style="max-width: 100%px" /></figure>
+
+</center>
+</p>
+
+<p>Is the percentage of the population who has been infected really that much lower for larger Florida than it is for Miami?  We’ll know more as antibody testing becomes more widespread.</p>
+
+<h2>References</h2>
+
+<ol class="bibliography"><li><span id="cmmid">1. Using a delay-adjusted case fatality ratio to estimate under-reporting [Internet]. Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp; Tropical Medicine; 2020 [cited 2020-04-17 19:30]. Available at: <a href="https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html">https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html</a></span></li>
+<li><span id="abc:caantibodysurprise">2. Ng C, Abdelmalek DM. Antibody research indicates coronavirus may be far more widespread than known [Internet]. ABC News; 2020 [cited 2020-04-17 17:20]. Available at: <a href="https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121">https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121</a></span></li>
+<li><span id="abc:herdimmunityrange">3. Bruggeman L. As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high [Internet]. ABC News; 2020 [cited 2020-04-17 20:20]. Available at: <a href="https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952">https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952</a></span></li></ol>
+:ET

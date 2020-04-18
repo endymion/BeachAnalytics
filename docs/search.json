@@ -1,33 +1,384 @@
----
-title: search
-layout: none
-search: exclude
----
-
 [
-{% for page in site.pages %}
-{% unless page.search == "exclude" %}
-{
-"title": "{{ page.title | escape }}",
-"tags": "{{ page.tags }}",
-"keywords": "{{page.keywords}}",
-"url": "{{ page.url}}",
-"summary": "{{page.summary | strip }}"
-}
-{% unless forloop.last and site.posts.size < 1 %},{% endunless %}
-{% endunless %}
-{% endfor %}
 
-{% for post in site.posts %}
+
+
 
 {
-"title": "{{ post.title | escape }}",
-"tags": "{{ post.tags }}",
-"keywords": "{{post.keywords}}",
-"url": "{{ post.url }}",
-"summary": "{{post.summary | strip }}"
+"title": "Charts",
+"tags": "",
+"keywords": "",
+"url": "/charts.html",
+"summary": ""
 }
-{% unless forloop.last %},{% endunless %}
-{% endfor %}
+,
+
+
+
+{
+"title": "Contact",
+"tags": "",
+"keywords": "contact, feedback, email",
+"url": "/contact.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/percent-increase-in-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current COVID-19 Dashboards",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/dashboard.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Data Engineering",
+"tags": "",
+"keywords": "",
+"url": "/data-engineering.html",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "Herd immunity",
+"tags": "",
+"keywords": "",
+"url": "/herd-immunity.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "How many infections?",
+"tags": "",
+"keywords": "",
+"url": "/how-many-infections.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "SARS-CoV-2 Infection Percentage Projection",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Estimated Number of SARS-CoV-2 Infections",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "SARS-CoV-2 Analysis for Miami Beach",
+"tags": "",
+"keywords": "sample homepage",
+"url": "/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "SARS-CoV-2 Analysis for Miami Beach",
+"tags": "",
+"keywords": "sample homepage",
+"url": "/license.html",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/news.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/news_archive.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "SARS-CoV-2 Infection Percentage Projection Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/percent-increase-in-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "New antibody research is consistent with the estimates here for number of infections",
+"tags": "how-many-infectionsherd-immunity",
+"keywords": "",
+"url": "/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html",
+"summary": "Antibody testing in California is consistent with BeachCoV2 estimates."
+}
+,
+
+
+{
+"title": "FDEM data now available in Google Sheets",
+"tags": "metadata-engineering",
+"keywords": "",
+"url": "/2020/04/17/FEDM-data-in-Google-Sheets.html",
+"summary": "It's easy to analyze the FDEM COVID-19 data now that it's in spreadsheet form."
+}
+,
+
+
+{
+"title": "Are we there yet?",
+"tags": "how-many-infections",
+"keywords": "",
+"url": "/2020/04/14/17-00-are-we-there-yet.html",
+"summary": "Are we there yet?  Are we there yet?"
+}
+,
+
+
+{
+"title": "Wider infection estimate range",
+"tags": "how-many-infections",
+"keywords": "",
+"url": "/2020/04/13/wider-infection-estimate-range.html",
+"summary": "The range for estimating the number of SARS-CoV-2 infections from the number of COVID-19 infections has changed."
+}
+,
+
+
+{
+"title": "Dashboard product documentation",
+"tags": "meta",
+"keywords": "",
+"url": "/2020/04/13/dashboard-product.html",
+"summary": "The background, current images page, and archive page are ready."
+}
+
+
 
 ]

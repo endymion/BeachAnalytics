@@ -1,32 +1,225 @@
----
-search: exclude
-layout: none
----
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.title | xml_escape }}</title>
-        <description>{{ site.description | xml_escape }}</description>
-        <link>{{ site.url }}/</link>
-        <atom:link href="{{ "/feed.xml" | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <generator>Jekyll v{{ jekyll.version }}</generator>
-        {% for post in site.posts limit:10 %}
+        <title></title>
+        <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 18 Apr 2020 17:19:12 -0400</pubDate>
+        <lastBuildDate>Sat, 18 Apr 2020 17:19:12 -0400</lastBuildDate>
+        <generator>Jekyll v4.0.0</generator>
+        
         <item>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>{{ post.content | xml_escape }}</description>
-            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <link>{{ post.url | prepend: site.url }}</link>
-            <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-            {% for tag in post.tags %}
-            <category>{{ tag | xml_escape }}</category>
-            {% endfor %}
-            {% for tag in page.tags %}
-            <category>{{ cat | xml_escape }}</category>
-            {% endfor %}
+            <title>New antibody research is consistent with the estimates here for number of infections</title>
+            <description>&lt;h2 id=&quot;how-many-people-have-been-infected-with-sars-cov-2&quot;&gt;How many people have been infected with SARS-CoV-2?&lt;/h2&gt;
+
+&lt;p&gt;One way to estimate the number of infections is from the number of confirmed cases.  Mathematical modelers in the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) at the London School of Hygiene &amp;amp; Tropical Medicine maintain a model for estimating an approximate fraction of cases reported.&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[1]&lt;/a&gt;  They update their model nearly daily.&lt;/p&gt;
+
+&lt;p&gt;At the time of this writing, that model estimates that only 12% of cases in the US are reported.  With a 95% confidence range from 11% to 26%.&lt;/p&gt;
+
+&lt;p&gt;Applying that to the numbers for Miami Beach as of this writing, if the 607 confirmed cases for Miami Beach represent 12% of infections, then the real number of infections would be about 5,058.  With a Miami Beach population estimate of 91,718, about 5.5% of people here could be infected.  (From 2.5% to 6% in the 95% confidence range.)&lt;/p&gt;
+
+&lt;p&gt;Here that is in a chart, to show how it has been rising fast over time:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami-beach/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;p&gt;But can’t we measure it directly?  Yes, now we can test for antibodies, to determine if a person has ever been infected.  And the first studies that use antibody testing are consistent with the estimates based on the number of confirmed cases.  Two research teams in California are testing large numbers of people with the new antibody tests.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&quot;The first large-scale community test of 3,300 people in Santa Clara County found that 2.5 to 4.2% of those tested were positive for antibodies.&quot;&lt;/p&gt;&lt;cite&gt;&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[2]&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Comparing the infection percentage estimates between Santa Clara County, California to Miami Beach without adjusting for the population size and confirmed case count is comparing apples to oranges.  But the 2.5% to 4.2% range from the antibody tests in California falls right into the estimated range for Miami Beach.  This makes the estimates for our area that are based on the CMMID range seem roughly plausible.  It’s some of the best information that we have until we get data from widespread antibody tests here.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-then-what-about-herd-immunity&quot;&gt;So then what about herd immunity?&lt;/h2&gt;
+
+&lt;p&gt;Experts estimate the critical threshold for reaching herd immunity against SARS-CoV-2 to be about 50% to 66%.&lt;a class=&quot;citation&quot; href=&quot;#abc:herdimmunityrange&quot;&gt;[3]&lt;/a&gt;  If those estimates for the percentage of people infected seem plausible, then what do they tell us about how close we are to reaching herd immunity?  Unfortunately, we’re still a long way from that point.&lt;/p&gt;
+
+&lt;p&gt;Here’s the chart above, basically zoomed out to show how long it would take to reach the critical herd immunity threshold (shaded green) at the current rate.  (Assuming a linear spread, which seems unlikely given the current political environment.)&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-wider-areas&quot;&gt;What about wider areas?&lt;/h2&gt;
+
+&lt;p&gt;As we look outward from Miami Beach, the percentage of the population infected in Miami is larger, according to the CMMID estimation method.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And for Florida overall, the percentage may be lower.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/florida/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/florida/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Is the percentage of the population who has been infected really that much lower for larger Florida than it is for Miami?  We’ll know more as antibody testing becomes more widespread.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cmmid&quot;&gt;1. Using a delay-adjusted case fatality ratio to estimate under-reporting [Internet]. Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; 2020 [cited 2020-04-17 19:30]. Available at: &lt;a href=&quot;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&quot;&gt;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;2. Ng C, Abdelmalek DM. Antibody research indicates coronavirus may be far more widespread than known [Internet]. ABC News; 2020 [cited 2020-04-17 17:20]. Available at: &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;abc:herdimmunityrange&quot;&gt;3. Bruggeman L. As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high [Internet]. ABC News; 2020 [cited 2020-04-17 20:20]. Available at: &lt;a href=&quot;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&quot;&gt;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Fri, 17 Apr 2020 18:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
+            
+            <category>how-many-infections</category>
+            
+            <category>herd-immunity</category>
+            
+            
         </item>
-        {% endfor %}
+        
+        <item>
+            <title>FDEM data now available in Google Sheets</title>
+            <description>&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;The Florida Department of Emergency Management releases their twice-daily updates as PDF files.  The data in those files is not easy to analyze without extracting it into a spreadsheet or a data file.  I have been pulling numbers by hand out of the PDF files into an Excel spreadsheet for analysis.  It’s time-consuming and it delays my updates, and if I take a day off then the visualizations don’t update themselves.&lt;/p&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;I wrote some &lt;a href=&quot;https://github.com/endymion/BeachCov2/tree/master/data&quot;&gt;code&lt;/a&gt; that extracts the city-by-city data from those PDF files into a spreadsheet in Google Sheets.  I can run it periodically to get the latest updates.  Then I can use that spreadsheet directly for visualizations with Google Data Studio, or I can transform the data to other spreadsheets with Ruby or R for further analysis and use those spreadsheets in visualizations.&lt;/p&gt;
+
+&lt;p&gt;I made &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1us_aePT2_OQoc3iBXckrBAeYZb8j4bVAY_cr8t6V8r0/edit?usp=sharing&quot;&gt;the spreadsheet&lt;/a&gt; public, and I’ll update it with each new FDEM update:&lt;/p&gt;
+
+&lt;iframe style=&quot;width:100%;&quot; height=&quot;500px&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vTs88ZRLrHIs9YQyzyhuONV7lQfpGB6Y0KhmkfkJNpnYkcGMW2jOSyjXSabu3iUYyVnI8-hWajTXES_/pubhtml?widget=true&amp;amp;headers=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;All that I have so far is the city-by-city data, but that’s a start.  Next I’ll add the county-level data to another Google Sheets spreadsheet, and then also the Florida-wide data..&lt;/p&gt;
+
+&lt;p&gt;I’m currently not using the case-by-case data in the FDEM reports, and I don’t have any plans to extract that data.  Please contact me if you need that data in machine-readable form and it might help you if I did extract it.  I’d be happy to do that.&lt;/p&gt;
+
+&lt;p&gt;I still have to run this each time, but I designed all of the code to run in AWS Lambda.&lt;/p&gt;
+</description>
+            <pubDate>Fri, 17 Apr 2020 15:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
+            
+            <category>meta</category>
+            
+            <category>data-engineering</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Are we there yet?</title>
+            <description>&lt;p&gt;If our plan, by default, is herd immunity, then are we there yet?  Are there yet?  Are we there yet?  Check our progress any time here at https://BeachCoV2.info/charts  I’m still adding analysis products to the web site.  The newest is the percentage infected projection chart.&lt;/p&gt;
+
+&lt;p&gt;Please see the
+  &lt;a href=&quot;/products/projected-percentage-of-sarscov2-infections/&quot;&gt;Current
+    SARS-CoV-2 Infection Percentage Projection Charts&lt;/a&gt; analysis product section for
+    more information and archives of older versions.&lt;/p&gt;
+
+&lt;center&gt;
+
+
+  &lt;p&gt;
+  
+  &lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+  &lt;/p&gt;
+
+
+&lt;/center&gt;
+</description>
+            <pubDate>Tue, 14 Apr 2020 17:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/14/17-00-are-we-there-yet.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/14/17-00-are-we-there-yet.html</guid>
+            
+            <category>how-many-infections</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Wider infection estimate range</title>
+            <description>&lt;p&gt;The Centre for Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine has revised their estimated range for the ratio of overall infections to reported cases. Their range is now a lot wider than it has been over the last week or two. Their estimated range is the best idea that I have for estimating the number of SARS-CoV-2 infections from the number of confirmed COVID-19 cases.&lt;/p&gt;
+
+&lt;p&gt;As a result, the uncertainty bands on my &lt;a href=&quot;/products/current_estimated-number-of-sarscov2-infections/current.html&quot;&gt;charts&lt;/a&gt; for the estimated number of infections has gotten a lot wider with the most recent update. The line toward the top of the range is their best estimate that 12% of infections are reported.&lt;/p&gt;
+
+&lt;p&gt;Estimated infection count charts for other areas are available in the
+&lt;a href=&quot;/products/current_estimated-number-of-sarscov2-infections/&quot;&gt;Estimated Number of SARS-CoV-2 Infections&lt;/a&gt;
+analysis product section.&lt;/p&gt;
+
+&lt;center&gt;
+
+
+  &lt;p&gt;
+  
+  &lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-14-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+  &lt;/p&gt;
+
+
+&lt;/center&gt;
+</description>
+            <pubDate>Mon, 13 Apr 2020 19:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</guid>
+            
+            <category>how-many-infections</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Dashboard product documentation</title>
+            <description>&lt;p&gt;I’ve been posting more slowly in the last couple of days because I’ve been
+working on a web site for hosting explanations and citations, for showing the
+current versions of charts, and for chart archives.  Now I have the section
+of the site set up for the &lt;a href=&quot;/products/covid19-dashboard/&quot;&gt;COVID-19 Dashboard&lt;/a&gt;
+analysis product.  Here’s the latest, with the new site branding.&lt;/p&gt;
+
+&lt;center&gt;
+
+
+  &lt;p&gt;
+  
+  &lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/covid19-dashboard/miami-beach/2020-04-14-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+
+  &lt;/p&gt;
+
+
+&lt;/center&gt;
+</description>
+            <pubDate>Mon, 13 Apr 2020 10:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/13/dashboard-product.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/13/dashboard-product.html</guid>
+            
+            <category>meta</category>
+            
+            
+        </item>
+        
     </channel>
 </rss>
