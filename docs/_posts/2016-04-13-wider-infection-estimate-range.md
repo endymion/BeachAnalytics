@@ -1,4 +1,5 @@
 ---
+date: 2020-04-13 19:00
 title:  Wider infection estimate range
 published: true
 summary: The range for estimating the number of SARS-CoV-2 infections from the number of COVID-19 infections has changed.

@@ -71,10 +71,6 @@ The FDOH has been publishing these city-by-city counts since March 23, so that's
 
 I'm tracking the data in an [Excel spreadsheet](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/SARS-CoV-2%20Infection%20Odds%20-%20Miami%20Beach.xlsx) and using that to generate chart images.
 
-## Infection count estimates
-
-Mathematical modelers in the Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene & Tropical Medicine [found](https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html) the U.S.’s case count likely represented just 14% to 19% of actual infections, so I'm multiplying the number of cases by five to seven to estimate the number of infections.
-
 ## Daily updates
 
 I will update this data each day after the new data from the Florida Department of Health is published at around noon and 6 PM each day.

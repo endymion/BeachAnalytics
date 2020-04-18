@@ -1,4 +1,5 @@
 ---
+date: 2020-04-17 15:00
 title:  "FDEM data now available in Google Sheets"
 published: true
 summary: "It's easy to analyze the FDEM COVID-19 data now that it's in spreadsheet form."

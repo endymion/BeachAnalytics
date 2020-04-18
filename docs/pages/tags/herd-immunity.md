@@ -1,8 +1,8 @@
 ---
-title: How many infections?
-tagName: how-many-infections
+title: Herd immunity
+tagName: herd-immunity
 search: include
-permalink: how-many-infections.html
+permalink: herd-immunity.html
 sidebar: home_sidebar
 folder: tags
 toc: false

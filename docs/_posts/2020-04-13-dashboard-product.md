@@ -1,4 +1,5 @@
 ---
+date: 2020-04-13 10:00
 title:  Dashboard product documentation
 published: true
 summary: The background, current images page, and archive page are ready.

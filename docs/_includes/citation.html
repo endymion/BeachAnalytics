@@ -1,0 +1,8 @@
+{% assign citation = site.posts | where:"key", include.key %}
+{% for post in citation limit:1 %}
+<div class="citation">
+{% if include.badge %}<span class="badge badge-secondary">citation</span>{% endif %}
+{% if include.number %}[{{ include.number }}]{% endif %}
+{{ post.author }} <cite>{{ post.title }}</cite> <a href="{{ post.publisher_url }}">{{ post.publisher}}</a>, {{ post.original_date }}, <a href="{{ post.citation_url }}">{{ post.citation_url }}</a>
+</div>
+{% endfor %}
