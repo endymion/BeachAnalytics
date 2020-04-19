@@ -5,13 +5,13 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Apr 2020 20:11:55 -0400</pubDate>
-        <lastBuildDate>Sat, 18 Apr 2020 20:11:55 -0400</lastBuildDate>
+        <pubDate>Sat, 18 Apr 2020 20:53:29 -0400</pubDate>
+        <lastBuildDate>Sat, 18 Apr 2020 20:53:29 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
             <title>Nearly a third of people in a town near Boston have antibodies</title>
-            <description>&lt;p&gt;Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested postive for antibodies.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[1]&lt;/a&gt;  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.&lt;/p&gt;
+            <description>&lt;p&gt;Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[1]&lt;/a&gt;  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.&lt;/p&gt;
 
 &lt;p&gt;A new study in Boston showed an even higher percentage of positive antibody tests, and from a better sample.  Nearly a third of 200 blood samples taken from people in Chelsea, a town across the river from Boston, tested positive.&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:athirdinchelsea&quot;&gt;[2]&lt;/a&gt;  The researchers avoided bias toward people who wanted to be tested, by not announcing the sample collection in advance and randomly walking up to people in a town square and asking them to volunteer.  The volunteers were not offered results.&lt;/p&gt;
 

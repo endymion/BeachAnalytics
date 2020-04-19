@@ -994,8 +994,14 @@ div.results {
     font-size: 22px;
 }
 
+.post-list h2 {
+  margin-bottom: 0.4em;
+}
+.post-list .date {
+  opacity: 50%;
+}
 .post-list p {
-    margin: 10px 0px;
+    margin: 0.4em 0px;
 }
 
 time {

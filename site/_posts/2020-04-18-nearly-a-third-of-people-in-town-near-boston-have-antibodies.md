@@ -6,7 +6,7 @@ summary: "People stopped randomly in public for antibody tests showed a surprisi
 tags: [how-widespread]
 ---
 
-Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested postive for antibodies.{% cite abc:caantibodysurprise %}  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.
+Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.{% cite abc:caantibodysurprise %}  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.
 
 A new study in Boston showed an even higher percentage of positive antibody tests, and from a better sample.  Nearly a third of 200 blood samples taken from people in Chelsea, a town across the river from Boston, tested positive.{% cite bostonglobe:athirdinchelsea %}  The researchers avoided bias toward people who wanted to be tested, by not announcing the sample collection in advance and randomly walking up to people in a town square and asking them to volunteer.  The volunteers were not offered results.
 
