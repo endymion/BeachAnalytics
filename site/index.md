@@ -8,35 +8,49 @@ toc: false
 
 BeachCov2 is an exercise in [citizen](https://en.wikipedia.org/wiki/Citizen_journalism) [community](https://en.wikipedia.org/wiki/Community_journalism) [data journalism](https://en.wikipedia.org/wiki/Data_journalism).
 
-## Mission
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h2 class="display-4">Mission</h2>
+  <p class="lead">To visualize the data, the estimates and the projections that are relevant to our daily lives in Miami Beach, as we try to make sense of the COVID-19 pandemic.</p>
+</div>
 
-To visualize the data, the estimates and the projections that are relevant to our daily lives in Miami Beach, as we try to make sense of the COVID-19 pandemic.
+<center>
+  <h2 class="display-4">Values</h2>
+</center>
 
-## Values
+<div class="row">
+  <div class="col-sm-6">
+    <h3>Continuous, iterative improvement</h3>
+    Forecast models and scientific knowledge are always advancing, and I'm always trying to represent the most-current ideas.  I'll adjust adjustments in my visualizations as things change.
+  </div>
+  <div class="col-sm-6">
+    <h3>Feedback</h3>
+    Please contact me and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.
+  </div>
+</div>
 
-### Continuous, iterative improvement
+<div class="row">
+  <div class="col-sm-6">
+    <h3>Transparency</h3>
+    My analysis spreadsheet and data are available [on GitHub](https://github.com/endymion/BeachCov2), along with the complete version history. As well as the code for this web site.
+  </div>
+  <div class="col-sm-6">
+    <h3>Documentation</h3>
+    I am to provide explanations for all of my estimations and projections, and citations.  I'm compiling a citation database, for storing references to news and research about the pandemic.
+  </div>
+</div>
 
-Forecast models and scientific knowledge are always advancing, and I'm always trying to represent the most-current ideas.  I will adjust adjustments in my charts as things change.  For example, I recently updated the estimate range for the number of SARS-CoV-2 infections given the number of confirmed COVID-19 cases, based on updated computer models.
+<div class="row">
+  <div class="col-sm-6">
+    <h3>Visualization best practices</h3>
+    Every chart should include a title, units, clear axis labeling, and a time stamp.
+  </div>
+  <div class="col-sm-6">
+    <h3>Mobile compatibility</h3>
+    All images should be legible on any device, including tiny phone screens.
+  </div>
+</div>
 
-### Feedback
-
-Please contact me and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.
-
-### Transparency
-
-My analysis spreadsheet and data are available [on GitHub](https://github.com/endymion/BeachCov2), along with the complete version history. As well as the code for this web site.
-
-### Documentation
-
-I am to provide explanations for all of my estimations and projections, and citations.  I'm compiling a citation database, for storing references to news and research about the pandemic.
-
-### Visualization best practices
-
-Every chart should include a title, units, clear axis labeling, and a time stamp.
-
-### Mobile compatibility
-
-All images should be legible on any device, including tiny phone screens.
+<br/>
 
 ## Background
 
