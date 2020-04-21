@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 Apr 2020 23:48:07 -0400</pubDate>
-        <lastBuildDate>Mon, 20 Apr 2020 23:48:07 -0400</lastBuildDate>
+        <pubDate>Tue, 21 Apr 2020 11:14:24 -0400</pubDate>
+        <lastBuildDate>Tue, 21 Apr 2020 11:14:24 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -325,8 +325,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;/center&gt;
 </description>
             <pubDate>Tue, 14 Apr 2020 17:00:00 -0400</pubDate>
-            <link>http://localhost:4000/2020/04/14/17-00-are-we-there-yet.html</link>
-            <guid isPermaLink="true">http://localhost:4000/2020/04/14/17-00-are-we-there-yet.html</guid>
+            <link>http://localhost:4000/2020/04/14/are-we-there-yet.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/14/are-we-there-yet.html</guid>
             
             <category>how-widespread</category>
             
