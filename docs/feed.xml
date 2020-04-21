@@ -3,10 +3,10 @@
     <channel>
         <title></title>
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
-        <link>/</link>
-        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Apr 2020 11:17:16 -0400</pubDate>
-        <lastBuildDate>Tue, 21 Apr 2020 11:17:16 -0400</lastBuildDate>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 21 Apr 2020 11:57:43 -0400</pubDate>
+        <lastBuildDate>Tue, 21 Apr 2020 11:57:43 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -135,8 +135,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. Special report: The simulations driving the world’s response to COVID-19. April 2, 2020 [cited 2020-04-20 19:30]; Available at: &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;https://www.nature.com/articles/d41586-020-01003-6&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
-            <link>/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</link>
-            <guid isPermaLink="true">/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</guid>
+            <link>http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</guid>
             
             <category>covid19-models</category>
             
@@ -173,8 +173,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. Why the city of Chelsea has been so hard hit by coronavirus [Internet]. The Boston Globe; 2020 [cited 2020-04-18 19:45]. Available at: &lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
-            <link>/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
-            <guid isPermaLink="true">/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
+            <link>http://localhost:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
             
             <category>how-widespread</category>
             
@@ -262,8 +262,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;abc:herdimmunityrange&quot;&gt;3. Bruggeman L. As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high [Internet]. ABC News; 2020 [cited 2020-04-17 20:20]. Available at: &lt;a href=&quot;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&quot;&gt;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 18:00:00 -0400</pubDate>
-            <link>/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
-            <guid isPermaLink="true">/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
+            <link>http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
             
             <category>how-widespread</category>
             
@@ -293,8 +293,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;p&gt;I still have to run this each time, but I designed all of the code to run in AWS Lambda.&lt;/p&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 15:00:00 -0400</pubDate>
-            <link>/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
-            <guid isPermaLink="true">/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
+            <link>http://localhost:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
             
             <category>meta</category>
             
@@ -325,8 +325,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;/center&gt;
 </description>
             <pubDate>Tue, 14 Apr 2020 17:00:00 -0400</pubDate>
-            <link>/2020/04/14/are-we-there-yet.html</link>
-            <guid isPermaLink="true">/2020/04/14/are-we-there-yet.html</guid>
+            <link>http://localhost:4000/2020/04/14/are-we-there-yet.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/14/are-we-there-yet.html</guid>
             
             <category>how-widespread</category>
             
@@ -356,8 +356,8 @@ analysis product section.&lt;/p&gt;
 &lt;/center&gt;
 </description>
             <pubDate>Mon, 13 Apr 2020 19:00:00 -0400</pubDate>
-            <link>/2020/04/13/wider-infection-estimate-range.html</link>
-            <guid isPermaLink="true">/2020/04/13/wider-infection-estimate-range.html</guid>
+            <link>http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</guid>
             
             <category>how-widespread</category>
             
@@ -385,8 +385,8 @@ analysis product.  Here’s the latest, with the new site branding.&lt;/p&gt;
 &lt;/center&gt;
 </description>
             <pubDate>Mon, 13 Apr 2020 10:00:00 -0400</pubDate>
-            <link>/2020/04/13/dashboard-product.html</link>
-            <guid isPermaLink="true">/2020/04/13/dashboard-product.html</guid>
+            <link>http://localhost:4000/2020/04/13/dashboard-product.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/13/dashboard-product.html</guid>
             
             <category>meta</category>
             

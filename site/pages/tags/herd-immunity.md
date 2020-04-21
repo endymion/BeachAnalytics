@@ -46,7 +46,7 @@ was that many more people would die without mitigation and suppression measures.
 
 Another reason is "overshoot", a key concept about the timing of the epidemic.{% cite bergstrom:overshoot %}
 When the epidemic reaches the herd immunity threshold, it doesn't immediately
-stop spreading.  It has a sort of momentum.  You reach herd immunity at the
+stop spreading.  It has a sort of momentum.{% cite oxford:overshoot %}  You reach herd immunity at the
 point when each infected person infects less than one other person, but people
 are still getting infected at that point.  That point where you reach herd
 immunity, perhaps 60%, is the _peak_ of the epidemic, not the _end_ of the
@@ -67,7 +67,7 @@ the effectiveness of the world's healthcare systems.
 Overshoot is a particularly relevant concept when exploring the prospect of a
 second wave.  In a scenario where strong intervention measures have been
 applied, a second wave is possible if the infection is reintroduced into the
-population.{% cite oxford:overshoot %}
+population.{% cite royalsociety:multiple-outbreaks %}
 
 <blockquote class="blockquote">
 If control of the first outbreak depleted resources—such as drug stockpiles or
