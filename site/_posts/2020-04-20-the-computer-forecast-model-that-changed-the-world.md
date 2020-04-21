@@ -1,5 +1,5 @@
 ---
-date: 2020-04-18 19:20
+date: 2020-04-20
 title: The computer forecast model that changed the world
 author: Ryan Alyn Porter
 published: true

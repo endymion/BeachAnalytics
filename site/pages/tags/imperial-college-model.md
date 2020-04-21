@@ -10,12 +10,14 @@ toc: false
 banner_image:   images/posts/imperial-college-16_5.png
 facebook_image: images/posts/imperial-college-1_1.png
 twitter_image:  images/posts/imperial-college-1_1.png
+summary: Arguably the most influential computer forecasting model in history,
+  this model is the one that led the UK and US governments to begin mitigation measures.
 ---
 
 ## References
 
 {% bibliography --query @*[tags ~= imperial-college] %}
 
-## More from Beach Analytics
+## Related
 
 {% include taglogic.html %}

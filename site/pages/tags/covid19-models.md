@@ -1,16 +1,15 @@
 ---
 title: COVID-19 Forecasting Models
-tagName: models
+tagName: covid19-models
 search: include
 permalink: covid19-models.html
 sidebar: home_sidebar
 folder: topics
 toc: false
+summary: This is the first in a series of features about the COVID-19
+  computer forecast models.  These features will explore the background,
+  strengths, weaknesses, and impact of each model.
 ---
-
-This is the first in a series of features about the COVID-19 computer forecast
-models.  These features will explore the background, strengths, weaknesses, and
-impact of each model.
 
 {% assign model_pages = site.pages | where_exp:"item", "item.category == 'model'" %}
 {% for page in model_pages %}
@@ -24,10 +23,10 @@ impact of each model.
 </p>
 {% endfor %}
 
-## References
+<h2>References</h2>
 
 {% bibliography --query @*[tags ~= models] %}
 
-## More from BeachCov2
+## Related
 
 {% include taglogic.html %}

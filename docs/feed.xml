@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 21 Apr 2020 14:59:00 -0400</pubDate>
-        <lastBuildDate>Tue, 21 Apr 2020 14:59:00 -0400</lastBuildDate>
+        <pubDate>Tue, 21 Apr 2020 15:16:10 -0400</pubDate>
+        <lastBuildDate>Tue, 21 Apr 2020 15:16:10 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -134,9 +134,9 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;5. Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression. April 26, 2020 [cited 2020-04-19 11:30]; Available at: &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. Special report: The simulations driving the world’s response to COVID-19. April 2, 2020 [cited 2020-04-20 19:30]; Available at: &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;https://www.nature.com/articles/d41586-020-01003-6&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-            <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
-            <link>http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</link>
-            <guid isPermaLink="true">http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</guid>
+            <pubDate>Mon, 20 Apr 2020 00:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
             
             <category>covid19-models</category>
             
