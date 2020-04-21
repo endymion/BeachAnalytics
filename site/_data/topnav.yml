@@ -43,23 +43,3 @@ topnav:
       #   url: /products/estimated-number-of-sarscov2-infections
       # - title: Estimated SARS-SoV-2 Infections As Percentage of Population
       #   url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population
-    - title: Products
-      folderitems:
-      - title: COVID-19 Dashboard
-        url: /products/covid19-dashboard/
-      - title: Number of COVID-19 Cases
-        url: /products/number-of-covid19-cases
-      - title: Percent Increase for Number of COVID-19 Cases
-        url: /products/percent-increase-in-number-of-covid19-cases
-      - title: Doubling Time for Number of COVID-19 Cases
-        url: /products/doubling-time-for-number-of-covid19-cases
-      - title: Estimated Number of SARS-CoV-2 Infections
-        url: /products/estimated-number-of-sarscov2-infections
-      - title: SARS-CoV-2 Infection Percentage Projection
-        url: /products/projected-percentage-of-sarscov2-infections
-      # - title: COVID-19 Cases As Percentage of Population
-      #   url: /products/covid19-cases-as-percentage-of-population
-      # - title: Estimated Number of SARS-SoV-2 Infections
-      #   url: /products/estimated-number-of-sarscov2-infections
-      # - title: Estimated SARS-SoV-2 Infections As Percentage of Population
-      #   url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population
