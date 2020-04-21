@@ -1,4 +1,4 @@
-repository: endymion/BeachCov2
+repository: endymion/BeachAnalytics
 
 destination: ../docs
 
@@ -37,7 +37,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: BeachCov2 - Miami Beach SARS-CoV2 Analysis
+feedback_subject_line: Beach Analytics - South Florida COVID-19 Analytics from Miami Beach
 
 # feedback_email: tomjoht@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
