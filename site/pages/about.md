@@ -4,6 +4,7 @@ show_title: false
 sidebar: home_sidebar
 permalink: about.html
 toc: false
+show_meta: false
 ---
 
 <div class="logo_background" align="center">

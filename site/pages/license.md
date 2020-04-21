@@ -4,6 +4,7 @@ keywords: sample homepage
 sidebar: home_sidebar
 permalink: license.html
 toc: false
+show_meta: false
 ---
 
 &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}.
