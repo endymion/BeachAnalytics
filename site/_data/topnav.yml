@@ -12,7 +12,7 @@ topnav:
     - title: Contact
       url: /contact.html
     - title: GitHub
-      external_url: https://github.com/endymion/BeachCov2
+      external_url: https://github.com/endymion/BeachAnalytics
 
 #Topnav dropdowns
 topnav_dropdowns:
