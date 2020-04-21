@@ -65,7 +65,7 @@ the effectiveness of the world's healthcare systems.
 ## Second-wave overshoot
 
 Overshoot is a particularly relevant concept when exploring the prospect of a
-second wave.  In a scenario where strong intervention measures have been
+second wave, or multiple outbreaks.  In a scenario where strong intervention measures have been
 applied, a second wave is possible if the infection is reintroduced into the
 population.{% cite royalsociety:multiple-outbreaks %}
 
@@ -76,7 +76,7 @@ outbreak will be largely uncontrolled, producing a significant overshoot
 <footer>{% reference oxford:overshoot %}</footer>
 </blockquote>
 
-Does that sound familiar?
+Does that sound familiar?  Depletion of goodwill among the population to follow quarantine measures?  The result could be many more deaths in the long term.
 
 ## Conclusion
 
