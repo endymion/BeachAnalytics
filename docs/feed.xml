@@ -5,9 +5,145 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 18 Apr 2020 21:39:37 -0400</pubDate>
-        <lastBuildDate>Sat, 18 Apr 2020 21:39:37 -0400</lastBuildDate>
+        <pubDate>Mon, 20 Apr 2020 22:46:41 -0400</pubDate>
+        <lastBuildDate>Mon, 20 Apr 2020 22:46:41 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
+        
+        <item>
+            <title>The computer forecast model that changed the world</title>
+            <description>&lt;p&gt;The MRC Centre for Global Infectious Disease Analysis has arguably created one
+of the most influential computer forecasting models in history.  Never before
+has one report from one computer model had such a significant impact on human
+society as this model did in March 2020.  Their work informs advisory groups
+for the government, and during the week of March 9, 2020, preliminary results
+from a report raised an alarm.&lt;/p&gt;
+
+&lt;p&gt;Researchers had been trying to warn governments that there would be trouble,
+&lt;a class=&quot;citation&quot; href=&quot;#lancet:warning-to-governments&quot;&gt;[1]&lt;/a&gt; but The Trump Administration was
+reluctant to address the threat directly.  The British government took notice
+when the Imperial College model projected that COVID-19 patients would overrun
+their national health care system would be overrun, and nearly immediately
+began restrictions.  They notified their counterparts in the US government.&lt;/p&gt;
+
+&lt;p&gt;What happened next impacted every American.  By the end of the week of
+March 9, the United States had declared a national emergency.  Many areas
+like here in Miami Beach closed all restaurants and other non-essential businesses
+and went into a shutdown.  The US stocks markets began one of the biggest
+crashes in history,&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:2020_stock_market_crash&quot;&gt;[2]&lt;/a&gt; leading to a
+recession dubbed the “Great Lockdown.”&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:coronavirus_recession&quot;&gt;[3]&lt;/a&gt;
+It was the steepest economic downturn since the Great Depression.&lt;/p&gt;
+
+&lt;p&gt;All of this from one report from one forecasting model.&lt;/p&gt;
+
+&lt;h2&gt;The team&lt;/h2&gt;
+
+&lt;figure class=&quot;figure inset pull-right&quot;&gt;
+  &lt;img class=&quot;img-responsive&quot; src=&quot;/assets/resized/neil-ferguson-1600x1600.png&quot; alt=&quot;UK epidemiologist Neil Ferguson.Credit: Imperial College London&quot; srcset=&quot;    /assets/resized/neil-ferguson-480x480.png 480w,    /assets/resized/neil-ferguson-768x768.png 768w,    /assets/resized/neil-ferguson-992x992.png 992w,    /assets/resized/neil-ferguson-1200x1200.png 1200w,    /assets/resized/neil-ferguson-1600x1600.png 1600w, /images/posts/neil-ferguson.png 3132w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-right small&quot;&gt;UK epidemiologist Neil Ferguson.Credit: Imperial College London&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The mathematical modeling team led by Professor Neil Ferguson and Dr Samir Bhatt
+has been tracking COVID-19 since the start of the outbreak.  Their original
+findings focused on China.  Ferguson, one of the founders of the MRC Centre for
+Global Infectious Disease Analysis at Imperial College, was already one of the
+leading names in the field of epidemiological modeling.  He had previously
+worked on modeling BSE/vCJD, foot and mouth disease, SARS and MERS, pandemic influenza, Ebola and Zika.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:neil-ferguson&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In mid-January, he took an existing model built in 2005 to study H5N1 avian
+flu and adapted its assumptions to model SARS-CoV-2.  He and his team worked on
+a report examining the projected impact of the epidemic in different countries
+based on their economic level, and the potential life-saving effects of
+social distancing.  He didn’t get a day off from that point until mid-March.&lt;/p&gt;
+
+&lt;h2&gt;The report&lt;/h2&gt;
+
+&lt;p&gt;The news in their report was not necessarily that COVID-19 could kill a lot of
+people.  The report doesn’t even speculate about the final death count, it only
+focuses on the near term.  What the Imperial College report added was the
+analysis of the potential cost of not
+mitigating.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:global-impact&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img class=&quot;img-responsive&quot; src=&quot;/assets/resized/imperial-college-mitigation-chart-1200x743.png&quot; alt=&quot;Chart from Imperial College report showing the potential
+  life-saving effects of social distancing.&quot; srcset=&quot;    /assets/resized/imperial-college-mitigation-chart-480x297.png 480w,    /assets/resized/imperial-college-mitigation-chart-768x476.png 768w,    /assets/resized/imperial-college-mitigation-chart-992x614.png 992w,    /assets/resized/imperial-college-mitigation-chart-1200x743.png 1200w, /images/posts/imperial-college-mitigation-chart.png 1534w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-right small&quot;&gt;Chart from Imperial College report showing the potential
+  life-saving effects of social distancing.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;The report is especially relevant now in April, as society faces a crisis of
+discipline in maintaining social distancing.  For example, the above chart
+from their report predicts a second wave after suppression strategies are
+lifted after three months.  Some quotes from the paper seem as prophetic now,
+a month later, as one would hope from a report from a forecasting team:&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+We do not consider the wider social and economic costs of suppression, which will be high and may be disproportionately so in lower income settings. Moreover, suppression strategies will need to be maintained in some manner until vaccines or effective treatments become available to avoid the risk of later epidemics. Our analysis highlights the challenging decisions faced by all governments in the coming weeks and months, but demonstrates the extent to which rapid, decisive and collective action now could save millions of lives.
+&lt;footer&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression. April 26, 2020 [cited 2020-04-19 11:30]; Available at: &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&lt;/a&gt;&lt;/span&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The timing amplified the impact of the report.  As Ferguson was briefing
+UK government officials, they were hearing from terrified colleagues in Italy
+who were realizing how many COVID-19 patients were going to require invasive
+ventilation in ICUs.  The report may have been the final straw that resulted
+in a “sudden focusing of minds”, according to Ferguson.  The UK government
+had suddenly become more receptive to imposing social distancing, and the US
+wasn’t far behind.&lt;/p&gt;
+
+&lt;p&gt;Just two days after briefing officials in Downing Street, Ferguson’s own
+symptoms started.&lt;a class=&quot;citation&quot; href=&quot;#nature:covid19-simulations&quot;&gt;[6]&lt;/a&gt;  He had contracted the same COVID-19 disease that he had
+spent months modeling.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Sigh. Developed a slight dry but persistent cough yesterday and self isolated even though I felt fine. Then developed high fever at 4am today. There is a lot of COVID-19 in Westminster.&lt;/p&gt;&amp;mdash; neil_ferguson (@neil_ferguson) &lt;a href=&quot;https://twitter.com/neil_ferguson/status/1240171876695117824?ref_src=twsrc%5Etfw&quot;&gt;March 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;h2&gt;Criticism&lt;/h2&gt;
+
+&lt;p&gt;Ferguson is feeling better now, but he’s facing increasing scrutiny for what
+might be the biggest weakness of the Imperial College model: a lack of
+transparency.  Ideally, a model should have documented, open source code
+that’s portable enough for other people to run it and reproduce your results.
+At a bare minimum, researchers should document their assumptions, input
+parameters, and methods.&lt;/p&gt;
+
+&lt;p&gt;Despite promising a month ago on March 22 that he was working with Micosoft and
+GitHub to release the code for the model, Ferguson still has not posted anything
+on GitHub.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Still no sign of the code for one of the most impactful simulations ever created. From morsels in older papers there are tens of input parameters, C and OpenMP with multi-hour runs. A month lost helping others understand and build on it, straight up bad science. &lt;a href=&quot;https://t.co/Hsvk9kHDtk&quot;&gt;https://t.co/Hsvk9kHDtk&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Grogan (@JmsGrogan) &lt;a href=&quot;https://twitter.com/JmsGrogan/status/1251763035267620865?ref_src=twsrc%5Etfw&quot;&gt;April 19, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Ferguson said that the code is dirty and undocumented and needs refactoring work,
+but nobody expects it to be perfect.  He should post the source code as-is,
+and then push updates as he refactors the code to improve it.  Science shouldn’t
+have to wait for him to clean up his code before learning from it.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;lancet:warning-to-governments&quot;&gt;1. How will country-based mitigation measures influence the course of the COVID-19 epidemic? April 20, 2020 [cited 2020-04-20 19:00]; Available at: &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30567-5/fulltext&quot;&gt;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30567-5/fulltext&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:2020_stock_market_crash&quot;&gt;2. 2020 stock market crash. April 20, 2020 [cited 2020-04-20 12:00]; Available at: &lt;a href=&quot;https://en.wikipedia.org/wiki/2020_stock_market_crash&quot;&gt;https://en.wikipedia.org/wiki/2020_stock_market_crash&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:coronavirus_recession&quot;&gt;3. Coronavirus recession. April 20, 2020 [cited 2020-04-20 12:00]; Available at: &lt;a href=&quot;https://en.wikipedia.org/wiki/Coronavirus_recession&quot;&gt;https://en.wikipedia.org/wiki/Coronavirus_recession&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-college:neil-ferguson&quot;&gt;4. Special report: The simulations driving the world’s response to COVID-19 [Internet]. Imperial College London - MRC Centre for Global Infectious Disease Analysis; [cited 2020-04-20 19:30]. Available at: &lt;a href=&quot;https://www.imperial.ac.uk/people/neil.ferguson&quot;&gt;https://www.imperial.ac.uk/people/neil.ferguson&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;5. Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression. April 26, 2020 [cited 2020-04-19 11:30]; Available at: &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. Special report: The simulations driving the world’s response to COVID-19. April 2, 2020 [cited 2020-04-20 19:30]; Available at: &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;https://www.nature.com/articles/d41586-020-01003-6&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</guid>
+            
+            <category>covid19-models</category>
+            
+            <category>imperial-college-model</category>
+            
+            
+        </item>
         
         <item>
             <title>Nearly a third of people in a town near Boston have antibodies</title>

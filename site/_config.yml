@@ -5,10 +5,10 @@ destination: ../docs
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: BeachCov2
+topnav_title: Beach Analytics
 # this appears on the top navigation bar next to the home button
 
-site_title: BeachCov2 - Miami Beach SARS-CoV2 Analysis
+site_title: Beach Analytics - South Florida COVID-19 Analysis from Miami Beach
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Ryan Alyn Porter
@@ -143,12 +143,33 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
 
-plugins: ['jekyll/scholar']
+plugins_dir: ./_plugins
+plugins:
+  - jekyll-responsive-image
+  - jekyll/scholar
+  - jekyll-twitter-plugin
+  - jekyll-last-modified-at
+
+responsive_image:
+  template: _includes/responsive-image-srcset-with-fallback.html
+  default_quality: 60
+  sizes:
+    - width: 480  # [Required] How wide the resized image will be.
+      quality: 80 # [Optional] Overrides default_quality for this size.
+    - width: 768
+      quality: 70
+    - width: 992
+      quality: 70
+    - width: 1200
+      quality: 60
+    - width: 1600
+      quality: 60
+  strip: true
+
 scholar:
   style: vancouver-brackets
   bibtex_filters:
     - htmllinks
-plugins_dir: ./_plugins
 
 github: [metadata]
 

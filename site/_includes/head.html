@@ -43,4 +43,23 @@
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 
-<meta property="og:image" content="/images/logo_big.png">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.summary }}">
+<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+<meta property="og:type" content="article" />
+{% if page.facebook_image %}
+  <meta property="og:url" content="{{ page.facebook_image }}">
+{% else %}
+  <meta property="og:url" content="/images/logo_big.png">
+{% endif %}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@BeachAnalytics">
+<meta name="twitter:creator" content="@RyanAlynPorter">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.summary }}">
+{% if page.twitter_image %}
+  <meta name="twitter:image" content="{{ page.twitter_image }}">
+{% else %}
+  <meta name="twitter:image" content="/images/logo_big.png">
+{% endif %}

@@ -7,4 +7,11 @@ sidebar: home_sidebar
 folder: tags
 toc: false
 ---
+
+## References
+
+{% bibliography --query @*[tags ~= data-engineering] %}
+
+## More from BeachCov2
+
 {% include taglogic.html %}

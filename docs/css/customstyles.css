@@ -3,6 +3,59 @@ body {
     background-color: #F6F6F6;
 }
 
+.brand_blue {
+  color: #ccccff;
+}
+
+.logo_background {
+  background-color: #487db9;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: 15px;
+}
+
+.post-content image.img-responsive {
+  width:: 100%;
+}
+
+.post-content figure.inset img.img-responsive {
+  margin: 0;
+}
+
+.post-content figure.inset {
+  width: 25%;
+  margin: 0 0 2em 2em;
+}
+
+.post-content .logo_background img {
+  margin: 0px;
+  max-height: 200px;
+}
+
+.container .sub-image-jumbotron {
+  padding: 1em;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#mission.jumbotron {
+  padding: 2em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#mission h2 {
+  padding-top: 0;
+  margin-top: 20px;
+}
+#mission p {
+  margin-bottom: 2em;
+}
+
 #tg-sb-content {
   background-color: #FAFAFA;
 }
@@ -84,7 +137,7 @@ ol.bibliography li{
 .breadcrumb > .active {color: #777 !important;}
 
 /* make room for the nav bar */
-h1[id],
+/* h1[id],
 h2[id],
 h3[id],
 h4[id],
@@ -93,7 +146,7 @@ h6[id],
 dt[id]{
 padding-top: 60px;
 margin-top: -40px
-}
+} */
 
 .post-content img {
     margin: 12px 0px 3px 0px;
@@ -472,14 +525,12 @@ dl.dl-horizontal dd {
 }
 
 figcaption {
-
-    padding-bottom:12px;
+    /* padding-bottom:12px;
     padding-top:6px;
     max-width: 90%;
-    margin-bottom:20px;
+    margin-bottom:20px; */
     font-style: italic;
     color: gray;
-
 }
 
 .testing {
@@ -919,10 +970,10 @@ span.soft {
 
 
 @media only screen and (min-width: 900px), only screen and (min-device-width: 900px) {
-    .col-md-9 img {
+    /* .col-md-9 img {
         max-width: 700px;
         max-height: 700px;
-    }
+    } */
 }
 
 *:hover > .anchorjs-link {

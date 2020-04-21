@@ -1,56 +1,63 @@
 ---
-title: SARS-CoV-2 Analysis for Miami Beach
-keywords: sample homepage
+title: COVID-19 Analysis from Miami Beach
+show_title: false
 sidebar: home_sidebar
 permalink: index.html
 toc: false
 ---
 
-BeachCov2 is an exercise in [citizen](https://en.wikipedia.org/wiki/Citizen_journalism) [community](https://en.wikipedia.org/wiki/Community_journalism) [data journalism](https://en.wikipedia.org/wiki/Data_journalism).
+<div class="logo_background" align="center">
+  {% responsive_image path: images/logo_big.png %}
+  <img class="img-responsive logo" src=""/>
+</div>
+<div class="sub-image-jumbotron jumbotron lead" align="center">
+  Beach Analytics is an exercise in <a href="https://en.wikipedia.org/wiki/Citizen_journalism">citizen</a> <a href="https://en.wikipedia.org/wiki/Community_journalism">community</a> <a href="https://en.wikipedia.org/wiki/Data_journalism">data journalism</a>.
+</div>
 
+<div class="jumbotron" id="mission">
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
   <h2 class="display-4">Mission</h2>
   <p class="lead">To visualize the data, the estimates and the projections that are relevant to our daily lives in Miami Beach, as we try to make sense of the COVID-19 pandemic.</p>
 </div>
 
-<center>
-  <h2 class="display-4">Values</h2>
-</center>
+  <center>
+    <h2 class="display-4">Values</h2>
+  </center>
 
-<div class="row">
-  <div class="col-sm-6">
-    <h3>Continuous, iterative improvement</h3>
-    Forecast models and scientific knowledge are always advancing, and I'm always trying to represent the most-current ideas.  I'll adjust adjustments in my visualizations as things change.
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Continuous, iterative improvement</h3>
+      Forecast models and scientific knowledge are always advancing, and I'm always trying to represent the most-current ideas.  I'm constantly
+      adjusting my methods.
+    </div>
+    <div class="col-sm-6">
+      <h3>Feedback</h3>
+      Please <a href="/contact.html">contact me</a> and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.
+    </div>
   </div>
-  <div class="col-sm-6">
-    <h3>Feedback</h3>
-    Please contact me and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Transparency</h3>
+      My analysis spreadsheet and data are available <a href="https://github.com/endymion/BeachCov2">on GitHub</a>, along with the complete version history. As well as the code for this web site.
+    </div>
+    <div class="col-sm-6">
+      <h3>Documentation</h3>
+      I intend to provide explanations for all of my estimations and projections, and citations.  All of my <a href="/references.html">references</a> are documented.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Visualization best practices</h3>
+      Every <a href="charts.html">chart</a> should include a title, units, clear axis labeling, and a time stamp.
+    </div>
+    <div class="col-sm-6">
+      <h3>Mobile compatibility</h3>
+      All images should be legible on any device, including tiny phone screens.
+    </div>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-sm-6">
-    <h3>Transparency</h3>
-    My analysis spreadsheet and data are available [on GitHub](https://github.com/endymion/BeachCov2), along with the complete version history. As well as the code for this web site.
-  </div>
-  <div class="col-sm-6">
-    <h3>Documentation</h3>
-    I am to provide explanations for all of my estimations and projections, and citations.  I'm compiling a citation database, for storing references to news and research about the pandemic.
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-6">
-    <h3>Visualization best practices</h3>
-    Every chart should include a title, units, clear axis labeling, and a time stamp.
-  </div>
-  <div class="col-sm-6">
-    <h3>Mobile compatibility</h3>
-    All images should be legible on any device, including tiny phone screens.
-  </div>
-</div>
-
-<br/>
 
 ## Background
 

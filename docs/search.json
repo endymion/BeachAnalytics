@@ -26,32 +26,21 @@
 
 
 {
+"title": "COVID-19 Forecasting Models",
+"tags": "",
+"keywords": "",
+"url": "/covid19-models.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
 "tags": "",
 "keywords": "",
 "url": "/products/projected-percentage-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/doubling-time-for-number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Percent Increase in Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/percent-increase-in-number-of-covid19-cases/current.html",
 "summary": ""
 }
 ,
@@ -81,10 +70,32 @@
 
 
 {
+"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
 "tags": "",
 "keywords": "",
 "url": "/products/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/percent-increase-in-number-of-covid19-cases/current.html",
 "summary": ""
 }
 ,
@@ -138,21 +149,10 @@
 
 
 {
-"title": "SARS-CoV-2 Infection Percentage Projection",
+"title": "Imperial College of London COVID-19 Forecasting Model",
 "tags": "",
 "keywords": "",
-"url": "/products/projected-percentage-of-sarscov2-infections/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/products/number-of-covid19-cases/index.html",
+"url": "/imperial-college-model.html",
 "summary": ""
 }
 ,
@@ -164,6 +164,17 @@
 "tags": "",
 "keywords": "",
 "url": "/products/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "SARS-CoV-2 Infection Percentage Projection",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/index.html",
 "summary": ""
 }
 ,
@@ -204,9 +215,20 @@
 
 
 {
-"title": "SARS-CoV-2 Analysis for Miami Beach",
+"title": "Number of Confirmed COVID-19 Cases",
 "tags": "",
-"keywords": "sample homepage",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Analysis from Miami Beach",
+"tags": "",
+"keywords": "",
 "url": "/index.html",
 "summary": ""
 }
@@ -243,17 +265,6 @@
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
 "url": "/news_archive.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/doubling-time-for-number-of-covid19-cases/older.html",
 "summary": ""
 }
 ,
@@ -305,10 +316,34 @@
 
 
 {
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
 "tags": "",
 "keywords": "",
 "url": "/products/percent-increase-in-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "References",
+"tags": "",
+"keywords": "",
+"url": "/references.html",
 "summary": ""
 }
 ,
@@ -329,6 +364,14 @@
 
 
 
+{
+"title": "The computer forecast model that changed the world",
+"tags": "covid19-modelsimperial-college-model",
+"keywords": "",
+"url": "/2020/04/18/the-computer-forecast-model-that-changed-the-world.html",
+"summary": "No report from any forecast model has ever had such a significant impact on worldwide human society"
+}
+,
 
 
 {

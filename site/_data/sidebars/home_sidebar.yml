@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: SARS-CoV-2 Analysis
+  product: COVID-19 Analysis
   folders:
 
 
@@ -26,6 +26,19 @@ entries:
       output: web
     - title: GitHub
       external_url: https://github.com/endymion/BeachCov2
+      output: web
+
+  - title: Topics
+    output: web
+    folderitems:
+    - title: COVID-19 Forecast Models
+      url: /covid19-models.html
+      output: web
+    - title: How widespread?
+      url: /how-widespread.html
+      output: web
+    - title: Herd immunity
+      url: /herd-immunity.html
       output: web
 
   - title: COVID-19 Dashboard

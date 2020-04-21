@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://localhost:4000/2020/04/18/the-computer-forecast-model-that-changed-the-world.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</loc>
   </url>
   
@@ -56,19 +62,13 @@
   
   
   <url>
+    <loc>http://localhost:4000/covid19-models.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/products/projected-percentage-of-sarscov2-infections/current.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/products/doubling-time-for-number-of-covid19-cases/current.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/products/percent-increase-in-number-of-covid19-cases/current.html</loc>
   </url>
   
   
@@ -86,7 +86,19 @@
   
   
   <url>
+    <loc>http://localhost:4000/products/doubling-time-for-number-of-covid19-cases/current.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/products/estimated-number-of-sarscov2-infections/current.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/products/percent-increase-in-number-of-covid19-cases/current.html</loc>
   </url>
   
   
@@ -118,19 +130,19 @@
   
   
   <url>
-    <loc>http://localhost:4000/products/projected-percentage-of-sarscov2-infections/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/products/number-of-covid19-cases/index.html</loc>
+    <loc>http://localhost:4000/imperial-college-model.html</loc>
   </url>
   
   
   
   <url>
     <loc>http://localhost:4000/products/covid19-dashboard/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/products/projected-percentage-of-sarscov2-infections/index.html</loc>
   </url>
   
   
@@ -149,6 +161,12 @@
   
   <url>
     <loc>http://localhost:4000/products/percent-increase-in-number-of-covid19-cases/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/products/number-of-covid19-cases/index.html</loc>
   </url>
   
   
@@ -180,12 +198,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/products/doubling-time-for-number-of-covid19-cases/older.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/products/estimated-number-of-sarscov2-infections/older.html</loc>
   </url>
   
@@ -210,10 +222,22 @@
   
   
   <url>
+    <loc>http://localhost:4000/products/doubling-time-for-number-of-covid19-cases/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/products/percent-increase-in-number-of-covid19-cases/older.html</loc>
   </url>
   
   
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/references.html</loc>
+  </url>
   
   
   

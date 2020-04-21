@@ -3,3 +3,7 @@
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
   - meta
+  - data-engineering
+  - how-widespread
+  - covid19-models
+  - imperial-college
