@@ -4,6 +4,7 @@ sidebar: home_sidebar
 permalink: /products/doubling-time-for-number-of-covid19-cases/index.html
 folder: Case Doubling Time
 toc: false
+show_meta: false
 ---
 
 {% assign chart_files = site.static_files | where: "chart", "true" | where: "doublingtimefornumberofcovid19cases", "true" | where_exp: "item", "item.path contains '/miami-beach/'" | sort: 'name' | reverse %}

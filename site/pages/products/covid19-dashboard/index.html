@@ -4,6 +4,7 @@ sidebar: home_sidebar
 permalink: /products/covid19-dashboard/index.html
 folder: COVID-19 Dashboard
 toc: false
+show_meta: false
 ---
 
 {% assign chart_files = site.static_files | where: "chart", "true" | where: "covid19dashboard", "true" | where_exp: "item", "item.path contains '/miami-beach/'" | sort: 'name' | reverse %}

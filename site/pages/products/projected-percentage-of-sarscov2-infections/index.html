@@ -4,6 +4,7 @@ sidebar: home_sidebar
 permalink: /products/projected-percentage-of-sarscov2-infections/index.html
 folder: Infection Percentage Projection
 toc: false
+show_meta: false
 ---
 
 {% assign chart_files = site.static_files | where: "chart", "true" | where: "projectedpercentageofsarscov2infections", "true" | where_exp: "item", "item.path contains '/miami/'" | sort: 'name' | reverse %}
