@@ -40,7 +40,8 @@ deaths.
 
 One reason is that the infection fatality rate rises when health care systems
 are overrun.  The eye-opening conclusion of the Imperial College report in March
-was that many more people would die without mitigation and suppression measures.
+was that many more people would die without mitigation and suppression
+measures.{% cite imperial-college:global-impact %}
 
 ## Overshoot
 
