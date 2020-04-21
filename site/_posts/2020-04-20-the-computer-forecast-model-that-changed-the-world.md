@@ -10,7 +10,7 @@ facebook_image: /images/posts/imperial-college-1_1.png
 twitter_image:  /images/posts/imperial-college-1_1.png
 ---
 
-The MRC Centre for Global Infectious Disease Analysis has arguably created one
+The MRC Centre for Global Infectious Disease Analysis at Imperial College of London has arguably created one
 of the most influential computer forecasting models in history.  Never before
 has one report from one computer model had such a significant impact on human
 society as this model did in March 2020.  Their work informs advisory groups
