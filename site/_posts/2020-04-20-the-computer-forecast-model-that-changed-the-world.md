@@ -5,9 +5,9 @@ author: Ryan Alyn Porter
 published: true
 summary: "No report from any forecast model has ever had such a significant impact on worldwide human society"
 tags: [covid19-models, imperial-college-model]
-banner_image:   /images/posts/imperial-college-16_5.png
-facebook_image: /images/posts/imperial-college-1_1.png
-twitter_image:  /images/posts/imperial-college-1_1.png
+banner_image:   images/posts/imperial-college-16_5.png
+facebook_image: images/posts/imperial-college-1_1.png
+twitter_image:  images/posts/imperial-college-1_1.png
 ---
 
 The MRC Centre for Global Infectious Disease Analysis at Imperial College of London has arguably created one

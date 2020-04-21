@@ -5,7 +5,13 @@ layout: default
 
     <header class="post-header">
         {% if page.banner_image %}
-          {% responsive_image path: images/posts/imperial-college-16_5.png %}
+          {% responsive_image_block %}
+          path: {{ page.banner_image }}
+          alt: {{ page.summary }}
+          {% if page.title %}
+          title: {{ page.title }}
+          {% endif %}
+          {% endresponsive_image_block %}
         {% endif %}
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
 

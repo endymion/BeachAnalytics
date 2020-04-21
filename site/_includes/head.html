@@ -45,10 +45,9 @@
 
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:description" content="{{ page.summary }}">
-<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
 <meta property="og:type" content="article" />
 {% if page.facebook_image %}
-  <meta property="og:url" content="{{ page.facebook_image }}">
+  <meta property="og:url" content="/{{ page.facebook_image }}">
 {% else %}
   <meta property="og:url" content="/images/logo_big.png">
 {% endif %}
