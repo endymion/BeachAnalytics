@@ -22,6 +22,12 @@ body {
   margin: 0;
 }
 
+.post-content figure {
+  background: white;
+  width: 75%;
+  margin: 2em 0 2em 0;
+}
+
 .post-content figure.inset {
   width: 25%;
   margin: 0 0 2em 2em;
@@ -361,6 +367,11 @@ li.dropdownActive a {
 
 footer {
     font-size: smaller;
+    margin: 2em 0 0 0;
+}
+
+.jekyll-twitter-plugin {
+  margin: 2em 0 2em 0;
 }
 
 /* FAQ page */
