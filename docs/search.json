@@ -4,6 +4,17 @@
 
 
 {
+"title": "COVID-19 Analysis from Miami Beach",
+"tags": "",
+"keywords": "",
+"url": "/about.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Charts",
 "tags": "",
 "keywords": "",
@@ -37,39 +48,6 @@
 
 
 {
-"title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/projected-percentage-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current COVID-19 Dashboards",
-"tags": "",
-"keywords": "",
-"url": "/products/covid19-dashboard/current.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
 "tags": "",
 "keywords": "",
@@ -92,10 +70,43 @@
 
 
 {
+"title": "Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Percent Increase in Current Number of Confirmed COVID-19 Cases Charts",
 "tags": "",
 "keywords": "",
 "url": "/products/percent-increase-in-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current COVID-19 Dashboards",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/current.html",
 "summary": ""
 }
 ,
@@ -142,7 +153,7 @@
 "tags": "",
 "keywords": "",
 "url": "/how-widespread.html",
-"summary": ""
+"summary": "Prevalence of SARS-CoV-2 infections is difficult to assess without more widespread testing, and more antibody testing.  I'm tracking preliminary research as it becomes available."
 }
 ,
 
@@ -153,17 +164,6 @@
 "tags": "",
 "keywords": "",
 "url": "/imperial-college-model.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "COVID-19 Dashboard",
-"tags": "",
-"keywords": "",
-"url": "/products/covid19-dashboard/index.html",
 "summary": ""
 }
 ,
@@ -182,17 +182,6 @@
 
 
 {
-"title": "Estimated Number of SARS-CoV-2 Infections",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/index.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Doubling Time in Number of Confirmed COVID-19 Cases",
 "tags": "",
 "keywords": "",
@@ -204,10 +193,32 @@
 
 
 {
-"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
+"title": "Estimated Number of SARS-CoV-2 Infections",
 "tags": "",
 "keywords": "",
-"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
+"url": "/products/estimated-number-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/index.html",
 "summary": ""
 }
 ,
@@ -226,10 +237,10 @@
 
 
 {
-"title": "COVID-19 Analysis from Miami Beach",
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
 "tags": "",
 "keywords": "",
-"url": "/index.html",
+"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -253,51 +264,7 @@
 "title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
-"url": "/news.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "News",
-"tags": "",
-"keywords": "news, blog, updates, release notes, announcements",
 "url": "/news_archive.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Number of Confirmed COVID-19 Cases Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/number-of-covid19-cases/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "COVID-19 Dashboard Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/covid19-dashboard/older.html",
 "summary": ""
 }
 ,
@@ -327,10 +294,43 @@
 
 
 {
+"title": "COVID-19 Dashboard Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/older.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
 "tags": "",
 "keywords": "",
 "url": "/products/percent-increase-in-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/older.html",
 "summary": ""
 }
 ,

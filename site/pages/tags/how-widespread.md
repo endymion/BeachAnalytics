@@ -6,14 +6,15 @@ permalink: how-widespread.html
 sidebar: home_sidebar
 folder: topics
 toc: false
+summary: Prevalence of SARS-CoV-2 infections is difficult to assess without
+  more widespread testing, and more antibody testing.  I'm tracking preliminary
+  research as it becomes available.
 ---
 
-References and posts about the prevalence of SARS-CoV-2 infections.
-
-## References
-
-{% bibliography --query @*[tags ~= how-widespread] %}
-
-## More from BeachCov2
+## From Beach Analytics
 
 {% include taglogic.html %}
+
+<h2>References</h2>
+
+{% bibliography --query @*[tags ~= how-widespread] %}

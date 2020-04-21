@@ -2,7 +2,7 @@
 title: COVID-19 Analysis from Miami Beach
 show_title: false
 sidebar: home_sidebar
-permalink: index.html
+permalink: about.html
 toc: false
 ---
 
