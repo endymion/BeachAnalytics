@@ -9,7 +9,7 @@ A repository of resources and references used on this site.
 
 ## Recent
 
-{% bibliography --query @model %}
+{% bibliography %}
 
 ## Models
 
