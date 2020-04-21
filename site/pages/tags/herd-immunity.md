@@ -90,6 +90,6 @@ infected because of overshoot.
 
 {% bibliography --cited %}
 
-## More about herd immunity from Beach Analytics
+## Related posts and pages from Beach Analytics
 
 {% include taglogic.html %}
