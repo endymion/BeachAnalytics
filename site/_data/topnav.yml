@@ -7,10 +7,10 @@ topnav:
       folderitems:
       # - title: COVID-19 Dashboard
       #   url: /products/covid19-dashboard/
-      - title: Contact
-        url: /contact.html
       - title: About
         url: /about.html
+      - title: Contact
+        url: /contact.html
       - title: GitHub
         external_url: https://github.com/endymion/BeachAnalytics
     - title: Topics
