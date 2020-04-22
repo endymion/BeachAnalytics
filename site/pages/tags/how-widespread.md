@@ -11,7 +11,7 @@ summary: Prevalence of SARS-CoV-2 infections is difficult to assess without
   research as it becomes available.
 ---
 
-## From Beach Analytics
+<!-- ## Related -->
 
 {% include taglogic.html %}
 

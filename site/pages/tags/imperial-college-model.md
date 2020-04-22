@@ -14,10 +14,10 @@ summary: Arguably the most influential computer forecasting model in history,
   this model is the one that led the UK and US governments to begin mitigation measures.
 ---
 
-## References
-
-{% bibliography --query @*[tags ~= imperial-college] %}
-
-## Related
+<!-- ## Related -->
 
 {% include taglogic.html %}
+
+<h2>References</h2>
+
+{% bibliography --query @*[tags ~= imperial-college] %}

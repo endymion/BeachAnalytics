@@ -97,6 +97,10 @@ defaults:
       path: "charts/projected-percentage-of-sarscov2-infections"
     values:
       projectedpercentageofsarscov2infections: true
+  - scope:
+      path: "charts/estimated-one-in-x-sarscov2-infection-odds"
+    values:
+      estimatedoneinxsarscov2infectionodds: true
   -
     scope:
       path: ""

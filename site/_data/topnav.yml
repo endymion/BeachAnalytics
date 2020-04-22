@@ -21,6 +21,8 @@ topnav:
         url: /how-widespread.html
       - title: Herd immunity
         url: /herd-immunity.html
+      - title: Fatality rates
+        url: /fatality-rates.html
     - title: Charts
       folderitems:
       - title: All COVID-19 Charts
@@ -35,6 +37,8 @@ topnav:
         url: /products/doubling-time-for-number-of-covid19-cases
       - title: Estimated Number of SARS-CoV-2 Infections
         url: /products/estimated-number-of-sarscov2-infections
+      - title: Estimated One-In-X SARS-CoV2 Infection Odds
+        url: /products/estimated-one-in-x-sarscov2-infection-odds
       - title: Estimated SARS-SoV-2 Infections As Percentage of Population
         url: /products/estimated-number-of-sarscov2-infections-as-percentage-of-population
       - title: SARS-CoV-2 Infection Percentage Projection

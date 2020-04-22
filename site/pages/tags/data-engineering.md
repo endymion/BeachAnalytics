@@ -12,6 +12,6 @@ toc: false
 
 {% bibliography --query @*[tags ~= data-engineering] %}
 
-## More from BeachCov2
+## Related
 
 {% include taglogic.html %}

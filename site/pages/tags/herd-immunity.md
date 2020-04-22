@@ -91,6 +91,6 @@ infected because of overshoot.
 
 {% bibliography --cited %}
 
-## Related posts and pages from Beach Analytics
+## Related
 
 {% include taglogic.html %}

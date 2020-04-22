@@ -19,6 +19,6 @@ What happens after the first peak?  This isn't the first outbreak that we're goi
 
 {% bibliography --cited %}
 
-## Related posts and pages from Beach Analytics
+## Related
 
 {% include taglogic.html %}
