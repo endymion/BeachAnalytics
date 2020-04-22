@@ -2,7 +2,7 @@
 date: 2020-04-18 19:20
 title: Nearly a third of people in a town near Boston have antibodies
 published: true
-summary: "People stopped randomly in public for antibody tests showed a surprisingly rate"
+summary: "People stopped randomly in public for antibody tests showed a surprising infection proportion."
 tags: [how-widespread]
 ---
 
