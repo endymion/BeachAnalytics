@@ -23,6 +23,8 @@ topnav:
         url: /herd-immunity.html
       - title: Fatality rates
         url: /fatality-rates.html
+      - title: The second wave
+        url: /second-wave.html
     - title: Charts
       folderitems:
       - title: All COVID-19 Charts
