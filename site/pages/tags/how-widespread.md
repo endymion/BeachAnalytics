@@ -6,12 +6,20 @@ permalink: how-widespread.html
 sidebar: home_sidebar
 folder: Topics
 toc: false
-summary: Prevalence of SARS-CoV-2 infections is difficult to assess without
-  more widespread testing, and more antibody testing.  I'm tracking preliminary
-  research as it becomes available.
+excerpt_separator: <!--more-->
 ---
 
-<!-- ## Related -->
+The virus that causes COVID-19 is called SARS-CoV-2.  How many people
+in your area have been infected?
+
+<!--more-->
+
+Prevalence of SARS-CoV-2 infections in our areas is difficult to
+assess without more widespread testing.  Especially antibody testing.
+
+I'm tracking preliminary research as it becomes available.
+
+## News about prevalence
 
 {% include taglogic.html %}
 

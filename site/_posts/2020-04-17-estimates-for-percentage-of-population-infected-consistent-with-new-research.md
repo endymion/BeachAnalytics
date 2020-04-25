@@ -2,9 +2,13 @@
 date: 2020-04-17 18:00
 title: New antibody research is consistent with the estimates here for number of infections
 published: true
-summary: "Antibody testing in California is consistent with BeachCov2 estimates."
+excerpt_separator: <!--more-->
 tags: [how-widespread, herd-immunity]
 ---
+
+Antibody testing in California is roughly consistent with Beach Analytics estimates for Miami Beach.
+
+<!--more-->
 
 ## How many people have been infected with SARS-CoV-2?
 

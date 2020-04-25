@@ -2,11 +2,17 @@
 date: 2020-04-14 17:00
 title:  Are we there yet?
 published: true
-summary: Are we there yet?  Are we there yet?
+excerpt_separator: <!--more-->
 tags: [how-widespread]
 ---
 
-If our plan, by default, is herd immunity, then are we there yet?  Are there yet?  Are we there yet?  Check our progress any time here at https://BeachCov2.info/charts  I'm still adding analysis products to the web site.  The newest is the percentage infected projection chart.
+Are we there yet?  Are we there yet?
+
+<!--more-->
+
+If our plan, by default, is <a href="/herd-immunity.html">herd immunity</a>, then are we there yet?  Are there yet?  Are we there yet?
+
+Check our progress for Miami Beach and South Florida any time here on the [charts](https://BeachAnalytics.info/charts) page.  I'm still adding analysis products to the web site.  The newest is the percentage infected projection chart.
 
 Please see the
   [Current

@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Apr 2020 13:23:54 -0400</pubDate>
-        <lastBuildDate>Sat, 25 Apr 2020 13:23:54 -0400</lastBuildDate>
+        <pubDate>Sat, 25 Apr 2020 13:38:19 -0400</pubDate>
+        <lastBuildDate>Sat, 25 Apr 2020 13:38:19 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -194,7 +194,11 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
         
         <item>
             <title>New antibody research is consistent with the estimates here for number of infections</title>
-            <description>&lt;h2 id=&quot;how-many-people-have-been-infected-with-sars-cov-2&quot;&gt;How many people have been infected with SARS-CoV-2?&lt;/h2&gt;
+            <description>&lt;p&gt;Antibody testing in California is roughly consistent with Beach Analytics estimates for Miami Beach.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;how-many-people-have-been-infected-with-sars-cov-2&quot;&gt;How many people have been infected with SARS-CoV-2?&lt;/h2&gt;
 
 &lt;p&gt;One way to estimate the number of infections is from the number of confirmed cases.  Mathematical modelers in the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) at the London School of Hygiene &amp;amp; Tropical Medicine maintain a model for estimating an approximate fraction of cases reported.&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[1]&lt;/a&gt;  They update their model nearly daily.&lt;/p&gt;
 
@@ -350,7 +354,13 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
         
         <item>
             <title>Are we there yet?</title>
-            <description>&lt;p&gt;If our plan, by default, is herd immunity, then are we there yet?  Are there yet?  Are we there yet?  Check our progress any time here at https://BeachCov2.info/charts  I’m still adding analysis products to the web site.  The newest is the percentage infected projection chart.&lt;/p&gt;
+            <description>&lt;p&gt;Are we there yet?  Are we there yet?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;If our plan, by default, is &lt;a href=&quot;/herd-immunity.html&quot;&gt;herd immunity&lt;/a&gt;, then are we there yet?  Are there yet?  Are we there yet?&lt;/p&gt;
+
+&lt;p&gt;Check our progress for Miami Beach and South Florida any time here on the &lt;a href=&quot;https://BeachAnalytics.info/charts&quot;&gt;charts&lt;/a&gt; page.  I’m still adding analysis products to the web site.  The newest is the percentage infected projection chart.&lt;/p&gt;
 
 &lt;p&gt;Please see the
   &lt;a href=&quot;/products/projected-percentage-of-sarscov2-infections/&quot;&gt;Current
