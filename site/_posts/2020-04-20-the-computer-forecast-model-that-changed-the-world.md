@@ -3,7 +3,7 @@ date: 2020-04-20
 title: The computer forecast model that changed the world
 author: Ryan Alyn Porter
 published: true
-summary: "No report from any forecast model has ever had such a significant impact on worldwide human society"
+summary: No report from any forecast model has ever had such a significant impact on worldwide human society.
 tags: [covid19-models, imperial-college-model]
 banner_image:   images/posts/imperial-college-16_5.png
 facebook_image: images/posts/imperial-college-1_1.png
@@ -17,8 +17,8 @@ society as this model did in March 2020.  Their work informs advisory groups
 for the government, and during the week of March 9, 2020, preliminary results
 from a report raised an alarm.
 
-Researchers had been trying to warn governments that there would be trouble,
-{% cite lancet:warning-to-governments %} but The Trump Administration was
+Researchers had been trying to warn governments that there would be trouble,{% cite lancet:warning-to-governments %} but
+the Trump Administration was
 reluctant to address the threat directly.  The British government took notice
 when the Imperial College model projected that COVID-19 patients would overrun
 their national health care system would be overrun, and nearly immediately

@@ -6,7 +6,7 @@ layout: default
     <header class="post-header clearfix">
 
       <div class="small text-secondary clearfix">
-        <div class="date float-left">{{ page.date | date: "%b %-d, %Y" }}</div>
+        <div class="date float-left"><code>{{ page.date | date: "%b %-d, %Y" }}</code></div>
         <div class="float-right">{{ page.author }}</div>
       </div>
 
@@ -37,7 +37,7 @@ layout: default
       <h2>Related</h2>
       <ul>
       {% for tag in page.tags %}
-        <li><a href="/{{ tag | append: ".html"}}">{{tag}}</a></li>
+        <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
       {% endfor %}
       </ul>
     </div>

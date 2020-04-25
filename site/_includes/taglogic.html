@@ -1,16 +1,20 @@
 {% assign site_posts = site.posts | where_exp:"item", "item.category != 'citation'" | where: 'tags', page.tagName %}
 {% if site_posts %}
 {% for page in site_posts %}
-  <div><b><a href="{{ page.url }}">{{page.title}}</a></b></div>
-  {% if page.summary %}<p>{{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }}</p>{% endif %}
+  <h3><a href="{{ page.url }}">{{page.title}}</a></h3>
+  <p>
+  {% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }}{% endif %}
+  </p>
 {% endfor %}
 {% endif %}
 
 {% assign site_posts = site.pages | where: 'tags', page.tagName %}
 {% if site_posts %}
 {% for page in site_posts %}
-  <div><b><span class="badge badge-secondary">page</span> <a href="{{ page.url }}">{{page.title}}</a></b></div>
+  <h3><span class="badge badge-secondary">page</span> <a href="{{ page.url }}">{{page.title}}</a></h3>
+  <p>
   {% if page.summary %}<p>{{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }}</p>{% endif %}
+  </p>
 {% endfor %}
 {% endif %}
 

@@ -20,10 +20,31 @@ body {
 
 h1 {
   margin: 1ex 0 1ex 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2 {
   margin: 1.5ex 0 1ex 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  margin: 1ex 0 0 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.headline {
+  margin-bottom: 0;
+}
+
+.media {
+  .media-body {
+    h1,h2,h3 {
+      margin-top: 0;
+    }
+  }
+  margin-bottom: 2em;
 }
 
 #summary {
@@ -40,12 +61,18 @@ body {
 }
 
 // For the logo in the header and footer.
-.navbar,.footer {
+.navbar,
+body > footer {
   .logo a {
     color: $light;
   }
   .logotype {
     font-weight: 700;
+  }
+  code {
+    color: $light;
+    font-size: 80%;
+    line-height: 0.938rem; // 15px, same as "smaller" ends up at.
   }
 }
 .navbar {
@@ -55,7 +82,7 @@ body {
   }
   .logotype {
     font-size: 1.5rem;
-    line-height: .75em;
+    line-height: .75rem;
   }
 }
 #search-input {
@@ -63,7 +90,8 @@ body {
 }
 
 // Other navbar / footer branding styling.
-.navbar, .footer {
+.navbar,
+body > footer {
   a.nav-link {
     color: $light;
   }
@@ -154,6 +182,13 @@ ul#results-container a:hover {
 #page-contents .logo_background img {
   margin: 0px;
   max-height: 200px;
+}
+
+ol.bibliography {
+  padding-inline-start: 0px;
+  li {
+    list-style-type: none;
+  }
 }
 
 .container .sub-image-jumbotron {

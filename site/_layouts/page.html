@@ -6,7 +6,7 @@ layout: default
 
   {% if page.show_meta != false %}
   <div class="small text-secondary clearfix">
-    <div class="date float-left">{{ page.last_modified_at | date: "%b %-d, %Y" }}</div>
+    <div class="date float-left"><code>{{ page.last_modified_at | date: "%b %-d, %Y" }}</code></div>
     <div class="float-right">{{ page.author }}</div>
   </div>
   {% endif %}
