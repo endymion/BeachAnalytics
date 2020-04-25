@@ -5,41 +5,44 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 24 Apr 2020 23:01:25 -0400</pubDate>
-        <lastBuildDate>Fri, 24 Apr 2020 23:01:25 -0400</lastBuildDate>
+        <pubDate>Sat, 25 Apr 2020 13:13:11 -0400</pubDate>
+        <lastBuildDate>Sat, 25 Apr 2020 13:13:11 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
             <title>The computer forecast model that changed the world</title>
-            <description>&lt;p&gt;The MRC Centre for Global Infectious Disease Analysis at Imperial College of London has arguably created one
+            <description>&lt;p&gt;No report from any forecast model has ever had such a significant impact on worldwide human society.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The MRC Centre for Global Infectious Disease Analysis at Imperial College of London has arguably created one
 of the most influential computer forecasting models in history.  Never before
 has one report from one computer model had such a significant impact on human
 society as this model did in March 2020.  Their work informs advisory groups
 for the government, and during the week of March 9, 2020, preliminary results
-from a report raised an alarm.&lt;/p&gt;
+from one of their reports alarmed officials and changed the world.&lt;/p&gt;
 
-&lt;p&gt;Researchers had been trying to warn governments that there would be trouble,
-&lt;a class=&quot;citation&quot; href=&quot;#lancet:warning-to-governments&quot;&gt;[1]&lt;/a&gt; but The Trump Administration was
+&lt;p&gt;Researchers had been trying to warn governments that there would be trouble,&lt;a class=&quot;citation&quot; href=&quot;#lancet:warning-to-governments&quot;&gt;[1]&lt;/a&gt; but
+the Trump Administration was
 reluctant to address the threat directly.  The British government took notice
-when the Imperial College model projected that COVID-19 patients would overrun
-their national health care system would be overrun, and nearly immediately
+when the Imperial College model &lt;mark&gt;projected that COVID-19 patients would overrun
+their national health care system&lt;/mark&gt;, and nearly immediately
 began restrictions.  They notified their counterparts in the US government.&lt;/p&gt;
 
 &lt;p&gt;What happened next impacted every American.  By the end of the week of
-March 9, the United States had declared a national emergency.  Many areas
+March 9, the &lt;mark&gt;United States had declared a national emergency&lt;/mark&gt;.  Many areas
 like here in Miami Beach closed all restaurants and other non-essential businesses
-and went into a shutdown.  The US stocks markets began one of the biggest
-crashes in history,&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:2020_stock_market_crash&quot;&gt;[2]&lt;/a&gt; leading to a
-recession dubbed the “Great Lockdown.”&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:coronavirus_recession&quot;&gt;[3]&lt;/a&gt;
-It was the steepest economic downturn since the Great Depression.&lt;/p&gt;
+and went into a shutdown.  The US stocks markets began &lt;mark&gt;one of the biggest
+crashes in history&lt;/mark&gt;&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:2020_stock_market_crash&quot;&gt;[2]&lt;/a&gt;, leading to a recession dubbed “&lt;mark&gt;The Great Lockdown&lt;/mark&gt;.”&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:coronavirus_recession&quot;&gt;[3]&lt;/a&gt;
+It was the &lt;mark&gt;steepest economic downturn since the Great Depression&lt;/mark&gt;.&lt;/p&gt;
 
 &lt;p&gt;All of this from one report from one forecasting model.&lt;/p&gt;
 
 &lt;h2&gt;The team&lt;/h2&gt;
 
 &lt;figure class=&quot;figure inset pull-right&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/neil-ferguson-1600x1600.png&quot; alt=&quot;UK epidemiologist Neil Ferguson.Credit: Imperial College London&quot; srcset=&quot;    /assets/resized/neil-ferguson-480x480.png 480w,    /assets/resized/neil-ferguson-768x768.png 768w,    /assets/resized/neil-ferguson-992x992.png 992w,    /assets/resized/neil-ferguson-1200x1200.png 1200w,    /assets/resized/neil-ferguson-1600x1600.png 1600w, /images/posts/neil-ferguson.png 3132w&quot; /&gt;
-  &lt;figcaption class=&quot;figure-caption text-right small&quot;&gt;UK epidemiologist Neil Ferguson.Credit: Imperial College London&lt;/figcaption&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/neil-ferguson-1600x1600.png&quot; alt=&quot;UK epidemiologist Neil Ferguson. Credit: Imperial College London&quot; srcset=&quot;    /assets/resized/neil-ferguson-480x480.png 480w,    /assets/resized/neil-ferguson-768x768.png 768w,    /assets/resized/neil-ferguson-992x992.png 992w,    /assets/resized/neil-ferguson-1200x1200.png 1200w,    /assets/resized/neil-ferguson-1600x1600.png 1600w, /images/posts/neil-ferguson.png 3132w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption text-right small&quot;&gt;UK epidemiologist Neil Ferguson. Credit: Imperial College London&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The mathematical modeling team led by Professor Neil Ferguson and Dr Samir Bhatt
@@ -49,8 +52,8 @@ Global Infectious Disease Analysis at Imperial College, was already one of the
 leading names in the field of epidemiological modeling.  He had previously
 worked on modeling BSE/vCJD, foot and mouth disease, SARS and MERS, pandemic influenza, Ebola and Zika.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:neil-ferguson&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;In mid-January, he took an existing model built in 2005 to study H5N1 avian
-flu and adapted its assumptions to model SARS-CoV-2.  He and his team worked on
+&lt;p&gt;In mid-January, he &lt;mark&gt;took an existing model built in 2005 to study H5N1 avian
+flu and adapted its assumptions to model SARS-CoV-2&lt;/mark&gt;.  He and his team worked on
 a report examining the projected impact of the epidemic in different countries
 based on their economic level, and the potential life-saving effects of
 social distancing.  He didn’t get a day off from that point until mid-March.&lt;/p&gt;
@@ -60,8 +63,8 @@ social distancing.  He didn’t get a day off from that point until mid-March.&l
 &lt;p&gt;The news in their report was not necessarily that COVID-19 could kill a lot of
 people.  The report doesn’t even speculate about the final death count, it only
 focuses on the near term.  What the Imperial College report added was the
-analysis of the potential cost of not
-mitigating.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:global-impact&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
+&lt;mark&gt;analysis of the potential cost of not
+taking measures to slow the spread of the infection&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:global-impact&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
@@ -74,25 +77,25 @@ mitigating.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:global-
 
 &lt;p&gt;The report is especially relevant now in April, as society faces a crisis of
 discipline in maintaining social distancing.  For example, the above chart
-from their report predicts a second wave after suppression strategies are
-lifted after three months.  Some quotes from the paper seem as prophetic now,
+from their report &lt;mark&gt;predicts a second wave after suppression strategies are
+lifted after three months&lt;/mark&gt;.  Some quotes from the paper seem as prophetic now,
 a month later, as one would hope from a report from a forecasting team:&lt;/p&gt;
 
 &lt;blockquote class=&quot;blockquote&quot;&gt;
-We do not consider the wider social and economic costs of suppression, which will be high and may be disproportionately so in lower income settings. Moreover, suppression strategies will need to be maintained in some manner until vaccines or effective treatments become available to avoid the risk of later epidemics. Our analysis highlights the challenging decisions faced by all governments in the coming weeks and months, but demonstrates the extent to which rapid, decisive and collective action now could save millions of lives.
+We do not consider the wider social and economic costs of suppression, which will be high and may be disproportionately so in lower income settings. Moreover, &lt;mark&gt;suppression strategies will need to be maintained in some manner until vaccines or effective treatments become available to avoid the risk of later epidemics&lt;/mark&gt;. Our analysis highlights the challenging decisions faced by all governments in the coming weeks and months, but demonstrates the extent to which &lt;mark&gt;rapid, decisive and collective action now could save millions of lives&lt;/mark&gt;.
 &lt;footer&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression. April 26, 2020 [cited 2020-04-19 11:30]; Available at: &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&lt;/a&gt;&lt;/span&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The timing amplified the impact of the report.  As Ferguson was briefing
+&lt;p&gt;&lt;mark&gt;The timing amplified the impact of the report&lt;/mark&gt;.  As Ferguson was briefing
 UK government officials, they were hearing from terrified colleagues in Italy
 who were realizing how many COVID-19 patients were going to require invasive
 ventilation in ICUs.  The report may have been the final straw that resulted
-in a “sudden focusing of minds”, according to Ferguson.  The UK government
+in a “&lt;mark&gt;sudden focusing of minds&lt;/mark&gt;”, according to Ferguson.  The UK government
 had suddenly become more receptive to imposing social distancing, and the US
 wasn’t far behind.&lt;/p&gt;
 
 &lt;p&gt;Just two days after briefing officials in Downing Street, Ferguson’s own
-symptoms started.&lt;a class=&quot;citation&quot; href=&quot;#nature:covid19-simulations&quot;&gt;[6]&lt;/a&gt;  He had contracted the same COVID-19 disease that he had
+symptoms started.&lt;a class=&quot;citation&quot; href=&quot;#nature:covid19-simulations&quot;&gt;[6]&lt;/a&gt;  He had &lt;mark&gt;contracted the same COVID-19 disease&lt;/mark&gt; that he had
 spent months modeling.&lt;/p&gt;
 
 &lt;center&gt;
@@ -111,8 +114,7 @@ At a bare minimum, researchers should document their assumptions, input
 parameters, and methods.&lt;/p&gt;
 
 &lt;p&gt;Despite promising a month ago on March 22 that he was working with Micosoft and
-GitHub to release the code for the model, Ferguson still has not posted anything
-on GitHub.&lt;/p&gt;
+GitHub to release the code for the model, &lt;mark&gt;Ferguson still has not posted anything on GitHub&lt;/mark&gt;.&lt;/p&gt;
 
 &lt;center&gt;
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Still no sign of the code for one of the most impactful simulations ever created. From morsels in older papers there are tens of input parameters, C and OpenMP with multi-hour runs. A month lost helping others understand and build on it, straight up bad science. &lt;a href=&quot;https://t.co/Hsvk9kHDtk&quot;&gt;https://t.co/Hsvk9kHDtk&lt;/a&gt;&lt;/p&gt;&amp;mdash; James Grogan (@JmsGrogan) &lt;a href=&quot;https://twitter.com/JmsGrogan/status/1251763035267620865?ref_src=twsrc%5Etfw&quot;&gt;April 19, 2020&lt;/a&gt;&lt;/blockquote&gt;
@@ -146,12 +148,16 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
         </item>
         
         <item>
-            <title>Nearly a third of people in a town near Boston have antibodies</title>
-            <description>&lt;p&gt;Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[1]&lt;/a&gt;  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.&lt;/p&gt;
+            <title>Nearly a third of people in a town near Boston tested positive for antibodies</title>
+            <description>&lt;p&gt;People stopped randomly in public for antibody tests showed a surprising infection proportion.&lt;/p&gt;
 
-&lt;p&gt;A new study in Boston showed an even higher percentage of positive antibody tests, and from a better sample.  Nearly a third of 200 blood samples taken from people in Chelsea, a town across the river from Boston, tested positive.&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:athirdinchelsea&quot;&gt;[2]&lt;/a&gt;  The researchers avoided bias toward people who wanted to be tested, by not announcing the sample collection in advance and randomly walking up to people in a town square and asking them to volunteer.  The volunteers were not offered results.&lt;/p&gt;
+&lt;!--more--&gt;
 
-&lt;p&gt;Chelsea has been hit hard by the pandemic because of two factors.&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:whychelsea&quot;&gt;[3]&lt;/a&gt;  It is one of the most dense places in Massachusetts.  And it’s also a working-class neighborhood, with residents working in essential sectors like food establishments and engaged with high levels of public interaction like healthcare and personal services.&lt;/p&gt;
+&lt;p&gt;Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[1]&lt;/a&gt;  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.&lt;/p&gt;
+
+&lt;p&gt;A new study in Boston showed an even higher percentage of positive antibody tests, and from a better sample.  &lt;mark&gt;Nearly a third of 200 blood samples taken from people in Chelsea, a town across the river from Boston, tested positive.&lt;/mark&gt;&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:athirdinchelsea&quot;&gt;[2]&lt;/a&gt;  The researchers avoided bias toward people who wanted to be tested, by not announcing the sample collection in advance and randomly walking up to people in a town square and asking them to volunteer.  The volunteers were not offered results.&lt;/p&gt;
+
+&lt;p&gt;Chelsea has been hit hard by the pandemic because of two factors.&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:whychelsea&quot;&gt;[3]&lt;/a&gt;  It is &lt;mark&gt;one of the most dense places in Massachusetts.  And it's also a working-class neighborhood, with residents working in essential sectors&lt;/mark&gt; like food establishments and engaged with high levels of public interaction like healthcare and personal services.&lt;/p&gt;
 
 &lt;p&gt;Walking up to random people in public with no warning does avoid bias toward people who wanted to be tested.  But it also had the effect of biasing the sample toward people who were walking around in public.&lt;/p&gt;
 
@@ -161,7 +167,12 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-18-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-18-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
@@ -195,7 +206,12 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami-beach/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami-beach/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
@@ -214,7 +230,12 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
@@ -225,14 +246,24 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
@@ -241,14 +272,24 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/florida/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections-as-percentage-of-population/florida/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
 &lt;center&gt;
-&lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/florida/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/florida/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
 &lt;/center&gt;
 &lt;/p&gt;
@@ -317,7 +358,12 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
   &lt;p&gt;
   
-  &lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+  &lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
   &lt;/p&gt;
 
@@ -348,7 +394,12 @@ analysis product section.&lt;/p&gt;
 
   &lt;p&gt;
   
-  &lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+  &lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
   &lt;/p&gt;
 
@@ -377,7 +428,12 @@ analysis product.  Here’s the latest, with the new site branding.&lt;/p&gt;
 
   &lt;p&gt;
   
-  &lt;figure&gt;&lt;img class=&quot;docimage&quot; src=&quot;/charts/covid19-dashboard/miami-beach/2020-04-14-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;&lt;/figure&gt;
+  &lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/covid19-dashboard/miami-beach/2020-04-14-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
 
   &lt;/p&gt;
 
