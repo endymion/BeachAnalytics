@@ -59,50 +59,6 @@
 
 
 {
-"title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/projected-percentage-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Current COVID-19 Dashboards",
 "tags": "",
 "keywords": "",
@@ -125,10 +81,54 @@
 
 
 {
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
 "tags": "",
 "keywords": "",
 "url": "/products/doubling-time-for-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/current.html",
 "summary": ""
 }
 ,
@@ -175,7 +175,7 @@
 "tags": "",
 "keywords": "",
 "url": "/herd-immunity.html",
-"summary": "Herd immunity is not acceptable as a strategy because the process of reaching herd immunity would be an unprecedented humanitarian disaster, leading to tens of millions of preventable deaths.  For all mankind, we must take every possible measure to prevent this from happening."
+"summary": "Herd immunity is not acceptable as a COVID-19 control strategy because the process of reaching herd immunity would be an unprecedented humanitarian disaster, leading to tens of millions of preventable deaths.  For all mankind, we must take every possible measure to prevent this from happening."
 }
 ,
 
@@ -215,39 +215,6 @@
 
 
 {
-"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "SARS-CoV-2 Infection Percentage Projection",
-"tags": "",
-"keywords": "",
-"url": "/products/projected-percentage-of-sarscov2-infections/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "News",
-"tags": "",
-"keywords": "news, blog, updates, release notes, announcements",
-"url": "/index.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Doubling Time in Number of Confirmed COVID-19 Cases",
 "tags": "",
 "keywords": "",
@@ -259,21 +226,10 @@
 
 
 {
-"title": "Number of Confirmed COVID-19 Cases",
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
 "tags": "",
 "keywords": "",
-"url": "/products/number-of-covid19-cases/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "COVID-19 Dashboard",
-"tags": "",
-"keywords": "",
-"url": "/products/covid19-dashboard/index.html",
+"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -292,10 +248,65 @@
 
 
 {
+"title": "SARS-CoV-2 Infection Percentage Projection",
+"tags": "",
+"keywords": "",
+"url": "/products/projected-percentage-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/index.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "SARS-CoV-2 Analysis for Miami Beach",
 "tags": "",
 "keywords": "sample homepage",
 "url": "/license.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "/css/main.css",
 "summary": ""
 }
 ,
@@ -349,32 +360,10 @@
 
 
 {
-"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/doubling-time-for-number-of-covid19-cases/older.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
 "tags": "",
 "keywords": "",
 "url": "/products/estimated-number-of-sarscov2-infections/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "COVID-19 Dashboard Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/covid19-dashboard/older.html",
 "summary": ""
 }
 ,
@@ -393,10 +382,32 @@
 
 
 {
+"title": "COVID-19 Dashboard Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/older.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "SARS-CoV-2 Infection Percentage Projection Archive",
 "tags": "",
 "keywords": "",
 "url": "/products/projected-percentage-of-sarscov2-infections/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/older.html",
 "summary": ""
 }
 ,
@@ -436,6 +447,17 @@
 
 
 
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "/css/main.css.map",
+"summary": ""
+}
+,
 
 
 

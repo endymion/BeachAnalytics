@@ -73,34 +73,42 @@ defaults:
       path: "charts"
     values:
       chart: true
+      folder: Charts
   - scope:
       path: "charts/covid19-dashboard"
     values:
       covid19dashboard: true
+      folder: Charts
   - scope:
       path: "charts/number-of-covid19-cases"
     values:
       numberofcovid19cases: true
+      folder: Charts
   - scope:
       path: "charts/percent-increase-in-number-of-covid19-cases"
     values:
       percentincreaseinnumberofcovid19cases: true
+      folder: Charts
   - scope:
       path: "charts/doubling-time-for-number-of-covid19-cases"
     values:
       doublingtimefornumberofcovid19cases: true
+      folder: Charts
   - scope:
       path: "charts/estimated-number-of-sarscov2-infections"
     values:
       estimatednumberofsarscov2infections: true
+      folder: Charts
   - scope:
       path: "charts/projected-percentage-of-sarscov2-infections"
     values:
       projectedpercentageofsarscov2infections: true
+      folder: Charts
   - scope:
       path: "charts/estimated-one-in-x-sarscov2-infection-odds"
     values:
       estimatedoneinxsarscov2infectionodds: true
+      folder: Charts
   -
     scope:
       path: ""
@@ -178,3 +186,6 @@ scholar:
 github: [metadata]
 
 feedback_disable: true
+
+sass:
+    sass_dir: css

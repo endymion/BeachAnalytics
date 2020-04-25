@@ -4,7 +4,7 @@ tagName: covid19-models
 search: include
 permalink: covid19-models.html
 sidebar: home_sidebar
-folder: topics
+folder: Topics
 toc: false
 summary: This is the first in a series of features about the COVID-19
   computer forecast models.  These features will explore the background,

@@ -6,6 +6,6 @@
 {% endcapture %}
 
 <figure class="figure inset pull-right">
-  <img class="img-responsive" src="/{{ largest.path }}" alt="{{ caption }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+  <img class="img-fluid" src="/{{ largest.path }}" alt="{{ caption }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
   <figcaption class="figure-caption text-right small">{{ caption }}</figcaption>
 </figure>

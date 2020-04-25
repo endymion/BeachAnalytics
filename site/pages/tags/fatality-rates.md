@@ -5,7 +5,7 @@ tagName: fatality-rates
 search: include
 permalink: fatality-rates.html
 sidebar: home_sidebar
-folder: topics
+folder: Topics
 toc: false
 banner_image:   images/posts/fatality-rates-16_5.png
 facebook_image: images/posts/fatality-rates-1_1.png

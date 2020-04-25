@@ -5,7 +5,7 @@ tagName: second-wave
 search: include
 permalink: second-wave.html
 sidebar: home_sidebar
-folder: topics
+folder: Topics
 toc: false
 banner_image:   images/posts/second-wave-16_5.jpg
 facebook_image: images/posts/second-wave-1_1.jpg

@@ -7,26 +7,20 @@
 <meta name="description" content="">
 <meta name="keywords" content=" ">
 <title>Doubling Time in Current Number of Confirmed COVID-19 Cases Charts | Beach Analytics - South Florida COVID-19 Analysis from Miami Beach</title>
-<link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/css/main.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
-<link rel="stylesheet" href="/css/modern-business.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/customstyles.css">
 <link rel="stylesheet" href="/css/boxshadowproperties.css">
-<!-- most color styles are extracted out to here -->
-<link rel="stylesheet" href="/css/theme-blue.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="/js/jquery.navgoco.min.js"></script>
 
+<!-- Bootstrap 4 -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
 <script src="/js/toc.js"></script>
@@ -113,187 +107,201 @@
     
 
 </head>
-<body>
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container topnavlinks">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="fa fa-sun-o fa-lg navbar-brand" href="/index.html"><span class="projectTitle"> <span class="brand_blue">Beach</span>Analytics</span></a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <!-- toggle sidebar button -->
-                <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
-                <!-- entries without drop-downs appear here -->
+<body class="d-flex flex-column">
+
+<div id="main">
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+  <div class="container">
+
+  <span class="logo">
+  <a href="/index.html">
+    <i class="fa fa-lg fa-sun-o" aria-hidden="true"></i>
+    <span class="logotype">
+    <span class="text-light">Beach</span>Analytics</span>
+  </a>
+</span>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+          <!-- toggle sidebar button -->
+          <!-- <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li> -->
+          <!-- entries without drop-downs appear here -->
 
 
 
 
-                
-                
-                  
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-                            
-                            <li><a href="/about.html">About</a></li>
-                            
-                            
-                            
-                            <li><a href="/contact.html">Contact</a></li>
-                            
-                            
-                            
-                            <li><a href="https://github.com/endymion/BeachAnalytics" target="_blank" rel="noopener">GitHub</a></li>
-                            
-                            
-                        </ul>
-                    </li>
-                  
-                
-                  
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-                            
-                            <li><a href="/covid19-models.html">COVID-19 Forecast Models</a></li>
-                            
-                            
-                            
-                            <li><a href="/how-widespread.html">How widespread is it?</a></li>
-                            
-                            
-                            
-                            <li><a href="/herd-immunity.html">Herd immunity</a></li>
-                            
-                            
-                            
-                            <li><a href="/fatality-rates.html">Fatality rates</a></li>
-                            
-                            
-                            
-                            <li><a href="/second-wave.html">The second wave</a></li>
-                            
-                            
-                        </ul>
-                    </li>
-                  
-                
-                  
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Charts<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-                            
-                            <li><a href="/charts.html">All COVID-19 Charts</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/number-of-covid19-cases">Number of COVID-19 Cases</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/percent-increase-in-number-of-covid19-cases">Percent Increase for Number of COVID-19 Cases</a></li>
-                            
-                            
-                            
-                            <li class="dropdownActive"><a href="/products/doubling-time-for-number-of-covid19-cases">Doubling Time for Number of COVID-19 Cases</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/estimated-number-of-sarscov2-infections">Estimated Number of SARS-CoV-2 Infections</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/estimated-one-in-x-sarscov2-infection-odds">Estimated One-In-X SARS-CoV2 Infection Odds</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/estimated-number-of-sarscov2-infections-as-percentage-of-population">Estimated SARS-SoV-2 Infections As Percentage of Population</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/projected-percentage-of-sarscov2-infections">SARS-CoV-2 Infection Percentage Projection</a></li>
-                            
-                            
-                            
-                            <li><a href="/products/covid19-cases-as-percentage-of-population">COVID-19 Cases As Percentage of Population</a></li>
-                            
-                            
-                        </ul>
-                    </li>
-                  
-                
-                
-                
-                <!--comment out this block if you want to hide search-->
-                <li>
-                    <!--start search-->
-                    <div id="search-demo-container">
-                        <input type="text" id="search-input" placeholder="search...">
-                        <ul id="results-container"></ul>
-                    </div>
-                    <script src="/js/jekyll-search.js" type="text/javascript"></script>
-                    <script type="text/javascript">
-                            SimpleJekyllSearch.init({
-                                searchInput: document.getElementById('search-input'),
-                                resultsContainer: document.getElementById('results-container'),
-                                dataSource: '/search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Doubling Time in Current Number of Confirmed COVID-19 Cases Charts">{title}</a></li>',
-                    noResultsText: 'No results found.',
-                            limit: 10,
-                            fuzzy: true,
-                    })
-                    </script>
-                    <!--end search-->
-                </li>
-            </ul>
-        </div>
-        </div>
-        <!-- /.container -->
+          
+          
+            
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Info<b class="caret"></b></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      
+                      
+                      <a class="dropdown-item" href="/index.html">News</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/about.html">About</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/contact.html">Contact</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="https://github.com/endymion/BeachAnalytics" target="_blank" rel="noopener">GitHub</a>
+                      
+                      
+                  </div>
+              </li>
+            
+          
+            
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Topics<b class="caret"></b></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      
+                      
+                      <a class="dropdown-item" href="/covid19-models.html">COVID-19 Forecast Models</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/how-widespread.html">How widespread is it?</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/herd-immunity.html">Herd immunity</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/fatality-rates.html">Fatality rates</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/second-wave.html">The second wave</a>
+                      
+                      
+                  </div>
+              </li>
+            
+          
+            
+              <li class="nav-item dropdown active">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Charts<b class="caret"></b></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      
+                      
+                      <a class="dropdown-item" href="/charts.html">All COVID-19 Charts</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/number-of-covid19-cases">Number of COVID-19 Cases</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/percent-increase-in-number-of-covid19-cases">Percent Increase for Number of COVID-19 Cases</a>
+                      
+                      
+                      
+                      <a class="dropdown-item active" href="/products/doubling-time-for-number-of-covid19-cases">Doubling Time for Number of COVID-19 Cases</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/estimated-number-of-sarscov2-infections">Estimated Number of SARS-CoV-2 Infections</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/estimated-one-in-x-sarscov2-infection-odds">Estimated One-In-X SARS-CoV2 Infection Odds</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/estimated-number-of-sarscov2-infections-as-percentage-of-population">Estimated SARS-SoV-2 Infections As Percentage of Population</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/projected-percentage-of-sarscov2-infections">SARS-CoV-2 Infection Percentage Projection</a>
+                      
+                      
+                      
+                      <a class="dropdown-item" href="/products/covid19-cases-as-percentage-of-population">COVID-19 Cases As Percentage of Population</a>
+                      
+                      
+                  </div>
+              </li>
+            
+          
+          
+          
+      </ul>
+
+      <!--start search-->
+      <div id="search-demo-container">
+        <form class="form-inline my-2 my-lg-0">
+          <input id="search-input" class="form-control mr-sm-2"
+            type="search" placeholder="Search" aria-label="Search">
+        <ul id="results-container"></ul>
+        </form>
+      </div>
+      <script src="/js/jekyll-search.js" type="text/javascript"></script>
+      <script type="text/javascript">
+              SimpleJekyllSearch.init({
+                  searchInput: document.getElementById('search-input'),
+                  resultsContainer: document.getElementById('results-container'),
+                  dataSource: '/search.json',
+                  searchResultTemplate: '<li><a href="{url}" title="Doubling Time in Current Number of Confirmed COVID-19 Cases Charts">{title}</a></li>',
+      noResultsText: 'No results found.',
+              limit: 10,
+              fuzzy: true,
+      })
+      </script>
+      <!--end search-->
+
+  </div>
+  </div>
+
 </nav>
 
-<!-- Page Content -->
-<div class="container">
-  <div id="main">
-    <!-- Content Row -->
-    <div class="row">
-        
 
-        
+  <div id="page-contents" class="container">
 
-        <!-- Content Column -->
-        <div class="col-md-12" id="tg-sb-content">
-            
-
-
-<div class="post-header">
-  <h1 class="post-title-main">Doubling Time in Current Number of Confirmed COVID-19 Cases Charts</h1>
-</div>
-
-
-
-
-
-
-<div class="post-content">
-
-   
+  <!-- Content Row -->
+  <div class="row">
+    
 
     
 
+    <!-- Content Column -->
+    <div class="col-md-12" id="tg-sb-content">
+      <header class="post-header">
 
-    
+  
 
-   Here are the latest confirmed cases charts that I have published for different areas that I'm tracking.
+  <div>
+  
+  </div>
+
+  
+  <div>
+    <h1 class="post-title" itemprop="name headline">Doubling Time in Current Number of Confirmed COVID-19 Cases Charts</h1>
+  </div>
+  
+
+</header>
+
+<div class="post-content" itemprop="articleBody">
+
+  
+
+  Here are the latest confirmed cases charts that I have published for different areas that I'm tracking.
 
 <a href="older.html">Older versions</a> are also available.
 
@@ -329,31 +337,46 @@
 
 </center>
 
-
-    <div class="tags">
-        
-    </div>
-
 </div>
 
-<footer>
-            <div class="row">
-                <div class="col-lg-12 footer">
-               &copy;2020 <a href="https://www.linkedin.com/in/ryanalynporter/">Ryan Alyn Porter</a> - <a href="/license.html">open source license.</a><br />
- Site last generated: Apr 23, 2020 <br />
-<a class="fa fa-sun-o fa-lg" href="index.html"><span class="projectTitle"> Beach Analytics</span></a>
-                </div>
-            </div>
+
+
+
+
+
+    </div>
+  <!-- /.row -->
+  </div>
+
+<!-- /#main -->
+</div>
+</div>
+
+<footer id="sticky-footer" class="py-3 bg-primary text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 footer">
+        <div class="float-left">
+          <span class="logo">
+  <a href="/index.html">
+    <i class="fa fa-lg fa-sun-o" aria-hidden="true"></i>
+    <span class="logotype">
+    <span class="text-light">Beach</span>Analytics</span>
+  </a>
+</span>
+
+
+          <div class="small rights">&copy;2020 <a href="https://www.linkedin.com/in/ryanalynporter/">Ryan Alyn Porter</a> - <a href="/license.html">open source license.</a><br /></div>
+        </div>
+
+        <div class="float-right">
+          <div class="small timestamps"><span>Page last updated:</span> April 21, 2020  4:24 PM<br/> Site last generated: April 24, 2020 11:01 PM</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
-
-        </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
-    </div>
 
 </body>
 

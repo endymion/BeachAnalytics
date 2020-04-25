@@ -39,9 +39,25 @@ https://www.forbes.com/sites/hershshefrin/2020/04/18/what-makes-the-covid-19-mor
 
 https://www.npr.org/sections/health-shots/2020/04/21/839456638/what-happens-if-u-s-reopens-too-fast-federal-documents-show-coronavirus-projecti?utm_term=nprnews&utm_medium=social&utm_campaign=npr&utm_source=twitter.com
 
+### Excess fatalities
+
+https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html
+
 ## Metrics
 
 https://www.nytimes.com/interactive/2020/03/27/upshot/coronavirus-new-york-comparison.html
+
+### Doubling time
+
+https://jglobalbiosecurity.com/articles/10.31646/gbio.61/
+
+### Estimating R
+
+https://epiforecasts.io/covid/methods.html#estimating-the-time-varying-reproduction-number
+
+https://rdrr.io/cran/EpiEstim/
+
+https://staff.math.su.se/hoehle/blog/2020/04/15/effectiveR0.html
 
 ## Dashboards and visualizations
 
@@ -50,6 +66,22 @@ https://www.masslive.com/coronavirus/2020/04/umass-team-looks-for-reality-in-the
 
 https://www.news-medical.net/news/20200418/COVID-19-forecast-hub-developed-for-more-accurate-disease-projections.aspx
 
+https://www.visualcapitalist.com/history-of-pandemics-deadliest/?fbclid=IwAR2lchlXyAk8s7BHnLe9ylQm-KRBM2Q9rNZCungdv2k7Tn3eZr1Lwwj6nNw
+
+### Local
+
+https://osceola-oem.maps.arcgis.com/apps/MapSeries/index.html?appid=f537b1d6b15b472397cb41c7758aa445
+
+https://www.clickorlando.com/news/local/2020/04/17/watch-live-osceola-county-officials-provide-update-on-covid-19-as-cases-approach-400/
+
+## Control strategies
+
+https://www.sciencemag.org/news/2020/04/ending-coronavirus-lockdowns-will-be-dangerous-process-trial-and-error?utm_campaign=news_daily_2020-04-14&et_rid=60658150&et_cid=3285866#
+
 ## Data sources
 
-https://github.com/CSSEGISandData/COVID-19
+https://github.com/CSSEGISandData/COVID-
+
+## Misinformation
+
+https://www.forbes.com/sites/seanlawson/2020/04/21/right-wing-responsible-for-pushing-coronavirus-disinformation-on-twitter-worldwide-new-report-says/

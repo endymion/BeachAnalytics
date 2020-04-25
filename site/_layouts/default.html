@@ -72,35 +72,40 @@
     {% endif %}
 
 </head>
-<body>
-{% include topnav.html %}
-<!-- Page Content -->
-<div class="container">
-  <div id="main">
-    <!-- Content Row -->
-    <div class="row">
-        {% assign content_col_size = "col-md-12" %}
+<body class="d-flex flex-column">
 
-        {% if false %}<!-- disable sidebar, for now at least. -->
-        {% unless page.hide_sidebar %}
-            <!-- Sidebar Column -->
-            <div class="col-md-3" id="tg-sb-sidebar">
-                {% include sidebar.html %}
-            </div>
-            {% assign content_col_size = "col-md-9" %}
-        {% endunless %}
-        {% endif %}
+<div id="main">
 
-        <!-- Content Column -->
-        <div class="{{content_col_size}}" id="tg-sb-content">
-            {{content}}
-        </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
+  {% include topnav.html %}
+
+  <div id="page-contents" class="container">
+
+  <!-- Content Row -->
+  <div class="row">
+    {% assign content_col_size = "col-md-12" %}
+
+    {% if false %}<!-- disable sidebar, for now at least. -->
+    {% unless page.hide_sidebar %}
+      <!-- Sidebar Column -->
+      <div class="col-md-3" id="tg-sb-sidebar">
+        {% include sidebar.html %}
+      </div>
+      {% assign content_col_size = "col-md-9" %}
+    {% endunless %}
+    {% endif %}
+
+    <!-- Content Column -->
+    <div class="{{content_col_size}}" id="tg-sb-content">
+      {{content}}
     </div>
+  <!-- /.row -->
+  </div>
+
+<!-- /#main -->
+</div>
+</div>
+
+{% include footer.html %}
 
 </body>
 {% if site.google_analytics %}

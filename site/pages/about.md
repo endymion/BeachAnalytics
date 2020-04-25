@@ -5,6 +5,7 @@ sidebar: home_sidebar
 permalink: about.html
 toc: false
 show_meta: false
+folder: Info
 ---
 
 <div class="logo_background" align="center">
@@ -16,7 +17,7 @@ show_meta: false
 </div>
 
 <div class="jumbotron" id="mission">
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<div class="pricing-header px-3 py-3 pt-0 pb-0 mx-auto text-center">
   <h2 class="display-4">Mission</h2>
   <p class="lead">To visualize the data, the estimates and the projections that are relevant to our daily lives in Miami Beach, as we try to make sense of the COVID-19 pandemic.</p>
 </div>

@@ -5,15 +5,15 @@ tagName: herd-immunity
 search: include
 permalink: herd-immunity.html
 sidebar: home_sidebar
-folder: topics
+folder: Topics
 toc: false
 banner_image:   images/posts/herd-immunity-16_5.png
 facebook_image: images/posts/herd-immunity-1_1.png
 twitter_image:  images/posts/herd-immunity-1_1.png
-summary: Herd immunity is not acceptable as a strategy because
-  the process of reaching herd immunity would be an unprecedented humanitarian disaster, leading to tens of millions of preventable
-  deaths.  For all mankind, we must take every possible measure to
-  prevent this from happening.
+summary: Herd immunity is not acceptable as a COVID-19 control strategy because
+  the process of reaching herd immunity would be an unprecedented humanitarian
+  disaster, leading to tens of millions of preventable deaths.  For all mankind,
+  we must take every possible measure to prevent this from happening.
 ---
 
 Herd immunity is a key concept in epidemiological modeling. This is the state at

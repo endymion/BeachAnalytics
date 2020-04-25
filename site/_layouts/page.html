@@ -2,32 +2,46 @@
 layout: default
 ---
 
-{% if page.banner_image %}
-  {% responsive_image_block %}
-  path: {{ page.banner_image }}
-  alt: {{ page.summary }}
-  {% if page.title %}
-  title: {{ page.title }}
+<header class="post-header">
+
+  {% if page.show_meta != false %}
+  <div class="small text-secondary clearfix">
+    <div class="date float-left">{{ page.last_modified_at | date: "%b %-d, %Y" }}</div>
+    <div class="float-right">{{ page.author }}</div>
+  </div>
   {% endif %}
-  {% endresponsive_image_block %}
-{% endif %}
 
-{% if page.show_title != false %}
-<div class="post-header">
-  <h1 class="post-title-main">{{ page.title }}</h1>
+  <div>
+  {% if page.banner_image %}
+    {% responsive_image_block %}
+    path: {{ page.banner_image }}
+    alt: {{ page.summary }}
+    {% if page.title %}
+    title: {{ page.title }}
+    {% endif %}
+    {% endresponsive_image_block %}
+  {% endif %}
+  </div>
+
+  {% if page.show_title != false %}
+  <div>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  </div>
+  {% endif %}
+
+</header>
+
+<div class="post-content" itemprop="articleBody">
+
+  {% if page.summary %}
+  <div id="summary"><p>{{page.summary}}</p></div>
+  {% endif %}
+
+  {{ content }}
 </div>
 
-{% if page.show_meta != false %}
-<div>{{ page.author }}</div>
-<span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
-<span class="date last-modified"> last updated {{ page.last_modified_at | date: "%b %-d, %Y" }} </span>
-<div class="pull-right">
-  {% for tag in page.tags %}
-    <a href="/{{ tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
-  {% endfor %}
-</div>
-{% endif %}
-{% endif %}
+
+
 
 {% if page.simple_map == true %}
 
@@ -50,38 +64,3 @@ layout: default
 {% include custom/{{page.map_name}}.html %}
 
 {% endif %}
-
-<div class="post-content">
-
-   {% if page.summary %}
-    <div class="summary">{{page.summary}}</div>
-   {% endif %}
-
-    {% unless page.toc == false %}
-    {% include toc.html %}
-    {% endunless %}
-
-
-    {% if site.github_editme_path %}
-
-    <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-
-    {% endif %}
-
-   {{content}}
-
-    <div class="tags">
-        {% if page.tags != null %}
-        <b>Tags: </b>
-        {% assign projectTags = site.data.tags.allowed-tags %}
-        {% for tag in page.tags %}
-        {% if projectTags contains tag %}
-        <a href="{{ tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-    </div>
-
-</div>
-
-{% include footer.html %}

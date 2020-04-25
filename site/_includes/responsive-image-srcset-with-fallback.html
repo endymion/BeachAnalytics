@@ -5,4 +5,4 @@
 {% endfor %}
 {% endcapture %}
 
-<img class="img-responsive" src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+<img class="img-fluid" src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
