@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Apr 2020 13:13:11 -0400</pubDate>
-        <lastBuildDate>Sat, 25 Apr 2020 13:13:11 -0400</lastBuildDate>
+        <pubDate>Sat, 25 Apr 2020 13:23:54 -0400</pubDate>
+        <lastBuildDate>Sat, 25 Apr 2020 13:23:54 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -315,7 +315,11 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
         
         <item>
             <title>FDEM data now available in Google Sheets</title>
-            <description>&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+            <description>&lt;p&gt;It’s easy to analyze the Florida Division of Emergency Management’s COVID-19 data now that I got it into spreadsheet form.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
 
 &lt;p&gt;The Florida Division of Emergency Management releases their twice-daily updates as PDF files.  The data in those files is not easy to analyze without extracting it into a spreadsheet or a data file.  I have been pulling numbers by hand out of the PDF files into an Excel spreadsheet for analysis.  It’s time-consuming and it delays my updates, and if I take a day off then the visualizations don’t update themselves.&lt;/p&gt;
 

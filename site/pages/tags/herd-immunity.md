@@ -39,20 +39,20 @@ unacceptable as an intentional strategy.  But you can't just let the infection
 spread unchecked and expect to see "only" 60% infected, or "only" 46 million
 deaths.
 
-One reason is that the infection fatality rate rises when health care systems
-are overrun.  The eye-opening conclusion of the Imperial College report in March
+One reason is that <mark>the infection fatality rate rises when health care systems
+are overrun</mark>.  The eye-opening conclusion of the Imperial College report in March
 was that many more people would die without mitigation and suppression
 measures.{% cite imperial-college:global-impact %}
 
 ## Overshoot
 
 Another reason is "overshoot", a key concept about the timing of the epidemic.{% cite bergstrom:overshoot %}
-When the epidemic reaches the herd immunity threshold, it doesn't immediately
-stop spreading.  It has a sort of momentum.{% cite oxford:overshoot %}  You reach herd immunity at the
+<mark>When the epidemic reaches the herd immunity threshold, it doesn't immediately
+stop spreading</mark>.  It has a sort of momentum.{% cite oxford:overshoot %}  You reach herd immunity at the
 point when each infected person infects less than one other person, but people
-are still getting infected at that point.  That point where you reach herd
+are still getting infected at that point.  That point where you reach <mark>herd
 immunity, perhaps 60%, is the _peak_ of the epidemic, not the _end_ of the
-epidemic.
+epidemic</mark>.
 
 <center>
 {% twitter https://twitter.com/ct_bergstrom/status/1252009362849009664?s=21 %}
@@ -60,8 +60,8 @@ epidemic.
 
 How many more infections does this overshoot represent?  It could be a lot. For
 the model shown in Carl T. Bergstrom's tweet, above, the overshoot represents
-nearly 30% of the population.  So, in this scenario, 90% of the people on the
-planet get infected and maybe as many as 70 million die.  Or more, depending on
+nearly 30% of the population.  So, in this scenario, <mark>90% of the people on the
+planet will get infected</mark> and maybe as many as <mark>70 million people will die</mark>.  Or more, depending on
 the effectiveness of the world's healthcare systems.
 
 ## Second-wave overshoot
@@ -73,8 +73,8 @@ population.{% cite royalsociety:multiple-outbreaks %}
 
 <blockquote class="blockquote">
 If control of the first outbreak depleted resources—such as drug stockpiles or
-‘goodwill’ among the population to follow quarantine measures—the second
-outbreak will be largely uncontrolled, producing a significant overshoot
+‘goodwill’ among the population to follow quarantine measures—<mark>the second
+outbreak will be largely uncontrolled, producing a significant overshoot</mark>
 <footer>{% reference oxford:overshoot %}</footer>
 </blockquote>
 

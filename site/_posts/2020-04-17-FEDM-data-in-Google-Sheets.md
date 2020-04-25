@@ -2,9 +2,13 @@
 date: 2020-04-17 15:00
 title:  "FDEM data now available in Google Sheets"
 published: true
-summary: "It's easy to analyze the FDEM COVID-19 data now that it's in spreadsheet form."
+excerpt_separator: <!--more-->
 tags: [meta, data-engineering]
 ---
+
+It's easy to analyze the Florida Division of Emergency Management's COVID-19 data now that I got it into spreadsheet form.
+
+<!--more-->
 
 ## Problem
 
