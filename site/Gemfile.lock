@@ -10,6 +10,8 @@ GEM
     citeproc-ruby (1.1.12)
       citeproc (~> 1.0, >= 1.0.9)
       csl (~> 1.5)
+    classifier-reborn (2.2.0)
+      fast-stemmer (~> 1.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
     csl (1.5.1)
@@ -20,6 +22,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    fast-stemmer (1.0.2)
     ffi (1.12.2)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -88,6 +91,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  classifier-reborn
   jekyll (~> 4)
   jekyll-last-modified-at (~> 1.2, >= 1.2.1)
   jekyll-responsive-image (~> 1.5, >= 1.5.5)

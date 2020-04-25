@@ -189,3 +189,5 @@ feedback_disable: true
 
 sass:
     sass_dir: css
+
+excerpt_separator: <!--more-->
