@@ -26,8 +26,8 @@ layout: default
 
     <div class="post-content" itemprop="articleBody">
 
-        {% if page.summary %}
-        <div id="summary"><p>{{page.summary}}</p></div>
+        {% if page.excerpt %}
+        <div id="summary"><p>{{page.excerpt}}</p></div>
         {% endif %}
 
         {{ content }}

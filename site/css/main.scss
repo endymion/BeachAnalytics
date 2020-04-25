@@ -108,7 +108,7 @@ body > footer {
     }
   }
 }
-footer {
+body > footer {
   color: $highlight;
   font-size: smaller;
   width: 100%;
@@ -197,6 +197,16 @@ ol.bibliography {
   border-top-right-radius: 0px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+.blockquote {
+  margin: 1em;
+
+  footer {
+    margin-top: 1ex;
+    font-size: 0.75rem;
+    color: gray;
+  }
 }
 
 #mission.jumbotron {

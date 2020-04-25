@@ -2,9 +2,13 @@
 date: 2020-04-18 19:20
 title: Nearly a third of people in a town near Boston tested positive for antibodies
 published: true
-summary: People stopped randomly in public for antibody tests showed a surprising infection proportion.
+excerpt_separator: <!--more-->
 tags: [how-widespread]
 ---
+
+People stopped randomly in public for antibody tests showed a surprising infection proportion.
+
+<!--more-->
 
 Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.{% cite abc:caantibodysurprise %}  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.
 

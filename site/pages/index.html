@@ -36,8 +36,8 @@ show_meta: false
               </div>
             </div>
             <p>
-              {% if post.summary %}
-                {{ post.summary | strip_html | strip_newlines | truncate: 160 }}
+              {% if post.excerpt %}
+                {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
               {% else %}
                 {{ post.content | truncatewords: 50 | strip_html }}
               {% endif %}

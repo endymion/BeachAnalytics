@@ -10,22 +10,23 @@ toc: false
 banner_image:   images/posts/herd-immunity-16_5.png
 facebook_image: images/posts/herd-immunity-1_1.png
 twitter_image:  images/posts/herd-immunity-1_1.png
-summary: Herd immunity is not acceptable as a COVID-19 control strategy because
-  the process of reaching herd immunity would be an unprecedented humanitarian
-  disaster, leading to tens of millions of preventable deaths.  For all mankind,
-  we must take every possible measure to prevent this from happening.
+excerpt_separator: <!--more-->
 ---
+
+The process of reaching herd immunity against COVID-19 would be an <mark>unprecedented humanitarian disaster</mark>, leading to tens of millions of preventable deaths.  This is <mark>not an acceptable control strategy</mark> for the global pandemic.  For all mankind, <mark>we must take every possible measure to prevent this from happening.</mark>
+
+<!--more-->
 
 Herd immunity is a key concept in epidemiological modeling. This is the state at
 which enough people are immune that a new outbreak cannot take off—because there
 are no vulnerable people around for an infected person to infect, even without
 mitigation such as social distancing.  Eventually, each new infected person
-infects fewer than one new people.  Experts estimate that the threshold for
+infects fewer than one new people.  <mark>Experts estimate that the threshold for
 reaching herd immunity from COVID-19 would be when about 50% to 66% of people
-have been infected.
+have been infected.</mark>
 
 Without a vaccine or sustained mitigation measures, herd immunity will be the
-default control strategy for COVID-19.  But this would be a disaster.
+default control strategy for COVID-19.  But <mark>this would be a disaster</mark>.
 
 ## Unacceptable as a control strategy
 
@@ -79,13 +80,19 @@ outbreak will be largely uncontrolled, producing a significant overshoot
 
 Does that sound familiar?  Depletion of goodwill among the population to follow quarantine measures?  The result could be many more deaths in the long term.
 
+## Implications
+
+Assuming 90% of the world's population infected during the entire
+pandemic due to [overshoot](/herd-immunity.html#overshoot), a 1% infection
+fatality rate would result in about <mark>69 million deaths worldwide</mark>.
+
+A 2% infection fatality rate would lead to around <mark>138 million deaths</mark>.
+
+A 3% rate would lead to <mark>207 million deaths worldwide</mark>.  And the true worldwide average rate could be higher.
+
 ## Conclusion
 
-Herd immunity is the default control strategy if we can't mobilize a better
-approach. But this would be unacceptable as a conscious strategy because it
-would result in tens of millions of preventable deaths worldwide.  Reaching herd
-immunity would require huge numbers of infections, and even more would be
-infected because of overshoot.
+<mark>Herd immunity is the default control strategy</mark> if we can't mobilize a better approach. But this would be unacceptable as a conscious strategy because it would result in <mark>tens of millions of preventable deaths worldwide</mark>.  Reaching herd immunity would require huge numbers of infections, and even more would be infected because of overshoot.  Preventing this unprecedented humanitarian disaster is the <mark>challenge of our generation</mark>.
 
 ## References
 
