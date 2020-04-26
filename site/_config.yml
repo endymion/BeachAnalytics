@@ -179,7 +179,7 @@ responsive_image:
   strip: true
 
 scholar:
-  style: vancouver-brackets
+  style: _bibliography/style.csl
   bibtex_filters:
     - htmllinks
 

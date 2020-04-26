@@ -11,7 +11,7 @@ module Jekyll
       URL_PATTERN = URI.regexp(['http', 'https', 'ftp'])
       def apply(value)
         value.to_s.gsub(URL_PATTERN) {
-          "<a href=\"#{$&}\">#{$&}</a>"
+          "<a href=\"#{$&}\">link</a>"
         }
       end
     end
