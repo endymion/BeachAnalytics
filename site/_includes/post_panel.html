@@ -1,24 +1,28 @@
 <div class="panel">
   {% if include.post.twitter_image %}
     <div class="image">
-      {% responsive_image_block %}
-        path: {{ include.post.twitter_image }}
-        alt: {{ include.post.summary }}
-        {% if include.post.title %}
-        title: {{ include.post.title }}
-        {% endif %}
-      {% endresponsive_image_block %}
+      <a class="post-link" href="{{ include.post.url }}">
+        {% responsive_image_block %}
+          path: {{ include.post.twitter_image }}
+          alt: {{ include.post.summary }}
+          {% if include.post.title %}
+          title: {{ include.post.title }}
+          {% endif %}
+        {% endresponsive_image_block %}
+      </a>
     </div>
   {% endif %}
   {% if include.post.banner_image %}
     <div class="banner">
-      {% responsive_image_block %}
-        path: {{ include.post.banner_image }}
-        alt: {{ include.post.summary }}
-        {% if include.post.title %}
-        title: {{ include.post.title }}
-        {% endif %}
-      {% endresponsive_image_block %}
+      <a class="post-link" href="{{ include.post.url }}">
+        {% responsive_image_block %}
+          path: {{ include.post.banner_image }}
+          alt: {{ include.post.summary }}
+          {% if include.post.title %}
+          title: {{ include.post.title }}
+          {% endif %}
+        {% endresponsive_image_block %}
+      </a>
     </div>
   {% endif %}
 
