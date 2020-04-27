@@ -1,6 +1,7 @@
 ---
 title: Fatality rates
 author: Ryan Alyn Porter
+featured: true
 tagName: fatality-rates
 search: include
 permalink: fatality-rates.html

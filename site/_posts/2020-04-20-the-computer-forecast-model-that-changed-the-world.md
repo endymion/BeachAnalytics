@@ -2,6 +2,7 @@
 date: 2020-04-20
 title: The computer forecast model that changed the world
 author: Ryan Alyn Porter
+featured: true
 published: true
 excerpt_separator: <!--more-->
 tags: [covid19-models, imperial-college-model]

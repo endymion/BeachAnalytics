@@ -1,14 +1,14 @@
 {% assign site_posts = site.posts | where_exp:"item", "item.category != 'citation'" | where: 'tags', page.tagName %}
 {% if site_posts %}
 {% for post in site_posts %}
-  {% include article_cell.html post=post %}
+  {% include post_panel.html post=post %}
 {% endfor %}
 {% endif %}
 
 {% assign site_posts = site.pages | where: 'tags', page.tagName %}
 {% if site_posts %}
 {% for post in site_posts %}
-  {% include article_cell.html post=post %}
+  {% include post_panel.html post=post %}
 {% endfor %}
 {% endif %}
 

@@ -5,22 +5,26 @@ keywords: news, blog, updates, release notes, announcements
 permalink: index.html
 toc: false
 folder: Info
+show_title: false
 show_meta: false
 ---
 
 <div class="home">
 
     <div class="post-list">
-      {% assign site_posts = site.posts | where_exp:"item", "item.category != 'citation'" %}
-      {% for post in site_posts limit:10 %}
-
-        {% include article_cell.html post=post %}
-
+      {% assign site_posts = site.posts | where:"featured","true" %}
+      {% for post in site_posts limit:3 %}
+        {% include post_panel.html post=post %}
       {% endfor %}
 
-      <p><a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS Subscribe{{tag}}</a></p>
-
-      <p>See more posts from the <a href="news_archive.html">News Archive</a>.</p>
-
+      {% assign site_pages = site.pages | sort: "last-modified-at" | where:"featured","true" %}
+      {% for page in site_pages limit:3 %}
+        {% include post_panel.html post=page %}
+      {% endfor %}
     </div>
+
+    <p><a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS Subscribe{{tag}}</a></p>
+
+    <p>See more posts from the <a href="news_archive.html">News Archive</a>.</p>
+
 </div>

@@ -1,6 +1,7 @@
 ---
 title: Herd immunity
 author: Ryan Alyn Porter
+featured: true
 tagName: herd-immunity
 search: include
 permalink: herd-immunity.html
