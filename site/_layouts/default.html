@@ -74,6 +74,12 @@
 </head>
 <body class="d-flex flex-column">
 
+{% if page.draft == true %}
+  <div id="draft-notice">
+    <p class="overlay-text text-center">DRAFT</p>
+	</div>
+{% endif %}
+
 <div id="main">
 
   {% include topnav.html %}

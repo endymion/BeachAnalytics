@@ -34,6 +34,15 @@ layout: default
     </div>
 
     <div>
+      <h2>Tags</h2>
+      <ul>
+      {% for tag in page.tags %}
+        <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div>
       <h2>Related</h2>
 
       {% for post in site.related_posts limit:3 %}
