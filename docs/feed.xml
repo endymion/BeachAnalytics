@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2020 11:23:21 -0400</pubDate>
-        <lastBuildDate>Tue, 28 Apr 2020 11:23:21 -0400</lastBuildDate>
+        <pubDate>Tue, 28 Apr 2020 11:35:34 -0400</pubDate>
+        <lastBuildDate>Tue, 28 Apr 2020 11:35:34 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -24,7 +24,7 @@
 &lt;blockquote class=&quot;blockquote&quot;&gt;
 74,073 COVID-19 deaths
 projected by August 4, 2020
-&lt;footer&gt;&lt;span id=&quot;ihme:covid19&quot;&gt;Ferguson PN, Bhatt DS. &lt;b&gt;COVID-19 Projections&lt;/b&gt;. 2020 &lt;a href=&quot;https://covid19.healthdata.org/united-states-of-america&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/footer&gt;
+&lt;footer&gt;&lt;span id=&quot;ihme:covid19&quot;&gt;Ferguson PN, Bhatt DS. &lt;b&gt;COVID-19 Projections&lt;/b&gt;. Institute for Health Metrics and Evaluation, University of Washington; April 27, 2020 (Accessed 2020-04-27 16:00) &lt;a href=&quot;https://covid19.healthdata.org/united-states-of-america&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;All the way down to seventy-three?  Really?&lt;/p&gt;
@@ -75,9 +75,9 @@ projected by August 4, 2020
 
 &lt;h2&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;bams:cone-of-uncertainty&quot;&gt;1. Broad K, Leiserowitz A, Weinkle J, et al. &lt;b&gt;Misinterpretations of the “Cone of Uncertainty” in Florida during the 2004 Hurricane Season&lt;/b&gt;. 2007 &lt;a href=&quot;https://core.ac.uk/download/pdf/80855756.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;infowars:virologists-question-lockdowns&quot;&gt;2. Knight D. &lt;b&gt;Virologists &amp;amp; Epidemiologists Question COVID Lockdowns&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.infowars.com/watch/?video=5e9f3cdf58b1e9001ff9a14a&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 21:30)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;3. &lt;b&gt;Significant figures&lt;/b&gt;. 2020 &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;bams:cone-of-uncertainty&quot;&gt;1. Broad K, Leiserowitz A, Weinkle J, et al. &lt;b&gt;Misinterpretations of the “Cone of Uncertainty” in Florida during the 2004 Hurricane Season&lt;/b&gt;. American Meterological Society; May 2007 (Accessed 2020-04-27 16:00) &lt;a href=&quot;https://core.ac.uk/download/pdf/80855756.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;infowars:virologists-question-lockdowns&quot;&gt;2. Knight D. &lt;b&gt;Virologists &amp;amp; Epidemiologists Question COVID Lockdowns&lt;/b&gt;. Infowars; April 21, 2020 (Accessed 2020-04-27 21:30) Infowars; April 21, 2020 (Accessed 2020-04-27 21:30) .&lt;a href=&quot;https://www.infowars.com/watch/?video=5e9f3cdf58b1e9001ff9a14a&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 21:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;3. &lt;b&gt;Significant figures&lt;/b&gt;. Wikipedia; April 24, 2020 (Accessed 2020-04-28 10:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
             <link>http://localhost:4000/2020/04/28/dont-focus-on-the-center-line.html</link>
@@ -108,7 +108,7 @@ projected by August 4, 2020
 
 &lt;blockquote class=&quot;blockquote&quot;&gt;
 It is critical to note that &lt;mark&gt;we restrict our projections to the first wave&lt;/mark&gt; of the pandemic under a scenario of continued implementation of social distancing mandates and &lt;mark&gt;do not yet incorporate the possibility of a resurgence&lt;/mark&gt; or subsequent waves.
-&lt;footer&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. 2020 &lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/footer&gt;
+&lt;footer&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. April 21, 2020 (Accessed 2020-04-27 16:00) &lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;In the worst case, people will misinterpret the IHME model’s reports as saying that the threat of COVID-19 is over, and that it’s okay to stop the social distancing.&lt;/p&gt;
@@ -119,12 +119,10 @@ It is critical to note that &lt;mark&gt;we restrict our projections to the first
 
 &lt;p&gt;It’s only trying to estimate the timing of the &lt;em&gt;current&lt;/em&gt; wave of the epidemic.  It assumes that we have taken measures to slow the spread of the virus.  And it estimates how long it might take to reduce the number of new infections to a level where social distancing could end.&lt;a class=&quot;citation&quot; href=&quot;#ihme:faq&quot;&gt;[2]&lt;/a&gt;  Temporarily.  Future outbreaks would require a repeat of the whole mitigation cycle.&lt;/p&gt;
 
-&lt;p&gt;Don’t focus too much on the center line of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC forecast cone images.&lt;/p&gt;
-
 &lt;h2&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;1. team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. 2020 &lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;2. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. &lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;1. team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. April 21, 2020 (Accessed 2020-04-27 16:00) &lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;2. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. Institute for Health Metrics and Evaluation; &lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
             <link>http://localhost:4000/2020/04/27/its-not-the-peak-its-this-peak.html</link>
@@ -211,7 +209,7 @@ a month later, as one would hope from a report from a forecasting team:&lt;/p&gt
 
 &lt;blockquote class=&quot;blockquote&quot;&gt;
 We do not consider the wider social and economic costs of suppression, which will be high and may be disproportionately so in lower income settings. Moreover, &lt;mark&gt;suppression strategies will need to be maintained in some manner until vaccines or effective treatments become available to avoid the risk of later epidemics&lt;/mark&gt;. Our analysis highlights the challenging decisions faced by all governments in the coming weeks and months, but demonstrates the extent to which &lt;mark&gt;rapid, decisive and collective action now could save millions of lives&lt;/mark&gt;.
-&lt;footer&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;Walker PGT, Whittaker C, Watson O, et al. &lt;b&gt;Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-19 11:30)&lt;/span&gt;&lt;/footer&gt;
+&lt;footer&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;Walker PGT, Whittaker C, Watson O, et al. &lt;b&gt;Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression&lt;/b&gt;. Imperial College London - MRC Centre for Global Infectious Disease Analysis; April 26, 2020 (Accessed 2020-04-19 11:30) &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-19 11:30) &lt;/span&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;mark&gt;The timing amplified the impact of the report&lt;/mark&gt;.  As Ferguson was briefing
@@ -257,12 +255,12 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;h2&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;lancet:warning-to-governments&quot;&gt;1. &lt;b&gt;How will country-based mitigation measures influence the course of the COVID-19 epidemic?&lt;/b&gt; 2020 &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30567-5/fulltext&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:00)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;wikipedia:2020_stock_market_crash&quot;&gt;2. &lt;b&gt;2020 stock market crash&lt;/b&gt;. 2020 &lt;a href=&quot;https://en.wikipedia.org/wiki/2020_stock_market_crash&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 12:00)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;wikipedia:coronavirus_recession&quot;&gt;3. &lt;b&gt;Coronavirus recession&lt;/b&gt;. 2020 &lt;a href=&quot;https://en.wikipedia.org/wiki/Coronavirus_recession&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 12:00)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;imperial-college:neil-ferguson&quot;&gt;4. &lt;b&gt;Professor Neil Ferguson - Faculty of Medicine, School of Public Health&lt;/b&gt;. &lt;a href=&quot;https://www.imperial.ac.uk/people/neil.ferguson&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:30)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;5. Walker PGT, Whittaker C, Watson O, et al. &lt;b&gt;Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-19 11:30)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. &lt;b&gt;Special report: The simulations driving the world’s response to COVID-19&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:30)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;lancet:warning-to-governments&quot;&gt;1. &lt;b&gt;How will country-based mitigation measures influence the course of the COVID-19 epidemic?&lt;/b&gt; The Lancet; April 20, 2020 (Accessed 2020-04-20 19:00) &lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30567-5/fulltext&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:2020_stock_market_crash&quot;&gt;2. &lt;b&gt;2020 stock market crash&lt;/b&gt;. Wikipedia; April 20, 2020 (Accessed 2020-04-20 12:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/2020_stock_market_crash&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 12:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:coronavirus_recession&quot;&gt;3. &lt;b&gt;Coronavirus recession&lt;/b&gt;. Wikipedia; April 20, 2020 (Accessed 2020-04-20 12:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/Coronavirus_recession&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 12:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-college:neil-ferguson&quot;&gt;4. &lt;b&gt;Professor Neil Ferguson - Faculty of Medicine, School of Public Health&lt;/b&gt;. Imperial College London - MRC Centre for Global Infectious Disease Analysis;  (Accessed 2020-04-20 19:30) &lt;a href=&quot;https://www.imperial.ac.uk/people/neil.ferguson&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-college:global-impact&quot;&gt;5. Walker PGT, Whittaker C, Watson O, et al. &lt;b&gt;Report 12: The Global Impact of COVID-19 and Strategies for Mitigation and Suppression&lt;/b&gt;. Imperial College London - MRC Centre for Global Infectious Disease Analysis; April 26, 2020 (Accessed 2020-04-19 11:30) &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/mrc-gida/2020-03-26-COVID19-Report-12.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-19 11:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. &lt;b&gt;Special report: The simulations driving the world’s response to COVID-19&lt;/b&gt;. Nature; April 2, 2020 (Accessed 2020-04-20 19:30) &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:30) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 20 Apr 2020 00:00:00 -0400</pubDate>
             <link>http://localhost:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
@@ -307,9 +305,9 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;h2&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;1. Ng C, Abdelmalek DM. &lt;b&gt;Antibody research indicates coronavirus may be far more widespread than known&lt;/b&gt;. 2020 &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 17:20)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;bostonglobe:athirdinchelsea&quot;&gt;2. Saltzman J. &lt;b&gt;Nearly a third of 200 blood samples taken in Chelsea show exposure to coronavirus&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.bostonglobe.com/2020/04/17/business/nearly-third-200-blood-samples-taken-chelsea-show-exposure-coronavirus/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-18 19:20)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. &lt;b&gt;Why the city of Chelsea has been so hard hit by coronavirus&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-18 19:45)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;1. Ng C, Abdelmalek DM. &lt;b&gt;Antibody research indicates coronavirus may be far more widespread than known&lt;/b&gt;. ABC News; April 17, 2020 (Accessed 2020-04-17 17:20) &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 17:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;bostonglobe:athirdinchelsea&quot;&gt;2. Saltzman J. &lt;b&gt;Nearly a third of 200 blood samples taken in Chelsea show exposure to coronavirus&lt;/b&gt;. The Boston Globe; April 17, 2020 (Accessed 2020-04-18 19:20) &lt;a href=&quot;https://www.bostonglobe.com/2020/04/17/business/nearly-third-200-blood-samples-taken-chelsea-show-exposure-coronavirus/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-18 19:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. &lt;b&gt;Why the city of Chelsea has been so hard hit by coronavirus&lt;/b&gt;. The Boston Globe; April 10, 2020 (Accessed 2020-04-18 19:45) &lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-18 19:45) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
             <link>http://localhost:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
@@ -430,9 +428,9 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 &lt;h2&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cmmid&quot;&gt;1. Russell TW, Hellewell J, Abbott S, et al. &lt;b&gt;Using a delay-adjusted case fatality ratio to estimate under-reporting&lt;/b&gt;. 2020 &lt;a href=&quot;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 19:30)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;2. Ng C, Abdelmalek DM. &lt;b&gt;Antibody research indicates coronavirus may be far more widespread than known&lt;/b&gt;. 2020 &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 17:20)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;abc:herdimmunityrange&quot;&gt;3. Bruggeman L. &lt;b&gt;As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high&lt;/b&gt;. 2020 &lt;a href=&quot;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 20:20)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cmmid&quot;&gt;1. Russell TW, Hellewell J, Abbott S, et al. &lt;b&gt;Using a delay-adjusted case fatality ratio to estimate under-reporting&lt;/b&gt;. Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020 (Accessed 2020-04-17 19:30) &lt;a href=&quot;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 19:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;2. Ng C, Abdelmalek DM. &lt;b&gt;Antibody research indicates coronavirus may be far more widespread than known&lt;/b&gt;. ABC News; April 17, 2020 (Accessed 2020-04-17 17:20) &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 17:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;abc:herdimmunityrange&quot;&gt;3. Bruggeman L. &lt;b&gt;As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high&lt;/b&gt;. ABC News; April 9, 2020 (Accessed 2020-04-17 20:20) &lt;a href=&quot;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 20:20) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 18:00:00 -0400</pubDate>
             <link>http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>

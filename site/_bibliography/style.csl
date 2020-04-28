@@ -37,7 +37,9 @@
     <text variable="publisher" suffix="; "/>
     <group>
       <date variable="issued">
-        <date-part name="year"/>
+        <date-part name="month" suffix=" " />
+        <date-part name="day" suffix=", " />
+        <date-part name="year" />
       </date>
       <text macro="accessed-date" prefix=" "/>
     </group>
@@ -50,7 +52,7 @@
   <macro name="accessed-date">
     <choose>
       <if variable="URL">
-        <group prefix="(" suffix=")" delimiter=" ">
+        <group prefix="(" suffix=") " delimiter=" ">
           <text term="accessed" text-case="capitalize-first"/>
           <date variable="accessed" prefix=" ">
             <date-part name="month"/>
@@ -118,8 +120,9 @@
       <text variable="citation-number" suffix=". "/>
       <text macro="author"/>
       <text macro="title" suffix=". " font-weight="bold" />
+      <text macro="publisher" prefix=" "/>
       <choose>
-        <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
+        <if type="article webpage video bill book graphic legal_case legislation motion_picture report song thesis" match="any">
           <text macro="edition" prefix=" " suffix=" "/>
           <group suffix=".">
             <text macro="publisher" prefix=" "/>
@@ -137,11 +140,11 @@
         </else-if>
         <else>
           <text macro="journal-title"/>
-          <group suffix=" ">
+          <!-- <group suffix=" ">
             <date variable="issued">
               <date-part name="year"/>
             </date>
-          </group>
+          </group> -->
           <group suffix=". ">
             <text variable="volume"/>
             <text variable="issue" prefix="(" suffix=")"/>
