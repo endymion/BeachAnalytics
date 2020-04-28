@@ -2144,6 +2144,8 @@ ul#results-container a:hover { color: black; }
 /* end search */
 #page-contents .jekyll-twitter-plugin { margin: 2em 0 2em 0; }
 
+#page-contents figure img { z-index: -1; }
+
 #page-contents figure.inset img.img-responsive { margin: 0; }
 
 #page-contents figure { background: white; width: 75%; margin: 2em 0 2em 0; }

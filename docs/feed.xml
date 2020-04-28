@@ -5,9 +5,64 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2020 11:45:07 -0400</pubDate>
-        <lastBuildDate>Tue, 28 Apr 2020 11:45:07 -0400</lastBuildDate>
+        <pubDate>Tue, 28 Apr 2020 17:48:09 -0400</pubDate>
+        <lastBuildDate>Tue, 28 Apr 2020 17:48:09 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
+        
+        <item>
+            <title>Visualizing the cost of COVID-19 in the US</title>
+            <description>&lt;p&gt;It’s hard to visualize the cost that COVID-19 has already had.  The designers of the Vietnam Veterans Memorial designed it partly as a tool for visualizing the same number of people.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The scale of it is sobering.  That’s what the designers intended.  “Fifty-eight thousand” is an abstraction, but the 58,320 names inscribed on the Vietnam Veterans Memorial in Washington DC are an overwhelming message about the cost of the war in Vietnam.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/vietnam-memorial-3-16_9-1600x896.jpg&quot; alt=&quot;Vietnam Veterans Memorial, credit: Ron Cogswell&quot; srcset=&quot;    /assets/resized/vietnam-memorial-3-16_9-480x269.jpg 480w,    /assets/resized/vietnam-memorial-3-16_9-768x430.jpg 768w,    /assets/resized/vietnam-memorial-3-16_9-992x556.jpg 992w,    /assets/resized/vietnam-memorial-3-16_9-1200x672.jpg 1200w,    /assets/resized/vietnam-memorial-3-16_9-1600x896.jpg 1600w, /images/posts/vietnam-memorial-3-16_9.jpg 6000w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Vietnam Veterans Memorial, credit: Ron Cogswell&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;a-memorial-as-a-visualization-tool&quot;&gt;A memorial as a visualization tool&lt;/h2&gt;
+
+&lt;p&gt;The memorial is so large that it’s difficult to photograph the entire thing.  That’s part of the message.  A mountain of names, where every one was a human life.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/vietnam-memorial-2-16_5-1600x1067.jpg&quot; alt=&quot;Vietnam Veterans Memorial, credit: Bernt Rostad&quot; srcset=&quot;    /assets/resized/vietnam-memorial-2-16_5-480x320.jpg 480w,    /assets/resized/vietnam-memorial-2-16_5-768x512.jpg 768w,    /assets/resized/vietnam-memorial-2-16_5-992x661.jpg 992w,    /assets/resized/vietnam-memorial-2-16_5-1200x800.jpg 1200w,    /assets/resized/vietnam-memorial-2-16_5-1600x1067.jpg 1600w, /images/posts/vietnam-memorial-2-16_5.jpg 3888w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Vietnam Veterans Memorial, credit: Bernt Rostad&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;COVID-19 has claimed as many American lives.  Now we’re trying to figure out how to count them, as we debate whether or not to count deaths from people who were believed to have had the coronavirus, like more than five thousand in New York.  As the official death count gallops past fifty thousand, we can be certain that the number of American deaths has already exceeded the body count of the entire ten-year war in Vietnam.  In only a few months.&lt;/p&gt;
+
+&lt;h2 id=&quot;vietnams-covid-19-response&quot;&gt;Vietnam’s COVID-19 response&lt;/h2&gt;
+
+&lt;p&gt;That brings us to today’s Vietnam, during the COVID-19 pandemic.&lt;/p&gt;
+
+&lt;p&gt;The impact of COVID-19 in Vietnam is a striking counterexample from the US.  Vietnam has not recorded a single death from COVID-19, since their first recorded case on January 24.&lt;a class=&quot;citation&quot; href=&quot;#thenation:vietnam&quot;&gt;[1]&lt;/a&gt;  At the start of the crisis, Vietnam promptly started a system of testing, tracing, and isolating cases.  When the number of cases began to increase, they also closed their borders.  The country’s military, entire public sector, and media industry all worked together to coordinate an early two-week precautionary social-distancing campaign.  Vietnam began to lift restrictions on April 23.&lt;a class=&quot;citation&quot; href=&quot;#latimes:vietnam-lifting-restrictions&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/vietnam-cases-480x191.jpg&quot; alt=&quot;2020 coronavirus pandemic in Vietnam, credit: Wikipedia&quot; srcset=&quot;    /assets/resized/vietnam-cases-480x191.jpg 480w, /images/posts/vietnam-cases.jpg 745w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;2020 coronavirus pandemic in Vietnam, credit: Wikipedia&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;The pandemic is not over for them yet, but they have bought themselves precious time and used it well, and at least until now they have limited the impact.  Vietnam’s response to COVID-19 has perhaps been the most successful of any country in the world, so far.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;thenation:vietnam&quot;&gt;1. &lt;b&gt;Vietnam May Have the Most Effective Response to Covid-19&lt;/b&gt;. The Nation; April 24, 2020 (Accessed 2020-04-28 17:00) &lt;a href=&quot;https://www.thenation.com/article/world/coronavirus-vietnam-quarantine-mobilization/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 17:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;latimes:vietnam-lifting-restrictions&quot;&gt;2. &lt;b&gt;Without a single COVID-19 death, Vietnam starts easing its coronavirus lockdown&lt;/b&gt;. The LA Times; 0AD (Accessed 2020-04-28 17:00) &lt;a href=&quot;https://www.latimes.com/world-nation/story/2020-04-23/vietnam-eases-coronavirus-lockdown&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 17:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
+            
+            
+        </item>
         
         <item>
             <title>Don't focus on the center line</title>
