@@ -4,7 +4,7 @@
       <a class="post-link" href="{{ include.post.url }}">
         {% responsive_image_block %}
           path: {{ include.post.twitter_image }}
-          alt: {{ include.post.summary }}
+          alt: {{ include.post.excerpt }}
           {% if include.post.title %}
           title: {{ include.post.title }}
           {% endif %}
@@ -17,7 +17,7 @@
       <a class="post-link" href="{{ include.post.url }}">
         {% responsive_image_block %}
           path: {{ include.post.banner_image }}
-          alt: {{ include.post.summary }}
+          alt: {{ include.post.excerpt }}
           {% if include.post.title %}
           title: {{ include.post.title }}
           {% endif %}

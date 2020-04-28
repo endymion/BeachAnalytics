@@ -1,9 +1,8 @@
 ---
 date: 2020-04-27
-title: It's not "The Peak", it's "This Peak"
+title: It's not The Peak, it's This Peak
 author: Ryan Alyn Porter
 featured: true
-draft: true
 published: true
 excerpt_separator: <!--more-->
 tags: [covid19-models, ihme-model]
@@ -13,11 +12,11 @@ twitter_image:  images/posts/ihme-chart-1_1.jpg
 image_copyright: http://www.healthdata.org/about/terms-and-conditions
 ---
 
-Many people are misinterpreting the COVID-19 [forecast model](/ihme-model.html) from the University of Washington’s Institute for Health Metrics and Evaluation.  
+The widely-cited IHME model does _not_ forecast that the COVID-19 epidemic will peak
 
 <!--more-->
 
-The IHME model's [easily-misinterpreted](/ihme-model.html#easily-misinterpreted) reports have been variously criticized for having estimates that are both too pessimistic{% cite science-matters:the-virus-wars %}, and also too optimistic{% cite politico:trump-overly-optimistic-model %}  The easy misinterpretation of the reports and the methods of the researchers has led to them being <mark>cited to back all kinds of misinformation</mark>.  For example, the IHME researchers are constantly adjusting the parameters of the model to improve the accuracy.  Some people have interpreted the model's constant evolution as accurate as evidence that the forecasts are unreliable.{% cite statnews:model-uses-flawed-methods %}  Perhaps the most extreme end is the conspiracy theory that IHME forecasts that have been higher than reality reveal that the threat of COVID-19 has been overblown to justify lockdowns that are cover for imposing a totalitarian surveillance state.{% cite infowars:virologists-question-lockdowns %}
+Many people are misinterpreting the COVID-19 [forecast model](/ihme-model.html) from the University of Washington’s Institute for Health Metrics and Evaluation.
 
 ## One key misunderstanding
 
