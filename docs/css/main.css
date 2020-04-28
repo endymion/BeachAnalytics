@@ -2070,7 +2070,9 @@ html, body { height: 100%; }
 
 .panel { display: flex; margin-bottom: 2em; }
 
-.panel .image { display: block; flex: 1; }
+.panel .image { display: block; flex: 1; z-index: -1; }
+
+.panel .image img { border: 1px solid #999999; }
 
 .panel .banner { display: none; }
 
@@ -2084,7 +2086,13 @@ h1 { margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
 
 h2 { margin: 1.5ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
 
-h3 { margin: 1ex 0 0 0; font-family: 'Oswald', sans-serif; font-weight: 500; }
+h3 { font-size: 1.375rem; margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; font-weight: 500; }
+
+.post-header { position: relative; z-index: -1; }
+
+.post-header img { border: 1px solid #999999; }
+
+.post-content { position: relative; z-index: 1; }
 
 .headline { margin-bottom: 0; }
 
@@ -2152,7 +2160,7 @@ ol.bibliography li { list-style-type: none; }
 
 .container .sub-image-jumbotron { padding: 1em; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
 
-.blockquote { margin: 1em; }
+.blockquote { margin: 1em; font-style: italic; }
 
 .blockquote footer { margin-top: 1ex; font-size: 0.75rem; color: gray; }
 
@@ -2166,5 +2174,9 @@ p.external a { text-align: right; font-size: 12px; color: #0088cc; display: inli
 
 /* this part adds an icon after external links, using FontAwesome*/
 a[href^="http://"]:after, a[href^="https://"]:after { content: "\f08e"; font-family: FontAwesome; font-weight: normal; font-style: normal; display: inline-block; text-decoration: none; padding-left: 3px; }
+
+#draft-notice { position: absolute; z-index: 0; display: block; top: 18em; width: 100%; }
+
+.overlay-text { color: lightgrey; opacity: 50%; font-size: 25.5vw; font-weight: 700; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); }
 
 /*# sourceMappingURL=main.css.map */

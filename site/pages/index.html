@@ -17,7 +17,7 @@ show_meta: false
         {% include post_panel.html post=post %}
       {% endfor %}
 
-      {% assign site_pages = site.pages | sort: "last-modified-at" | where:"featured","true" %}
+      {% assign site_pages = site.pages | where:"featured","true" | sort: "last-modified-at" | reverse %}
       {% for page in site_pages limit:3 %}
         {% include post_panel.html post=page %}
       {% endfor %}

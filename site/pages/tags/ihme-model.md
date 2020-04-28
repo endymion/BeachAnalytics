@@ -14,6 +14,7 @@ twitter_image:  images/posts/ihme-1_1.jpg
 summary: One of the most widely influential COVID-19 forecasting models
   has also been one of the most misinterpreted.
 draft: true
+featured: true
 ---
 
 Criticized at times both for being too optimistic and too pessimistic, the COVID-19 forecasting model from the University of Washington’s Institute for Health Metrics and Evaluation has been one of the most widely discussed forecast models of the pandemic.  <mark>President Trump recently used the IHME model</mark> as the basis of his prediction that there would only be about 60,000 deaths in the US.{% cite politico:trump-overly-optimistic-model %}  The model's accessible [dashboard](https://covid19.healthdata.org/united-states-of-america) renders projections in charts that are easy to understand.{% cite ihme:covid19 %}

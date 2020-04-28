@@ -5,9 +5,76 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 Apr 2020 21:20:44 -0400</pubDate>
-        <lastBuildDate>Sun, 26 Apr 2020 21:20:44 -0400</lastBuildDate>
+        <pubDate>Mon, 27 Apr 2020 22:51:50 -0400</pubDate>
+        <lastBuildDate>Mon, 27 Apr 2020 22:51:50 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
+        
+        <item>
+            <title>It's not &quot;The Peak&quot;, it's &quot;This Peak&quot;</title>
+            <description>&lt;p&gt;Many people are misinterpreting the COVID-19 &lt;a href=&quot;/ihme-model.html&quot;&gt;forecast model&lt;/a&gt; from the University of Washington’s Institute for Health Metrics and Evaluation.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The IHME model’s &lt;a href=&quot;/ihme-model.html#easily-misinterpreted&quot;&gt;easily-misinterpreted&lt;/a&gt; reports have been variously criticized for having estimates that are both too pessimistic&lt;a class=&quot;citation&quot; href=&quot;#science-matters:the-virus-wars&quot;&gt;[1]&lt;/a&gt;, and also too optimistic&lt;a class=&quot;citation&quot; href=&quot;#politico:trump-overly-optimistic-model&quot;&gt;[2]&lt;/a&gt;  The easy misinterpretation of the reports and the methods of the researchers has led to them being &lt;mark&gt;cited to back all kinds of misinformation&lt;/mark&gt;.  For example, the IHME researchers are constantly adjusting the parameters of the model to improve the accuracy.  Some people have interpreted the model’s constant evolution as accurate as evidence that the forecasts are unreliable.&lt;a class=&quot;citation&quot; href=&quot;#statnews:model-uses-flawed-methods&quot;&gt;[3]&lt;/a&gt;  Perhaps the most extreme end is the conspiracy theory that IHME forecasts that have been higher than reality reveal that the threat of COVID-19 has been overblown to justify lockdowns that are cover for imposing a totalitarian surveillance state.&lt;a class=&quot;citation&quot; href=&quot;#infowars:virologists-question-lockdowns&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;one-key-misunderstanding&quot;&gt;One key misunderstanding&lt;/h2&gt;
+
+&lt;p&gt;There is a widespread misunderstanding at the heart of almost all of the misinformation related to the IHME model: &lt;mark&gt;Many people think that the IHME model is predicting 'when the epidemic will peak' and then subside before it's all over&lt;/mark&gt;.  But that’s not what the model is about.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-peak&quot;&gt;&lt;em&gt;THIS&lt;/em&gt; peak&lt;/h2&gt;
+
+&lt;p&gt;The IHME model is not projecting that the epidemic will peak and subside and then it will all be over.  It’s &lt;mark&gt;projecting when the _first wave_ will peak&lt;/mark&gt;, assuming that social distancing stays in place.&lt;a class=&quot;citation&quot; href=&quot;#ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;[5]&lt;/a&gt;  It’s a planning tool for health planners and governments to project how long before social distancing could be relaxed after &lt;em&gt;one wave&lt;/em&gt; of the epidemic.  It’s not a crystal ball that’s predicting what will happen with the overall pandemic.&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+It is critical to note that &lt;mark&gt;we restrict our projections to the first wave&lt;/mark&gt; of the pandemic under a scenario of continued implementation of social distancing mandates and &lt;mark&gt;do not yet incorporate the possibility of a resurgence&lt;/mark&gt; or subsequent waves.
+&lt;footer&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. 2020 &lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;dont-watch-the-center-line&quot;&gt;Don’t watch the center line&lt;/h2&gt;
+
+&lt;p&gt;At least two different things confuse people about the charts in the IHME reports.  One is the incorrect idea that the charts predict a single wave.  Another thing that confuses people is the center line on the projections.&lt;/p&gt;
+
+&lt;p&gt;During hurricane season, meteorologists at the National Hurricane Center are so concerned that people will pay too much attention to the center line of the hurricane track forecast cone images&lt;a class=&quot;citation&quot; href=&quot;#bams:cone-of-uncertainty&quot;&gt;[6]&lt;/a&gt; that they have &lt;mark&gt;removed the center line&lt;/mark&gt; from the default forecast images.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/nhc-hurricane-cone-768x630.png&quot; alt=&quot;A hurricane forecast image from the National Hurricane Center.&quot; srcset=&quot;    /assets/resized/nhc-hurricane-cone-480x394.png 480w,    /assets/resized/nhc-hurricane-cone-768x630.png 768w, /images/posts/nhc-hurricane-cone.png 960w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;A hurricane forecast image from the National Hurricane Center.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;The easy-to-understand center line in the IHME charts comes with the exact same problem: People are treating the model like a crystal ball and focusing on the center line.  And then they’re &lt;mark&gt;disillusioned and they reject the whole model&lt;/mark&gt; then the real death count doesn’t track the center line exactly, or when researchers update the parameters of the model and the forecast line changes.  This stems from a tragic misunderstanding of what the model is trying to forecast and now it works.&lt;/p&gt;
+
+&lt;p&gt;In the worst case, people will misinterpret the IHME model’s reports as saying that the threat of COVID-19 is over, and that it’s okay to stop the social distancing.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The IHME model is not forecasting when the COVID-19 epidemic will be over.  It isn’t forecasting that there will only be one peak.&lt;/p&gt;
+
+&lt;p&gt;It’s only trying to estimate the timing of the &lt;em&gt;current&lt;/em&gt; wave of the epidemic.  It assumes that we have taken measures to slow the spread of the virus.  And it estimates how long it might take to reduce the number of new infections to a level where social distancing could end.&lt;a class=&quot;citation&quot; href=&quot;#ihme:faq&quot;&gt;[7]&lt;/a&gt;  Temporarily.  Future outbreaks would require a repeat of the whole mitigation cycle.&lt;/p&gt;
+
+&lt;p&gt;Don’t focus too much on the center line of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC forecast cone images.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;science-matters:the-virus-wars&quot;&gt;1. Clutz R. &lt;b&gt;The Virus Wars&lt;/b&gt;. 2020 &lt;a href=&quot;https://rclutz.wordpress.com/2020/04/19/the-virus-wars/comment-page-1/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 21:00)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;politico:trump-overly-optimistic-model&quot;&gt;2. Cancryn A. &lt;b&gt;How overly optimistic modeling distorted Trump team’s coronavirus response&lt;/b&gt;. &lt;a href=&quot;https://www.politico.com/news/2020/04/24/trump-coronavirus-model-207582&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;statnews:model-uses-flawed-methods&quot;&gt;3. Begley S. &lt;b&gt;Influential Covid-19 model uses flawed methods and shouldn’t guide U.S. policies, critics say&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.statnews.com/2020/04/17/influential-covid-19-model-uses-flawed-methods-shouldnt-guide-policies-critics-say/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 22:30)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;infowars:virologists-question-lockdowns&quot;&gt;4. Knight D. &lt;b&gt;Virologists &amp;amp; Epidemiologists Question COVID Lockdowns&lt;/b&gt;. 2020 &lt;a href=&quot;https://www.infowars.com/watch/?video=5e9f3cdf58b1e9001ff9a14a&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 21:30)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;5. team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. 2020 &lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;bams:cone-of-uncertainty&quot;&gt;6. Broad K, Leiserowitz A, Weinkle J, et al. &lt;b&gt;Misinterpretations of the “Cone of Uncertainty” in Florida during the 2004 Hurricane Season&lt;/b&gt;. 2007 &lt;a href=&quot;https://core.ac.uk/download/pdf/80855756.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;7. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. &lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
+            <link>http://localhost:4000/2020/04/27/its-not-the-peak-its-this-peak.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
+            
+            <category>covid19-models</category>
+            
+            <category>ihme-model</category>
+            
+            
+        </item>
         
         <item>
             <title>The computer forecast model that changed the world</title>

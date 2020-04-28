@@ -59,6 +59,50 @@
 
 
 {
+"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Current COVID-19 Dashboards",
 "tags": "",
 "keywords": "",
@@ -81,54 +125,10 @@
 
 
 {
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
 "tags": "",
 "keywords": "",
 "url": "/products/projected-percentage-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/doubling-time-for-number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/products/number-of-covid19-cases/current.html",
 "summary": ""
 }
 ,
@@ -193,44 +193,22 @@
 
 
 {
+"title": "IHME COVID-19 Forecasting Model",
+"tags": "",
+"keywords": "",
+"url": "/ihme-model.html",
+"summary": "One of the most widely influential COVID-19 forecasting models has also been one of the most misinterpreted."
+}
+,
+
+
+
+{
 "title": "Imperial College of London COVID-19 Forecasting Model",
 "tags": "",
 "keywords": "",
 "url": "/imperial-college-model.html",
 "summary": "Arguably the most influential computer forecasting model in history, this model is the one that led the UK and US governments to begin mitigation measures."
-}
-,
-
-
-
-{
-"title": "Estimated One-In-X SARS-CoV2 Infection Odds",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-one-in-x-sarscov2-infection-odds/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Doubling Time in Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/products/doubling-time-for-number-of-covid19-cases/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
-"summary": ""
 }
 ,
 
@@ -259,10 +237,21 @@
 
 
 {
-"title": "COVID-19 Dashboard",
+"title": "Estimated One-In-X SARS-CoV2 Infection Odds",
 "tags": "",
 "keywords": "",
-"url": "/products/covid19-dashboard/index.html",
+"url": "/products/estimated-one-in-x-sarscov2-infection-odds/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/products/doubling-time-for-number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -274,6 +263,28 @@
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
 "url": "/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/products/percent-increase-in-number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -338,54 +349,10 @@
 
 
 {
-"title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/percent-increase-in-number-of-covid19-cases/older.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
 "tags": "",
 "keywords": "",
 "url": "/products/estimated-number-of-sarscov2-infections/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/estimated-number-of-sarscov2-infections/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Number of Confirmed COVID-19 Cases Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/number-of-covid19-cases/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "COVID-19 Dashboard Archive",
-"tags": "",
-"keywords": "",
-"url": "/products/covid19-dashboard/older.html",
 "summary": ""
 }
 ,
@@ -408,6 +375,50 @@
 "tags": "",
 "keywords": "",
 "url": "/products/doubling-time-for-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/percent-increase-in-number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/covid19-dashboard/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Number of Confirmed COVID-19 Cases Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/number-of-covid19-cases/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
+"tags": "",
+"keywords": "",
+"url": "/products/estimated-number-of-sarscov2-infections/older.html",
 "summary": ""
 }
 ,
@@ -461,6 +472,16 @@
 
 
 
+
+
+{
+"title": "It&#39;s not &quot;The Peak&quot;, it&#39;s &quot;This Peak&quot;",
+"tags": "covid19-modelsihme-model",
+"keywords": "",
+"url": "/2020/04/27/its-not-the-peak-its-this-peak.html",
+"summary": ""
+}
+,
 
 
 {
