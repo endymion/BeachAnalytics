@@ -22,16 +22,20 @@ Many people are misinterpreting the COVID-19 [forecast model](/ihme-model.html) 
 
 There is a widespread misunderstanding at the heart of almost all of the misinformation related to the IHME model: <mark>Many people think that the IHME model is predicting 'when the epidemic will peak' and then subside before it's all over</mark>.  But that's not what the model is about.
 
+The forecast charts from the model seem easy to understand: They show one big hump.  So that means that the models predicts that the infection will be one wave and then over, right?  No, it just means that forecasting future waves of COVID-19 outbreaks is beyond the scope of the model.
+
 ## _THIS_ peak
 
 The IHME model is not projecting that the epidemic will peak and subside and then it will all be over.  It's <mark>projecting when the <i>first wave</i> will peak</mark>, assuming that social distancing stays in place.{% cite ihme:forecasting-the-impact-of-the-first-wave %}  It's a planning tool for health planners and governments to project how long before social distancing could be relaxed after _one wave_ of the epidemic.  It's not a crystal ball that's predicting what will happen with the overall pandemic.
+
+Projecting that first wave is incredibly difficult because exponential growth curves can lead to wildly different outcomes from tiny tweaks in the input parameters.  Trying to model future outbreaks would be even more difficult and unreliable at this point, and so the IHME researchers are not even trying to do that:
 
 <blockquote class="blockquote">
 It is critical to note that <mark>we restrict our projections to the first wave</mark> of the pandemic under a scenario of continued implementation of social distancing mandates and <mark>do not yet incorporate the possibility of a resurgence</mark> or subsequent waves.
 <footer>{% reference ihme:forecasting-the-impact-of-the-first-wave %}</footer>
 </blockquote>
 
-In the worst case, people will misinterpret the IHME model's reports as saying that the threat of COVID-19 is over, and that it's okay to stop the social distancing.
+The problem is that the widely-cited dashboard for the model's forecasts is not clear about this crucial background information about the model.  Giving people an easily-accessible dashboard that they can easily misunderstand could potentially backfire.  In the worst case, <mark>people will misinterpret the IHME model's reports</mark> as saying that the threat of COVID-19 is over, and that it's okay to stop the social distancing.
 
 ## Conclusions
 
