@@ -3,7 +3,6 @@ date: 2020-04-28
 title: Visualizing the cost of COVID-19 in the US
 author: Ryan Alyn Porter
 featured: true
-draft: true
 published: true
 excerpt_separator: <!--more-->
 banner_image:   images/posts/vietnam-memorial-16_5.jpg
