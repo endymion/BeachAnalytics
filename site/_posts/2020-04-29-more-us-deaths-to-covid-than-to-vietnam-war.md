@@ -17,7 +17,7 @@ It's hard to visualize the cost that COVID-19 has already had.  The designers of
 
 <!--more-->
 
-The scale of it is sobering.  That's what the designers intended.  "Fifty-eight thousand" is an abstraction, but the 58,320 names inscribed on the Vietnam Veterans Memorial in Washington DC are an overwhelming message about the cost of the war in Vietnam.
+The scale of it is sobering.  That's what the designers intended.  "Fifty-eight thousand" is an abstraction, but the <mark>58,320 names</mark> inscribed on the Vietnam Veterans Memorial in Washington DC are an <mark>overwhelming message</mark> about the cost of the war in Vietnam.
 
 {% responsive_image path: images/posts/vietnam-memorial-3-16_9.jpg
   template: _includes/responsive-image-article-figure.html
@@ -31,19 +31,19 @@ The memorial is so large that it's difficult to photograph the entire thing.  Th
   template: _includes/responsive-image-article-figure.html
   caption: "Vietnam Veterans Memorial, credit: Bernt Rostad" %}
 
-COVID-19 has claimed as many American lives.  Now we're trying to figure out how to count them, as we debate whether or not to count deaths from people who were believed to have had the coronavirus, like more than five thousand in New York.  As the official death count gallops past fifty thousand, we can be certain that the number of American deaths has already exceeded the body count of the entire ten-year war in Vietnam.  In only a few months.  
+<mark>COVID-19 has claimed as many American lives</mark>.  Now we're trying to figure out how to count them, as we debate whether or not to count deaths from people who were believed to have had the coronavirus, like more than five thousand in New York.  As the official death count gallops past fifty thousand, we can be certain that the number of American deaths has <mark>already exceeded</mark> the body count of the entire ten-year war in Vietnam.  In only a few months.  
 
 ## Vietnam's COVID-19 response
 
 That brings us to today's Vietnam, during the COVID-19 pandemic.
 
-The impact of COVID-19 in Vietnam is a striking counterexample from the US.  Vietnam has not recorded a single death from COVID-19, since their first recorded case on January 24.{% cite thenation:vietnam %}  At the start of the crisis, Vietnam promptly started a system of testing, tracing, and isolating cases.  When the number of cases began to increase, they also closed their borders.  The country's military, entire public sector, and media industry all worked together to coordinate an early two-week precautionary social-distancing campaign.  Vietnam began to lift restrictions on April 23.{% cite latimes:vietnam-lifting-restrictions %}
+The impact of COVID-19 in Vietnam is a striking counterexample from the US.  Vietnam has <mark>not recorded a single death</mark> from COVID-19, since their first recorded case on January 24.{% cite thenation:vietnam %}  At the start of the crisis, Vietnam promptly started a system of testing, tracing, and isolating cases.  When the number of cases began to increase, they also closed their borders.  The country's military, entire public sector, and media industry all worked together to coordinate an early two-week precautionary social-distancing campaign.  Vietnam began to lift restrictions on April 23.{% cite latimes:vietnam-lifting-restrictions %}
 
 {% responsive_image path: images/posts/vietnam-cases.jpg
   template: _includes/responsive-image-article-figure.html
   caption: "2020 coronavirus pandemic in Vietnam, credit: Wikipedia" %}
 
-The pandemic is not over for them yet, but they have bought themselves precious time and used it well, and at least until now they have limited the impact.  Vietnam's response to COVID-19 has perhaps been the most successful of any country in the world, so far.
+The pandemic is not over for them yet, but they have bought themselves precious time and used it well, and at least until now they have limited the impact.  Vietnam's response to COVID-19 has perhaps been the <mark>most successful of any country in the world</mark>, so far.
 
 <h2>References</h2>
 

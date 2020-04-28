@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 28 Apr 2020 17:48:43 -0400</pubDate>
-        <lastBuildDate>Tue, 28 Apr 2020 17:48:43 -0400</lastBuildDate>
+        <pubDate>Tue, 28 Apr 2020 17:56:05 -0400</pubDate>
+        <lastBuildDate>Tue, 28 Apr 2020 17:56:05 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -15,7 +15,7 @@
 
 &lt;!--more--&gt;
 
-&lt;p&gt;The scale of it is sobering.  That’s what the designers intended.  “Fifty-eight thousand” is an abstraction, but the 58,320 names inscribed on the Vietnam Veterans Memorial in Washington DC are an overwhelming message about the cost of the war in Vietnam.&lt;/p&gt;
+&lt;p&gt;The scale of it is sobering.  That’s what the designers intended.  “Fifty-eight thousand” is an abstraction, but the &lt;mark&gt;58,320 names&lt;/mark&gt; inscribed on the Vietnam Veterans Memorial in Washington DC are an &lt;mark&gt;overwhelming message&lt;/mark&gt; about the cost of the war in Vietnam.&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
@@ -35,13 +35,13 @@
 &lt;/figure&gt;
 &lt;/center&gt;
 
-&lt;p&gt;COVID-19 has claimed as many American lives.  Now we’re trying to figure out how to count them, as we debate whether or not to count deaths from people who were believed to have had the coronavirus, like more than five thousand in New York.  As the official death count gallops past fifty thousand, we can be certain that the number of American deaths has already exceeded the body count of the entire ten-year war in Vietnam.  In only a few months.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;COVID-19 has claimed as many American lives&lt;/mark&gt;.  Now we’re trying to figure out how to count them, as we debate whether or not to count deaths from people who were believed to have had the coronavirus, like more than five thousand in New York.  As the official death count gallops past fifty thousand, we can be certain that the number of American deaths has &lt;mark&gt;already exceeded&lt;/mark&gt; the body count of the entire ten-year war in Vietnam.  In only a few months.&lt;/p&gt;
 
 &lt;h2 id=&quot;vietnams-covid-19-response&quot;&gt;Vietnam’s COVID-19 response&lt;/h2&gt;
 
 &lt;p&gt;That brings us to today’s Vietnam, during the COVID-19 pandemic.&lt;/p&gt;
 
-&lt;p&gt;The impact of COVID-19 in Vietnam is a striking counterexample from the US.  Vietnam has not recorded a single death from COVID-19, since their first recorded case on January 24.&lt;a class=&quot;citation&quot; href=&quot;#thenation:vietnam&quot;&gt;[1]&lt;/a&gt;  At the start of the crisis, Vietnam promptly started a system of testing, tracing, and isolating cases.  When the number of cases began to increase, they also closed their borders.  The country’s military, entire public sector, and media industry all worked together to coordinate an early two-week precautionary social-distancing campaign.  Vietnam began to lift restrictions on April 23.&lt;a class=&quot;citation&quot; href=&quot;#latimes:vietnam-lifting-restrictions&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The impact of COVID-19 in Vietnam is a striking counterexample from the US.  Vietnam has &lt;mark&gt;not recorded a single death&lt;/mark&gt; from COVID-19, since their first recorded case on January 24.&lt;a class=&quot;citation&quot; href=&quot;#thenation:vietnam&quot;&gt;[1]&lt;/a&gt;  At the start of the crisis, Vietnam promptly started a system of testing, tracing, and isolating cases.  When the number of cases began to increase, they also closed their borders.  The country’s military, entire public sector, and media industry all worked together to coordinate an early two-week precautionary social-distancing campaign.  Vietnam began to lift restrictions on April 23.&lt;a class=&quot;citation&quot; href=&quot;#latimes:vietnam-lifting-restrictions&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
@@ -50,7 +50,7 @@
 &lt;/figure&gt;
 &lt;/center&gt;
 
-&lt;p&gt;The pandemic is not over for them yet, but they have bought themselves precious time and used it well, and at least until now they have limited the impact.  Vietnam’s response to COVID-19 has perhaps been the most successful of any country in the world, so far.&lt;/p&gt;
+&lt;p&gt;The pandemic is not over for them yet, but they have bought themselves precious time and used it well, and at least until now they have limited the impact.  Vietnam’s response to COVID-19 has perhaps been the &lt;mark&gt;most successful of any country in the world&lt;/mark&gt;, so far.&lt;/p&gt;
 
 &lt;h2&gt;References&lt;/h2&gt;
 
