@@ -5,13 +5,13 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2020 10:00:37 -0400</pubDate>
-        <lastBuildDate>Wed, 29 Apr 2020 10:00:37 -0400</lastBuildDate>
+        <pubDate>Wed, 29 Apr 2020 10:06:39 -0400</pubDate>
+        <lastBuildDate>Wed, 29 Apr 2020 10:06:39 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
             <title>Don't focus on the center line</title>
-            <description>&lt;p&gt;Don’t treat the center line of the IHME forecast charts as a precise prediction, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.&lt;/p&gt;
+            <description>&lt;p&gt;Don’t treat the center line of the IHME forecast charts as a precise prediction, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.  The forecast is a wide range, not a specific number.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -41,14 +41,14 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/nhc-hurricane-cone-768x630.png&quot; alt=&quot;A hurricane forecast image from the National Hurricane Center.&quot; srcset=&quot;    /assets/resized/nhc-hurricane-cone-480x394.png 480w,    /assets/resized/nhc-hurricane-cone-768x630.png 768w, /images/posts/nhc-hurricane-cone.png 960w&quot; /&gt;
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;A hurricane forecast image from the National Hurricane Center.&lt;/figcaption&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/nhc-hurricane-cone-768x630.png&quot; alt=&quot;A hurricane forecast image from the National Hurricane Center with no center-line forecast track.&quot; srcset=&quot;    /assets/resized/nhc-hurricane-cone-480x394.png 480w,    /assets/resized/nhc-hurricane-cone-768x630.png 768w, /images/posts/nhc-hurricane-cone.png 960w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;A hurricane forecast image from the National Hurricane Center with no center-line forecast track.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
 
 &lt;h2 id=&quot;same-problem-with-covid-19-projections&quot;&gt;Same problem with COVID-19 projections&lt;/h2&gt;
 
-&lt;p&gt;The easy-to-understand center line in the IHME charts comes with the &lt;mark&gt;exact same problem&lt;/mark&gt;.  Many people, including even President Trump, have misinterpreted the center line of the IHME projections.  Trump’s famously-optimistic projection that only 60,000 people would die in the entire COVID-19 epidemic in the US was an obvious misinterpretation of both the center line of the IHME charts and the overall intent of the model: to project the impact of the &lt;a href=&quot;/2020-04-27-its-not-the-peak-its-this-peak.html&quot;&gt;&lt;i&gt;first wave&lt;/i&gt;&lt;/a&gt; of the epidemic.&lt;a class=&quot;citation&quot; href=&quot;#wapo:misunderstanding-the-math&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The easy-to-understand center line in the IHME charts comes with the &lt;mark&gt;exact same problem&lt;/mark&gt;.  Many people, including even President Trump, have misinterpreted the center line of the IHME projections.  Trump’s famously-optimistic projection that only 60,000 people would die in the entire COVID-19 epidemic in the US was an obvious misinterpretation of both the center line of the IHME charts and the overall intent of the model: to project the impact of the &lt;a href=&quot;/2020/04/27/its-not-the-peak-its-this-peak.html&quot;&gt;&lt;i&gt;first wave&lt;/i&gt;&lt;/a&gt; of the epidemic.&lt;a class=&quot;citation&quot; href=&quot;#wapo:misunderstanding-the-math&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
@@ -79,9 +79,9 @@ projected by August 4, 2020
 
 &lt;p&gt;It’s especially dangerous when journalists misunderstand the IHME results and report on them, because they &lt;mark&gt;inadvertently spread risky misinformation&lt;/mark&gt;.  In one recent example, CNN reported that “Last week, the model projected 67,641 deaths from Covid-19.”&lt;/p&gt;
 
-&lt;p&gt;This is an example of &lt;mark&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/False_precision&quot;&gt;false precision&lt;/a&gt;&lt;/mark&gt;, when numerical data is presented in a manner that implies better precision than is justified.(missing reference)  Stating the forecast in terms of &lt;mark&gt;a precise center line confuses readers&lt;/mark&gt;.  Such an exact projection is obviously ridiculous, and many of the people spreading misinformation like to &lt;mark&gt;ridicule the overly-precise IHME forecasts&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#infowars:virologists-question-lockdowns&quot;&gt;[3]&lt;/a&gt;  When the real numbers don’t track the forecast precisely, people then misinterpret or misrepresent the error as evidence that the entire model is invalid.&lt;/p&gt;
+&lt;p&gt;This is an example of &lt;mark&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/False_precision&quot;&gt;false precision&lt;/a&gt;&lt;/mark&gt;, when numerical data is presented in a manner that implies better precision than is justified.&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:false_precision&quot;&gt;[3]&lt;/a&gt;  Stating the forecast in terms of &lt;mark&gt;a precise center line confuses readers&lt;/mark&gt;.  Such an exact projection is obviously ridiculous, and many of the people spreading misinformation like to &lt;mark&gt;ridicule the overly-precise IHME forecasts&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#infowars:virologists-question-lockdowns&quot;&gt;[4]&lt;/a&gt;  When the real numbers don’t track the forecast precisely, people then misinterpret or misrepresent the error as evidence that the entire model is invalid.&lt;/p&gt;
 
-&lt;p&gt;We can’t blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast &lt;em&gt;range&lt;/em&gt;, but they also give a handy total.  Currently “74,073 COVID-19 deaths”.  The number of &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;significant figures&lt;/a&gt; in the dashboard’s own totals are &lt;mark&gt;inappropriately overstating the precision of the forecast&lt;/mark&gt;,&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:significant_figures&quot;&gt;[4]&lt;/a&gt; and are &lt;mark&gt;misleading to the public&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;We can’t blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast &lt;em&gt;range&lt;/em&gt;, but they also give a handy total.  Currently “74,073 COVID-19 deaths”.  The number of &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;significant figures&lt;/a&gt; in the dashboard’s own totals are &lt;mark&gt;inappropriately overstating the precision of the forecast&lt;/mark&gt;,&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:significant_figures&quot;&gt;[5]&lt;/a&gt; and are &lt;mark&gt;misleading to the public&lt;/mark&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;Journalists should cite the full range of the forecast&lt;/mark&gt; and the caveat that the model is only forecasting one wave.  For example: “The IHME model currently forecasts the total death rate in the US from the first wave of the COVID-19 outbreak will fall in the range from about 22 thousand people to about 122 thousand people.”  &lt;mark&gt;Journalists should not overstate the precision of the forecast by reporting the center line&lt;/mark&gt; of the projections or by using too many significant figures.  And the &lt;mark&gt;models themselves should avoid portraying false precision&lt;/mark&gt;, by stating broad ranges instead of the center-line forecast.&lt;/p&gt;
 
@@ -99,8 +99,9 @@ projected by August 4, 2020
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;bams:cone-of-uncertainty&quot;&gt;1. Broad K, Leiserowitz A, Weinkle J, et al. &lt;b&gt;Misinterpretations of the “Cone of Uncertainty” in Florida during the 2004 Hurricane Season&lt;/b&gt;. American Meterological Society; May 2007 (Accessed 2020-04-27 16:00) &lt;a href=&quot;https://core.ac.uk/download/pdf/80855756.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;wapo:misunderstanding-the-math&quot;&gt;2. Bump P. &lt;b&gt;Misunderstanding the math, Trump embraced a coronavirus death toll we’ll soon surpass&lt;/b&gt;. April 24, 2020 (Accessed 2020-04-28 9:30) &lt;a href=&quot;https://www.msn.com/en-us/news/politics/misunderstanding-the-math-trump-embraced-a-coronavirus-death-toll-we-ll-soon-surpass/ar-BB136wFd??ocid=twmsn&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 9:30) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;infowars:virologists-question-lockdowns&quot;&gt;3. Knight D. &lt;b&gt;Virologists &amp;amp; Epidemiologists Question COVID Lockdowns&lt;/b&gt;. Infowars; April 21, 2020 (Accessed 2020-04-27 21:30) Infowars; April 21, 2020 (Accessed 2020-04-27 21:30) .&lt;a href=&quot;https://www.infowars.com/watch/?video=5e9f3cdf58b1e9001ff9a14a&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 21:30) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;4. &lt;b&gt;Significant figures&lt;/b&gt;. Wikipedia; April 24, 2020 (Accessed 2020-04-28 10:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:false_precision&quot;&gt;3. &lt;b&gt;False precision&lt;/b&gt;. Wikipedia; April 17, 2020 (Accessed 2020-04-28 10:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/False_precision&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;infowars:virologists-question-lockdowns&quot;&gt;4. Knight D. &lt;b&gt;Virologists &amp;amp; Epidemiologists Question COVID Lockdowns&lt;/b&gt;. Infowars; April 21, 2020 (Accessed 2020-04-27 21:30) Infowars; April 21, 2020 (Accessed 2020-04-27 21:30) .&lt;a href=&quot;https://www.infowars.com/watch/?video=5e9f3cdf58b1e9001ff9a14a&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 21:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;5. &lt;b&gt;Significant figures&lt;/b&gt;. Wikipedia; April 24, 2020 (Accessed 2020-04-28 10:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
             <link>http://localhost:4000/2020/04/29/dont-focus-on-the-center-line.html</link>
