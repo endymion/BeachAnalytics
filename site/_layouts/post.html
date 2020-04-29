@@ -33,14 +33,17 @@ layout: default
         {{ page.content | split: site.excerpt_separator | last }}
     </div>
 
+    {% assign tags = page.tags %}
+    {% if tags > 0 %}
     <div>
       <h2>Tags</h2>
       <ul>
-      {% for tag in page.tags %}
+      {% for tag in tags %}
         <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
       {% endfor %}
       </ul>
     </div>
+    {% endif %}
 
     <div>
       <h2>Related</h2>
