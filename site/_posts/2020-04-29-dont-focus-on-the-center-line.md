@@ -11,7 +11,7 @@ facebook_image: images/posts/NHC-Katrina-center-line-16_9.jpg
 twitter_image:  images/posts/NHC-Katrina-center-line-1_1.jpg
 ---
 
-Don't focus too much on the center line of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.  
+Don't treat the center line of the IHME forecast charts as a precise prediction, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.  The forecast is a wide range, not a specific number.
 
 <!--more-->
 
