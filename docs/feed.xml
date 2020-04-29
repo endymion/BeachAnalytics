@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2020 11:55:35 -0400</pubDate>
-        <lastBuildDate>Wed, 29 Apr 2020 11:55:35 -0400</lastBuildDate>
+        <pubDate>Wed, 29 Apr 2020 12:05:12 -0400</pubDate>
+        <lastBuildDate>Wed, 29 Apr 2020 12:05:12 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -41,8 +41,8 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/nhc-hurricane-cone-768x630.png&quot; alt=&quot;A hurricane forecast image from the National Hurricane Center with no center-line forecast track.&quot; srcset=&quot;    /assets/resized/nhc-hurricane-cone-480x394.png 480w,    /assets/resized/nhc-hurricane-cone-768x630.png 768w, /images/posts/nhc-hurricane-cone.png 960w&quot; /&gt;
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;A hurricane forecast image from the National Hurricane Center with no center-line forecast track.&lt;/figcaption&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/nhc-hurricane-cone-768x630.png&quot; alt=&quot;The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track.&quot; srcset=&quot;    /assets/resized/nhc-hurricane-cone-480x394.png 480w,    /assets/resized/nhc-hurricane-cone-768x630.png 768w, /images/posts/nhc-hurricane-cone.png 960w&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
 
@@ -59,7 +59,7 @@
 
 &lt;p&gt;Unfortunately the center line on the charts leads people to treat the model like a crystal ball that will give them a specific answer.  And then when the real death count doesn’t track the center line exactly, they’re &lt;mark&gt;disillusioned and they reject the whole model&lt;/mark&gt;.  Or when researchers update the parameters of the model and the forecast line changes.  This stems from a tragic misunderstanding of what the model is trying to forecast and now it works.&lt;/p&gt;
 
-&lt;p&gt;In the worst case, people will misinterpret the IHME model’s reports as saying that the threat of COVID-19 is over, and that it’s okay to stop the social distancing.&lt;/p&gt;
+&lt;p&gt;In the worst case, people will misinterpret the IHME model’s reports as saying that the threat of COVID-19 is over and that it’s okay to stop the social distancing.&lt;/p&gt;
 
 &lt;h2 id=&quot;not-a-crystal-ball&quot;&gt;Not a crystal ball&lt;/h2&gt;
 
@@ -79,11 +79,11 @@ projected by August 4, 2020
 
 &lt;p&gt;It’s especially dangerous when journalists misunderstand the IHME results and report on them, because they &lt;mark&gt;inadvertently spread risky misinformation&lt;/mark&gt;.  In one recent example, CNN reported that “Last week, the model projected 67,641 deaths from Covid-19.”&lt;/p&gt;
 
-&lt;p&gt;This is an example of &lt;mark&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/False_precision&quot;&gt;false precision&lt;/a&gt;&lt;/mark&gt;, when numerical data is presented in a manner that implies better precision than is justified.&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:false_precision&quot;&gt;[3]&lt;/a&gt;  Stating the forecast in terms of &lt;mark&gt;a precise center line confuses readers&lt;/mark&gt;.  Such an exact projection is obviously ridiculous, and many of the people spreading misinformation like to &lt;mark&gt;ridicule the overly-precise IHME forecasts&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#infowars:virologists-question-lockdowns&quot;&gt;[4]&lt;/a&gt;  When the real numbers don’t track the forecast precisely, people then misinterpret or misrepresent the error as evidence that the entire model is invalid.&lt;/p&gt;
+&lt;p&gt;This is an example of &lt;mark&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/False_precision&quot;&gt;false precision&lt;/a&gt;&lt;/mark&gt;, when numerical data is presented in a manner that implies better precision than is justified.&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:false_precision&quot;&gt;[3]&lt;/a&gt;  Stating the forecast in terms of &lt;mark&gt;a precise center line confuses readers&lt;/mark&gt;.  Such an exact projection is obviously ridiculous, and people who spread misinformation have used that to &lt;mark&gt;ridicule the overly-precise IHME forecasts&lt;/mark&gt; and advance a narrative that the experts have been completely wrong about the virus.&lt;a class=&quot;citation&quot; href=&quot;#infowars:virologists-question-lockdowns&quot;&gt;[4]&lt;/a&gt;  When the real numbers don’t track the forecast precisely, people then misinterpret or misrepresent the error as evidence that the entire model is invalid.&lt;/p&gt;
 
-&lt;p&gt;We can’t blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast &lt;em&gt;range&lt;/em&gt;, but they also give a handy total.  Currently “74,073 COVID-19 deaths”.  The number of &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;significant figures&lt;/a&gt; in the dashboard’s own totals are &lt;mark&gt;inappropriately overstating the precision of the forecast&lt;/mark&gt;,&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:significant_figures&quot;&gt;[5]&lt;/a&gt; and are &lt;mark&gt;misleading to the public&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;We can’t blame CNN too much in this case, because the false precision comes directly from the IHME dashboard.  The charts on the dashboard clearly show a forecast &lt;em&gt;range&lt;/em&gt;, but they also give a handy total.  Currently “74,073 COVID-19 deaths”.  The number of &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;significant figures&lt;/a&gt; in the dashboard’s own totals are &lt;mark&gt;inappropriately overstating the precision of the forecast&lt;/mark&gt;,&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:significant_figures&quot;&gt;[5]&lt;/a&gt; and are &lt;mark&gt;misleading to the public&lt;/mark&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;mark&gt;Journalists should cite the full range of the forecast&lt;/mark&gt; and the caveat that the model is only forecasting one wave.  For example: “The IHME model currently forecasts the total death rate in the US from the first wave of the COVID-19 outbreak will fall in the range from about 22 thousand people to about 122 thousand people.”  &lt;mark&gt;Journalists should not overstate the precision of the forecast by reporting the center line&lt;/mark&gt; of the projections or by using too many significant figures.  And the &lt;mark&gt;models themselves should avoid portraying false precision&lt;/mark&gt;, by stating broad ranges instead of the center-line forecast.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Journalists should cite the full range of the forecast&lt;/mark&gt; and the caveat that the model is only forecasting one wave.  For example: “The IHME model currently forecasts the total death rate in the US from the first wave of the COVID-19 outbreak will fall in the range from about 22 thousand people to about 122 thousand people.”  &lt;mark&gt;Journalists should not overstate the precision of the forecast by reporting the center line&lt;/mark&gt; of the projections or by using too many significant figures.  And the &lt;mark&gt;models themselves should avoid portraying false precision&lt;/mark&gt; by stating broad ranges instead of the center-line forecast.&lt;/p&gt;
 
 &lt;h2 id=&quot;another-big-misconception&quot;&gt;Another big misconception&lt;/h2&gt;
 
@@ -91,7 +91,7 @@ projected by August 4, 2020
 
 &lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
 
-&lt;p&gt;The IHME’s COVID-19 forecasting model dashboard overstates the precision of the model’s projections.  This does a &lt;mark&gt;disservice to planners and to the public&lt;/mark&gt; by encouraging them to look at the model as a crystal ball with a precise answer, when it really is forecasting a &lt;mark&gt;wide range of possible outcomes&lt;/mark&gt;.  The report designers on the modeling teams and journalists could both &lt;mark&gt;serve the public better&lt;/mark&gt; by stating the forecast results more carefully.&lt;/p&gt;
+&lt;p&gt;The IHME’s COVID-19 forecasting model dashboard overstates the precision of the model’s projections.  This does a &lt;mark&gt;disservice to planners and to the public&lt;/mark&gt; by encouraging them to look at the model as a crystal ball with a precise answer, when it really is forecasting a &lt;mark&gt;wide range of possible outcomes&lt;/mark&gt;.  The report designers on the modeling teams and journalists could both &lt;mark&gt;serve the public better&lt;/mark&gt; by stating the forecast results more carefully as a range rather than as a specific number.&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;Don't focus too much on the center line&lt;/mark&gt; of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.&lt;/p&gt;
 

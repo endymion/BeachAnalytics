@@ -35,7 +35,7 @@ Meteorologists at the National Hurricane Center are so concerned that people wil
 
 {% responsive_image path: images/posts/nhc-hurricane-cone.png
   template: _includes/responsive-image-article-figure.html
-  caption: "A hurricane forecast image from the National Hurricane Center with no center-line forecast track." %}
+  caption: "The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track." %}
 
 ## Same problem with COVID-19 projections
 
@@ -47,7 +47,7 @@ The easy-to-understand center line in the IHME charts comes with the <mark>exact
 
 Unfortunately the center line on the charts leads people to treat the model like a crystal ball that will give them a specific answer.  And then when the real death count doesn't track the center line exactly, they're <mark>disillusioned and they reject the whole model</mark>.  Or when researchers update the parameters of the model and the forecast line changes.  This stems from a tragic misunderstanding of what the model is trying to forecast and now it works.
 
-In the worst case, people will misinterpret the IHME model's reports as saying that the threat of COVID-19 is over, and that it's okay to stop the social distancing.
+In the worst case, people will misinterpret the IHME model's reports as saying that the threat of COVID-19 is over and that it's okay to stop the social distancing.
 
 ## Not a crystal ball
 
@@ -67,11 +67,11 @@ No.  The actual forecast, as of this writing, is a <mark>wide range</mark>.  Fro
 
 It's especially dangerous when journalists misunderstand the IHME results and report on them, because they <mark>inadvertently spread risky misinformation</mark>.  In one recent example, CNN reported that "Last week, the model projected 67,641 deaths from Covid-19."
 
-This is an example of <mark><a href="https://en.wikipedia.org/wiki/False_precision">false precision</a></mark>, when numerical data is presented in a manner that implies better precision than is justified.{% cite wikipedia:false_precision %}  Stating the forecast in terms of <mark>a precise center line confuses readers</mark>.  Such an exact projection is obviously ridiculous, and many of the people spreading misinformation like to <mark>ridicule the overly-precise IHME forecasts</mark>.{% cite infowars:virologists-question-lockdowns %}  When the real numbers don't track the forecast precisely, people then misinterpret or misrepresent the error as evidence that the entire model is invalid.
+This is an example of <mark><a href="https://en.wikipedia.org/wiki/False_precision">false precision</a></mark>, when numerical data is presented in a manner that implies better precision than is justified.{% cite wikipedia:false_precision %}  Stating the forecast in terms of <mark>a precise center line confuses readers</mark>.  Such an exact projection is obviously ridiculous, and people who spread misinformation have used that to <mark>ridicule the overly-precise IHME forecasts</mark> and advance a narrative that the experts have been completely wrong about the virus.{% cite infowars:virologists-question-lockdowns %}  When the real numbers don't track the forecast precisely, people then misinterpret or misrepresent the error as evidence that the entire model is invalid.
 
-We can't blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast _range_, but they also give a handy total.  Currently "74,073 COVID-19 deaths".  The number of [significant figures](https://en.wikipedia.org/wiki/Significant_figures) in the dashboard's own totals are <mark>inappropriately overstating the precision of the forecast</mark>,{% cite wikipedia:significant_figures %} and are <mark>misleading to the public</mark>.
+We can't blame CNN too much in this case, because the false precision comes directly from the IHME dashboard.  The charts on the dashboard clearly show a forecast _range_, but they also give a handy total.  Currently "74,073 COVID-19 deaths".  The number of [significant figures](https://en.wikipedia.org/wiki/Significant_figures) in the dashboard's own totals are <mark>inappropriately overstating the precision of the forecast</mark>,{% cite wikipedia:significant_figures %} and are <mark>misleading to the public</mark>.
 
-<mark>Journalists should cite the full range of the forecast</mark> and the caveat that the model is only forecasting one wave.  For example: "The IHME model currently forecasts the total death rate in the US from the first wave of the COVID-19 outbreak will fall in the range from about 22 thousand people to about 122 thousand people."  <mark>Journalists should not overstate the precision of the forecast by reporting the center line</mark> of the projections or by using too many significant figures.  And the <mark>models themselves should avoid portraying false precision</mark>, by stating broad ranges instead of the center-line forecast.
+<mark>Journalists should cite the full range of the forecast</mark> and the caveat that the model is only forecasting one wave.  For example: "The IHME model currently forecasts the total death rate in the US from the first wave of the COVID-19 outbreak will fall in the range from about 22 thousand people to about 122 thousand people."  <mark>Journalists should not overstate the precision of the forecast by reporting the center line</mark> of the projections or by using too many significant figures.  And the <mark>models themselves should avoid portraying false precision</mark> by stating broad ranges instead of the center-line forecast.
 
 ## Another big misconception
 
@@ -79,7 +79,7 @@ Another popular misconception about the IHME forecasts is the idea that the mode
 
 ## Conclusions
 
-The IHME's COVID-19 forecasting model dashboard overstates the precision of the model's projections.  This does a <mark>disservice to planners and to the public</mark> by encouraging them to look at the model as a crystal ball with a precise answer, when it really is forecasting a <mark>wide range of possible outcomes</mark>.  The report designers on the modeling teams and journalists could both <mark>serve the public better</mark> by stating the forecast results more carefully.
+The IHME's COVID-19 forecasting model dashboard overstates the precision of the model's projections.  This does a <mark>disservice to planners and to the public</mark> by encouraging them to look at the model as a crystal ball with a precise answer, when it really is forecasting a <mark>wide range of possible outcomes</mark>.  The report designers on the modeling teams and journalists could both <mark>serve the public better</mark> by stating the forecast results more carefully as a range rather than as a specific number.
 
 <mark>Don't focus too much on the center line</mark> of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.
 
