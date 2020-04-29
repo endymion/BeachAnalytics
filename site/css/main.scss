@@ -40,8 +40,6 @@ body {
   .image {
     display: block;
     flex: 1;
-    // Put the image behind the "DRAFT" notice, when there is one.
-    z-index: -1;
     img {
       border: 1px solid $neutral;
     }
@@ -226,11 +224,6 @@ ul#results-container a:hover {
 
 #page-contents .jekyll-twitter-plugin {
   margin: 2em 0 2em 0;
-}
-
-// Put the image behind the "DRAFT" notice, when there is one.
-#page-contents figure img {
-  z-index: -1;
 }
 
 #page-contents figure.inset img.img-responsive {

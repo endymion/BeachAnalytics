@@ -34,7 +34,7 @@ layout: default
     </div>
 
     {% assign tags = page.tags %}
-    {% if tags > 0 %}
+    {% if tags != empty %}
     <div>
       <h2>Tags</h2>
       <ul>
@@ -49,7 +49,9 @@ layout: default
       <h2>Related</h2>
 
       {% for post in site.related_posts limit:3 %}
+        {% if post.title != page.title %}
         {% include post_panel.html post=post %}
+        {% endif %}
       {% endfor %}
 
     </div>

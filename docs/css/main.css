@@ -2070,7 +2070,7 @@ html, body { height: 100%; }
 
 .panel { display: flex; margin-bottom: 2em; }
 
-.panel .image { display: block; flex: 1; z-index: -1; }
+.panel .image { display: block; flex: 1; }
 
 .panel .image img { border: 1px solid #999999; }
 
@@ -2143,8 +2143,6 @@ ul#results-container a:hover { color: black; }
 
 /* end search */
 #page-contents .jekyll-twitter-plugin { margin: 2em 0 2em 0; }
-
-#page-contents figure img { z-index: -1; }
 
 #page-contents figure.inset img.img-responsive { margin: 0; }
 
