@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2020 10:06:39 -0400</pubDate>
-        <lastBuildDate>Wed, 29 Apr 2020 10:06:39 -0400</lastBuildDate>
+        <pubDate>Wed, 29 Apr 2020 10:07:15 -0400</pubDate>
+        <lastBuildDate>Wed, 29 Apr 2020 10:07:15 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -93,7 +93,7 @@ projected by August 4, 2020
 
 &lt;p&gt;The IHME’s COVID-19 forecasting model dashboard overstates the precision of the model’s projections.  This does a &lt;mark&gt;disservice to planners and to the public&lt;/mark&gt; by encouraging them to look at the model as a crystal ball with a precise answer, when it really is forecasting a &lt;mark&gt;wide range of possible outcomes&lt;/mark&gt;.  The report designers on the modeling teams and journalists could both &lt;mark&gt;serve the public better&lt;/mark&gt; by stating the forecast results more carefully.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;markDon’t focus too much on the center line&amp;lt;/mark&amp;gt; of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Don't focus too much on the center line&lt;/mark&gt; of the IHME forecast charts, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.&lt;/p&gt;
 
 &lt;h2&gt;References&lt;/h2&gt;
 
