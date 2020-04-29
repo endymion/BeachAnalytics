@@ -15,11 +15,11 @@ Don't treat the center line of the IHME forecast charts as a precise prediction,
 
 <!--more-->
 
-Many people are misinterpreting the COVID-19 [forecast model](/ihme-model.html) from the University of Washington’s Institute for Health Metrics and Evaluation.  In Florida, we already have some experience with one of the ways that people are misinterpreting the forecasts, from our <mark>experience interpreting hurricane forecasts</mark>.
+Many people are misinterpreting the COVID-19 [forecast model](/ihme-model.html) from the University of Washington’s Institute for Health Metrics and Evaluation.  In Florida, we already have some experience with one of the ways that people are misinterpreting the forecasts from our <mark>experience interpreting hurricane forecasts</mark>.
 
 ## Don't watch the center line
 
-On the morning of Friday, 13 August 2004 during Hurricane Charley, the National Hurricane Center's forecast for the path of Hurricane Charley showed a <mark>cone of uncertainty</mark> for where the storm would make landfall that <mark>showed the center line of the storm passing directly over Tampa Bay</mark>.
+On the morning of Friday, 13 August 2004 during Hurricane Charley, the National Hurricane Center's forecast for the path of the hurricane showed a <mark>cone of uncertainty</mark> for where the storm would make landfall that <mark>showed the center line of the storm passing directly over Tampa Bay</mark>.
 
 {% responsive_image path: images/posts/NHC-Hurricane-Charley-2004-08-13-1100.gif
   template: _includes/responsive-image-article-figure.html

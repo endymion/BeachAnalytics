@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2020 10:46:46 -0400</pubDate>
-        <lastBuildDate>Wed, 29 Apr 2020 10:46:46 -0400</lastBuildDate>
+        <pubDate>Wed, 29 Apr 2020 11:55:35 -0400</pubDate>
+        <lastBuildDate>Wed, 29 Apr 2020 11:55:35 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -15,11 +15,11 @@
 
 &lt;!--more--&gt;
 
-&lt;p&gt;Many people are misinterpreting the COVID-19 &lt;a href=&quot;/ihme-model.html&quot;&gt;forecast model&lt;/a&gt; from the University of Washington’s Institute for Health Metrics and Evaluation.  In Florida, we already have some experience with one of the ways that people are misinterpreting the forecasts, from our &lt;mark&gt;experience interpreting hurricane forecasts&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Many people are misinterpreting the COVID-19 &lt;a href=&quot;/ihme-model.html&quot;&gt;forecast model&lt;/a&gt; from the University of Washington’s Institute for Health Metrics and Evaluation.  In Florida, we already have some experience with one of the ways that people are misinterpreting the forecasts from our &lt;mark&gt;experience interpreting hurricane forecasts&lt;/mark&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;dont-watch-the-center-line&quot;&gt;Don’t watch the center line&lt;/h2&gt;
 
-&lt;p&gt;On the morning of Friday, 13 August 2004 during Hurricane Charley, the National Hurricane Center’s forecast for the path of Hurricane Charley showed a &lt;mark&gt;cone of uncertainty&lt;/mark&gt; for where the storm would make landfall that &lt;mark&gt;showed the center line of the storm passing directly over Tampa Bay&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;On the morning of Friday, 13 August 2004 during Hurricane Charley, the National Hurricane Center’s forecast for the path of the hurricane showed a &lt;mark&gt;cone of uncertainty&lt;/mark&gt; for where the storm would make landfall that &lt;mark&gt;showed the center line of the storm passing directly over Tampa Bay&lt;/mark&gt;.&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
