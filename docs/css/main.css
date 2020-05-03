@@ -2070,17 +2070,15 @@ html, body { height: 100%; }
 
 .panel { display: flex; margin-bottom: 2em; }
 
-.panel .image { display: block; flex: 1; }
+.panel .banner { flex: 1; }
 
-.panel .image img { border: 1px solid #999999; }
-
-.panel .banner { display: none; }
+.panel .banner img { border: 1px solid #999999; }
 
 .panel .headline { flex: 3; padding-left: 1rem; }
 
 .panel .headline h3 { margin-top: 0; }
 
-@media (max-width: 575px) { .panel { background-color: white; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; } .panel .image { display: none; } .panel .banner { display: block; flex: 1 100%; } .panel .headline { flex: 1 100%; padding-left: 0; } .panel .headline h3 { margin-top: 15px; } }
+@media (max-width: 575px) { .panel { background-color: white; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; } .panel .image { display: none; } .panel .banner { flex: 1 100%; } }
 
 h1 { margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
 

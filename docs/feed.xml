@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 29 Apr 2020 12:05:12 -0400</pubDate>
-        <lastBuildDate>Wed, 29 Apr 2020 12:05:12 -0400</lastBuildDate>
+        <pubDate>Sat, 02 May 2020 20:51:47 -0400</pubDate>
+        <lastBuildDate>Sat, 02 May 2020 20:51:47 -0400</lastBuildDate>
         <generator>Jekyll v4.0.0</generator>
         
         <item>
@@ -23,7 +23,8 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/NHC-Hurricane-Charley-2004-08-13-1100-768x614.gif&quot; alt=&quot;The center line of the 11 AM forecast showed Hurricane Charley striking Tampa Bay.&quot; srcset=&quot;    /assets/resized/NHC-Hurricane-Charley-2004-08-13-1100-480x384.gif 480w,    /assets/resized/NHC-Hurricane-Charley-2004-08-13-1100-768x614.gif 768w, /images/posts/NHC-Hurricane-Charley-2004-08-13-1100.gif 895w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-800-0f407c.gif&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-400-0f407c.gif 400w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-600-0f407c.gif 600w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-800-0f407c.gif 800w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-895-0f407c.gif 895w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;The center line of the 11 AM forecast showed Hurricane Charley striking Tampa Bay.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -32,7 +33,8 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/NHC-Hurricane-Charley-2004-08-13-1500-768x614.gif&quot; alt=&quot;The center line of the 2 PM forecast shifted a hundred miles southward.&quot; srcset=&quot;    /assets/resized/NHC-Hurricane-Charley-2004-08-13-1500-480x384.gif 480w,    /assets/resized/NHC-Hurricane-Charley-2004-08-13-1500-768x614.gif 768w, /images/posts/NHC-Hurricane-Charley-2004-08-13-1500.gif 895w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-800-121975.gif&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-400-121975.gif 400w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-600-121975.gif 600w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-800-121975.gif 800w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-895-121975.gif 895w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;The center line of the 2 PM forecast shifted a hundred miles southward.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -41,7 +43,8 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/nhc-hurricane-cone-768x630.png&quot; alt=&quot;The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track.&quot; srcset=&quot;    /assets/resized/nhc-hurricane-cone-480x394.png 480w,    /assets/resized/nhc-hurricane-cone-768x630.png 768w, /images/posts/nhc-hurricane-cone.png 960w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/nhc-hurricane-cone-800-ce9097.png&quot; srcset=&quot;/generated/images/posts/nhc-hurricane-cone-400-ce9097.png 400w, /generated/images/posts/nhc-hurricane-cone-600-ce9097.png 600w, /generated/images/posts/nhc-hurricane-cone-800-ce9097.png 800w, /generated/images/posts/nhc-hurricane-cone-960-ce9097.png 960w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -52,7 +55,8 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/ihme-forecast-range-768x768.jpg&quot; alt=&quot;A confusing center line on a forecast that's really a range from about 57k to about 130k.&quot; srcset=&quot;    /assets/resized/ihme-forecast-range-480x480.jpg 480w,    /assets/resized/ihme-forecast-range-768x768.jpg 768w, /images/posts/ihme-forecast-range.jpg 783w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/ihme-forecast-range-783-8174c9.jpg&quot; srcset=&quot;/generated/images/posts/ihme-forecast-range-400-8174c9.jpg 400w, /generated/images/posts/ihme-forecast-range-600-8174c9.jpg 600w, /generated/images/posts/ihme-forecast-range-783-8174c9.jpg 783w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;A confusing center line on a forecast that's really a range from about 57k to about 130k.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -124,7 +128,8 @@ projected by August 4, 2020
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/vietnam-memorial-3-16_9-1600x896.jpg&quot; alt=&quot;Vietnam Veterans Memorial, credit: Ron Cogswell&quot; srcset=&quot;    /assets/resized/vietnam-memorial-3-16_9-480x269.jpg 480w,    /assets/resized/vietnam-memorial-3-16_9-768x430.jpg 768w,    /assets/resized/vietnam-memorial-3-16_9-992x556.jpg 992w,    /assets/resized/vietnam-memorial-3-16_9-1200x672.jpg 1200w,    /assets/resized/vietnam-memorial-3-16_9-1600x896.jpg 1600w, /images/posts/vietnam-memorial-3-16_9.jpg 6000w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-memorial-3-16_9-800-b36a66.jpg&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-3-16_9-400-b36a66.jpg 400w, /generated/images/posts/vietnam-memorial-3-16_9-600-b36a66.jpg 600w, /generated/images/posts/vietnam-memorial-3-16_9-800-b36a66.jpg 800w, /generated/images/posts/vietnam-memorial-3-16_9-1000-b36a66.jpg 1000w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;Vietnam Veterans Memorial, credit: Ron Cogswell&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -135,7 +140,8 @@ projected by August 4, 2020
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/vietnam-memorial-2-16_5-1600x1067.jpg&quot; alt=&quot;Vietnam Veterans Memorial, credit: Bernt Rostad&quot; srcset=&quot;    /assets/resized/vietnam-memorial-2-16_5-480x320.jpg 480w,    /assets/resized/vietnam-memorial-2-16_5-768x512.jpg 768w,    /assets/resized/vietnam-memorial-2-16_5-992x661.jpg 992w,    /assets/resized/vietnam-memorial-2-16_5-1200x800.jpg 1200w,    /assets/resized/vietnam-memorial-2-16_5-1600x1067.jpg 1600w, /images/posts/vietnam-memorial-2-16_5.jpg 3888w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-memorial-2-16_5-800-d0d413.jpg&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-2-16_5-400-d0d413.jpg 400w, /generated/images/posts/vietnam-memorial-2-16_5-600-d0d413.jpg 600w, /generated/images/posts/vietnam-memorial-2-16_5-800-d0d413.jpg 800w, /generated/images/posts/vietnam-memorial-2-16_5-1000-d0d413.jpg 1000w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;Vietnam Veterans Memorial, credit: Bernt Rostad&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -150,7 +156,8 @@ projected by August 4, 2020
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/vietnam-cases-480x191.jpg&quot; alt=&quot;2020 coronavirus pandemic in Vietnam, credit: Wikipedia&quot; srcset=&quot;    /assets/resized/vietnam-cases-480x191.jpg 480w, /images/posts/vietnam-cases.jpg 745w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-cases-745-f5a5d2.jpg&quot; srcset=&quot;/generated/images/posts/vietnam-cases-400-f5a5d2.jpg 400w, /generated/images/posts/vietnam-cases-600-f5a5d2.jpg 600w, /generated/images/posts/vietnam-cases-745-f5a5d2.jpg 745w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;2020 coronavirus pandemic in Vietnam, credit: Wikipedia&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
@@ -250,7 +257,8 @@ It was the &lt;mark&gt;steepest economic downturn since the Great Depression&lt;
 &lt;h2&gt;The team&lt;/h2&gt;
 
 &lt;figure class=&quot;figure inset pull-right&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/neil-ferguson-1600x1600.png&quot; alt=&quot;UK epidemiologist Neil Ferguson. Credit: Imperial College London&quot; srcset=&quot;    /assets/resized/neil-ferguson-480x480.png 480w,    /assets/resized/neil-ferguson-768x768.png 768w,    /assets/resized/neil-ferguson-992x992.png 992w,    /assets/resized/neil-ferguson-1200x1200.png 1200w,    /assets/resized/neil-ferguson-1600x1600.png 1600w, /images/posts/neil-ferguson.png 3132w&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/neil-ferguson-800-a21643.png&quot; srcset=&quot;/generated/images/posts/neil-ferguson-400-a21643.png 400w, /generated/images/posts/neil-ferguson-600-a21643.png 600w, /generated/images/posts/neil-ferguson-800-a21643.png 800w, /generated/images/posts/neil-ferguson-1000-a21643.png 1000w&quot; /&gt;
+
   &lt;figcaption class=&quot;figure-caption text-right small&quot;&gt;UK epidemiologist Neil Ferguson. Credit: Imperial College London&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -277,10 +285,9 @@ taking measures to slow the spread of the infection&lt;/mark&gt;.&lt;a class=&qu
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/assets/resized/imperial-college-mitigation-chart-1200x743.png&quot; alt=&quot;Chart from Imperial College report showing the potential
-  life-saving effects of social distancing.&quot; srcset=&quot;    /assets/resized/imperial-college-mitigation-chart-480x297.png 480w,    /assets/resized/imperial-college-mitigation-chart-768x476.png 768w,    /assets/resized/imperial-college-mitigation-chart-992x614.png 992w,    /assets/resized/imperial-college-mitigation-chart-1200x743.png 1200w, /images/posts/imperial-college-mitigation-chart.png 1534w&quot; /&gt;
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Chart from Imperial College report showing the potential
-  life-saving effects of social distancing.&lt;/figcaption&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/imperial-college-mitigation-chart-800-079a41.png&quot; srcset=&quot;/generated/images/posts/imperial-college-mitigation-chart-400-079a41.png 400w, /generated/images/posts/imperial-college-mitigation-chart-600-079a41.png 600w, /generated/images/posts/imperial-college-mitigation-chart-800-079a41.png 800w, /generated/images/posts/imperial-college-mitigation-chart-1000-079a41.png 1000w&quot; /&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Chart from Imperial College report showing the potential life-saving effects of social distancing.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
 
