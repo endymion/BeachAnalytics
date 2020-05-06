@@ -8,9 +8,9 @@ permalink: ihme-model.html
 sidebar: home_sidebar
 folder: tags
 toc: false
-banner_image:   images/posts/ihme-16_5.jpg
-facebook_image: images/posts/ihme-1_1.jpg
-twitter_image:  images/posts/ihme-1_1.jpg
+image_16_5:   images/posts/ihme-16_5.jpg
+image_16_9: images/posts/ihme-1_1.jpg
+image_1_1:  images/posts/ihme-1_1.jpg
 summary: One of the most widely influential COVID-19 forecasting models
   has also been one of the most misinterpreted.
 featured: true
@@ -41,9 +41,9 @@ It is critical to note that <mark>we restrict our projections to the first wave<
 
 The IHME results are so widely influential because they're so easily accessible.  The model's forecast [dashboard](https://covid19.healthdata.org/united-states-of-america) has a URL that anyone can view at any time.  The dashboard's charts are easy to understand: "Deaths per day", "Hospital resource use", "Total deaths."
 
-{% responsive_image path: images/posts/ihme-chart-1_1.jpg
-  template: _includes/responsive-image-article-figure.html
-  caption: "A death rate forecast chart from the IHME model." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/ihme-chart-1_1.jpg'
+  caption="A death rate forecast chart from the IHME model." %}
 
 ## Weaknesses
 
@@ -53,9 +53,9 @@ That accessibility might also be one of the model's biggest weaknesses.
 
 The National Hurricane Center releases hurricane forecast images that show the current position of the hurricane, along with a projected path and a cone of uncertainty.  Some critics have claimed that the center line confuses the public because it unduly focuses people too much the false idea of a precise forecast, when in reality the forecast is a wide range.{% cite bams:cone-of-uncertainty %}
 
-{% responsive_image path: images/posts/nhc-hurricane-cone.png
-  template: _includes/responsive-image-article-figure.html
-  caption: "A hurricane forecast image from the National Hurricane Center." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/nhc-hurricane-cone.png'
+  caption="A hurricane forecast image from the National Hurricane Center." %}
 
 In 2004, the NHC projections for the path of Hurricane Charley showed a cone of uncertainty for where the storm would make landfall that <mark>showed the center line of the storm passing directly over Tampa Bay</mark>.  The forecast then changed, putting the center line over Charlotte County, a hundred miles south of Tampa.  That area, full of retirees, was devastated.  People hadn't evacuated because they <mark>thought that the NHC was telling them that the storm was going to hit Tampa Bay</mark>, a hundred miles north of them.  <mark>Misinterpretation of a forecast graphic cost lives.</mark>
 
@@ -67,9 +67,9 @@ The IHME model doesn't understand anything about the dynamics of how the virus s
 
 The model <mark>looks at other places that have already been hit by the pandemic</mark>, like China and Italy.  It assumes that the infection will always taper off the way that it has in those places, and it tries to estimate when that might happen.  The model's assumptions about the population maintaining measures to slow the spread of the virus are the main factors that affect the forecast.  The researchers at IHME are <mark>constantly adjusting the input parameters</mark> based on new data, including changes in public behavior.  Ironically, some of these changes in behavior are now influenced by the model itself, creating a sort of <mark>Heisenberg-Effect feedback loop</mark>.
 
-{% responsive_image path: images/posts/falling-wedge.jpg
-  template: _includes/responsive-image-article-inset.html
-  caption: "A 'Falling Wedge' stock pattern." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/falling-wedge.jpg'
+  caption="A 'Falling Wedge' stock pattern." %}
 
 The IHME model's forecast is based only on the shapes of curves on charts.  It's <mark>not a simulation model</mark> like the <a href="/imperial-college-model.html">Imperial College model</a>.  Some people forecast stock prices by fitting current stock prices to patterns like [Fibonacci numbers](https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp){% cite investopedia:fibonacciretracement %}.
 For example, the "Falling Wedge" pattern pictured is a downward trend that some stock analysts see as an indication that the price will rise in the future.{% cite wikipedia:wedge-pattern %}

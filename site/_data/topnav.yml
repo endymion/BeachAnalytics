@@ -6,7 +6,7 @@ topnav:
     - title: Info
       folderitems:
       # - title: COVID-19 Dashboard
-      #   url: /products/covid19-dashboard/
+      #   url: /visualizations/covid19-dashboard/
       - title: News
         url: /index.html
       - title: About
@@ -32,20 +32,20 @@ topnav:
       - title: All COVID-19 Charts
         url: /charts.html
       # - title: COVID-19 Dashboard
-      #   url: /products/covid19-dashboard/
+      #   url: /visualizations/covid19-dashboard/
       - title: Number of COVID-19 Cases
-        url: /products/number-of-covid19-cases
+        url: /visualizations/number-of-covid19-cases
       - title: Percent Increase for Number of COVID-19 Cases
-        url: /products/percent-increase-in-number-of-covid19-cases
+        url: /visualizations/percent-increase-in-number-of-covid19-cases
       - title: Doubling Time for Number of COVID-19 Cases
-        url: /products/doubling-time-for-number-of-covid19-cases
+        url: /visualizations/doubling-time-for-number-of-covid19-cases
       - title: Estimated Number of SARS-CoV-2 Infections
-        url: /products/estimated-number-of-sarscov2-infections
+        url: /visualizations/estimated-number-of-sarscov2-infections
       - title: Estimated One-In-X SARS-CoV2 Infection Odds
-        url: /products/estimated-one-in-x-sarscov2-infection-odds
+        url: /visualizations/estimated-one-in-x-sarscov2-infection-odds
       - title: Estimated SARS-SoV-2 Infections As Percentage of Population
-        url: /products/estimated-number-of-sarscov2-infections-as-percentage-of-population
+        url: /visualizations/estimated-number-of-sarscov2-infections-as-percentage-of-population
       - title: SARS-CoV-2 Infection Percentage Projection
-        url: /products/projected-percentage-of-sarscov2-infections
+        url: /visualizations/projected-percentage-of-sarscov2-infections
       - title: COVID-19 Cases As Percentage of Population
-        url: /products/covid19-cases-as-percentage-of-population
+        url: /visualizations/covid19-cases-as-percentage-of-population

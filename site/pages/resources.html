@@ -1,0 +1,16 @@
+---
+title: Resources
+slug: resources
+permalink: resources.html
+toc: false
+folder: Info
+show_title: false
+show_meta: false
+---
+
+<h2>Models</h2>
+
+{% assign model_pages = site.pages | where_exp:"item", "item.category == 'model'" %}
+{% for page in model_pages %}
+
+{% endfor %}

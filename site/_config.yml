@@ -77,37 +77,37 @@ defaults:
   - scope:
       path: "charts/covid19-dashboard"
     values:
-      covid19dashboard: true
+      chart_type: "covid19-dashboard"
       folder: Charts
   - scope:
       path: "charts/number-of-covid19-cases"
     values:
-      numberofcovid19cases: true
+      chart_type: "number-of-covid19-cases"
       folder: Charts
   - scope:
       path: "charts/percent-increase-in-number-of-covid19-cases"
     values:
-      percentincreaseinnumberofcovid19cases: true
+      chart_type: "percent-increase-in-number-of-covid19-cases"
       folder: Charts
   - scope:
       path: "charts/doubling-time-for-number-of-covid19-cases"
     values:
-      doublingtimefornumberofcovid19cases: true
+      chart_type: "doubling-time-for-number-of-covid19-cases"
       folder: Charts
   - scope:
       path: "charts/estimated-number-of-sarscov2-infections"
     values:
-      estimatednumberofsarscov2infections: true
+      chart_type: "estimated-number-of-sarscov2-infections"
       folder: Charts
   - scope:
       path: "charts/projected-percentage-of-sarscov2-infections"
     values:
-      projectedpercentageofsarscov2infections: true
+      chart_type: "projected-percentage-of-sarscov2-infections"
       folder: Charts
   - scope:
       path: "charts/estimated-one-in-x-sarscov2-infection-odds"
     values:
-      estimatedoneinxsarscov2infectionodds: true
+      chart_type: "estimated-one-in-x-sarscov2-infection-odds"
       folder: Charts
   -
     scope:
@@ -148,7 +148,7 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
@@ -157,26 +157,9 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 plugins_dir: ./_plugins
 plugins:
-  - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jekyll-last-modified-at
-
-responsive_image:
-  template: _includes/responsive-image-srcset-with-fallback.html
-  default_quality: 60
-  sizes:
-    - width: 480  # [Required] How wide the resized image will be.
-      quality: 80 # [Optional] Overrides default_quality for this size.
-    - width: 768
-      quality: 70
-    - width: 992
-      quality: 70
-    - width: 1200
-      quality: 60
-    - width: 1600
-      quality: 60
-  strip: true
 
 scholar:
   style: _bibliography/style.csl

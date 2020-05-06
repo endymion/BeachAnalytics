@@ -6,9 +6,9 @@ featured: true
 published: true
 excerpt_separator: <!--more-->
 tags: [covid19-models, ihme-model]
-banner_image:   images/posts/ihme-chart-16_5.jpg
-facebook_image: images/posts/ihme-chart-1_1.jpg
-twitter_image:  images/posts/ihme-chart-1_1.jpg
+image_16_5:   images/posts/ihme-chart-16_5.jpg
+image_16_9: images/posts/ihme-chart-1_1.jpg
+image_1_1:  images/posts/ihme-chart-1_1.jpg
 image_copyright: http://www.healthdata.org/about/terms-and-conditions
 ---
 

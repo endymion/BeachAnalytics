@@ -15,65 +15,152 @@ body {
 
 #page-contents {
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
 }
 @media (min-width: 576px) {
   .container {
     max-width: 100%;
   }
 }
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1200px;
+  }
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+
+  .top {
+    flex: 1 100%;
+  }
+  .outlook {
+    flex: 1 100%;
+    .panel {
+      .headline {
+        padding-left: 0;
+      }
+    }
+  }
+  .bottom {
+    flex: 1 100%;
+  }
+
+  .headline {
+    h3 {
+      line-height: smaller;
+      margin: 0;
+    }
+    .date {
+      font-size: smaller;
+    }
+    line-height: 1.5rem;
+    p {
+      margin: 0;
+    }
+  }
+}
+@media (min-width: 768px) {
+  // The main news page.
+  .news {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    .top, .bottom {
+      flex: 1;
+      width: 65%;
+      padding-right: $grid-gutter-width;
+    }
+    .outlook {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 65%;
+
+      h2 {
+        font-size: medium;
+        margin: 0;
+      }
+    }
+  }
+  // Post pages.
+  .outlook-spanner {
+    display: flex;
+    position: relative;
+    article {
+      width: 70%;
+      padding-right: $grid-gutter-width;
+    }
+    .outlook, .sidebar {
+      position: absolute;
+      top: 0;
+      right: $grid-gutter-width/2;
+      left: 70%;
+      h2 {
+        font-size: medium;
+        margin: 0;
+      }
+      font-size: small;
+      line-height: 1.5rem;
+    }
   }
 }
 
 .panel {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 
-  .image {
-    display: block;
+  .banner {
     flex: 1;
     img {
       border: 1px solid $neutral;
+      width: 100%;
     }
-  }
-  .banner {
-    display: none;
   }
   .headline {
     flex: 3;
-    padding-left: 1rem;
+    padding-left: ($grid-gutter-width / 2);
+    margin-top: 0;
     h3 {
-      margin-top: 0;
+      margin: 0;
+    }
+    p {
+      margin: 0;
     }
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .panel {
-    background-color: white;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 
     flex-wrap: wrap;
-    .image {
-      display: none;
-    }
     .banner {
-      display: block;
       flex: 1 100%;
     }
     .headline {
-      flex: 1 100%;
       padding-left: 0;
       h3 {
-        margin-top: 15px;
+        margin: 0.25rem 0 0 0;
+      }
+    }
+  }
+}
+// Same for panels in sidebars.
+.sidebar {
+  .panel {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    flex-wrap: wrap;
+    .banner {
+      flex: 1 100%;
+    }
+    .headline {
+      padding-left: 0;
+      h3 {
+        margin: 0.25rem 0 0 0;
       }
     }
   }
@@ -83,10 +170,20 @@ h1 {
   margin: 1ex 0 1ex 0;
   font-family: 'Oswald', sans-serif;
 }
+@media (max-width: 576px) {
+  h1 {
+    margin: 0.5ex 0 0.5ex 0;
+  }
+}
 
 h2 {
   margin: 1.5ex 0 1ex 0;
   font-family: 'Oswald', sans-serif;
+}
+@media (max-width: 576px) {
+  h2 {
+    margin: 1ex 0 0.5ex 0;
+  }
 }
 
 h3 {
@@ -95,12 +192,22 @@ h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
 }
+@media (max-width: 576px) {
+  h3 {
+    margin: 0.5ex 0 0.25ex 0;
+  }
+}
 
 .post-header {
   position: relative;
   z-index: -1;
+  line-height: 1rem;
+  h1 {
+    margin: 0;
+  }
   img {
     border: 1px solid $neutral;
+    width: 100%;
   }
 }
 .post-content {
@@ -132,16 +239,21 @@ body {
 // For the logo in the header and footer.
 .navbar,
 body > footer {
-  .logo a {
-    color: $light;
+  .logo {
+    a {
+      color: $light;
+    }
+    a:link, a:visited, a:hover, a:active {
+      text-decoration: none;
+    }
   }
   .logotype {
-    font-weight: 700;
+    font-weight: bold;
   }
   code {
     color: $light;
     font-size: 80%;
-    line-height: 0.938rem; // 15px, same as "smaller" ends up at.
+    line-height: smaller;
   }
 }
 .navbar {
@@ -152,6 +264,9 @@ body > footer {
   .logotype {
     font-size: 1.5rem;
     line-height: .75rem;
+  }
+  .container {
+    padding-right: 0;
   }
 }
 #search-input {
@@ -184,13 +299,13 @@ body > footer {
 }
 
 /* search area */
-#search-demo-container {
+#search-container {
   position: relative;
   a {
     color: $dark;
   }
 }
-#search-demo-container {
+#search-container {
   ul#results-container {
     list-style: none;
     font-size: $font-size-base * 0.9;
@@ -198,7 +313,7 @@ body > footer {
     position: absolute;
     top: 2.7rem;
     right: 0px;
-    z-index: 1;
+    z-index: 2;
     width: 400px;
     border-left: 1px solid #dedede;
     padding-inline-start: 0px;
@@ -217,13 +332,17 @@ ul#results-container a:hover {
     color: black;
 }
 
-#search-demo-container a:hover {
+#search-container a:hover {
     color: black;
 }
 /* end search */
 
 #page-contents .jekyll-twitter-plugin {
   margin: 2em 0 2em 0;
+}
+
+figure img {
+  width: 100%;
 }
 
 #page-contents figure.inset img.img-responsive {
@@ -233,7 +352,48 @@ ul#results-container a:hover {
 #page-contents figure {
   background: white;
   width: 75%;
-  margin: 2em 0 2em 0;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1rem;
+  figcaption {
+    margin-top: $grid-gutter-width/2;
+  }
+}
+#page-contents .outlook,
+#page-contents .sidebar {
+  figure {
+    background-color: $paper;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  #page-contents figure {
+    background-color: $paper;
+    width: 100%;
+    padding: 1em 0 1em 0;
+  }
+}
+@media (min-width: 576px) {
+  #page-contents figure {
+    width: 85%;
+    padding: $grid-gutter-width/2;
+  }
+}
+@media (min-width: 992px) {
+  #page-contents figure {
+    width: 65%;
+    padding: $grid-gutter-width;
+  }
+}
+@media (min-width: 1200px) {
+  #page-contents figure {
+    width: 55%;
+    padding: $grid-gutter-width;
+  }
 }
 
 #page-contents figure.inset {

@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+<!-- Used for pushing the outlook to the sidebar, when present. -->
+<div class="outlook-spanner">
+
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
     <header class="post-header clearfix">
@@ -10,14 +14,8 @@ layout: default
         <div class="float-right">{{ page.author }}</div>
       </div>
 
-      {% if page.banner_image %}
-        {% responsive_image_block %}
-        path: {{ page.banner_image }}
-        alt: {{ page.summary }}
-        {% if page.title %}
-        title: {{ page.title }}
-        {% endif %}
-        {% endresponsive_image_block %}
+      {% if page.image_16_5 %}
+        {% picture article_banner {{ page.image_16_5 }} xs: {{ page.image_1_1 }} --alt="{{ page.title }}" --img class="img-fluid" %}
       {% endif %}
 
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
@@ -27,33 +25,50 @@ layout: default
     <div class="post-content" itemprop="articleBody">
 
         {% if page.excerpt %}
-        <div id="summary"><p>{{page.excerpt}}</p></div>
+          {% if page.tags contains 'outlook' %}
+            {{page.excerpt}}
+          {% else %}
+            <div id="summary">
+              <p>
+                {{page.excerpt}}
+              </p>
+            </div>
+          {% endif %}
         {% endif %}
 
         {{ page.content | split: site.excerpt_separator | last }}
     </div>
 
-    {% assign tags = page.tags %}
-    {% if tags != empty %}
-    <div>
-      <h2>Tags</h2>
-      <ul>
-      {% for tag in tags %}
-        <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
-      {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
+    {% unless page.tags contains 'outlook' %}
 
-    <div>
-      <h2>Related</h2>
+      {% assign tags = page.tags %}
+      {% if tags != empty %}
+      <div>
+        <h2>Tags</h2>
+        <ul>
+        {% for tag in tags %}
+          <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
 
-      {% for post in site.related_posts limit:3 %}
-        {% if post.title != page.title %}
-        {% include post_panel.html post=post %}
-        {% endif %}
-      {% endfor %}
+      <div>
+        <h2>Related</h2>
+        {% for post in site.related_posts limit:3 %}
+          {% if post.title != page.title %}
+          {% include post_panel.html post=post %}
+          {% endif %}
+        {% endfor %}
+      </div>
 
-    </div>
+    {% endunless %}
 
 </article>
+
+{% if page.tags contains 'outlook' %}
+  {% include resources_sidebar.html %}
+{% else %}
+  {% include outlook_sidebar.html %}
+{% endif %}
+</div><!-- outlook-spanner -->

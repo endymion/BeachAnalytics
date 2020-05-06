@@ -1,0 +1,37 @@
+---
+title: Estimated Number of SARS-CoV-2 Infections
+sidebar: home_sidebar
+permalink: /visualizations/estimated-number-of-sarscov2-infections/index.html
+folder: Charts
+toc: false
+show_meta: false
+---
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "estimatednumberofsarscov2infections", "true" | where_exp: "item", "item.path contains '/miami-beach/'" | sort: 'name' | reverse %}
+{% for chart in chart_files limit:1 %}
+  {% capture chart_path %}{{ chart.path }}{% endcapture %}
+  <img src="{{ chart.path }}" class="pull-right" style="width:50%; margin:0 0 2em 2em; ">
+{% endfor %}
+
+<p>This chart shows a range of estimates for the number of SARS-CoV-2 infections,
+  based on the number of confirmed COVID-19 cases.</p>
+
+<p>The range shown in the chart is from
+  <a href="https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html">a
+    study</a> estimating the number of infections relative to the number of
+    reported cases from the Centre for Mathematical Modelling of Infectious
+    Diseases at the London School of Hygiene & Tropical Medicine.  The
+    estimated ranges for various countries are updated periodically, and I'm
+    using the estimated range for the United States.  I update my charts
+    whenever the estimated range is updated.</p>
+
+<h2>Sources</h2>
+
+The confirmed case count data comes from the
+<a href="https://www.floridadisaster.org/news-media/news/">daily updates</a>
+from the Florida Division of Emergency Management.
+
+<h2>Current</h2>
+
+Please see the <a href="/visualizations/estimated-number-of-sarscov2-infections/current.html">Current COVID-19 Dashboards</a> page for the latest dashboard
+published for each area.

@@ -1,0 +1,8 @@
+{% assign chart_type = include.chart_type %}
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "chart_type", chart_type | where_exp: "item", "item.path contains include.area" | sort: 'name' | reverse %}
+{% for chart in chart_files limit:1 %}
+  {% capture chart_path %}{{ chart.path }}{% endcapture %}
+  <figure>
+    {% picture default {{chart_path}} --alt="{{include.alt}}" --img class="img-fluid" %}
+  </figure>
+{% endfor %}

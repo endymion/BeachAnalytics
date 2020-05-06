@@ -9,7 +9,7 @@ folder: Info
 ---
 
 <div class="logo_background" align="center">
-  {% responsive_image path: images/logo_big.png %}
+  {% picture images/logo_big.png --alt="Beach Analytics" --img class="img-fluid" %}
   <img class="img-responsive logo" src=""/>
 </div>
 <div class="sub-image-jumbotron jumbotron lead" align="center">

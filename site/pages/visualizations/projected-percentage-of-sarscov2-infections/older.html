@@ -1,0 +1,27 @@
+---
+title: SARS-CoV-2 Infection Percentage Projection Archive
+sidebar: home_sidebar
+permalink: /visualizations/projected-percentage-of-sarscov2-infections/older.html
+folder: Charts
+toc: false
+show_meta: false
+---
+
+An archive of older percentage infected projection charts:
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "projectedpercentageofsarscov2infections", "true" | sort: 'name' | reverse %}
+
+<div class="home">
+
+    <div class="post-list">
+
+    <section id="archive">
+      <ul>
+      {% for chart in chart_files %}
+        <li><a href="{{ chart.path }}">{{ chart.path }}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+
+    </div>
+</div>

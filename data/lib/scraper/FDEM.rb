@@ -71,7 +71,9 @@ module Scraper
       # Get a list of news items on the current page.
       news_items = []
       doc.css('#mainContent .thumb-list h4 a').each do |news_item|
-        next unless news_item.attr('href') =~ /covid\-19.*update\b/i
+        next unless
+          news_item.attr('href') =~ /covid\-19.*update\b/i ||
+           news_item.children.first.text =~ /COVID-19\s+\d+\/\d+\/\d+/i
         news_items << news_item.attr('href')
       end
 

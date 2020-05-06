@@ -7,9 +7,9 @@ permalink: imperial-college-model.html
 sidebar: home_sidebar
 folder: tags
 toc: false
-banner_image:   images/posts/imperial-college-16_5.png
-facebook_image: images/posts/imperial-college-1_1.png
-twitter_image:  images/posts/imperial-college-1_1.png
+image_16_5:   images/posts/imperial-college-16_5.png
+image_16_9: images/posts/imperial-college-1_1.png
+image_1_1:  images/posts/imperial-college-1_1.png
 summary: Arguably the most influential computer forecasting model in history,
   this model is the one that led the UK and US governments to begin mitigation measures.
 ---

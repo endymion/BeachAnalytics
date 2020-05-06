@@ -45,95 +45,95 @@ entries:
     output: web
     folderitems:
     - title: Background
-      url: /products/covid19-dashboard/index.html
+      url: /visualizations/covid19-dashboard/index.html
       output: web
     - title: Current
-      url: /products/covid19-dashboard/current.html
+      url: /visualizations/covid19-dashboard/current.html
       output: web
     - title: Older
-      url: /products/covid19-dashboard/older.html
+      url: /visualizations/covid19-dashboard/older.html
       output: web
   - title: Number of Cases
     output: web
     folderitems:
     - title: Background
-      url: /products/number-of-covid19-cases/index.html
+      url: /visualizations/number-of-covid19-cases/index.html
       output: web
     - title: Current
-      url: /products/number-of-covid19-cases/current.html
+      url: /visualizations/number-of-covid19-cases/current.html
       output: web
     - title: Older
-      url: /products/number-of-covid19-cases/older.html
+      url: /visualizations/number-of-covid19-cases/older.html
       output: web
   - title: Percent Increase in Cases
     output: web
     folderitems:
     - title: Background
-      url: /products/percent-increase-in-number-of-covid19-cases/index.html
+      url: /visualizations/percent-increase-in-number-of-covid19-cases/index.html
       output: web
     - title: Current
-      url: /products/percent-increase-in-number-of-covid19-cases/current.html
+      url: /visualizations/percent-increase-in-number-of-covid19-cases/current.html
       output: web
     - title: Older
-      url: /products/percent-increase-in-number-of-covid19-cases/older.html
+      url: /visualizations/percent-increase-in-number-of-covid19-cases/older.html
       output: web
   - title: Case Doubling Time
     output: web
     folderitems:
     - title: Background
-      url: /products/doubling-time-for-number-of-covid19-cases/index.html
+      url: /visualizations/doubling-time-for-number-of-covid19-cases/index.html
       output: web
     - title: Current
-      url: /products/doubling-time-for-number-of-covid19-cases/current.html
+      url: /visualizations/doubling-time-for-number-of-covid19-cases/current.html
       output: web
     - title: Older
-      url: /products/doubling-time-for-number-of-covid19-cases/older.html
+      url: /visualizations/doubling-time-for-number-of-covid19-cases/older.html
       output: web
   # - title: Cases As Percentage
   #   output: web
   #   folderitems:
   #   - title: Background
-  #     url: /products/covid19-cases-as-percentage-of-population/index.html
+  #     url: /visualizations/covid19-cases-as-percentage-of-population/index.html
   #     output: web
   #   - title: Current
-  #     url: /products/covid19-cases-as-percentage-of-population/current.html
+  #     url: /visualizations/covid19-cases-as-percentage-of-population/current.html
   #     output: web
   #   - title: Older
-  #     url: /products/covid19-cases-as-percentage-of-population/older.html
+  #     url: /visualizations/covid19-cases-as-percentage-of-population/older.html
   #     output: web
   - title: Estimated Infections
     output: web
     folderitems:
     - title: Background
-      url: /products/estimated-number-of-sarscov2-infections/index.html
+      url: /visualizations/estimated-number-of-sarscov2-infections/index.html
       output: web
     - title: Current
-      url: /products/estimated-number-of-sarscov2-infections/current.html
+      url: /visualizations/estimated-number-of-sarscov2-infections/current.html
       output: web
     - title: Older
-      url: /products/estimated-number-of-sarscov2-infections/older.html
+      url: /visualizations/estimated-number-of-sarscov2-infections/older.html
       output: web
   # - title: Estimated Infection Percentage
   #   output: web
   #   folderitems:
   #   - title: Background
-  #     url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/index.html
+  #     url: /visualizations/estimated_number-of-sarscov2-infections-as-percentage-of-population/index.html
   #     output: web
   #   - title: Current
-  #     url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/current.html
+  #     url: /visualizations/estimated_number-of-sarscov2-infections-as-percentage-of-population/current.html
   #     output: web
   #   - title: Older
-  #     url: /products/estimated_number-of-sarscov2-infections-as-percentage-of-population/older.html
+  #     url: /visualizations/estimated_number-of-sarscov2-infections-as-percentage-of-population/older.html
   #     output: web
   - title: Infection Percentage Projection
     output: web
     folderitems:
     - title: Background
-      url: /products/projected-percentage-of-sarscov2-infections/index.html
+      url: /visualizations/projected-percentage-of-sarscov2-infections/index.html
       output: web
     - title: Current
-      url: /products/projected-percentage-of-sarscov2-infections/current.html
+      url: /visualizations/projected-percentage-of-sarscov2-infections/current.html
       output: web
     - title: Older
-      url: /products/projected-percentage-of-sarscov2-infections/older.html
+      url: /visualizations/projected-percentage-of-sarscov2-infections/older.html
       output: web

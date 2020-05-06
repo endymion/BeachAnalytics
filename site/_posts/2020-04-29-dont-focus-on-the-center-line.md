@@ -6,9 +6,9 @@ featured: true
 published: true
 excerpt_separator: <!--more-->
 tags: [covid19-models, ihme-model]
-banner_image:   images/posts/NHC-Katrina-center-line-16_5.jpg
-facebook_image: images/posts/NHC-Katrina-center-line-16_9.jpg
-twitter_image:  images/posts/NHC-Katrina-center-line-1_1.jpg
+image_16_5:   images/posts/NHC-Katrina-center-line-16_5.jpg
+image_16_9: images/posts/NHC-Katrina-center-line-16_9.jpg
+image_1_1:  images/posts/NHC-Katrina-center-line-1_1.jpg
 ---
 
 Don't treat the center line of the IHME forecast charts as a precise prediction, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.  The forecast is a wide range, not a specific number.
@@ -21,29 +21,29 @@ Many people are misinterpreting the COVID-19 [forecast model](/ihme-model.html) 
 
 On the morning of Friday, 13 August 2004 during Hurricane Charley, the National Hurricane Center's forecast for the path of the hurricane showed a <mark>cone of uncertainty</mark> for where the storm would make landfall that <mark>showed the center line of the storm passing directly over Tampa Bay</mark>.
 
-{% responsive_image path: images/posts/NHC-Hurricane-Charley-2004-08-13-1100.gif
-  template: _includes/responsive-image-article-figure.html
-  caption: "The center line of the 11 AM forecast showed Hurricane Charley striking Tampa Bay." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/NHC-Hurricane-Charley-2004-08-13-1100.gif'
+  caption="The center line of the 11 AM forecast showed Hurricane Charley striking Tampa Bay." %}
 
 Then the <mark>forecast changed</mark> that afternoon, shifting the center line to Charlotte County, <mark>a hundred miles south</mark> of Tampa.  That area, full of retirees, was devastated when the hurricane struck Punta Gorda in Charlotte County.  People hadn't evacuated because they <mark>thought that the NHC was telling them that the storm was going to hit Tampa Bay</mark>, a hundred miles north of them.<mark>  Misinterpretation of a forecast graphic cost lives.</mark>
 
-{% responsive_image path: images/posts/NHC-Hurricane-Charley-2004-08-13-1500.gif
-  template: _includes/responsive-image-article-figure.html
-  caption: "The center line of the 2 PM forecast shifted a hundred miles southward." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/NHC-Hurricane-Charley-2004-08-13-1500.gif'
+  caption="The center line of the 2 PM forecast shifted a hundred miles southward." %}
 
 Meteorologists at the National Hurricane Center are so concerned that people will pay too much attention to the center line of the hurricane track forecast cone images{% cite bams:cone-of-uncertainty %} that they have <mark>removed the center line</mark> from the default forecast images.  They do still publish a set of forecast images with center lines, but the default images no longer include the misleading center track.
 
-{% responsive_image path: images/posts/nhc-hurricane-cone.png
-  template: _includes/responsive-image-article-figure.html
-  caption: "The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/nhc-hurricane-cone.png'
+  caption="The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track." %}
 
 ## Same problem with COVID-19 projections
 
 The easy-to-understand center line in the IHME charts comes with the <mark>exact same problem</mark>.  Many people, including even President Trump, have misinterpreted the center line of the IHME projections.  Trump's famously-optimistic projection that only 60,000 people would die in the entire COVID-19 epidemic in the US was an obvious misinterpretation of both the center line of the IHME charts and the overall intent of the model: to project the impact of the <a href="/2020/04/27/its-not-the-peak-its-this-peak.html"><i>first wave</i></a> of the epidemic.{% cite wapo:misunderstanding-the-math %}
 
-{% responsive_image path: images/posts/ihme-forecast-range.jpg
-  template: _includes/responsive-image-article-figure.html
-  caption: "A confusing center line on a forecast that's really a range from about 57k to about 130k." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/ihme-forecast-range.jpg'
+  caption="A confusing center line on a forecast that's really a range from about 57k to about 130k." %}
 
 Unfortunately the center line on the charts leads people to treat the model like a crystal ball that will give them a specific answer.  And then when the real death count doesn't track the center line exactly, they're <mark>disillusioned and they reject the whole model</mark>.  Or when researchers update the parameters of the model and the forecast line changes.  This stems from a tragic misunderstanding of what the model is trying to forecast and now it works.
 

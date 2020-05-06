@@ -1,27 +1,8 @@
 <div class="panel">
-  {% if include.post.twitter_image %}
-    <div class="image">
-      <a class="post-link" href="{{ include.post.url }}">
-        {% responsive_image_block %}
-          path: {{ include.post.twitter_image }}
-          alt: {{ include.post.excerpt }}
-          {% if include.post.title %}
-          title: {{ include.post.title }}
-          {% endif %}
-        {% endresponsive_image_block %}
-      </a>
-    </div>
-  {% endif %}
-  {% if include.post.banner_image %}
+  {% if include.post.image_1_1 %}
     <div class="banner">
       <a class="post-link" href="{{ include.post.url }}">
-        {% responsive_image_block %}
-          path: {{ include.post.banner_image }}
-          alt: {{ include.post.excerpt }}
-          {% if include.post.title %}
-          title: {{ include.post.title }}
-          {% endif %}
-        {% endresponsive_image_block %}
+        {% picture headline_banner {{ include.post.image_1_1 }} xs: {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
       </a>
     </div>
   {% endif %}
@@ -29,11 +10,17 @@
   <div class="headline">
     <div class="meta">
       <h3><a class="post-link" href="{{ include.post.url }}">{{ include.post.title }}</a></h3>
-      <div class="date"><code>{{ include.post.date | date: "%b %-d, %Y" }}</code></div>
+      <div class="date"><code>
+        {% if include.post.date %}
+          {{ include.post.date | date: "%b %-d, %Y" }}
+        {% else %}
+          {{ include.post.last_modified_at | date: "%b %-d, %Y" }}
+        {% endif %}
+      </code></div>
     </div>
     <div>
       {% if include.post.excerpt %}
-        {{ include.post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+        {{ include.post.excerpt  }}
       {% else %}
         {{ include.post.content | truncatewords: 50 | strip_html }}
       {% endif %}

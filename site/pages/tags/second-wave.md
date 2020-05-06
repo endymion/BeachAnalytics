@@ -7,9 +7,9 @@ permalink: second-wave.html
 sidebar: home_sidebar
 folder: Topics
 toc: false
-banner_image:   images/posts/second-wave-16_5.jpg
-facebook_image: images/posts/second-wave-1_1.jpg
-twitter_image:  images/posts/second-wave-1_1.jpg
+image_16_5:   images/posts/second-wave-16_5.jpg
+image_16_9: images/posts/second-wave-1_1.jpg
+image_1_1:  images/posts/second-wave-1_1.jpg
 summary: What happens after the first peak?
 ---
 

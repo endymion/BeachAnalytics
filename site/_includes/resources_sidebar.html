@@ -1,0 +1,16 @@
+<div class="sidebar">
+  <div class="panel">
+    <div class="headline">
+      <div class="meta">
+        {% assign outlook = site.posts | where: 'tags', 'outlook' | reverse | first %}
+
+        <h2><a class="post-link" href="/resources.html">Resources</a></h2>
+        <div class="date"><code>{{ resources_page.date | date: "%b %-d, %Y" }}</code></div>
+
+        {% assign page = site.pages | where: "slug", "covid19-models" | first %}
+        {% include post_panel.html post=page %}
+
+      </div>
+    </div>
+  </div>
+</div>

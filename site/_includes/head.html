@@ -41,8 +41,8 @@
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:description" content="{{ page.summary }}">
 <meta property="og:type" content="article" />
-{% if page.facebook_image %}
-  <meta property="og:image" content="https://beachanalytics.info/{{ page.facebook_image }}">
+{% if page.image_16_9 %}
+  <meta property="og:image" content="https://beachanalytics.info/{{ page.image_16_9 }}">
 {% else %}
   <meta property="og:image" content="https://beachanalytics.info/images/logo_big.png">
 {% endif %}
@@ -52,9 +52,9 @@
 <meta name="twitter:creator" content="@RyanAlynPorter">
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.summary }}">
-{% if page.twitter_image %}
-  <meta name="twitter:image" content="https://beachanalytics.info/{{ page.twitter_image }}">
-  <meta name="twitter:summary_large_image" content="https://beachanalytics.info/{{ page.facebook_image }}">
+{% if page.image_1_1 %}
+  <meta name="twitter:image" content="https://beachanalytics.info/{{ page.image_1_1 }}">
+  <meta name="twitter:summary_large_image" content="https://beachanalytics.info/{{ page.image_16_9 }}">
 {% else %}
   <meta name="twitter:image" content="https://beachanalytics.info/images/logo_big.png">
 {% endif %}

@@ -2,6 +2,13 @@
 layout: default
 ---
 
+{% unless page.title == 'News' %}
+  <!-- Used for pushing the outlook to the sidebar, when present. -->
+  <div class="outlook-spanner">
+{% endunless %}
+
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
 <header class="post-header">
 
   {% if page.show_meta != false %}
@@ -12,14 +19,8 @@ layout: default
   {% endif %}
 
   <div>
-  {% if page.banner_image %}
-    {% responsive_image_block %}
-    path: {{ page.banner_image }}
-    alt: {{ page.summary }}
-    {% if page.title %}
-    title: {{ page.title }}
-    {% endif %}
-    {% endresponsive_image_block %}
+  {% if page.image_16_5 %}
+    {% picture default {{ page.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
   {% endif %}
   </div>
 
@@ -64,3 +65,8 @@ layout: default
 {% include custom/{{page.map_name}}.html %}
 
 {% endif %}
+
+{% unless page.title == 'News' %}
+{% include outlook_sidebar.html %}
+</div><!-- outlook-spanner -->
+{% endunless %}

@@ -8,9 +8,9 @@ permalink: herd-immunity.html
 sidebar: home_sidebar
 folder: Topics
 toc: false
-banner_image:   images/posts/herd-immunity-16_5.png
-facebook_image: images/posts/herd-immunity-1_1.png
-twitter_image:  images/posts/herd-immunity-1_1.png
+image_16_5:   images/posts/herd-immunity-16_5.png
+image_16_9: images/posts/herd-immunity-1_1.png
+image_1_1:  images/posts/herd-immunity-1_1.png
 excerpt_separator: <!--more-->
 ---
 

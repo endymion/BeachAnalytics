@@ -1,0 +1,41 @@
+fast_build: true
+
+media_presets:
+  xs: 'max-width: 576px'
+  s:  'max-width: 768px'
+  m:  'max-width: 992px'
+  l:  'max-width: 1200px'
+
+# $grid-gutter-width = 1.5rem
+markup_presets:
+  headline_banner:
+    formats: [webp, jpg]
+    quality: 60
+    link_source: false
+    widths: [576, 768, 992, 1152, 1536, 1984, 1200, 2400]
+    size: 'calc(100vw - 1.5rem*2)'
+    sizes:
+      s: 'calc(25vw - 1.5rem*2)'
+      m: 'calc(25vw - 1.5rem*2)'
+      l: 'calc(25vw - 1.5rem*2)'
+  article_banner:
+    formats: [webp, jpg]
+    quality: 60
+    link_source: false
+    widths: [576, 768, 992, 1152, 1536, 1984, 1200, 2400]
+    size: 'calc(100vw - 1.5rem*2)'
+    sizes:
+      s: 'calc(25vw - 1.5rem*2)'
+      m: 'calc(25vw - 1.5rem*2)'
+      l: 'calc(25vw - 1.5rem*2)'
+  default:
+    formats: [webp, jpg]
+    quality: 70
+    link_source: true
+    nomarkdown: false
+    widths: [576, 768, 992, 1152, 1536, 1984, 1200, 2400]
+    size: 'calc(100vw - 1.5rem*2)'
+    sizes:
+      s: 'calc(25vw - 1.5rem*2)'
+      m: 'calc(25vw - 1.5rem*2)'
+      l: 'calc(25vw - 1.5rem*2)'

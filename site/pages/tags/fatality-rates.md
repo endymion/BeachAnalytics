@@ -8,9 +8,9 @@ permalink: fatality-rates.html
 sidebar: home_sidebar
 folder: Topics
 toc: false
-banner_image:   images/posts/fatality-rates-16_5.png
-facebook_image: images/posts/fatality-rates-16_9.png
-twitter_image:  images/posts/fatality-rates-1_1.png
+image_16_5:   images/posts/fatality-rates-16_5.png
+image_16_9: images/posts/fatality-rates-16_9.png
+image_1_1:  images/posts/fatality-rates-1_1.png
 summary: Weighing the risk of dying if you're infected is important
   if you're considering returning to work.  Especially if your job
   involves touching people.  So then, what is that risk?
@@ -73,7 +73,7 @@ New York have already been infected.
 
 <center>
 <figure>
-{% responsive_image path: images/posts/2020-04-22-datagraver-deaths-per-million.jpeg %}
+{% picture images/posts/2020-04-22-datagraver-deaths-per-million.jpeg --img class="img-fluid" --alt="One in one thousand people in NYC has died from COVID-19." %}
 </figure>
 </center>
 
@@ -109,7 +109,7 @@ the real fatality rates vary for different age brackets.
 
 <center>
 <figure>
-{% responsive_image path: images/posts/statistic_id1109867_covid-19-death-rates-in-new-york-city-as-of-april-21-2020-by-age-group.png %}
+{% picture images/posts/statistic_id1109867_covid-19-death-rates-in-new-york-city-as-of-april-21-2020-by-age-group.png --img class="img-fluid" --alt="COVID-19 fatality rates in NYC by age." %}
 </figure>
 </center>
 
@@ -144,7 +144,7 @@ lead to an unprecedented humanitarian disaster.
 
 From a local perspective, if you interact with a lot of people every day,
 then you're
-[likely to be exposed](products/estimated-one-in-x-sarscov2-infection-odds/) to
+[likely to be exposed](visualizations/estimated-one-in-x-sarscov2-infection-odds/) to
 the virus.  If you assume that you will be infected, then epidemiologists
 currently estimate that you might have about a 0.5% to 2% chance of dying.
 

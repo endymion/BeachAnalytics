@@ -1,13 +1,6 @@
-{% assign largest = resized | sort: 'width' | last %}
-{% capture srcset %}
-{% for i in resized %}
-    /{{ i.path }} {{ i.width }}w,
-{% endfor %}
-{% endcapture %}
-
 <center>
 <figure class="figure">
-  <img class="img-fluid" src="/{{ largest.path }}" alt="{{ caption }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
-  <figcaption class="figure-caption small">{{ caption }}</figcaption>
+  {% picture default {{ include.image }} --img class="img-fluid" --alt="{{ include.caption }}" %}
+  <figcaption class="figure-caption small">{{ include.caption }}</figcaption>
 </figure>
 </center>

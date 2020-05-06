@@ -1,0 +1,27 @@
+---
+title: Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive
+sidebar: home_sidebar
+permalink: /visualizations/percent-increase-in-number-of-covid19-cases/older.html
+folder: Charts
+toc: false
+show_meta: false
+---
+
+An archive of older confirmed cases charts:
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "percentincreaseinnumberofcovid19cases", "true" | sort: 'name' | reverse %}
+
+<div class="home">
+
+    <div class="post-list">
+
+    <section id="archive">
+      <ul>
+      {% for chart in chart_files %}
+        <li><a href="{{ chart.path }}">{{ chart.path }}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+
+    </div>
+</div>

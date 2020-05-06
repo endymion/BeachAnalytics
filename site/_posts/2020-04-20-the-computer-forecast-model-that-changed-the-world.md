@@ -6,9 +6,9 @@ featured: true
 published: true
 excerpt_separator: <!--more-->
 tags: [covid19-models, imperial-college-model]
-banner_image:   images/posts/imperial-college-16_5.png
-facebook_image: images/posts/imperial-college-1_1.png
-twitter_image:  images/posts/imperial-college-1_1.png
+image_16_5:   images/posts/imperial-college-16_5.png
+image_16_9: images/posts/imperial-college-1_1.png
+image_1_1:  images/posts/imperial-college-1_1.png
 ---
 
 No report from any forecast model has ever had such a significant impact on worldwide human society.
@@ -40,9 +40,9 @@ All of this from one report from one forecasting model.
 
 <h2>The team</h2>
 
-{% responsive_image path: images/posts/neil-ferguson.png
-  template: _includes/responsive-image-article-inset.html
-  caption: "UK epidemiologist Neil Ferguson. Credit: Imperial College London" %}
+{% include responsive-image-article-inset.html
+  image='images/posts/neil-ferguson.png'
+  caption="UK epidemiologist Neil Ferguson. Credit: Imperial College London" %}
 The mathematical modeling team led by Professor Neil Ferguson and Dr Samir Bhatt
 has been tracking COVID-19 since the start of the outbreak.  Their original
 findings focused on China.  Ferguson, one of the founders of the MRC Centre for
@@ -64,10 +64,9 @@ focuses on the near term.  What the Imperial College report added was the
 <mark>analysis of the potential cost of not
 taking measures to slow the spread of the infection</mark>.{% cite imperial-college:global-impact %}
 
-{% responsive_image path: images/posts/imperial-college-mitigation-chart.png
-  template: _includes/responsive-image-article-figure.html
-  caption: "Chart from Imperial College report showing the potential
-  life-saving effects of social distancing." %}
+{% include responsive-image-article-figure.html
+  image='images/posts/imperial-college-mitigation-chart.png'
+  caption="Chart from Imperial College report showing the potential life-saving effects of social distancing." %}
 
 The report is especially relevant now in April, as society faces a crisis of
 discipline in maintaining social distancing.  For example, the above chart

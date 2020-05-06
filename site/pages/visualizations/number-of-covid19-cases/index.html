@@ -1,0 +1,34 @@
+---
+title: Number of Confirmed COVID-19 Cases
+sidebar: home_sidebar
+permalink: /visualizations/number-of-covid19-cases/index.html
+folder: Charts
+toc: false
+show_meta: false
+---
+
+{% assign chart_files = site.static_files | where: "chart", "true" | where: "numberofcovid19cases", "true" | where_exp: "item", "item.path contains '/miami-beach/'" | sort: 'name' | reverse %}
+{% for chart in chart_files limit:1 %}
+  {% capture chart_path %}{{ chart.path }}{% endcapture %}
+  <img src="{{ chart.path }}" class="pull-right" style="width:50%; margin:0 0 2em 2em; ">
+{% endfor %}
+
+<p>This chart shows the number of confirmed cases over time.</p>
+
+<p>The raw number of cases has limited use in a lot of ways, but in the case
+of this pandemic the rate of change is important.  Analysis visualizations like the
+percent increase and doubling time charts focus on that rate of change.  but
+sometimes it's nice to be able to see the raw numbers first.</p>
+
+<p>The media is mostly focusing on these raw numbers.</p>
+
+<h2>Sources</h2>
+
+The confirmed case count data comes from the
+<a href="https://www.floridadisaster.org/news-media/news/">daily updates</a>
+from the Florida Division of Emergency Management.
+
+<h2>Current</h2>
+
+Please see the <a href="/visualizations/number-of-covid19-cases/current.html">Current COVID-19 Dashboards</a> page for the latest dashboard
+published for each area.

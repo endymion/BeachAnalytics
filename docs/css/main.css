@@ -2060,35 +2060,71 @@ html, body { height: 100%; }
 
 #main { flex: 1 0 auto; line-height: 200%; }
 
-#page-contents { margin-top: 1rem; margin-bottom: 2rem; }
+#page-contents { margin-top: 1rem; }
 
 @media (min-width: 576px) { .container { max-width: 100%; } }
 
-@media (min-width: 992px) { .container { max-width: 960px; } }
+@media (min-width: 1200px) { .container { max-width: 1200px; } }
 
-@media (min-width: 1200px) { .container { max-width: 1140px; } }
+.news { display: flex; flex-wrap: wrap; }
 
-.panel { display: flex; margin-bottom: 2em; }
+.news .top { flex: 1 100%; }
+
+.news .outlook { flex: 1 100%; }
+
+.news .outlook .panel .headline { padding-left: 0; }
+
+.news .bottom { flex: 1 100%; }
+
+.news .headline { line-height: 1.5rem; }
+
+.news .headline h3 { line-height: smaller; margin: 0; }
+
+.news .headline .date { font-size: smaller; }
+
+.news .headline p { margin: 0; }
+
+@media (min-width: 768px) { .news { display: flex; flex-flow: column wrap; position: relative; } .news .top, .news .bottom { flex: 1; width: 65%; padding-right: 30px; } .news .outlook { position: absolute; top: 0; right: 0; left: 65%; } .news .outlook h2 { font-size: medium; margin: 0; } .outlook-spanner { display: flex; position: relative; } .outlook-spanner article { width: 70%; padding-right: 30px; } .outlook-spanner .outlook, .outlook-spanner .sidebar { position: absolute; top: 0; right: 15px; left: 70%; font-size: small; line-height: 1.5rem; } .outlook-spanner .outlook h2, .outlook-spanner .sidebar h2 { font-size: medium; margin: 0; } }
+
+.panel { display: flex; margin-bottom: 2rem; }
 
 .panel .banner { flex: 1; }
 
-.panel .banner img { border: 1px solid #999999; }
+.panel .banner img { border: 1px solid #999999; width: 100%; }
 
-.panel .headline { flex: 3; padding-left: 1rem; }
+.panel .headline { flex: 3; padding-left: 15px; margin-top: 0; }
 
-.panel .headline h3 { margin-top: 0; }
+.panel .headline h3 { margin: 0; }
 
-@media (max-width: 575px) { .panel { background-color: white; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; } .panel .image { display: none; } .panel .banner { flex: 1 100%; } }
+.panel .headline p { margin: 0; }
+
+@media (max-width: 576px) { .panel { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; } .panel .banner { flex: 1 100%; } .panel .headline { padding-left: 0; } .panel .headline h3 { margin: 0.25rem 0 0 0; } }
+
+.sidebar .panel { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; }
+
+.sidebar .panel .banner { flex: 1 100%; }
+
+.sidebar .panel .headline { padding-left: 0; }
+
+.sidebar .panel .headline h3 { margin: 0.25rem 0 0 0; }
 
 h1 { margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
 
+@media (max-width: 576px) { h1 { margin: 0.5ex 0 0.5ex 0; } }
+
 h2 { margin: 1.5ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
+
+@media (max-width: 576px) { h2 { margin: 1ex 0 0.5ex 0; } }
 
 h3 { font-size: 1.375rem; margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; font-weight: 500; }
 
-.post-header { position: relative; z-index: -1; }
+@media (max-width: 576px) { h3 { margin: 0.5ex 0 0.25ex 0; } }
 
-.post-header img { border: 1px solid #999999; }
+.post-header { position: relative; z-index: -1; line-height: 1rem; }
+
+.post-header h1 { margin: 0; }
+
+.post-header img { border: 1px solid #999999; width: 100%; }
 
 .post-content { position: relative; z-index: 1; }
 
@@ -2104,13 +2140,17 @@ body { background-color: #FAFAFA; }
 
 .navbar .logo a, body > footer .logo a { color: #f8f9fa; }
 
-.navbar .logotype, body > footer .logotype { font-weight: 700; }
+.navbar .logo a:link, .navbar .logo a:visited, .navbar .logo a:hover, .navbar .logo a:active, body > footer .logo a:link, body > footer .logo a:visited, body > footer .logo a:hover, body > footer .logo a:active { text-decoration: none; }
 
-.navbar code, body > footer code { color: #f8f9fa; font-size: 80%; line-height: 0.938rem; }
+.navbar .logotype, body > footer .logotype { font-weight: bold; }
+
+.navbar code, body > footer code { color: #f8f9fa; font-size: 80%; line-height: smaller; }
 
 .navbar .fa-lg { font-size: 2rem; vertical-align: -0.175rem; }
 
 .navbar .logotype { font-size: 1.5rem; line-height: .75rem; }
+
+.navbar .container { padding-right: 0; }
 
 #search-input { background-color: #f8f9fa; }
 
@@ -2125,26 +2165,40 @@ body { background-color: #FAFAFA; }
 body > footer { color: #99ccff; font-size: smaller; width: 100%; }
 
 /* search area */
-#search-demo-container { position: relative; }
+#search-container { position: relative; }
 
-#search-demo-container a { color: #343a40; }
+#search-container a { color: #343a40; }
 
-#search-demo-container ul#results-container { list-style: none; font-size: 1.0125rem; background-color: #f8f9fa; position: absolute; top: 2.7rem; right: 0px; z-index: 1; width: 400px; border-left: 1px solid #dedede; padding-inline-start: 0px; }
+#search-container ul#results-container { list-style: none; font-size: 1.0125rem; background-color: #f8f9fa; position: absolute; top: 2.7rem; right: 0px; z-index: 2; width: 400px; border-left: 1px solid #dedede; padding-inline-start: 0px; }
 
-#search-demo-container ul#results-container li { margin: 1em 2em 1em 2em; }
+#search-container ul#results-container li { margin: 1em 2em 1em 2em; }
 
 ul#results-container a { background-color: transparent; }
 
 ul#results-container a:hover { color: black; }
 
-#search-demo-container a:hover { color: black; }
+#search-container a:hover { color: black; }
 
 /* end search */
 #page-contents .jekyll-twitter-plugin { margin: 2em 0 2em 0; }
 
+figure img { width: 100%; }
+
 #page-contents figure.inset img.img-responsive { margin: 0; }
 
-#page-contents figure { background: white; width: 75%; margin: 2em 0 2em 0; }
+#page-contents figure { background: white; width: 75%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; line-height: 1rem; }
+
+#page-contents figure figcaption { margin-top: 15px; }
+
+#page-contents .outlook figure, #page-contents .sidebar figure { background-color: #FAFAFA; width: 100%; padding: 0; margin-top: 0; margin-bottom: 2rem; }
+
+@media (max-width: 576px) { #page-contents figure { background-color: #FAFAFA; width: 100%; padding: 1em 0 1em 0; } }
+
+@media (min-width: 576px) { #page-contents figure { width: 85%; padding: 15px; } }
+
+@media (min-width: 992px) { #page-contents figure { width: 65%; padding: 30px; } }
+
+@media (min-width: 1200px) { #page-contents figure { width: 55%; padding: 30px; } }
 
 #page-contents figure.inset { width: 25%; margin: 0 0 2em 2em; }
 

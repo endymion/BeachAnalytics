@@ -1,0 +1,14 @@
+<div class="outlook sidebar">
+  <div class="panel">
+    <div class="headline">
+      <div class="meta">
+        {% assign outlook = site.posts | where: 'tags', 'outlook' | reverse | first %}
+
+        <h2><a class="post-link" href="{{ outlook.url }}">South Florida COVID-19 Outlook</a></h2>
+        <div class="date"><code>{{ outlook.date | date: "%b %-d, %Y" }}</code></div>
+
+        {{ outlook.excerpt }}
+      </div>
+    </div>
+  </div>
+</div>

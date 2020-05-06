@@ -1,7 +1,0 @@
-{% assign chart_files = site.static_files | where: "chart", "true" | where: "projectedpercentageofsarscov2infections", "true" | where_exp: "item", "item.path contains include.area" | sort: 'name' | reverse %}
-{% for chart in chart_files limit:1 %}
-  <p>
-  {% capture chart_path %}{{ chart.path }}{% endcapture %}
-  {% include image.html file=chart_path max-width="100%" %}
-  </p>
-{% endfor %}
