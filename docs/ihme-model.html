@@ -373,7 +373,7 @@ It is critical to note that <mark>we restrict our projections to the first wave<
 
 <h3 id="purely-statistical">Purely statistical</h3>
 
-<p>The IHME model doesn’t understand anything about the dynamics of how the virus spreads. It <mark>doesn't consider how easily it spreads or how long someone can be infected before they show symptoms</mark>.  And it certainly doesn’t consider the Heisenberg Effect, in terms of the effect that its own projections might have on the public’s behavior.  It is <mark>purely a statistical model</mark></p>
+<p>The IHME model doesn’t understand anything about the dynamics of how the virus spreads. It <mark>doesn't consider how easily it spreads or how long someone can be infected before they show symptoms</mark>.  And it certainly doesn’t consider the Heisenberg Effect, in terms of the effect that its own projections might have on the public’s behavior.  It is <mark>purely a statistical model</mark><a class="citation" href="#UT:projections-for-first-wave">[10]</a></p>
 
 <p>The model <mark>looks at other places that have already been hit by the pandemic</mark>, like China and Italy.  It assumes that the infection will always taper off the way that it has in those places, and it tries to estimate when that might happen.  The model’s assumptions about the population maintaining measures to slow the spread of the virus are the main factors that affect the forecast.  The researchers at IHME are <mark>constantly adjusting the input parameters</mark> based on new data, including changes in public behavior.  Ironically, some of these changes in behavior are now influenced by the model itself, creating a sort of <mark>Heisenberg-Effect feedback loop</mark>.</p>
 
@@ -389,12 +389,19 @@ It is critical to note that <mark>we restrict our projections to the first wave<
 </figure>
 </center>
 
-<p>The IHME model’s forecast is based only on the shapes of curves on charts.  It’s <mark>not a simulation model</mark> like the <a href="/imperial-college-model.html">Imperial College model</a>.  Some people forecast stock prices by fitting current stock prices to patterns like <a href="https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp">Fibonacci numbers</a>(missing reference).
-For example, the “Falling Wedge” pattern pictured is a downward trend that some stock analysts see as an indication that the price will rise in the future.<a class="citation" href="#wikipedia:wedge-pattern">[10]</a></p>
+<p>The IHME model’s forecast is based only on the shapes of curves on charts.  It’s <mark>not a simulation model</mark> like the <a href="/imperial-college-model.html">Imperial College model</a>.  Some people forecast stock prices by fitting current stock prices to patterns like <a href="https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp">Fibonacci numbers</a><a class="citation" href="#investopedia:fibonacciretracement">[11]</a>.
+For example, the “Falling Wedge” pattern pictured is a downward trend that some stock analysts see as an indication that the price will rise in the future.<a class="citation" href="#wikipedia:wedge-pattern">[12]</a></p>
 
 <p>The IHME model is similar to this kind of pattern-matching forecast.  It <mark>doesn't even try to understand</mark> the
 incubation period of the disease or the percentage of asymptomatic people, or
-anything else about the disease itself.  It only looks for <mark>patterns in the curves</mark>.</p>
+anything else about the disease itself.  It only looks for <mark>patterns in the curves</mark>.  Other researchers have criticized the model’s methods for departing from classic epidemiological modeling and for optimistically assuming that the shape of the curve will be curtailed by social distancing.<a class="citation" href="#UT:projections-for-first-wave">[10]</a></p>
+
+<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading"><i class="fa fa-info-circle" aria-hidden="true"></i> See also</h4>
+  <p>The <a href="/ut-covid19-model.html">University of Texas COVID-19 model</a> builds on the IHME model by adding real-time daily social-distancing data.<a class="citation" href="#UT:projections-for-first-wave">[10]</a></p>
+  <hr />
+  <p class="mb-0">The UT model also differs from the IHME model by using only US data, instead of assuming that the epidemic in the US will follow the same patterns seen in other countries.  And it attempts to improve on the verifiably-wrong IHME model's uncertainty calculations.</p>
+</div>
 
 <h3 id="only-works-with-solid-death-data">Only works with solid death data</h3>
 
@@ -410,7 +417,7 @@ anything else about the disease itself.  It only looks for <mark>patterns in the
 
 <p>This is an example of <a href="https://en.wikipedia.org/wiki/False_precision">false precision</a>, when numerical data is presented in a manner that implies better precision than is justified.(missing reference)  Stating the forecast in terms of a precise center line encourages readers to view the model as a crystal ball.  And when the real numbers don’t track the forecast precisely then people will misinterpret or misrepresent the error as evidence that the entire model is invalid and that the experts, in general, are all wrong.<a class="citation" href="#infowars:virologists-question-lockdowns">[5]</a></p>
 
-<p>We can’t blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast <em>range</em>, but they also give a handy total.  Currently “74,073 COVID-19 deaths projected by August 4, 2020”, as of this writing.  The number of <a href="https://en.wikipedia.org/wiki/Significant_figures">significant figures</a> in the dashboard totals are inappropriately overstating the precision of the forecast,<a class="citation" href="#wikipedia:significant_figures">[11]</a> and are misleading to the public.</p>
+<p>We can’t blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast <em>range</em>, but they also give a handy total.  Currently “74,073 COVID-19 deaths projected by August 4, 2020”, as of this writing.  The number of <a href="https://en.wikipedia.org/wiki/Significant_figures">significant figures</a> in the dashboard totals are inappropriately overstating the precision of the forecast,<a class="citation" href="#wikipedia:significant_figures">[13]</a> and are misleading to the public.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -431,17 +438,27 @@ anything else about the disease itself.  It only looks for <mark>patterns in the
 <li><span id="ihme:forecasting-the-impact-of-the-first-wave">7. team IHMECOVID-19 health service utilization forecasting. <b>Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries</b>. April 21, 2020<a href="http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf">link</a>. (Accessed 2020-04-27 16:00) </span></li>
 <li><span id="bams:cone-of-uncertainty">8. Broad K, Leiserowitz A, Weinkle J, et al. <b>Misinterpretations of the “Cone of Uncertainty” in Florida during the 2004 Hurricane Season</b>. American Meterological Society; May 2007<a href="https://core.ac.uk/download/pdf/80855756.pdf">link</a>. (Accessed 2020-04-27 16:00) </span></li>
 <li><span id="wapo:misunderstanding-the-math">9. Bump P. <b>Misunderstanding the math, Trump embraced a coronavirus death toll we’ll soon surpass</b>. April 24, 2020<a href="https://www.msn.com/en-us/news/politics/misunderstanding-the-math-trump-embraced-a-coronavirus-death-toll-we-ll-soon-surpass/ar-BB136wFd??ocid=twmsn">link</a>. (Accessed 2020-04-28 9:30) </span></li>
-<li><span id="wikipedia:wedge-pattern">10. <b>Wedge pattern</b>. Wikipedia; June 14, 2019<a href="https://en.wikipedia.org/wiki/Wedge_pattern">link</a>. (Accessed 2020-04-27 16:00) </span></li>
-<li><span id="wikipedia:significant_figures">11. <b>Significant figures</b>. Wikipedia; April 24, 2020<a href="https://en.wikipedia.org/wiki/Significant_figures">link</a>. (Accessed 2020-04-28 10:00) </span></li></ol>
+<li><span id="UT:projections-for-first-wave">10. Woody S, Tec M, Dahan M, et al. <b>Projections for first-wave COVID-19 deaths across the US using social-distancing measures derived from mobile phones</b>. The University of Texas at Austin COVID-19 Modeling Consortium; 0AD<a href="https://www.medrxiv.org/content/10.1101/2020.04.16.20068163v2.full.pdf">link</a>. (Accessed 2020-05-12 16:12) </span></li>
+<li><span id="investopedia:fibonacciretracement">11. Mitchell C. <b>Fibonacci Retracement Levels</b>. Investopedia; 0AD<a href="https://www.investopedia.com/terms/f/fibonacciretracement.asp">link</a>. (Accessed 2020-05-12 17:48) </span></li>
+<li><span id="wikipedia:wedge-pattern">12. <b>Wedge pattern</b>. Wikipedia; June 14, 2019<a href="https://en.wikipedia.org/wiki/Wedge_pattern">link</a>. (Accessed 2020-04-27 16:00) </span></li>
+<li><span id="wikipedia:significant_figures">13. <b>Significant figures</b>. Wikipedia; April 24, 2020<a href="https://en.wikipedia.org/wiki/Significant_figures">link</a>. (Accessed 2020-04-28 10:00) </span></li></ol>
 
 <h2 id="related">Related</h2>
+
+<div class="post-list">
+
+
+
+  
 
 <div class="panel">
   
     <div class="banner">
       <a class="post-link" href="/2020/04/29/dont-focus-on-the-center-line.html">
-        <picture><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/NHC-Katrina-center-line-16_5-576-23d5a4.webp 576w, /generated/images/posts/NHC-Katrina-center-line-16_5-768-23d5a4.webp 768w, /generated/images/posts/NHC-Katrina-center-line-16_5-895-23d5a4.webp 895w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/NHC-Katrina-center-line-1_1-361-2b4737.webp 361w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/NHC-Katrina-center-line-16_5-576-23d5a4.jpg 576w, /generated/images/posts/NHC-Katrina-center-line-16_5-768-23d5a4.jpg 768w, /generated/images/posts/NHC-Katrina-center-line-16_5-895-23d5a4.jpg 895w" type="image/jpeg" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/NHC-Katrina-center-line-1_1-361-2b4737.jpg 361w" type="image/jpeg" /><img class="img-fluid" src="/generated/images/posts/NHC-Katrina-center-line-1_1-361-2b4737.jpg" /></picture>
+        
+          <picture><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/NHC-Katrina-center-line-16_5-576-23d5a4.webp 576w, /generated/images/posts/NHC-Katrina-center-line-16_5-768-23d5a4.webp 768w, /generated/images/posts/NHC-Katrina-center-line-16_5-895-23d5a4.webp 895w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/NHC-Katrina-center-line-1_1-361-2b4737.webp 361w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/NHC-Katrina-center-line-16_5-576-23d5a4.jpg 576w, /generated/images/posts/NHC-Katrina-center-line-16_5-768-23d5a4.jpg 768w, /generated/images/posts/NHC-Katrina-center-line-16_5-895-23d5a4.jpg 895w" type="image/jpeg" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/NHC-Katrina-center-line-1_1-361-2b4737.jpg 361w" type="image/jpeg" /><img class="img-fluid" src="/generated/images/posts/NHC-Katrina-center-line-1_1-361-2b4737.jpg" /></picture>
 
+        
       </a>
     </div>
   
@@ -472,12 +489,17 @@ anything else about the disease itself.  It only looks for <mark>patterns in the
   </div>
 </div>
 
+
+  
+
 <div class="panel">
   
     <div class="banner">
       <a class="post-link" href="/2020/04/27/its-not-the-peak-its-this-peak.html">
-        <picture><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/ihme-chart-16_5-576-88e5a1.webp 576w, /generated/images/posts/ihme-chart-16_5-768-88e5a1.webp 768w, /generated/images/posts/ihme-chart-16_5-992-88e5a1.webp 992w, /generated/images/posts/ihme-chart-16_5-1152-88e5a1.webp 1152w, /generated/images/posts/ihme-chart-16_5-1536-88e5a1.webp 1536w, /generated/images/posts/ihme-chart-16_5-1984-88e5a1.webp 1984w, /generated/images/posts/ihme-chart-16_5-1200-88e5a1.webp 1200w, /generated/images/posts/ihme-chart-16_5-2400-88e5a1.webp 2400w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/ihme-chart-1_1-576-a3fdbb.webp 576w, /generated/images/posts/ihme-chart-1_1-768-a3fdbb.webp 768w, /generated/images/posts/ihme-chart-1_1-992-a3fdbb.webp 992w, /generated/images/posts/ihme-chart-1_1-1152-a3fdbb.webp 1152w, /generated/images/posts/ihme-chart-1_1-1200-a3fdbb.webp 1200w, /generated/images/posts/ihme-chart-1_1-1361-a3fdbb.webp 1361w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/ihme-chart-16_5-576-88e5a1.jpg 576w, /generated/images/posts/ihme-chart-16_5-768-88e5a1.jpg 768w, /generated/images/posts/ihme-chart-16_5-992-88e5a1.jpg 992w, /generated/images/posts/ihme-chart-16_5-1152-88e5a1.jpg 1152w, /generated/images/posts/ihme-chart-16_5-1536-88e5a1.jpg 1536w, /generated/images/posts/ihme-chart-16_5-1984-88e5a1.jpg 1984w, /generated/images/posts/ihme-chart-16_5-1200-88e5a1.jpg 1200w, /generated/images/posts/ihme-chart-16_5-2400-88e5a1.jpg 2400w" type="image/jpeg" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/ihme-chart-1_1-576-a3fdbb.jpg 576w, /generated/images/posts/ihme-chart-1_1-768-a3fdbb.jpg 768w, /generated/images/posts/ihme-chart-1_1-992-a3fdbb.jpg 992w, /generated/images/posts/ihme-chart-1_1-1152-a3fdbb.jpg 1152w, /generated/images/posts/ihme-chart-1_1-1200-a3fdbb.jpg 1200w, /generated/images/posts/ihme-chart-1_1-1361-a3fdbb.jpg 1361w" type="image/jpeg" /><img class="img-fluid" src="/generated/images/posts/ihme-chart-1_1-800-a3fdbb.jpg" /></picture>
+        
+          <picture><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/ihme-chart-16_5-576-88e5a1.webp 576w, /generated/images/posts/ihme-chart-16_5-768-88e5a1.webp 768w, /generated/images/posts/ihme-chart-16_5-992-88e5a1.webp 992w, /generated/images/posts/ihme-chart-16_5-1152-88e5a1.webp 1152w, /generated/images/posts/ihme-chart-16_5-1536-88e5a1.webp 1536w, /generated/images/posts/ihme-chart-16_5-1984-88e5a1.webp 1984w, /generated/images/posts/ihme-chart-16_5-1200-88e5a1.webp 1200w, /generated/images/posts/ihme-chart-16_5-2400-88e5a1.webp 2400w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/ihme-chart-1_1-576-a3fdbb.webp 576w, /generated/images/posts/ihme-chart-1_1-768-a3fdbb.webp 768w, /generated/images/posts/ihme-chart-1_1-992-a3fdbb.webp 992w, /generated/images/posts/ihme-chart-1_1-1152-a3fdbb.webp 1152w, /generated/images/posts/ihme-chart-1_1-1200-a3fdbb.webp 1200w, /generated/images/posts/ihme-chart-1_1-1361-a3fdbb.webp 1361w" type="image/webp" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" media="(max-width: 576px)" srcset="/generated/images/posts/ihme-chart-16_5-576-88e5a1.jpg 576w, /generated/images/posts/ihme-chart-16_5-768-88e5a1.jpg 768w, /generated/images/posts/ihme-chart-16_5-992-88e5a1.jpg 992w, /generated/images/posts/ihme-chart-16_5-1152-88e5a1.jpg 1152w, /generated/images/posts/ihme-chart-16_5-1536-88e5a1.jpg 1536w, /generated/images/posts/ihme-chart-16_5-1984-88e5a1.jpg 1984w, /generated/images/posts/ihme-chart-16_5-1200-88e5a1.jpg 1200w, /generated/images/posts/ihme-chart-16_5-2400-88e5a1.jpg 2400w" type="image/jpeg" /><source sizes="(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)" srcset="/generated/images/posts/ihme-chart-1_1-576-a3fdbb.jpg 576w, /generated/images/posts/ihme-chart-1_1-768-a3fdbb.jpg 768w, /generated/images/posts/ihme-chart-1_1-992-a3fdbb.jpg 992w, /generated/images/posts/ihme-chart-1_1-1152-a3fdbb.jpg 1152w, /generated/images/posts/ihme-chart-1_1-1200-a3fdbb.jpg 1200w, /generated/images/posts/ihme-chart-1_1-1361-a3fdbb.jpg 1361w" type="image/jpeg" /><img class="img-fluid" src="/generated/images/posts/ihme-chart-1_1-800-a3fdbb.jpg" /></picture>
 
+        
       </a>
     </div>
   
@@ -508,7 +530,14 @@ anything else about the disease itself.  It only looks for <mark>patterns in the
   </div>
 </div>
 
-<!--  -->
+
+
+
+
+
+
+
+</div>
 
 
 </div>
@@ -521,8 +550,10 @@ anything else about the disease itself.  It only looks for <mark>patterns in the
   <div class="sidebar">
   
 
+  <div class="headline">
   <h2><a class="post-link" href="/south-florida-covid19-outlook.html">South Florida COVID-19 Outlook</a></h2>
-  <div class="date"><code>May 11, 2020</code></div>
+  <div class="date"><code>Tuesday May 12, 2020</code></div>
+  </div>
 
   
   
@@ -626,7 +657,7 @@ anything else about the disease itself.  It only looks for <mark>patterns in the
 
       <div class="col text-right">
         <div class="small timestamps">site&nbsp;updated</div>
-        <code class="smaller">May 12, 2020  2:29 PM</code>
+        <code class="smaller">May 12, 2020  5:52 PM</code>
       </div>
 
     </div>

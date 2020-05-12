@@ -7,7 +7,14 @@ layout: default
     <header class="post-header clearfix">
 
       <div class="small text-secondary clearfix">
-        <div class="date float-left"><code>{{ page.date | date: "%b %-d, %Y" }}</code></div>
+        <div class="date float-left"><code>
+          {% if page.slug == 'south-florida-covid19-outlook' %}
+            {{ page.last_modified_at | date: "%A %b %-d, %Y" }}
+          {% else %}
+            {{ page.date | date: "%b %-d, %Y" }}
+            updated {{ page.last_modified_at | date: "%A %b %-d, %Y" }}
+          {% endif %}
+        </code></div>
         <div class="float-right">{{ page.author }}</div>
       </div>
 

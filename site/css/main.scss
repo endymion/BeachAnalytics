@@ -209,6 +209,18 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 1.25rem;
+  margin: 1ex 0 1ex 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+@media (max-width: 576px) {
+  h4 {
+    margin: 0.5ex 0 0.25ex 0;
+  }
+}
+
 .post-header {
   position: relative;
   z-index: -1;
@@ -393,19 +405,19 @@ figure img {
     padding: 1em 0 1em 0;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 577px) {
   #page-contents figure {
     width: 85%;
     padding: $grid-gutter-width/2;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   #page-contents figure {
     width: 65%;
     padding: $grid-gutter-width;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
   #page-contents figure {
     width: 75%;
     padding: $grid-gutter-width;

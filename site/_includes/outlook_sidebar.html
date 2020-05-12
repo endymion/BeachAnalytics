@@ -1,8 +1,10 @@
 <div class="sidebar">
   {% assign outlook = site.posts | where: "slug", "south-florida-covid19-outlook" | first %}
 
+  <div class="headline">
   <h2><a class="post-link" href="{{ outlook.url }}">South Florida COVID-19 Outlook</a></h2>
-  <div class="date"><code>{{ outlook.last_modified_at | date: "%b %-d, %Y" }}</code></div>
+  <div class="date"><code>{{ outlook.last_modified_at | date: "%A %b %-d, %Y" }}</code></div>
+  </div>
 
   {% set_global_variable sidebar_href_override = /south-florida-covid19-outlook.html %}
   {{ outlook.excerpt }}

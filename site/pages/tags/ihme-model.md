@@ -64,7 +64,7 @@ Many people, including even President Trump, have misinterpreted the center line
 
 ### Purely statistical
 
-The IHME model doesn't understand anything about the dynamics of how the virus spreads. It <mark>doesn't consider how easily it spreads or how long someone can be infected before they show symptoms</mark>.  And it certainly doesn't consider the Heisenberg Effect, in terms of the effect that its own projections might have on the public's behavior.  It is <mark>purely a statistical model</mark>
+The IHME model doesn't understand anything about the dynamics of how the virus spreads. It <mark>doesn't consider how easily it spreads or how long someone can be infected before they show symptoms</mark>.  And it certainly doesn't consider the Heisenberg Effect, in terms of the effect that its own projections might have on the public's behavior.  It is <mark>purely a statistical model</mark>{% cite UT:projections-for-first-wave %}
 
 The model <mark>looks at other places that have already been hit by the pandemic</mark>, like China and Italy.  It assumes that the infection will always taper off the way that it has in those places, and it tries to estimate when that might happen.  The model's assumptions about the population maintaining measures to slow the spread of the virus are the main factors that affect the forecast.  The researchers at IHME are <mark>constantly adjusting the input parameters</mark> based on new data, including changes in public behavior.  Ironically, some of these changes in behavior are now influenced by the model itself, creating a sort of <mark>Heisenberg-Effect feedback loop</mark>.
 
@@ -77,7 +77,14 @@ For example, the "Falling Wedge" pattern pictured is a downward trend that some 
 
 The IHME model is similar to this kind of pattern-matching forecast.  It <mark>doesn't even try to understand</mark> the
 incubation period of the disease or the percentage of asymptomatic people, or
-anything else about the disease itself.  It only looks for <mark>patterns in the curves</mark>.
+anything else about the disease itself.  It only looks for <mark>patterns in the curves</mark>.  Other researchers have criticized the model's methods for departing from classic epidemiological modeling and for optimistically assuming that the shape of the curve will be curtailed by social distancing.{% cite UT:projections-for-first-wave %}
+
+<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading"><i class="fa fa-info-circle" aria-hidden="true"></i> See also</h4>
+  <p>The <a href="/ut-covid19-model.html">University of Texas COVID-19 model</a> builds on the IHME model by adding real-time daily social-distancing data.{% cite UT:projections-for-first-wave %}</p>
+  <hr>
+  <p class="mb-0">The UT model also differs from the IHME model by using only US data, instead of assuming that the epidemic in the US will follow the same patterns seen in other countries.  And it attempts to improve on the verifiably-wrong IHME model's uncertainty calculations.</p>
+</div>
 
 ### Only works with solid death data
 

@@ -1,8 +1,18 @@
+{% if include.alternate_width %}
+  {% assign alternate_width = include.alternate_width %}
+{% else %}
+  {% assign alternate_width = 'xs' %}
+{% endif %}
+
 <div class="panel">
   {% if include.post.image_1_1 %}
     <div class="banner">
       <a class="post-link" href="{{ include.post.url }}">
-        {% picture headline_banner {{ include.post.image_1_1 }} xs: {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% if include.compact %}
+          {% picture headline_banner {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% else %}
+          {% picture headline_banner {{ include.post.image_1_1 }} {{alternate_width}}: {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% endif %}
       </a>
     </div>
   {% endif %}
