@@ -11,7 +11,7 @@ toc: false
 image_16_5:   images/posts/fatality-rates-16_5.png
 image_16_9: images/posts/fatality-rates-16_9.png
 image_1_1:  images/posts/fatality-rates-1_1.png
-summary: Weighing the risk of dying if you're infected is important
+excerpt: Weighing the risk of dying if you're infected is important
   if you're considering returning to work.  Especially if your job
   involves touching people.  So then, what is that risk?
 ---

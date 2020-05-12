@@ -2,11 +2,6 @@
 layout: default
 ---
 
-{% unless page.title == 'News' %}
-  <!-- Used for pushing the outlook to the sidebar, when present. -->
-  <div class="outlook-spanner">
-{% endunless %}
-
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
 <header class="post-header">
@@ -41,32 +36,26 @@ layout: default
   {{ content }}
 </div>
 
-
-
-
 {% if page.simple_map == true %}
-
 <script>
     $(document).ready ( function(){
         $('.box{{page.box_number}}').addClass('active');
     });
 </script>
-
 {% include custom/{{page.map_name}}.html %}
-
 {% elsif page.complex_map == true %}
-
 <script>
     $(document).ready ( function(){
         $('.modalButton{{page.box_number}}').addClass('active');
     });
 </script>
-
 {% include custom/{{page.map_name}}.html %}
-
 {% endif %}
 
-{% unless page.title == 'News' %}
-{% include outlook_sidebar.html %}
-</div><!-- outlook-spanner -->
-{% endunless %}
+</article>
+
+{% if page.slug == 'south-florida-covid19-outlook' %}
+  {% include resources_sidebar.html %}
+{% else %}
+  {% include outlook_sidebar.html %}
+{% endif %}

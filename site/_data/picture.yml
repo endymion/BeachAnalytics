@@ -1,4 +1,4 @@
-fast_build: true
+# fast_build: true
 
 media_presets:
   xs: 'max-width: 576px'
@@ -31,7 +31,7 @@ markup_presets:
   default:
     formats: [webp, jpg]
     quality: 70
-    link_source: true
+    link_source: false
     nomarkdown: false
     widths: [576, 768, 992, 1152, 1536, 1984, 1200, 2400]
     size: 'calc(100vw - 1.5rem*2)'

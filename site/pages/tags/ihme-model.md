@@ -1,5 +1,6 @@
 ---
 title: IHME COVID-19 Forecasting Model
+slug: ihme-model
 author: Ryan Alyn Porter
 category: model
 tagName: ihme-model
@@ -11,7 +12,7 @@ toc: false
 image_16_5:   images/posts/ihme-16_5.jpg
 image_16_9: images/posts/ihme-1_1.jpg
 image_1_1:  images/posts/ihme-1_1.jpg
-summary: One of the most widely influential COVID-19 forecasting models
+excerpt: One of the most widely influential COVID-19 forecasting models
   has also been one of the most misinterpreted.
 featured: true
 ---

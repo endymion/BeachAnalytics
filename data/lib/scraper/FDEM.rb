@@ -45,7 +45,7 @@ module Scraper
 
         puts ('-' * 70).light_white if i > 0
 
-        sleep(5)
+        sleep(2)
       end
     end
 
@@ -81,7 +81,7 @@ module Scraper
       unless(@@first_page_only ||
         (next_page_link = doc.css('li.pag-nav-next a')).empty?)
 
-        sleep(1)
+        sleep(2)
 
         news_items <<
           update_urls(URI::join(news_url, next_page_link.attr('href')))
@@ -116,7 +116,12 @@ module Scraper
 
       cache_filename = Cache.file(File.join('fdem/pdf/' + filename)) do
         puts ' Fetching from: ' + filename.light_blue
-        Net::HTTP.get(URI.parse(data_url))
+        begin
+          Net::HTTP.get(URI.parse(data_url))
+        rescue => error
+          puts "ERROR: #{error.message}"
+          return
+        end
       end
 
       ed_complaints =

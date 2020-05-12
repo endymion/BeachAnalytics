@@ -15,7 +15,8 @@ body {
 
 #page-contents {
   margin-top: 1rem;
-  // margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 @media (min-width: 576px) {
   .container {
@@ -28,154 +29,164 @@ body {
   }
 }
 
-.news {
-  display: flex;
-  flex-wrap: wrap;
-
-  .top {
-    flex: 1 100%;
-  }
-  .outlook {
-    flex: 1 100%;
-    .panel {
-      .headline {
-        padding-left: 0;
+article {
+  flex: 1 100%;
+}
+.sidebar {
+  flex: 1 100%;
+  .panel {
+    padding: 0 0 2rem 0;
+    .headline {
+      padding-right: $grid-gutter-width/2;
+      .banner {
+        order: 1;
+      }
+      .meta {
+        order: 2;
       }
     }
   }
-  .bottom {
-    flex: 1 100%;
+  .figure {
+    width: 100%;
   }
+}
 
+@media (min-width: 768px) {
+  article {
+    flex: 3 65%;
+    padding-right: $grid-gutter-width;
+  }
+  .sidebar {
+    flex: 1 35%;
+
+    h2 {
+      font-size: 1.375rem;
+      margin: 0;
+    }
+  }
+}
+
+.headline {
+  h2 {
+    font-size: 1.375rem;
+    line-height: smaller;
+    margin: 0;
+  }
+  .date {
+    font-size: smaller;
+  }
+  line-height: 1.5rem;
+  p {
+    margin: 0;
+  }
+}
+
+
+.panel {
+  // The purpose of this code is to reverse the order of the headline and banner.
+  display: flex;
+  flex-wrap: wrap;
+  .banner {
+    flex: 1 100%;
+    order: 2;
+  }
   .headline {
-    h3 {
-      line-height: smaller;
-      margin: 0;
+    flex: 1 100%;
+    order: 1;
+  }
+}
+.post-list {
+  .panel {
+    display: flex;
+    margin-bottom: 2rem;
+
+    .banner {
+      flex: 1;
+      order: 1;
+      img {
+        border: 1px solid $neutral;
+        width: 100%;
+      }
     }
-    .date {
-      font-size: smaller;
+    .headline {
+      order: 2;
+      flex: 3;
+      padding-left: ($grid-gutter-width / 2);
+      margin-top: 0;
+      h3 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
     }
-    line-height: 1.5rem;
-    p {
-      margin: 0;
+  }
+}
+.sidebar {
+  .banner {
+    flex: 1;
+    order: 2;
+  }
+  .headline {
+    flex: 1;
+    order: 1;
+    padding-right: ($grid-gutter-width / 2);
+    margin-top: 0.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .post-list {
+    .panel {
+      flex-wrap: wrap;
+      .banner {
+        flex: 1 100%;
+        order: 1;
+      }
+      .headline {
+        flex: 1 100%;
+        order: 2;
+        padding-left: 0;
+        h3 {
+          margin: 0.25rem 0 0 0;
+        }
+      }
+    }
+  }
+  .sidebar {
+    .panel {
+      .headline {
+        .banner {
+          order: 2;
+        }
+        .meta {
+          order: 1;
+        }
+      }
     }
   }
 }
 @media (min-width: 768px) {
-  // The main news page.
-  .news {
-    display: flex;
-    flex-flow: column wrap;
-    position: relative;
-    .top, .bottom {
-      flex: 1;
-      width: 65%;
-      padding-right: $grid-gutter-width;
-    }
-    .outlook {
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 65%;
-
-      h2 {
-        font-size: medium;
-        margin: 0;
+  .sidebar {
+    .panel {
+      flex-wrap: wrap;
+      .banner {
+        flex: 1 100%;
+        order: 1;
       }
-    }
-  }
-  // Post pages.
-  .outlook-spanner {
-    display: flex;
-    position: relative;
-    article {
-      width: 70%;
-      padding-right: $grid-gutter-width;
-    }
-    .outlook, .sidebar {
-      position: absolute;
-      top: 0;
-      right: $grid-gutter-width/2;
-      left: 70%;
-      h2 {
-        font-size: medium;
-        margin: 0;
-      }
-      font-size: small;
-      line-height: 1.5rem;
-    }
-  }
-}
-
-.panel {
-  display: flex;
-  margin-bottom: 2rem;
-
-  .banner {
-    flex: 1;
-    img {
-      border: 1px solid $neutral;
-      width: 100%;
-    }
-  }
-  .headline {
-    flex: 3;
-    padding-left: ($grid-gutter-width / 2);
-    margin-top: 0;
-    h3 {
-      margin: 0;
-    }
-    p {
-      margin: 0;
-    }
-  }
-}
-@media (max-width: 576px) {
-  .panel {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-
-    flex-wrap: wrap;
-    .banner {
-      flex: 1 100%;
-    }
-    .headline {
-      padding-left: 0;
-      h3 {
-        margin: 0.25rem 0 0 0;
-      }
-    }
-  }
-}
-// Same for panels in sidebars.
-.sidebar {
-  .panel {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-
-    flex-wrap: wrap;
-    .banner {
-      flex: 1 100%;
-    }
-    .headline {
-      padding-left: 0;
-      h3 {
-        margin: 0.25rem 0 0 0;
+      .headline {
+        flex: 1 100%;
+        padding-left: 0;
+        order: 2;
       }
     }
   }
 }
 
 h1 {
-  margin: 1ex 0 1ex 0;
+  margin: 0.5ex 0 0.5ex 0;
   font-family: 'Oswald', sans-serif;
 }
-@media (max-width: 576px) {
-  h1 {
-    margin: 0.5ex 0 0.5ex 0;
-  }
-}
-
 h2 {
   margin: 1.5ex 0 1ex 0;
   font-family: 'Oswald', sans-serif;
@@ -221,6 +232,9 @@ h3 {
 #summary {
   font-size: 1.5rem;
   // padding: 1rem 0 1rem 0;
+  .panel {
+    font-size: $font-size-base;
+  }
 }
 
 mark, .mark {
@@ -255,6 +269,9 @@ body > footer {
     font-size: 80%;
     line-height: smaller;
   }
+}
+footer {
+  margin-top: 2rem;
 }
 .navbar {
   .fa-lg {
@@ -366,8 +383,7 @@ figure img {
     background-color: $paper;
     width: 100%;
     padding: 0;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    margin: 0;
   }
 }
 @media (max-width: 576px) {
@@ -386,12 +402,6 @@ figure img {
 @media (min-width: 992px) {
   #page-contents figure {
     width: 65%;
-    padding: $grid-gutter-width;
-  }
-}
-@media (min-width: 1200px) {
-  #page-contents figure {
-    width: 55%;
     padding: $grid-gutter-width;
   }
 }

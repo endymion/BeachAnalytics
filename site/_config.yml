@@ -109,6 +109,11 @@ defaults:
     values:
       chart_type: "estimated-one-in-x-sarscov2-infection-odds"
       folder: Charts
+  - scope:
+      path: "charts/estimated-percentage-of-sarscov2-infections"
+    values:
+      chart_type: "estimated-percentage-of-sarscov2-infections"
+      folder: Charts
   -
     scope:
       path: ""

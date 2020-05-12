@@ -9,7 +9,7 @@
 
   <div class="headline">
     <div class="meta">
-      <h3><a class="post-link" href="{{ include.post.url }}">{{ include.post.title }}</a></h3>
+      <h2><a class="post-link" href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
       <div class="date"><code>
         {% if include.post.date %}
           {{ include.post.date | date: "%b %-d, %Y" }}
@@ -22,7 +22,7 @@
       {% if include.post.excerpt %}
         {{ include.post.excerpt  }}
       {% else %}
-        {{ include.post.content | truncatewords: 50 | strip_html }}
+        {{ include.post.content }}
       {% endif %}
     </div>
     <div class="smaller">

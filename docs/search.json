@@ -162,7 +162,7 @@
 "tags": "",
 "keywords": "",
 "url": "/fatality-rates.html",
-"summary": "Weighing the risk of dying if you're infected is important if you're considering returning to work.  Especially if your job involves touching people.  So then, what is that risk?"
+"summary": ""
 }
 ,
 
@@ -197,7 +197,7 @@
 "tags": "",
 "keywords": "",
 "url": "/ihme-model.html",
-"summary": "One of the most widely influential COVID-19 forecasting models has also been one of the most misinterpreted."
+"summary": ""
 }
 ,
 
@@ -487,9 +487,9 @@
 
 {
 "title": "South Florida COVID-19 Outlook",
-"tags": "outlook",
+"tags": "",
 "keywords": "",
-"url": "/2020/05/03/south-florida-covid19-outlook.html",
+"url": "/south-florida-covid19-outlook.html",
 "summary": ""
 }
 ,
@@ -589,7 +589,7 @@
 "title": "Dashboard product documentation",
 "tags": "meta",
 "keywords": "",
-"url": "/2020/04/13/dashboard-product.html",
+"url": "/2020/04/13/dashboard-product-documentation.html",
 "summary": "The background, current images page, and archive page are ready."
 }
 

@@ -11,7 +11,7 @@ toc: false
 image_16_5:   images/posts/herd-immunity-16_5.png
 image_16_9: images/posts/herd-immunity-1_1.png
 image_1_1:  images/posts/herd-immunity-1_1.png
-excerpt_separator: <!--more-->
+excerpt: It seems like an attractive idea, but just letting the virus spread to the entire population is not an option because it would result in an unprecedented humanitarian disaster.
 ---
 
 The process of reaching herd immunity against COVID-19 would be an <mark>unprecedented humanitarian disaster</mark>, leading to tens of millions of preventable deaths.  This is <mark>not an acceptable control strategy</mark> for the global pandemic.  For all mankind, <mark>we must take every possible measure to prevent this from happening.</mark>

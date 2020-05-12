@@ -3,59 +3,89 @@
     <channel>
         <title></title>
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
-        <link>/</link>
-        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 06 May 2020 17:30:44 -0400</pubDate>
-        <lastBuildDate>Wed, 06 May 2020 17:30:44 -0400</lastBuildDate>
-        <generator>Jekyll v4.0.0</generator>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 11 May 2020 22:07:39 -0400</pubDate>
+        <lastBuildDate>Mon, 11 May 2020 22:07:39 -0400</lastBuildDate>
+        <generator>Jekyll v4.0.1</generator>
         
         <item>
             <title>South Florida COVID-19 Outlook</title>
             <description>
-&lt;figure&gt;
-    &lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening.png&quot;&gt;
-  &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-576-9268a7.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-768-9268a7.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-992-9268a7.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-1152-9268a7.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-1180-9268a7.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-576-9268a7.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-768-9268a7.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-992-9268a7.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-1152-9268a7.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-1180-9268a7.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-04-21-B-evening-800-9268a7.png&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
 
-  &lt;/figure&gt;
 
 &lt;figure&gt;
-    &lt;a href=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot;&gt;
-  &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-576-786575.webp 576w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-768-786575.webp 768w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-992-786575.webp 992w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1152-786575.webp 1152w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1180-786575.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-576-786575.jpg 576w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-768-786575.jpg 768w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-992-786575.jpg 992w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1152-786575.jpg 1152w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1180-786575.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-800-786575.png&quot; /&gt;
-  &lt;/picture&gt;
+&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-576-a0902a.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-768-a0902a.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-992-a0902a.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-1152-a0902a.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-1180-a0902a.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-576-a0902a.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-768-a0902a.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-992-a0902a.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-1152-a0902a.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-1180-a0902a.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-11-B-evening-800-a0902a.png&quot; /&gt;
+&lt;/picture&gt;
 &lt;/a&gt;
+&lt;/figure&gt;
 
-  &lt;/figure&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+      Has loosening social distancing caused the spread to increase?  Or is that ~3% increase on May 10 just an anomaly?
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
 
 &lt;figure&gt;
-    &lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening.png&quot;&gt;
-  &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-576-14d980.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-768-14d980.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-992-14d980.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1152-14d980.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1180-14d980.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-576-14d980.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-768-14d980.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-992-14d980.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1152-14d980.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1180-14d980.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-800-14d980.png&quot; /&gt;
-  &lt;/picture&gt;
+&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-576-b16b96.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-768-b16b96.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-992-b16b96.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-1152-b16b96.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-1180-b16b96.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-576-b16b96.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-768-b16b96.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-992-b16b96.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-1152-b16b96.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-1180-b16b96.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-04-21-A-morning-800-b16b96.png&quot; /&gt;
+&lt;/picture&gt;
 &lt;/a&gt;
+&lt;/figure&gt;
 
-  &lt;/figure&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+    Around 6.8% of the total population of Miami Beach may have already been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-576-14d980.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-768-14d980.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-992-14d980.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1152-14d980.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1180-14d980.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-576-14d980.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-768-14d980.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-992-14d980.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1152-14d980.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-1180-14d980.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-04-21-B-evening-800-14d980.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 21.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;!--more--&gt;
-
-&lt;h2&gt;References&lt;/h2&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-            <pubDate>Sun, 03 May 2020 00:00:00 -0400</pubDate>
-            <link>/2020/05/03/south-florida-covid19-outlook.html</link>
-            <guid isPermaLink="true">/2020/05/03/south-florida-covid19-outlook.html</guid>
-            
-            <category>outlook</category>
+            <pubDate>Thu, 07 May 2020 00:00:00 -0400</pubDate>
+            <link>http://localhost:4000/south-florida-covid19-outlook.html</link>
+            <guid isPermaLink="true">http://localhost:4000/south-florida-covid19-outlook.html</guid>
             
             
         </item>
@@ -74,13 +104,11 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/NHC-Hurricane-Charley-2004-08-13-1100.gif&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-576-0f407c.webp 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-768-0f407c.webp 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-895-0f407c.webp 895w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-576-0f407c.jpg 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-768-0f407c.jpg 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-895-0f407c.jpg 895w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-800-0f407c.gif&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-576-0f407c.webp 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-768-0f407c.webp 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-895-0f407c.webp 895w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-576-0f407c.jpg 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-768-0f407c.jpg 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-895-0f407c.jpg 895w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1100-800-0f407c.gif&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;The center line of the 11 AM forecast showed Hurricane Charley striking Tampa Bay.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -90,13 +118,11 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/NHC-Hurricane-Charley-2004-08-13-1500.gif&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-576-121975.webp 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-768-121975.webp 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-895-121975.webp 895w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-576-121975.jpg 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-768-121975.jpg 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-895-121975.jpg 895w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-800-121975.gif&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-576-121975.webp 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-768-121975.webp 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-895-121975.webp 895w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-576-121975.jpg 576w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-768-121975.jpg 768w, /generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-895-121975.jpg 895w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/NHC-Hurricane-Charley-2004-08-13-1500-800-121975.gif&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;The center line of the 2 PM forecast shifted a hundred miles southward.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -106,13 +132,11 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/nhc-hurricane-cone.png&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/nhc-hurricane-cone-576-ce9097.webp 576w, /generated/images/posts/nhc-hurricane-cone-768-ce9097.webp 768w, /generated/images/posts/nhc-hurricane-cone-960-ce9097.webp 960w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/nhc-hurricane-cone-576-ce9097.jpg 576w, /generated/images/posts/nhc-hurricane-cone-768-ce9097.jpg 768w, /generated/images/posts/nhc-hurricane-cone-960-ce9097.jpg 960w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/nhc-hurricane-cone-800-ce9097.png&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/nhc-hurricane-cone-576-ce9097.webp 576w, /generated/images/posts/nhc-hurricane-cone-768-ce9097.webp 768w, /generated/images/posts/nhc-hurricane-cone-960-ce9097.webp 960w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/nhc-hurricane-cone-576-ce9097.jpg 576w, /generated/images/posts/nhc-hurricane-cone-768-ce9097.jpg 768w, /generated/images/posts/nhc-hurricane-cone-960-ce9097.jpg 960w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/nhc-hurricane-cone-800-ce9097.png&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;The default hurricane forecast images from the National Hurricane Center no longer include a misleading center-line forecast track.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -124,13 +148,11 @@
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/ihme-forecast-range.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/ihme-forecast-range-576-8174c9.webp 576w, /generated/images/posts/ihme-forecast-range-768-8174c9.webp 768w, /generated/images/posts/ihme-forecast-range-783-8174c9.webp 783w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/ihme-forecast-range-576-8174c9.jpg 576w, /generated/images/posts/ihme-forecast-range-768-8174c9.jpg 768w, /generated/images/posts/ihme-forecast-range-783-8174c9.jpg 783w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/ihme-forecast-range-783-8174c9.jpg&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/ihme-forecast-range-576-8174c9.webp 576w, /generated/images/posts/ihme-forecast-range-768-8174c9.webp 768w, /generated/images/posts/ihme-forecast-range-783-8174c9.webp 783w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/ihme-forecast-range-576-8174c9.jpg 576w, /generated/images/posts/ihme-forecast-range-768-8174c9.jpg 768w, /generated/images/posts/ihme-forecast-range-783-8174c9.jpg 783w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/ihme-forecast-range-783-8174c9.jpg&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;A confusing center line on a forecast that's really a range from about 57k to about 130k.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -183,8 +205,8 @@ projected by August 4, 2020
 &lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;5. &lt;b&gt;Significant figures&lt;/b&gt;. Wikipedia; April 24, 2020 (Accessed 2020-04-28 10:00) &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/29/dont-focus-on-the-center-line.html</link>
-            <guid isPermaLink="true">/2020/04/29/dont-focus-on-the-center-line.html</guid>
+            <link>http://localhost:4000/2020/04/29/dont-focus-on-the-center-line.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/29/dont-focus-on-the-center-line.html</guid>
             
             <category>covid19-models</category>
             
@@ -203,13 +225,11 @@ projected by August 4, 2020
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/vietnam-memorial-3-16_9.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-3-16_9-576-b36a66.webp 576w, /generated/images/posts/vietnam-memorial-3-16_9-768-b36a66.webp 768w, /generated/images/posts/vietnam-memorial-3-16_9-992-b36a66.webp 992w, /generated/images/posts/vietnam-memorial-3-16_9-1152-b36a66.webp 1152w, /generated/images/posts/vietnam-memorial-3-16_9-1536-b36a66.webp 1536w, /generated/images/posts/vietnam-memorial-3-16_9-1984-b36a66.webp 1984w, /generated/images/posts/vietnam-memorial-3-16_9-1200-b36a66.webp 1200w, /generated/images/posts/vietnam-memorial-3-16_9-2400-b36a66.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-3-16_9-576-b36a66.jpg 576w, /generated/images/posts/vietnam-memorial-3-16_9-768-b36a66.jpg 768w, /generated/images/posts/vietnam-memorial-3-16_9-992-b36a66.jpg 992w, /generated/images/posts/vietnam-memorial-3-16_9-1152-b36a66.jpg 1152w, /generated/images/posts/vietnam-memorial-3-16_9-1536-b36a66.jpg 1536w, /generated/images/posts/vietnam-memorial-3-16_9-1984-b36a66.jpg 1984w, /generated/images/posts/vietnam-memorial-3-16_9-1200-b36a66.jpg 1200w, /generated/images/posts/vietnam-memorial-3-16_9-2400-b36a66.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-memorial-3-16_9-800-b36a66.jpg&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-3-16_9-576-b36a66.webp 576w, /generated/images/posts/vietnam-memorial-3-16_9-768-b36a66.webp 768w, /generated/images/posts/vietnam-memorial-3-16_9-992-b36a66.webp 992w, /generated/images/posts/vietnam-memorial-3-16_9-1152-b36a66.webp 1152w, /generated/images/posts/vietnam-memorial-3-16_9-1536-b36a66.webp 1536w, /generated/images/posts/vietnam-memorial-3-16_9-1984-b36a66.webp 1984w, /generated/images/posts/vietnam-memorial-3-16_9-1200-b36a66.webp 1200w, /generated/images/posts/vietnam-memorial-3-16_9-2400-b36a66.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-3-16_9-576-b36a66.jpg 576w, /generated/images/posts/vietnam-memorial-3-16_9-768-b36a66.jpg 768w, /generated/images/posts/vietnam-memorial-3-16_9-992-b36a66.jpg 992w, /generated/images/posts/vietnam-memorial-3-16_9-1152-b36a66.jpg 1152w, /generated/images/posts/vietnam-memorial-3-16_9-1536-b36a66.jpg 1536w, /generated/images/posts/vietnam-memorial-3-16_9-1984-b36a66.jpg 1984w, /generated/images/posts/vietnam-memorial-3-16_9-1200-b36a66.jpg 1200w, /generated/images/posts/vietnam-memorial-3-16_9-2400-b36a66.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-memorial-3-16_9-800-b36a66.jpg&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;Vietnam Veterans Memorial, credit: Ron Cogswell&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -221,13 +241,11 @@ projected by August 4, 2020
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/vietnam-memorial-2-16_5.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-2-16_5-576-d0d413.webp 576w, /generated/images/posts/vietnam-memorial-2-16_5-768-d0d413.webp 768w, /generated/images/posts/vietnam-memorial-2-16_5-992-d0d413.webp 992w, /generated/images/posts/vietnam-memorial-2-16_5-1152-d0d413.webp 1152w, /generated/images/posts/vietnam-memorial-2-16_5-1536-d0d413.webp 1536w, /generated/images/posts/vietnam-memorial-2-16_5-1984-d0d413.webp 1984w, /generated/images/posts/vietnam-memorial-2-16_5-1200-d0d413.webp 1200w, /generated/images/posts/vietnam-memorial-2-16_5-2400-d0d413.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-2-16_5-576-d0d413.jpg 576w, /generated/images/posts/vietnam-memorial-2-16_5-768-d0d413.jpg 768w, /generated/images/posts/vietnam-memorial-2-16_5-992-d0d413.jpg 992w, /generated/images/posts/vietnam-memorial-2-16_5-1152-d0d413.jpg 1152w, /generated/images/posts/vietnam-memorial-2-16_5-1536-d0d413.jpg 1536w, /generated/images/posts/vietnam-memorial-2-16_5-1984-d0d413.jpg 1984w, /generated/images/posts/vietnam-memorial-2-16_5-1200-d0d413.jpg 1200w, /generated/images/posts/vietnam-memorial-2-16_5-2400-d0d413.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-memorial-2-16_5-800-d0d413.jpg&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-2-16_5-576-d0d413.webp 576w, /generated/images/posts/vietnam-memorial-2-16_5-768-d0d413.webp 768w, /generated/images/posts/vietnam-memorial-2-16_5-992-d0d413.webp 992w, /generated/images/posts/vietnam-memorial-2-16_5-1152-d0d413.webp 1152w, /generated/images/posts/vietnam-memorial-2-16_5-1536-d0d413.webp 1536w, /generated/images/posts/vietnam-memorial-2-16_5-1984-d0d413.webp 1984w, /generated/images/posts/vietnam-memorial-2-16_5-1200-d0d413.webp 1200w, /generated/images/posts/vietnam-memorial-2-16_5-2400-d0d413.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-memorial-2-16_5-576-d0d413.jpg 576w, /generated/images/posts/vietnam-memorial-2-16_5-768-d0d413.jpg 768w, /generated/images/posts/vietnam-memorial-2-16_5-992-d0d413.jpg 992w, /generated/images/posts/vietnam-memorial-2-16_5-1152-d0d413.jpg 1152w, /generated/images/posts/vietnam-memorial-2-16_5-1536-d0d413.jpg 1536w, /generated/images/posts/vietnam-memorial-2-16_5-1984-d0d413.jpg 1984w, /generated/images/posts/vietnam-memorial-2-16_5-1200-d0d413.jpg 1200w, /generated/images/posts/vietnam-memorial-2-16_5-2400-d0d413.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-memorial-2-16_5-800-d0d413.jpg&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;Vietnam Veterans Memorial, credit: Bernt Rostad&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -243,13 +261,11 @@ projected by August 4, 2020
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/vietnam-cases.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-cases-576-f5a5d2.webp 576w, /generated/images/posts/vietnam-cases-745-f5a5d2.webp 745w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-cases-576-f5a5d2.jpg 576w, /generated/images/posts/vietnam-cases-745-f5a5d2.jpg 745w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-cases-745-f5a5d2.jpg&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-cases-576-f5a5d2.webp 576w, /generated/images/posts/vietnam-cases-745-f5a5d2.webp 745w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/vietnam-cases-576-f5a5d2.jpg 576w, /generated/images/posts/vietnam-cases-745-f5a5d2.jpg 745w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/vietnam-cases-745-f5a5d2.jpg&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;2020 coronavirus pandemic in Vietnam, credit: Wikipedia&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -263,8 +279,8 @@ projected by August 4, 2020
 &lt;li&gt;&lt;span id=&quot;latimes:vietnam-lifting-restrictions&quot;&gt;2. &lt;b&gt;Without a single COVID-19 death, Vietnam starts easing its coronavirus lockdown&lt;/b&gt;. The LA Times; 0AD (Accessed 2020-04-28 17:00) &lt;a href=&quot;https://www.latimes.com/world-nation/story/2020-04-23/vietnam-eases-coronavirus-lockdown&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 17:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
-            <guid isPermaLink="true">/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
+            <link>http://localhost:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
             
             
         </item>
@@ -308,8 +324,8 @@ It is critical to note that &lt;mark&gt;we restrict our projections to the first
 &lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;2. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. Institute for Health Metrics and Evaluation; Institute for Health Metrics and Evaluation; .&lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/27/its-not-the-peak-its-this-peak.html</link>
-            <guid isPermaLink="true">/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
+            <link>http://localhost:4000/2020/04/27/its-not-the-peak-its-this-peak.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
             
             <category>covid19-models</category>
             
@@ -350,13 +366,11 @@ It was the &lt;mark&gt;steepest economic downturn since the Great Depression&lt;
 &lt;h2&gt;The team&lt;/h2&gt;
 
 &lt;figure class=&quot;figure inset pull-right&quot;&gt;
-  &lt;a href=&quot;/images/posts/neil-ferguson.png&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/neil-ferguson-576-a21643.webp 576w, /generated/images/posts/neil-ferguson-768-a21643.webp 768w, /generated/images/posts/neil-ferguson-992-a21643.webp 992w, /generated/images/posts/neil-ferguson-1152-a21643.webp 1152w, /generated/images/posts/neil-ferguson-1536-a21643.webp 1536w, /generated/images/posts/neil-ferguson-1984-a21643.webp 1984w, /generated/images/posts/neil-ferguson-1200-a21643.webp 1200w, /generated/images/posts/neil-ferguson-2400-a21643.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/neil-ferguson-576-a21643.jpg 576w, /generated/images/posts/neil-ferguson-768-a21643.jpg 768w, /generated/images/posts/neil-ferguson-992-a21643.jpg 992w, /generated/images/posts/neil-ferguson-1152-a21643.jpg 1152w, /generated/images/posts/neil-ferguson-1536-a21643.jpg 1536w, /generated/images/posts/neil-ferguson-1984-a21643.jpg 1984w, /generated/images/posts/neil-ferguson-1200-a21643.jpg 1200w, /generated/images/posts/neil-ferguson-2400-a21643.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/neil-ferguson-800-a21643.png&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/neil-ferguson-576-a21643.webp 576w, /generated/images/posts/neil-ferguson-768-a21643.webp 768w, /generated/images/posts/neil-ferguson-992-a21643.webp 992w, /generated/images/posts/neil-ferguson-1152-a21643.webp 1152w, /generated/images/posts/neil-ferguson-1536-a21643.webp 1536w, /generated/images/posts/neil-ferguson-1984-a21643.webp 1984w, /generated/images/posts/neil-ferguson-1200-a21643.webp 1200w, /generated/images/posts/neil-ferguson-2400-a21643.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/neil-ferguson-576-a21643.jpg 576w, /generated/images/posts/neil-ferguson-768-a21643.jpg 768w, /generated/images/posts/neil-ferguson-992-a21643.jpg 992w, /generated/images/posts/neil-ferguson-1152-a21643.jpg 1152w, /generated/images/posts/neil-ferguson-1536-a21643.jpg 1536w, /generated/images/posts/neil-ferguson-1984-a21643.jpg 1984w, /generated/images/posts/neil-ferguson-1200-a21643.jpg 1200w, /generated/images/posts/neil-ferguson-2400-a21643.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/neil-ferguson-800-a21643.png&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption text-right small&quot;&gt;UK epidemiologist Neil Ferguson. Credit: Imperial College London&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -384,13 +398,11 @@ taking measures to slow the spread of the infection&lt;/mark&gt;.&lt;a class=&qu
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
-  &lt;a href=&quot;/images/posts/imperial-college-mitigation-chart.png&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/imperial-college-mitigation-chart-576-079a41.webp 576w, /generated/images/posts/imperial-college-mitigation-chart-768-079a41.webp 768w, /generated/images/posts/imperial-college-mitigation-chart-992-079a41.webp 992w, /generated/images/posts/imperial-college-mitigation-chart-1152-079a41.webp 1152w, /generated/images/posts/imperial-college-mitigation-chart-1200-079a41.webp 1200w, /generated/images/posts/imperial-college-mitigation-chart-1534-079a41.webp 1534w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/imperial-college-mitigation-chart-576-079a41.jpg 576w, /generated/images/posts/imperial-college-mitigation-chart-768-079a41.jpg 768w, /generated/images/posts/imperial-college-mitigation-chart-992-079a41.jpg 992w, /generated/images/posts/imperial-college-mitigation-chart-1152-079a41.jpg 1152w, /generated/images/posts/imperial-college-mitigation-chart-1200-079a41.jpg 1200w, /generated/images/posts/imperial-college-mitigation-chart-1534-079a41.jpg 1534w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/imperial-college-mitigation-chart-800-079a41.png&quot; /&gt;
-  &lt;/picture&gt;
-&lt;/a&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/imperial-college-mitigation-chart-576-079a41.webp 576w, /generated/images/posts/imperial-college-mitigation-chart-768-079a41.webp 768w, /generated/images/posts/imperial-college-mitigation-chart-992-079a41.webp 992w, /generated/images/posts/imperial-college-mitigation-chart-1152-079a41.webp 1152w, /generated/images/posts/imperial-college-mitigation-chart-1200-079a41.webp 1200w, /generated/images/posts/imperial-college-mitigation-chart-1534-079a41.webp 1534w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/imperial-college-mitigation-chart-576-079a41.jpg 576w, /generated/images/posts/imperial-college-mitigation-chart-768-079a41.jpg 768w, /generated/images/posts/imperial-college-mitigation-chart-992-079a41.jpg 992w, /generated/images/posts/imperial-college-mitigation-chart-1152-079a41.jpg 1152w, /generated/images/posts/imperial-college-mitigation-chart-1200-079a41.jpg 1200w, /generated/images/posts/imperial-college-mitigation-chart-1534-079a41.jpg 1534w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/imperial-college-mitigation-chart-800-079a41.png&quot; /&gt;
+&lt;/picture&gt;
 
   &lt;figcaption class=&quot;figure-caption small&quot;&gt;Chart from Imperial College report showing the potential life-saving effects of social distancing.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -458,8 +470,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. &lt;b&gt;Special report: The simulations driving the world’s response to COVID-19&lt;/b&gt;. Nature; April 2, 2020 (Accessed 2020-04-20 19:30) &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:30) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 20 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
-            <guid isPermaLink="true">/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
+            <link>http://localhost:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
             
             <category>covid19-models</category>
             
@@ -505,8 +517,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. &lt;b&gt;Why the city of Chelsea has been so hard hit by coronavirus&lt;/b&gt;. The Boston Globe; April 10, 2020 (Accessed 2020-04-18 19:45) The Boston Globe; April 10, 2020 (Accessed 2020-04-18 19:45) .&lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-18 19:45) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
-            <link>/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
-            <guid isPermaLink="true">/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
+            <link>http://localhost:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
             
             <category>how-widespread</category>
             
@@ -628,8 +640,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;abc:herdimmunityrange&quot;&gt;3. Bruggeman L. &lt;b&gt;As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high&lt;/b&gt;. ABC News; April 9, 2020 (Accessed 2020-04-17 20:20) ABC News; April 9, 2020 (Accessed 2020-04-17 20:20) .&lt;a href=&quot;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 20:20) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 18:00:00 -0400</pubDate>
-            <link>/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
-            <guid isPermaLink="true">/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
+            <link>http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
             
             <category>how-widespread</category>
             
@@ -663,8 +675,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;p&gt;I still have to run this each time, but I designed all of the code to run in AWS Lambda.&lt;/p&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 15:00:00 -0400</pubDate>
-            <link>/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
-            <guid isPermaLink="true">/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
+            <link>http://localhost:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
             
             <category>meta</category>
             
@@ -692,24 +704,21 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 
 
 
-  
-  &lt;figure&gt;
-    &lt;a href=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot;&gt;
-  &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-576-786575.webp 576w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-768-786575.webp 768w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-992-786575.webp 992w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1152-786575.webp 1152w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1180-786575.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-576-786575.jpg 576w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-768-786575.jpg 768w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-992-786575.jpg 992w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1152-786575.jpg 1152w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1180-786575.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-800-786575.png&quot; /&gt;
-  &lt;/picture&gt;
+&lt;figure&gt;
+&lt;a href=&quot;/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-576-786575.webp 576w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-768-786575.webp 768w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-992-786575.webp 992w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1152-786575.webp 1152w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1180-786575.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-576-786575.jpg 576w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-768-786575.jpg 768w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-992-786575.jpg 992w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1152-786575.jpg 1152w, /generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-1180-786575.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/projected-percentage-of-sarscov2-infections/miami/2020-04-17-B-evening-800-786575.png&quot; /&gt;
+&lt;/picture&gt;
 &lt;/a&gt;
-
-  &lt;/figure&gt;
+&lt;/figure&gt;
 
 
 &lt;/center&gt;
 </description>
             <pubDate>Tue, 14 Apr 2020 17:00:00 -0400</pubDate>
-            <link>/2020/04/14/are-we-there-yet.html</link>
-            <guid isPermaLink="true">/2020/04/14/are-we-there-yet.html</guid>
+            <link>http://localhost:4000/2020/04/14/are-we-there-yet.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/14/are-we-there-yet.html</guid>
             
             <category>how-widespread</category>
             
@@ -730,24 +739,21 @@ analysis product section.&lt;/p&gt;
 
 
 
-  
-  &lt;figure&gt;
-    &lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening.png&quot;&gt;
-  &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-576-90f3fa.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-768-90f3fa.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-992-90f3fa.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-1152-90f3fa.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-1180-90f3fa.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-576-90f3fa.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-768-90f3fa.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-992-90f3fa.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-1152-90f3fa.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-1180-90f3fa.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-04-21-B-evening-800-90f3fa.png&quot; /&gt;
-  &lt;/picture&gt;
+&lt;figure&gt;
+&lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-576-0011e3.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-768-0011e3.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-992-0011e3.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-1152-0011e3.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-1180-0011e3.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-576-0011e3.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-768-0011e3.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-992-0011e3.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-1152-0011e3.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-1180-0011e3.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-11-B-evening-800-0011e3.png&quot; /&gt;
+&lt;/picture&gt;
 &lt;/a&gt;
-
-  &lt;/figure&gt;
+&lt;/figure&gt;
 
 
 &lt;/center&gt;
 </description>
             <pubDate>Mon, 13 Apr 2020 19:00:00 -0400</pubDate>
-            <link>/2020/04/13/wider-infection-estimate-range.html</link>
-            <guid isPermaLink="true">/2020/04/13/wider-infection-estimate-range.html</guid>
+            <link>http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2020/04/13/wider-infection-estimate-range.html</guid>
             
             <category>how-widespread</category>
             

@@ -4,7 +4,7 @@ require 'colorize'
 class Cache
 
   def self.cache_filename key
-    path = File.join('/tmp/beachcov2', key)
+    path = File.join('/tmp/beachanalysis', key)
 
     # Ensure that the cache folder exists.
     path_names = path.split(File::SEPARATOR)

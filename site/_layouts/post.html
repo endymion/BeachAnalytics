@@ -2,9 +2,6 @@
 layout: default
 ---
 
-<!-- Used for pushing the outlook to the sidebar, when present. -->
-<div class="outlook-spanner">
-
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
     <header class="post-header clearfix">
@@ -39,36 +36,33 @@ layout: default
         {{ page.content | split: site.excerpt_separator | last }}
     </div>
 
-    {% unless page.tags contains 'outlook' %}
+    {% assign tags = page.tags %}
+    {% if tags != empty %}
+    <div>
+      <h2>Tags</h2>
+      <ul>
+      {% for tag in tags %}
+        <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
 
-      {% assign tags = page.tags %}
-      {% if tags != empty %}
-      <div>
-        <h2>Tags</h2>
-        <ul>
-        {% for tag in tags %}
-          <li><a href="/{{ tag | append: ".html"}}"><code>{{tag}}</code></a></li>
-        {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
-      <div>
-        <h2>Related</h2>
-        {% for post in site.related_posts limit:3 %}
-          {% if post.title != page.title %}
-          {% include post_panel.html post=post %}
-          {% endif %}
-        {% endfor %}
-      </div>
-
+    {% unless page.show_related == false %}
+    <div>
+      <h2>Related</h2>
+      {% for post in site.related_posts limit:3 %}
+        {% if post.title != page.title %}
+        {% include post_panel.html post=post %}
+        {% endif %}
+      {% endfor %}
+    </div>
     {% endunless %}
 
 </article>
 
-{% if page.tags contains 'outlook' %}
+{% if page.slug == 'south-florida-covid19-outlook' %}
   {% include resources_sidebar.html %}
 {% else %}
   {% include outlook_sidebar.html %}
 {% endif %}
-</div><!-- outlook-spanner -->

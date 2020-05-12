@@ -1,8 +1,7 @@
 ---
 title: References
-sidebar: home_sidebar
 permalink: references.html
-toc: false
+featured: false
 show_meta: false
 ---
 

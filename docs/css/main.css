@@ -2060,57 +2060,63 @@ html, body { height: 100%; }
 
 #main { flex: 1 0 auto; line-height: 200%; }
 
-#page-contents { margin-top: 1rem; }
+#page-contents { margin-top: 1rem; display: flex; flex-wrap: wrap; }
 
 @media (min-width: 576px) { .container { max-width: 100%; } }
 
 @media (min-width: 1200px) { .container { max-width: 1200px; } }
 
-.news { display: flex; flex-wrap: wrap; }
+article { flex: 1 100%; }
 
-.news .top { flex: 1 100%; }
+.sidebar { flex: 1 100%; }
 
-.news .outlook { flex: 1 100%; }
+.sidebar .panel { padding: 0 0 2rem 0; }
 
-.news .outlook .panel .headline { padding-left: 0; }
+.sidebar .panel .headline { padding-right: 15px; }
 
-.news .bottom { flex: 1 100%; }
+.sidebar .panel .headline .banner { order: 1; }
 
-.news .headline { line-height: 1.5rem; }
+.sidebar .panel .headline .meta { order: 2; }
 
-.news .headline h3 { line-height: smaller; margin: 0; }
+.sidebar .figure { width: 100%; }
 
-.news .headline .date { font-size: smaller; }
+@media (min-width: 768px) { article { flex: 3 65%; padding-right: 30px; } .sidebar { flex: 1 35%; } .sidebar h2 { font-size: 1.375rem; margin: 0; } }
 
-.news .headline p { margin: 0; }
+.headline { line-height: 1.5rem; }
 
-@media (min-width: 768px) { .news { display: flex; flex-flow: column wrap; position: relative; } .news .top, .news .bottom { flex: 1; width: 65%; padding-right: 30px; } .news .outlook { position: absolute; top: 0; right: 0; left: 65%; } .news .outlook h2 { font-size: medium; margin: 0; } .outlook-spanner { display: flex; position: relative; } .outlook-spanner article { width: 70%; padding-right: 30px; } .outlook-spanner .outlook, .outlook-spanner .sidebar { position: absolute; top: 0; right: 15px; left: 70%; font-size: small; line-height: 1.5rem; } .outlook-spanner .outlook h2, .outlook-spanner .sidebar h2 { font-size: medium; margin: 0; } }
+.headline h2 { font-size: 1.375rem; line-height: smaller; margin: 0; }
 
-.panel { display: flex; margin-bottom: 2rem; }
+.headline .date { font-size: smaller; }
 
-.panel .banner { flex: 1; }
+.headline p { margin: 0; }
 
-.panel .banner img { border: 1px solid #999999; width: 100%; }
+.panel { display: flex; flex-wrap: wrap; }
 
-.panel .headline { flex: 3; padding-left: 15px; margin-top: 0; }
+.panel .banner { flex: 1 100%; order: 2; }
 
-.panel .headline h3 { margin: 0; }
+.panel .headline { flex: 1 100%; order: 1; }
 
-.panel .headline p { margin: 0; }
+.post-list .panel { display: flex; margin-bottom: 2rem; }
 
-@media (max-width: 576px) { .panel { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; } .panel .banner { flex: 1 100%; } .panel .headline { padding-left: 0; } .panel .headline h3 { margin: 0.25rem 0 0 0; } }
+.post-list .panel .banner { flex: 1; order: 1; }
 
-.sidebar .panel { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; flex-wrap: wrap; }
+.post-list .panel .banner img { border: 1px solid #999999; width: 100%; }
 
-.sidebar .panel .banner { flex: 1 100%; }
+.post-list .panel .headline { order: 2; flex: 3; padding-left: 15px; margin-top: 0; }
 
-.sidebar .panel .headline { padding-left: 0; }
+.post-list .panel .headline h3 { margin: 0; }
 
-.sidebar .panel .headline h3 { margin: 0.25rem 0 0 0; }
+.post-list .panel .headline p { margin: 0; }
 
-h1 { margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
+.sidebar .banner { flex: 1; order: 2; }
 
-@media (max-width: 576px) { h1 { margin: 0.5ex 0 0.5ex 0; } }
+.sidebar .headline { flex: 1; order: 1; padding-right: 15px; margin-top: 0.25rem; }
+
+@media (max-width: 576px) { .post-list .panel { flex-wrap: wrap; } .post-list .panel .banner { flex: 1 100%; order: 1; } .post-list .panel .headline { flex: 1 100%; order: 2; padding-left: 0; } .post-list .panel .headline h3 { margin: 0.25rem 0 0 0; } .sidebar .panel .headline .banner { order: 2; } .sidebar .panel .headline .meta { order: 1; } }
+
+@media (min-width: 768px) { .sidebar .panel { flex-wrap: wrap; } .sidebar .panel .banner { flex: 1 100%; order: 1; } .sidebar .panel .headline { flex: 1 100%; padding-left: 0; order: 2; } }
+
+h1 { margin: 0.5ex 0 0.5ex 0; font-family: 'Oswald', sans-serif; }
 
 h2 { margin: 1.5ex 0 1ex 0; font-family: 'Oswald', sans-serif; }
 
@@ -2132,6 +2138,8 @@ h3 { font-size: 1.375rem; margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif
 
 #summary { font-size: 1.5rem; }
 
+#summary .panel { font-size: 1.125rem; }
+
 mark, .mark { padding: 0.2rem 0 0.2rem 0; border-radius: 8px; }
 
 #sticky-footer { flex-shrink: 0; }
@@ -2145,6 +2153,8 @@ body { background-color: #FAFAFA; }
 .navbar .logotype, body > footer .logotype { font-weight: bold; }
 
 .navbar code, body > footer code { color: #f8f9fa; font-size: 80%; line-height: smaller; }
+
+footer { margin-top: 2rem; }
 
 .navbar .fa-lg { font-size: 2rem; vertical-align: -0.175rem; }
 
@@ -2190,15 +2200,13 @@ figure img { width: 100%; }
 
 #page-contents figure figcaption { margin-top: 15px; }
 
-#page-contents .outlook figure, #page-contents .sidebar figure { background-color: #FAFAFA; width: 100%; padding: 0; margin-top: 0; margin-bottom: 2rem; }
+#page-contents .outlook figure, #page-contents .sidebar figure { background-color: #FAFAFA; width: 100%; padding: 0; margin: 0; }
 
 @media (max-width: 576px) { #page-contents figure { background-color: #FAFAFA; width: 100%; padding: 1em 0 1em 0; } }
 
 @media (min-width: 576px) { #page-contents figure { width: 85%; padding: 15px; } }
 
 @media (min-width: 992px) { #page-contents figure { width: 65%; padding: 30px; } }
-
-@media (min-width: 1200px) { #page-contents figure { width: 55%; padding: 30px; } }
 
 #page-contents figure.inset { width: 25%; margin: 0 0 2em 2em; }
 
