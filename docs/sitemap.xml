@@ -190,7 +190,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
+    <loc>http://localhost:4000/visualizations/estimated-number-of-sarscov2-infections/index.html</loc>
   </url>
   
   
@@ -202,13 +202,7 @@
   
   
   <url>
-    <loc>http://localhost:4000/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/visualizations/estimated-number-of-sarscov2-infections/index.html</loc>
+    <loc>http://localhost:4000/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
   </url>
   
   
@@ -233,6 +227,12 @@
   
   <url>
     <loc>http://localhost:4000/visualizations/projected-percentage-of-sarscov2-infections/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html</loc>
   </url>
   
   

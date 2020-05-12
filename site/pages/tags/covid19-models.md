@@ -16,17 +16,12 @@ excerpt: Learn about the assumptions, methods, strengths and weaknesses of the c
 
 Interpretations from COVID-19 forecasting models make headlines nearly every day lately.  To interpret the results of a predictive analytics model you have to understand the assumptions behind the model and its methods.  I'm compiling a catalog of the more prominent models, along with ensemble visualizations that combine the forecasts of all of the models.
 
-{% assign model_pages = site.pages | where_exp:"item", "item.category == 'model'" %}
-{% for page in model_pages %}
-<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<p>
-  {% if page.summary %}
-    {{ page.summary | strip_html | strip_newlines | truncate: 160 }}
-  {% else %}
-    {{ page.content | truncatewords: 50 | strip_html }}
-  {% endif %}
-</p>
-{% endfor %}
+<div class="post-list">
+  {% assign model_pages = site.pages | where_exp:"item", "item.category == 'model'" | reverse %}
+  {% for page in model_pages limit:4 %}
+    {% include post_panel.html post=page %}
+  {% endfor %}
+</div>
 
 <!-- <h2>References</h2>
 

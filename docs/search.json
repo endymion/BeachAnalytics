@@ -208,39 +208,6 @@
 "tags": "",
 "keywords": "",
 "url": "/imperial-college-model.html",
-"summary": "Arguably the most influential computer forecasting model in history, this model is the one that led the UK and US governments to begin mitigation measures."
-}
-,
-
-
-
-{
-"title": "Doubling Time in Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/doubling-time-for-number-of-covid19-cases/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "News",
-"tags": "",
-"keywords": "news, blog, updates, release notes, announcements",
-"url": "/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Estimated One-In-X SARS-CoV2 Infection Odds",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html",
 "summary": ""
 }
 ,
@@ -252,6 +219,28 @@
 "tags": "",
 "keywords": "",
 "url": "/visualizations/estimated-number-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "South Florida COVID-19 analysis from Miami Beach",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/doubling-time-for-number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -296,6 +285,17 @@
 "tags": "",
 "keywords": "",
 "url": "/visualizations/projected-percentage-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Estimated One-In-X SARS-CoV2 Infection Odds",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html",
 "summary": ""
 }
 ,
