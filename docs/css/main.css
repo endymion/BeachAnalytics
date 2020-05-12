@@ -2208,6 +2208,8 @@ figure img { width: 100%; }
 
 @media (min-width: 992px) { #page-contents figure { width: 65%; padding: 30px; } }
 
+@media (min-width: 1200px) { #page-contents figure { width: 75%; padding: 30px; } }
+
 #page-contents figure.inset { width: 25%; margin: 0 0 2em 2em; }
 
 .logo_background { background-color: #487db9; border-top-left-radius: 8px; border-top-right-radius: 8px; margin-top: 15px; }

@@ -405,6 +405,12 @@ figure img {
     padding: $grid-gutter-width;
   }
 }
+@media (min-width: 1200px) {
+  #page-contents figure {
+    width: 75%;
+    padding: $grid-gutter-width;
+  }
+}
 
 #page-contents figure.inset {
   width: 25%;
