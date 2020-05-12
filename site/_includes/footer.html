@@ -9,10 +9,8 @@
       </div>
 
       <div class="col text-right">
-        {% if page.last_modified_at %}
-          <div class="small timestamps">page&nbsp;updated</div>
-          <code class="smaller">{{page.last_modified_at | date: "%B %-d, %Y %l:%M %p" }}</code>
-        {% endif %}
+        <div class="small timestamps">site&nbsp;updated</div>
+        <code class="smaller">{{ site.time | date: "%B %-d, %Y %l:%M %p"  }}</code>
       </div>
 
     </div>
