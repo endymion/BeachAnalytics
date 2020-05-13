@@ -11,18 +11,16 @@ image_16_9: images/posts/South-Florida-outlook-16x9.png
 image_16_5: images/posts/South-Florida-outlook-16x5.png
 ---
 
-{% comment %}
 <div class="panel">
   <div class="banner">
   {% include current_chart.html chart_type="number-of-covid19-cases" area="/miami-beach/" %}
   </div>
   <div class="headline">
     <div class="meta">
-      In Miami Beach, we successfully flattened the curve.  But is it starting to spread again?
+      In Miami Beach, we successfully flattened the curve.  But there are still new cases each day.
     </div>
   </div>
 </div>
-{% endcomment %}
 
 <div class="panel">
   <div class="banner">
@@ -41,7 +39,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-    Around 6.8% of the total population of Miami Beach may have already been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
+    Around 6.8% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
     </div>
   </div>
 </div>
