@@ -28,13 +28,14 @@ folder: Info
 
   <div class="row">
     <div class="col-sm-6">
+      <h3>Scope of practice</h3>
+       I'm a lifelong expert in software and data engineering and data analysis.  I'm not a medical doctor, virologist, or an epidemiologist.  I'm keeping the scope of this project strictly limited to data issues in order to avoid the
+       <a href="/https://en.wikipedia.org/wiki/Dunning–Kruger_effect">Dunning–Kruger effect</a>.
+    </div>
+    <div class="col-sm-6">
       <h3>Continuous, iterative improvement</h3>
       Forecast models and scientific knowledge are always advancing, and I'm always trying to represent the most-current ideas.  I'm constantly
       adjusting my methods.
-    </div>
-    <div class="col-sm-6">
-      <h3>Feedback</h3>
-      Please <a href="/contact.html">contact me</a> and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.
     </div>
   </div>
 
@@ -61,21 +62,72 @@ folder: Info
   </div>
 </div>
 
+<h2>Feedback</h2>
+Please <a href="/contact.html">contact me</a> and let me know if you think that any of my methods could be improved, or if any chart is in error and should be deprecated.
+
 ## Background
 
-I'm a Miami Beach resident, sitting in my condo during the lockdown and trying to make sense of all of it.  I also happen to be a data scientist.  I'm a technology executive at a hospitality company with my own pressing questions about what's going to happen.  One of my professional responsibilities is data analysis and data engineering.  I make visualizations when I ask questions about data, and I'm publishing them so that my friends and neighbors can see how the data affects them too.
+I'm a Miami Beach resident, sitting in my condo during the lockdown and trying to make sense of all of it.  I also happen to be a data scientist.  I'm a technology executive at a hospitality company with my own pressing questions about what's going to happen.  One of my professional responsibilities is data analysis and data engineering.  I make visualizations whenever I ask questions about data, and I'm publishing the visualizations that I've made about local COVID-19 data here so that my friends and neighbors can see how the data affects them too.
 
 ### What are the odds?
 
- I wanted to know if it was safe to go to the grocery store, but I couldn't find an estimate of the odds of any given person around me having been infected.  So I had to find my own way to estimate those odds.  I was surprised to conclude that a room full of fifty random people in Miami Beach almost certainly contained at least one person who had been infected.  And so I stopped going to the grocery store.
+This all started bwecause I wanted to know if it was safe to go to the grocery store, but I couldn't find an estimate of the odds of any given person around me having been infected.  So I had to find my own way to estimate those odds.  I was surprised to conclude that a room full of fifty random people in Miami Beach almost certainly contained at least one person who had been infected.  And so I stopped going to the grocery store.
 
 ### What does it look like over time?
 
-Once I had that estimate, I wanted to visualize the rate of change.  So I started an Excel spreadsheet for analysis, with charts.  I used the data released twice a data since March 23, 2020 from the Florida Division of Emergency Management.  I carefully designed charts showing the number of cases over time, the range in estimates for the number of infections over time, the number of cases as a percentage of the population, the number of infections as a percentage of the population, and the odds of any given person being infected.  I designed the charts to be easy to update, but they're intended to be updated by hand, with annotations for key insights.
+Once I had that estimate, I wanted to visualize the rate of change.  So I started an Excel spreadsheet for analysis, with charts.  I used the data released twice a data since March 23, 2020 from the Florida Division of Emergency Management.
+
+Here's the latest version of that first <a href="/visualizations/estimated-one-in-x-sarscov2-infection-odds/">odds</a> chart:
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-one-in-x-sarscov2-infection-odds" area="/miami-beach/" %}
+  </div>
+</div>
+
+### More charts from more angles
+
+Next, I carefully designed <a href="/charts.html">charts</a> showing the number of cases over time, the range in estimates for the number of infections over time, the number of cases as a percentage of the population, the number of infections as a percentage of the population, and the odds of any given person being infected.  I designed the charts to be easy to update, but they're intended to be updated by hand, with annotations for key insights.
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="number-of-covid19-cases" area="/miami-beach/" %}
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-number-of-sarscov2-infections" area="/miami-beach/" %}
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-percentage-of-sarscov2-infections" area="/miami-beach/" %}
+  </div>
+</div>
 
 ### What about Miami?  And the rest of Florida?
 
 Then I generalized the charts and added tracking for data for Miami and for the state of Florida.  Now I'm tracking all of those areas, and I have recorded their estimated populations for each so that I can visualize numbers as a percentage of the population.
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="number-of-covid19-cases" area="/miami/" %}
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-number-of-sarscov2-infections" area="/miami/" %}
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-percentage-of-sarscov2-infections" area="/miami/" %}
+  </div>
+</div>
 
 ## Sources
 
@@ -83,17 +135,6 @@ The infection estimates here are based on the confirmed case counts for the city
 
 The FDOH has been publishing these city-by-city counts since March 23, so that's the start date on the data in this analysis.
 
-## Questions
-
-* Based on the confirmed case count, what's a good estimate for how many infections there have been?
-* What percentage of the population does the case count represent?
-* What percentage of the populaton has been infected?
-* What are the odds of any given person having been infected?
-
 ## Mechanism
 
-I'm tracking the data in an [Excel spreadsheet](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/SARS-CoV-2%20Infection%20Odds%20-%20Miami%20Beach.xlsx) and using that to generate chart images.
-
-## Daily updates
-
-I will update this data each day after the new data from the Florida Department of Health is published at around noon and 6 PM each day.
+I built an automated <a href="/2020/04/17/FEDM-data-in-Google-Sheets.html">scraper and data mart</a> for extracting numbers from the PDF reports from a spreadsheet at the Florida Divison of Emergency Management that isn't public.  The data goes into Google Sheets, where I can analyze it with Google Data Studio.  I'm still setting that up now, and I'm currently using an [Excel spreadsheet](https://github.com/endymion/SARS-CoV-2_Analysis/blob/master/SARS-CoV-2%20Infection%20Odds%20-%20Miami%20Beach.xlsx) to manually generate each image.  It will be more efficient and fully automated soon.  I'm only one person and I have to balance time with building the web site, researching and writing content, and my actual day job that I thankfully still have for now.
