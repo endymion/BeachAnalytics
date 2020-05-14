@@ -17,7 +17,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-      In Miami Beach, we successfully flattened the curve.  But there are still new cases each day.
+      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have new confirmed cases each day.
     </div>
   </div>
 </div>
@@ -28,7 +28,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-      Has loosening social distancing caused the spread to increase?  Or is that ~3% increase on May 10 just an anomaly?
+      Has loosening social distancing caused the spread to increase?  Or is that ~3% increase on May 10 just an anomaly?  It looks like it might have been a blip from data processing delays.  Time will tell.
     </div>
   </div>
 </div>
@@ -56,3 +56,32 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
 </div>
 
 <!--more-->
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="number-of-covid19-cases" area="/miami/" %}
+  </div>
+  <div class="headline">
+    <div class="meta">
+      Miami has a larger population and so the curve is smoother.  The conclusion is the same: Miami has flattened the curve but the virus is still simmering.
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="percent-increase-in-number-of-covid19-cases" area="/miami/" %}
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-percentage-of-sarscov2-infections" area="/miami/" %}
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="estimated-one-in-x-sarscov2-infection-odds" area="/miami/" %}
+  </div>
+</div>

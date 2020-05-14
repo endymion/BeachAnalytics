@@ -5,23 +5,45 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>/</link>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2020 18:11:47 -0400</pubDate>
-        <lastBuildDate>Wed, 13 May 2020 18:11:47 -0400</lastBuildDate>
+        <pubDate>Wed, 13 May 2020 19:54:25 -0400</pubDate>
+        <lastBuildDate>Wed, 13 May 2020 19:54:25 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
             <title>South Florida COVID-19 Outlook</title>
-            <description>
+            <description>&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-576-e68e91.webp 576w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-768-e68e91.webp 768w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-992-e68e91.webp 992w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1152-e68e91.webp 1152w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1180-e68e91.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-576-e68e91.jpg 576w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-768-e68e91.jpg 768w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-992-e68e91.jpg 992w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1152-e68e91.jpg 1152w, /generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1180-e68e91.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/number-of-covid19-cases/miami-beach/2020-05-13-B-evening-800-e68e91.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+      In Miami Beach, we successfully flattened the curve.  But there are still new cases each day.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;div class=&quot;panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
   
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-576-bb7ecb.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-768-bb7ecb.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-992-bb7ecb.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-1152-bb7ecb.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-1180-bb7ecb.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-576-bb7ecb.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-768-bb7ecb.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-992-bb7ecb.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-1152-bb7ecb.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-1180-bb7ecb.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-12-B-evening-800-bb7ecb.png&quot; /&gt;
+&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-576-338d7e.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-768-338d7e.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-992-338d7e.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1152-338d7e.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1180-338d7e.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-576-338d7e.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-768-338d7e.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-992-338d7e.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1152-338d7e.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-1180-338d7e.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-13-B-evening-800-338d7e.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -41,10 +63,10 @@
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-576-27836c.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-768-27836c.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-992-27836c.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1152-27836c.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1180-27836c.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-576-27836c.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-768-27836c.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-992-27836c.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1152-27836c.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1180-27836c.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-800-27836c.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-576-af693d.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-768-af693d.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-992-af693d.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1152-af693d.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1180-af693d.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-576-af693d.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-768-af693d.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-992-af693d.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1152-af693d.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1180-af693d.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-800-af693d.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -53,7 +75,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-    Around 6.8% of the total population of Miami Beach may have already been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
+    Around 6.8% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -64,10 +86,10 @@
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-576-350900.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-768-350900.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-992-350900.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-1152-350900.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-1170-350900.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-576-350900.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-768-350900.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-992-350900.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-1152-350900.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-1170-350900.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-12-B-evening-800-350900.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-576-eab960.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-768-eab960.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-992-eab960.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-1152-eab960.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-1170-eab960.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-576-eab960.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-768-eab960.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-992-eab960.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-1152-eab960.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-1170-eab960.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-13-B-evening-800-eab960.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -740,10 +762,10 @@ analysis product section.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-576-32c928.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-768-32c928.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-992-32c928.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1152-32c928.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1180-32c928.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-576-32c928.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-768-32c928.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-992-32c928.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1152-32c928.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-1180-32c928.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-12-B-evening-800-32c928.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-576-859cc8.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-768-859cc8.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-992-859cc8.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1152-859cc8.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1180-859cc8.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-576-859cc8.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-768-859cc8.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-992-859cc8.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1152-859cc8.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1180-859cc8.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-800-859cc8.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
