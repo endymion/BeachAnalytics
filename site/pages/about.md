@@ -29,7 +29,7 @@ folder: Info
   <div class="row">
     <div class="col-sm-6">
       <h3>Scope of practice</h3>
-       I'm a lifelong expert in software and data engineering and data analysis.  I'm not a medical doctor, virologist, or an epidemiologist.  I'm keeping the scope of this project strictly limited to data issues in order to avoid the
+       I'm an expert in software and data engineering and data analysis.  I'm not a medical doctor, virologist, or an epidemiologist.  I'm limiting the scope of this project to data issues to avoid the
        <a href="/https://en.wikipedia.org/wiki/Dunning–Kruger_effect">Dunning–Kruger effect</a>.
     </div>
     <div class="col-sm-6">
