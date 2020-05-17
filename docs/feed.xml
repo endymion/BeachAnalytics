@@ -3,11 +3,46 @@
     <channel>
         <title></title>
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
-        <link>/</link>
-        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 13 May 2020 19:54:25 -0400</pubDate>
-        <lastBuildDate>Wed, 13 May 2020 19:54:25 -0400</lastBuildDate>
+        <link>http://0.0.0.0:4000/</link>
+        <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 16 May 2020 22:15:25 -0400</pubDate>
+        <lastBuildDate>Sat, 16 May 2020 22:15:25 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
+        
+        <item>
+            <title>South Florida gives up on social distancing</title>
+            <description>&lt;p&gt;Miami-Dade County started to give up on social distancing even before we started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;how-do-you-measure-social-distancing&quot;&gt;How do you measure social distancing?&lt;/h2&gt;
+
+&lt;p&gt;At the beginning of April, residents of Miami-Dade County were moving around a lot less than before the coronavirus pandemic, based on data from cellphones.  The Unacast company, a spinoff of the Tidal music service, collects location data from app partners and uses it to analyze people’s movements.(missing reference)  Their data shows Miami-Dade residents moving around 55% to 70% less than in February.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But even before we started to ease our restrictions, data shows that Miami-Dade residents have increased their mobility, now climbing to about 45% of February levels.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-people-have-you-seen&quot;&gt;How many people have you seen?&lt;/h2&gt;
+
+&lt;p&gt;Measuring how far people are traveling is one indication of social distancing.  But you can drive a long way and then come back home without ever getting near anyone.  Or you could walk a few hundred feet and find yourself in a crowd of people.&lt;/p&gt;
+
+&lt;p&gt;Unacast also measures how many people the average person is coming within prolonged contact.  And unfortunately, South Floridians are not very good at keeping to themselves.  According to Unacast’s data, Miami-Dade and Broward rank among the worst places in the US at achieving social distancing.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[1]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-broward&quot;&gt;[2]&lt;/a&gt;  Both counties currently show a D+ grade on the Unacast Social Distancing Scoreboard.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-did-this-happen&quot;&gt;When did this happen?&lt;/h2&gt;
+
+&lt;p&gt;The most-social moment that Miami-Dade has seen since the start of the shutdown was last weekend, on Saturday, May 9, when the average person in Miami-Dade came in contact with seven and a half times as many other people as the national baseline.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[1]&lt;/a&gt;  In Broward County, the average person came in contact with even more people, more than eight times the national baseline.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-broward&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;We can only expect to see social distancing behavior decrease even more as South Florida begins its phased reopening.  Epidemiologists are nearly unanimous in warning that these increased social contacts will lead to more infections and more death.  Dr. Anthony Fauci and other public health experts have explicitly warned that this will “likely” lead to a second wave of the COVID-19 epidemic&lt;a class=&quot;citation&quot; href=&quot;#cnbc:likelihood-that-we-will-have-a-rebound&quot;&gt;[3]&lt;/a&gt; that epidemiologists warn could be largely uncontrolled.&lt;a class=&quot;citation&quot; href=&quot;#oxford:overshoot&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Sat, 16 May 2020 00:00:00 -0400</pubDate>
+            <link>http://0.0.0.0:4000/south-florida-covid19-outlook.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/south-florida-covid19-outlook.html</guid>
+            
+            <category>mobility</category>
+            
+            
+        </item>
         
         <item>
             <title>South Florida COVID-19 Outlook</title>
@@ -29,7 +64,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-      In Miami Beach, we successfully flattened the curve.  But there are still new cases each day.
+      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have new confirmed cases each day.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -52,7 +87,7 @@
   &lt;/div&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-      Has loosening social distancing caused the spread to increase?  Or is that ~3% increase on May 10 just an anomaly?
+      Has loosening social distancing caused the spread to increase?  Or is that ~3% increase on May 10 just an anomaly?  It looks like it might have been a blip from data processing delays.  Time will tell.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -104,10 +139,87 @@
 &lt;/div&gt;
 
 &lt;!--more--&gt;
+
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/number-of-covid19-cases/miami/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-576-84035b.webp 576w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-768-84035b.webp 768w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-992-84035b.webp 992w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-1152-84035b.webp 1152w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-1180-84035b.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-576-84035b.jpg 576w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-768-84035b.jpg 768w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-992-84035b.jpg 992w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-1152-84035b.jpg 1152w, /generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-1180-84035b.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/number-of-covid19-cases/miami/2020-05-13-B-evening-800-84035b.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+      Miami has a larger population and so the curve is smoother.  The conclusion is the same: Miami has flattened the curve but the virus is still simmering.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-576-ec36c3.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-768-ec36c3.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-992-ec36c3.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-1152-ec36c3.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-1180-ec36c3.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-576-ec36c3.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-768-ec36c3.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-992-ec36c3.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-1152-ec36c3.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-1180-ec36c3.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-13-B-evening-800-ec36c3.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-576-877369.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-768-877369.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-992-877369.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-1152-877369.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-1180-877369.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-576-877369.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-768-877369.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-992-877369.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-1152-877369.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-1180-877369.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-13-B-evening-800-877369.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+  
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-576-e71666.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-768-e71666.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-992-e71666.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-1152-e71666.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-1170-e71666.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-576-e71666.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-768-e71666.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-992-e71666.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-1152-e71666.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-1170-e71666.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-13-B-evening-800-e71666.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
             <pubDate>Thu, 07 May 2020 00:00:00 -0400</pubDate>
-            <link>/south-florida-covid19-outlook.html</link>
-            <guid isPermaLink="true">/south-florida-covid19-outlook.html</guid>
+            <link>http://0.0.0.0:4000/south-florida-covid19-outlook.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/south-florida-covid19-outlook.html</guid>
             
             
         </item>
@@ -227,8 +339,8 @@ projected by August 4, 2020
 &lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;5. &lt;b&gt;Significant figures&lt;/b&gt;. Wikipedia; April 24, 2020&lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/29/dont-focus-on-the-center-line.html</link>
-            <guid isPermaLink="true">/2020/04/29/dont-focus-on-the-center-line.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/29/dont-focus-on-the-center-line.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/29/dont-focus-on-the-center-line.html</guid>
             
             <category>covid19-models</category>
             
@@ -301,8 +413,8 @@ projected by August 4, 2020
 &lt;li&gt;&lt;span id=&quot;latimes:vietnam-lifting-restrictions&quot;&gt;2. &lt;b&gt;Without a single COVID-19 death, Vietnam starts easing its coronavirus lockdown&lt;/b&gt;. The LA Times; 0AD&lt;a href=&quot;https://www.latimes.com/world-nation/story/2020-04-23/vietnam-eases-coronavirus-lockdown&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-28 17:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
-            <guid isPermaLink="true">/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
             
             
         </item>
@@ -346,8 +458,8 @@ It is critical to note that &lt;mark&gt;we restrict our projections to the first
 &lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;2. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. Institute for Health Metrics and Evaluation; Institute for Health Metrics and Evaluation; .&lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/27/its-not-the-peak-its-this-peak.html</link>
-            <guid isPermaLink="true">/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/27/its-not-the-peak-its-this-peak.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
             
             <category>covid19-models</category>
             
@@ -492,8 +604,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. &lt;b&gt;Special report: The simulations driving the world’s response to COVID-19&lt;/b&gt;. Nature; April 2, 2020&lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-20 19:30) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 20 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
-            <guid isPermaLink="true">/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
             
             <category>covid19-models</category>
             
@@ -539,8 +651,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. &lt;b&gt;Why the city of Chelsea has been so hard hit by coronavirus&lt;/b&gt;. The Boston Globe; April 10, 2020 The Boston Globe; April 10, 2020.&lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-18 19:45) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
-            <link>/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
-            <guid isPermaLink="true">/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
             
             <category>how-widespread</category>
             
@@ -662,8 +774,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;abc:herdimmunityrange&quot;&gt;3. Bruggeman L. &lt;b&gt;As some leaders weigh pursuit of ‘herd immunity’ from coronavirus, experts warn risks are too high&lt;/b&gt;. ABC News; April 9, 2020 ABC News; April 9, 2020.&lt;a href=&quot;https://abcnews.go.com/Health/leaders-weigh-pursuit-herd-immunity-experts-warn-risks/story?id=70072952&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 20:20) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 18:00:00 -0400</pubDate>
-            <link>/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
-            <guid isPermaLink="true">/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</guid>
             
             <category>how-widespread</category>
             
@@ -697,8 +809,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;p&gt;I still have to run this each time, but I designed all of the code to run in AWS Lambda.&lt;/p&gt;
 </description>
             <pubDate>Fri, 17 Apr 2020 15:00:00 -0400</pubDate>
-            <link>/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
-            <guid isPermaLink="true">/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
             
             <category>meta</category>
             
@@ -739,43 +851,8 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;/center&gt;
 </description>
             <pubDate>Tue, 14 Apr 2020 17:00:00 -0400</pubDate>
-            <link>/2020/04/14/are-we-there-yet.html</link>
-            <guid isPermaLink="true">/2020/04/14/are-we-there-yet.html</guid>
-            
-            <category>how-widespread</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Wider infection estimate range</title>
-            <description>&lt;p&gt;The Centre for Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine has revised their estimated range for the ratio of overall infections to reported cases. Their range is now a lot wider than it has been over the last week or two. Their estimated range is the best idea that I have for estimating the number of SARS-CoV-2 infections from the number of confirmed COVID-19 cases.&lt;/p&gt;
-
-&lt;p&gt;As a result, the uncertainty bands on my &lt;a href=&quot;/visualizations/current_estimated-number-of-sarscov2-infections/current.html&quot;&gt;charts&lt;/a&gt; for the estimated number of infections has gotten a lot wider with the most recent update. The line toward the top of the range is their best estimate that 12% of infections are reported.&lt;/p&gt;
-
-&lt;p&gt;Estimated infection count charts for other areas are available in the
-&lt;a href=&quot;/visualizations/current_estimated-number-of-sarscov2-infections/&quot;&gt;Estimated Number of SARS-CoV-2 Infections&lt;/a&gt;
-analysis product section.&lt;/p&gt;
-
-&lt;center&gt;
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-576-859cc8.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-768-859cc8.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-992-859cc8.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1152-859cc8.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1180-859cc8.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-576-859cc8.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-768-859cc8.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-992-859cc8.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1152-859cc8.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-1180-859cc8.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-05-13-B-evening-800-859cc8.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-&lt;/center&gt;
-</description>
-            <pubDate>Mon, 13 Apr 2020 19:00:00 -0400</pubDate>
-            <link>/2020/04/13/wider-infection-estimate-range.html</link>
-            <guid isPermaLink="true">/2020/04/13/wider-infection-estimate-range.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/14/are-we-there-yet.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/14/are-we-there-yet.html</guid>
             
             <category>how-widespread</category>
             
