@@ -5,19 +5,19 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 16 May 2020 22:15:25 -0400</pubDate>
-        <lastBuildDate>Sat, 16 May 2020 22:15:25 -0400</lastBuildDate>
+        <pubDate>Sun, 17 May 2020 00:08:32 -0400</pubDate>
+        <lastBuildDate>Sun, 17 May 2020 00:08:32 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
             <title>South Florida gives up on social distancing</title>
-            <description>&lt;p&gt;Miami-Dade County started to give up on social distancing even before we started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.&lt;/p&gt;
+            <description>&lt;p&gt;Miami-Dade Couty started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;h2 id=&quot;how-do-you-measure-social-distancing&quot;&gt;How do you measure social distancing?&lt;/h2&gt;
 
-&lt;p&gt;At the beginning of April, residents of Miami-Dade County were moving around a lot less than before the coronavirus pandemic, based on data from cellphones.  The Unacast company, a spinoff of the Tidal music service, collects location data from app partners and uses it to analyze people’s movements.(missing reference)  Their data shows Miami-Dade residents moving around 55% to 70% less than in February.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the beginning of April, residents of Miami-Dade County were moving around a lot less than before the coronavirus pandemic, based on data from cellphones.  The Unacast company, a spinoff of the Tidal music service, collects location data from app partners and uses it to analyze people’s movements.&lt;a class=&quot;citation&quot; href=&quot;#unacast:methodology&quot;&gt;[1]&lt;/a&gt;  Their data shows Miami-Dade residents moving around 55% to 70% less than in February.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;But even before we started to ease our restrictions, data shows that Miami-Dade residents have increased their mobility, now climbing to about 45% of February levels.&lt;/p&gt;
 
@@ -25,28 +25,35 @@
 
 &lt;p&gt;Measuring how far people are traveling is one indication of social distancing.  But you can drive a long way and then come back home without ever getting near anyone.  Or you could walk a few hundred feet and find yourself in a crowd of people.&lt;/p&gt;
 
-&lt;p&gt;Unacast also measures how many people the average person is coming within prolonged contact.  And unfortunately, South Floridians are not very good at keeping to themselves.  According to Unacast’s data, Miami-Dade and Broward rank among the worst places in the US at achieving social distancing.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[1]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-broward&quot;&gt;[2]&lt;/a&gt;  Both counties currently show a D+ grade on the Unacast Social Distancing Scoreboard.&lt;/p&gt;
+&lt;p&gt;Unacast also measures how many people the average person is coming within prolonged contact.  And unfortunately, South Floridians are not very good at keeping to themselves.  According to Unacast’s data, Miami-Dade and Broward rank among the worst places in the US at achieving social distancing.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[2]&lt;/a&gt;&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-broward&quot;&gt;[3]&lt;/a&gt;  Both counties currently show a D+ grade on the Unacast Social Distancing Scoreboard.&lt;/p&gt;
 
 &lt;h2 id=&quot;when-did-this-happen&quot;&gt;When did this happen?&lt;/h2&gt;
 
-&lt;p&gt;The most-social moment that Miami-Dade has seen since the start of the shutdown was last weekend, on Saturday, May 9, when the average person in Miami-Dade came in contact with seven and a half times as many other people as the national baseline.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[1]&lt;/a&gt;  In Broward County, the average person came in contact with even more people, more than eight times the national baseline.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-broward&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The most-social moment that Miami-Dade has seen since the start of the shutdown was last weekend, on Saturday, May 9, when the average person in Miami-Dade came in contact with seven and a half times as many other people as the national baseline.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-miami-dade&quot;&gt;[2]&lt;/a&gt;  In Broward County, the average person came in contact with even more people, more than eight times the national baseline.&lt;a class=&quot;citation&quot; href=&quot;#unacast:social-distancing-scoreboard-broward&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
 
-&lt;p&gt;We can only expect to see social distancing behavior decrease even more as South Florida begins its phased reopening.  Epidemiologists are nearly unanimous in warning that these increased social contacts will lead to more infections and more death.  Dr. Anthony Fauci and other public health experts have explicitly warned that this will “likely” lead to a second wave of the COVID-19 epidemic&lt;a class=&quot;citation&quot; href=&quot;#cnbc:likelihood-that-we-will-have-a-rebound&quot;&gt;[3]&lt;/a&gt; that epidemiologists warn could be largely uncontrolled.&lt;a class=&quot;citation&quot; href=&quot;#oxford:overshoot&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We can only expect to see social distancing behavior decrease even more as South Florida begins its phased reopening.  Epidemiologists are nearly unanimous in warning that these increased social contacts will lead to more infections and more death.  Dr. Anthony Fauci and other public health experts have explicitly warned that this will “likely” lead to a second wave of the COVID-19 epidemic&lt;a class=&quot;citation&quot; href=&quot;#cnbc:likelihood-that-we-will-have-a-rebound&quot;&gt;[4]&lt;/a&gt; that epidemiologists warn could be largely uncontrolled.&lt;a class=&quot;citation&quot; href=&quot;#oxford:overshoot&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;unacast:methodology&quot;&gt;1. Walle T. &lt;b&gt;The Unacast Social Distancing Scoreboard - Methodology&lt;/b&gt;. Unacast; &lt;a href=&quot;https://www.unacast.com/post/the-unacast-social-distancing-scoreboard&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-16 21:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;unacast:social-distancing-scoreboard-miami-dade&quot;&gt;2. &lt;b&gt;Social Distancing Scoreboard - Miami-Dade County&lt;/b&gt;. Unacast; &lt;a href=&quot;https://www.unacast.com/covid19/social-distancing-scoreboard?view=county&amp;amp;fips=12086&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-16 21:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;unacast:social-distancing-scoreboard-broward&quot;&gt;3. &lt;b&gt;Social Distancing Scoreboard - Broward County&lt;/b&gt;. Unacast; &lt;a href=&quot;https://www.unacast.com/covid19/social-distancing-scoreboard?view=county&amp;amp;fips=12011&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-16 21:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;cnbc:likelihood-that-we-will-have-a-rebound&quot;&gt;4. Higgins-Dunn N, Kolodny L. &lt;b&gt;Trump says he ‘totally disagrees’ with Georgia Gov. Kemp’s decision to reopen businesses in the middle of coronavirus pandemic&lt;/b&gt;. CNBC; &lt;a href=&quot;https://www.cnbc.com/2020/04/22/trump-says-he-totally-disagrees-with-georgia-gov-kemps-decision-to-reopen-businesses-in-the-middle-of-coronavirus-pandemic.html&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;oxford:overshoot&quot;&gt;5. Tanaka MM, Althouse BM, Bergstrom CT. &lt;b&gt;Timing of antimicrobial use influences the evolution of antimicrobial resistance during disease epidemics&lt;/b&gt;. Evolution, Medicine, and Public Health; &lt;a href=&quot;https://academic.oup.com/emph/article/2014/1/150/1846924&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 16 May 2020 00:00:00 -0400</pubDate>
-            <link>http://0.0.0.0:4000/south-florida-covid19-outlook.html</link>
-            <guid isPermaLink="true">http://0.0.0.0:4000/south-florida-covid19-outlook.html</guid>
-            
-            <category>mobility</category>
+            <link>http://0.0.0.0:4000/2020/05/16/south-florida-gives-up-on-social-distancing.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/05/16/south-florida-gives-up-on-social-distancing.html</guid>
             
             
         </item>
         
         <item>
             <title>South Florida COVID-19 Outlook</title>
-            <description>&lt;div class=&quot;panel&quot;&gt;
+            <description>&lt;p&gt;WTF!!&lt;/p&gt;
+&lt;div class=&quot;panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
   
 

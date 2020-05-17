@@ -114,6 +114,11 @@ defaults:
     values:
       chart_type: "estimated-percentage-of-sarscov2-infections"
       folder: Charts
+  - scope:
+      path: "charts/new-confirmed-covid19-cases-weekly-comparison"
+    values:
+      chart_type: "new-confirmed-covid19-cases-weekly-comparison"
+      folder: Charts
   -
     scope:
       path: ""
