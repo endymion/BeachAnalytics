@@ -11,7 +11,7 @@ image_copyright: https://commons.wikimedia.org/wiki/File:Social_Distancing_Sign_
 summary: Miami-Dade Couty started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.
 ---
 
-Miami-Dade Couty started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.
+Miami-Dade County started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.
 
 <!--more-->
 
