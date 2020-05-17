@@ -4,9 +4,9 @@ slug: south-florida-gives-up-on-social-distancing
 author: Ryan Alyn Porter
 featured: true
 published: true
-image_1_1:  images/posts/social-distancing-1x1.png
-image_16_9: images/posts/social-distancing-16x9.png
-image_16_5: images/posts/social-distancing-16x5.png
+image_1_1:  images/posts/social-distancing-1x1.jpg
+image_16_9: images/posts/social-distancing-16x9.jpg
+image_16_5: images/posts/social-distancing-16x5.jpg
 image_copyright: https://commons.wikimedia.org/wiki/File:Social_Distancing_Sign_@_London_Drugs_(49684963711).jpg
 summary: Miami-Dade Couty started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.
 ---
