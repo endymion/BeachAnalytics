@@ -1,11 +1,9 @@
 ---
 title: South Florida gives up on social distancing
 slug: south-florida-gives-up-on-social-distancing
-permalink: south-florida-covid19-outlook.html
 author: Ryan Alyn Porter
-featured: false
+featured: true
 published: true
-draft: true
 image_1_1:  images/posts/social-distancing-1x1.png
 image_16_9: images/posts/social-distancing-16x9.png
 image_16_5: images/posts/social-distancing-16x5.png
