@@ -1,5 +1,6 @@
 ---
 title: South Florida COVID-19 Outlook
+summary: South Florida COVID-19 Outlook
 slug: south-florida-covid19-outlook
 permalink: south-florida-covid19-outlook.html
 author: Ryan Alyn Porter
@@ -10,6 +11,17 @@ image_1_1:  images/posts/South-Florida-outlook-1x1.png
 image_16_9: images/posts/South-Florida-outlook-16x9.png
 image_16_5: images/posts/South-Florida-outlook-16x5.png
 ---
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="new-confirmed-covid19-cases-weekly-comparison" area="/miami-beach/" %}
+  </div>
+  <div class="headline">
+    <div class="meta">
+      There were more than twice as many new confirmed infections in the last week in Miami Beach as there were the week before.
+    </div>
+  </div>
+</div>
 
 <div class="panel">
   <div class="banner">
@@ -44,18 +56,18 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
 </div>
 
+<!--more-->
+
 <div class="panel">
   <div class="banner">
   {% include current_chart.html chart_type="estimated-one-in-x-sarscov2-infection-odds" area="/miami-beach/" %}
   </div>
   <div class="headline">
     <div class="meta">
-    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 21.
+    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 20.
     </div>
   </div>
 </div>
-
-<!--more-->
 
 <div class="panel">
   <div class="banner">
@@ -64,6 +76,17 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   <div class="headline">
     <div class="meta">
       Miami has a larger population and so the curve is smoother.  The conclusion is the same: Miami has flattened the curve but the virus is still simmering.
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="banner">
+  {% include current_chart.html chart_type="new-confirmed-covid19-cases-weekly-comparison" area="/miami-beach/" %}
+  </div>
+  <div class="headline">
+    <div class="meta">
+      The number of new confirmed cases week over week was declining, but now it's starting to flatten out.  Will it start to increase?
     </div>
   </div>
 </div>

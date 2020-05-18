@@ -1,4 +1,4 @@
-# fast_build: true
+fast_build: true
 
 media_presets:
   xs: 'max-width: 576px'

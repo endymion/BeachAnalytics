@@ -9,7 +9,7 @@
     <div class="banner">
       <a class="post-link" href="{{ include.post.url }}">
         {% if include.compact %}
-          {% picture headline_banner {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+          {% picture headline_banner {{ include.post.image_16_5 }} s: {{ include.post.image_1_1 }} xs: {{ include.post.image_16_9 }} --alt="{{ page.title }}" --img class="img-fluid" %}
         {% else %}
           {% picture headline_banner {{ include.post.image_1_1 }} {{alternate_width}}: {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
         {% endif %}
@@ -29,11 +29,7 @@
       </code></div>
     </div>
     <div>
-      {% if include.post.excerpt %}
-        {{ include.post.excerpt  }}
-      {% else %}
-        {{ include.post.content }}
-      {% endif %}
+      {{ include.post.summary | default: include.post.excerpt | include.post.content }}
     </div>
     <div class="smaller">
       {% for tag in include.post.tags %}

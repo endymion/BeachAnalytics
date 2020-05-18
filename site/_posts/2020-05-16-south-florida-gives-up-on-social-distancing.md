@@ -8,7 +8,7 @@ image_1_1:  images/posts/social-distancing-1x1.jpg
 image_16_9: images/posts/social-distancing-16x9.jpg
 image_16_5: images/posts/social-distancing-16x5.jpg
 image_copyright: https://commons.wikimedia.org/wiki/File:Social_Distancing_Sign_@_London_Drugs_(49684963711).jpg
-summary: Miami-Dade Couty started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.
+summary: Miami-Dade County started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of anywhere in the US, according to a company that’s analyzing location data to determine how many contacts each person has.
 ---
 
 Miami-Dade County started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.
@@ -19,7 +19,7 @@ Miami-Dade County started to give up on social distancing even before it started
 
 At the beginning of April, residents of Miami-Dade County were moving around a lot less than before the coronavirus pandemic, based on data from cellphones.  A compamny called [Unacast](https://www.unacast.com), a spinoff of the Tidal music service, collects location data from app partners and uses it to analyze people’s movements.{% cite unacast:methodology %}  Their data shows Miami-Dade residents moving around 55% to 70% less than in February.{% cite unacast:social-distancing-scoreboard-miami-dade %}
 
-But even before we started to ease our restrictions, data shows that Miami-Dade residents have increased their mobility.  Now their data shows people climbing to about 45% of February levels.  A significant increase from the approximately 70% reduction in mobility that we saw in early April.
+But even before we started to ease our restrictions, data shows that Miami-Dade residents have increased their mobility.  Now their data shows people climbing to only about 45% less than February levels.  A significant increase from the approximately 70% reduction in mobility that we saw in early April.
 
 ## How many people have you seen?
 

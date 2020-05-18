@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ page.summary }}">
+<meta name="description" content="{{ page.summary | default: page.excerpt }}">
 <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
 <title>{{ page.title }} | {{ site.site_title }}</title>
 <link rel="stylesheet" href="/css/main.css">
@@ -39,7 +39,7 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="{{ page.summary }}">
+<meta property="og:description" content="{{ page.summary | default: page.excerpt }}">
 <meta property="og:type" content="article" />
 {% if page.image_16_9 %}
   <meta property="og:image" content="https://beachanalytics.info/{{ page.image_16_9 }}">
@@ -51,7 +51,7 @@
 <meta name="twitter:site" content="@BeachAnalytics">
 <meta name="twitter:creator" content="@RyanAlynPorter">
 <meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.summary }}">
+<meta name="twitter:description" content="{{ page.summary | default: page.excerpt }}">
 {% if page.image_1_1 %}
   <meta name="twitter:image" content="https://beachanalytics.info/{{ page.image_1_1 }}">
   <meta name="twitter:summary_large_image" content="https://beachanalytics.info/{{ page.image_16_9 }}">
