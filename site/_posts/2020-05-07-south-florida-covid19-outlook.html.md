@@ -40,7 +40,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-      Has loosening social distancing caused the spread to increase?  Or is that ~3% increase on May 10 just an anomaly?  It looks like it might have been a blip from data processing delays.  Time will tell.
+      Has <a href="/2020/05/16/south-florida-gives-up-on-social-distancing.html">loosening social distancing</a> caused the spread to increase?
     </div>
   </div>
 </div>
