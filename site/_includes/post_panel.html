@@ -4,11 +4,19 @@
   {% assign alternate_width = 'xs' %}
 {% endif %}
 
+{% if include.type %}
+<div class="panel {{ include.type }}">
+{% else %}
 <div class="panel">
+{% endif %}
   {% if include.post.image_1_1 %}
     <div class="banner">
       <a class="post-link" href="{{ include.post.url }}">
-        {% if include.compact %}
+        {% if include.type == "main_feature" %}
+          {% picture headline_banner {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% elsif include.type == "two_up_vertical" %}
+          {% picture headline_banner {{ include.post.image_16_9 }} l: {{ include.post.image_1_1 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% elsif include.type == "compact" %}
           {% picture headline_banner {{ include.post.image_16_5 }} s: {{ include.post.image_1_1 }} xs: {{ include.post.image_16_9 }} --alt="{{ page.title }}" --img class="img-fluid" %}
         {% else %}
           {% picture headline_banner {{ include.post.image_1_1 }} {{alternate_width}}: {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}

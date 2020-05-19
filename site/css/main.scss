@@ -95,8 +95,28 @@ article {
     order: 1;
   }
 }
+@mixin vertical-panel {
+  flex-wrap: wrap;
+  .banner {
+    flex: 1 100%;
+    order: 1;
+  }
+  .headline {
+    flex: 1 100%;
+    height: 100%;
+    order: 2;
+    padding-left: 0;
+    h3 {
+      margin: 0.25rem 0 0 0;
+    }
+  }
+}
+
 .post-list {
+  display: flex;
+  flex-wrap: wrap;
   .panel {
+    flex: 2 100%;
     display: flex;
     margin-bottom: 2rem;
 
@@ -135,22 +155,28 @@ article {
   }
 }
 
+// For the fancy-pants panels in the news mosaic layouts.
+.panel.main_feature {
+    @include vertical-panel;
+    h2 {
+      font-size: 2rem;
+    }
+}
+.panel.two_up_vertical {
+    @include vertical-panel;
+    flex: 1 50%;
+}
+.panel.two_up_vertical:nth-child(even) {
+  padding-right: ($grid-gutter-width / 2);
+}
+.panel.two_up_vertical:nth-child(odd) {
+  padding-left: ($grid-gutter-width / 2);
+}
+
 @media (max-width: 576px) {
   .post-list {
     .panel {
-      flex-wrap: wrap;
-      .banner {
-        flex: 1 100%;
-        order: 1;
-      }
-      .headline {
-        flex: 1 100%;
-        order: 2;
-        padding-left: 0;
-        h3 {
-          margin: 0.25rem 0 0 0;
-        }
-      }
+      @include vertical-panel;
     }
   }
   .sidebar {
@@ -219,6 +245,21 @@ h4 {
   h4 {
     margin: 0.5ex 0 0.25ex 0;
   }
+}
+
+hr {
+  color: $neutral;
+  border-width: 8px;
+  border-radius: 4px 4px 4px 4px;
+}
+.section-header {
+  h2 {
+    margin-bottom: 0;
+  }
+  hr {
+    margin-top: 1ex;
+  }
+  margin-bottom: 2em;
 }
 
 .post-header {

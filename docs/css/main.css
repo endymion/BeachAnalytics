@@ -2096,7 +2096,9 @@ article { flex: 1 100%; }
 
 .panel .headline { flex: 1 100%; order: 1; }
 
-.post-list .panel { display: flex; margin-bottom: 2rem; }
+.post-list { display: flex; flex-wrap: wrap; }
+
+.post-list .panel { flex: 2 100%; display: flex; margin-bottom: 2rem; }
 
 .post-list .panel .banner { flex: 1; order: 1; }
 
@@ -2112,7 +2114,29 @@ article { flex: 1 100%; }
 
 .sidebar .headline { flex: 1; order: 1; padding-right: 15px; margin-top: 0.25rem; }
 
-@media (max-width: 576px) { .post-list .panel { flex-wrap: wrap; } .post-list .panel .banner { flex: 1 100%; order: 1; } .post-list .panel .headline { flex: 1 100%; order: 2; padding-left: 0; } .post-list .panel .headline h3 { margin: 0.25rem 0 0 0; } .sidebar .panel .headline .banner { order: 2; } .sidebar .panel .headline .meta { order: 1; } }
+.panel.main_feature { flex-wrap: wrap; }
+
+.panel.main_feature .banner { flex: 1 100%; order: 1; }
+
+.panel.main_feature .headline { flex: 1 100%; height: 100%; order: 2; padding-left: 0; }
+
+.panel.main_feature .headline h3 { margin: 0.25rem 0 0 0; }
+
+.panel.main_feature h2 { font-size: 2rem; }
+
+.panel.two_up_vertical { flex-wrap: wrap; flex: 1 50%; }
+
+.panel.two_up_vertical .banner { flex: 1 100%; order: 1; }
+
+.panel.two_up_vertical .headline { flex: 1 100%; height: 100%; order: 2; padding-left: 0; }
+
+.panel.two_up_vertical .headline h3 { margin: 0.25rem 0 0 0; }
+
+.panel.two_up_vertical:nth-child(even) { padding-right: 15px; }
+
+.panel.two_up_vertical:nth-child(odd) { padding-left: 15px; }
+
+@media (max-width: 576px) { .post-list .panel { flex-wrap: wrap; } .post-list .panel .banner { flex: 1 100%; order: 1; } .post-list .panel .headline { flex: 1 100%; height: 100%; order: 2; padding-left: 0; } .post-list .panel .headline h3 { margin: 0.25rem 0 0 0; } .sidebar .panel .headline .banner { order: 2; } .sidebar .panel .headline .meta { order: 1; } }
 
 @media (min-width: 768px) { .sidebar .panel { flex-wrap: wrap; } .sidebar .panel .banner { flex: 1 100%; order: 1; } .sidebar .panel .headline { flex: 1 100%; padding-left: 0; order: 2; } }
 
@@ -2129,6 +2153,14 @@ h3 { font-size: 1.375rem; margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif
 h4 { font-size: 1.25rem; margin: 1ex 0 1ex 0; font-family: 'Oswald', sans-serif; font-weight: 500; }
 
 @media (max-width: 576px) { h4 { margin: 0.5ex 0 0.25ex 0; } }
+
+hr { color: #999999; border-width: 8px; border-radius: 4px 4px 4px 4px; }
+
+.section-header { margin-bottom: 2em; }
+
+.section-header h2 { margin-bottom: 0; }
+
+.section-header hr { margin-top: 1ex; }
 
 .post-header { position: relative; z-index: -1; line-height: 1rem; }
 

@@ -11,15 +11,40 @@ show_meta: false
 
 <div class="post-list">
   {% assign site_posts = site.posts | where:"featured","true" %}
-  {% for post in site_posts limit:4 %}
+
+  {% assign main_feature = site_posts | first %}
+  {% include post_panel.html post=main_feature type="main_feature" %}
+
+  {% assign two_up_vertical = site_posts | slice: 1,2 %}
+  {% for post in two_up_vertical %}
+    {% include post_panel.html post=post type="two_up_vertical" %}
+  {% endfor %}
+
+  {% assign remaining = site_posts | slice: 3,4 %}
+  {% for post in remaining %}
     {% include post_panel.html post=post %}
   {% endfor %}
 </div>
 
+<div class="section-header">
+<h2>Topics</h2>
+<hr/>
+</div>
+
 <div class="post-list">
   {% assign site_pages = site.pages | where:"featured","true" | sort: "last_modified_at" | reverse %}
-  {% for page in site_pages limit:3 %}
-    {% include post_panel.html post=page %}
+
+  {% assign main_feature = site_pages | first %}
+  {% include post_panel.html post=main_feature type="main_feature" %}
+
+  {% assign two_up_vertical = site_pages | slice: 1,2 %}
+  {% for post in two_up_vertical %}
+    {% include post_panel.html post=post type="two_up_vertical" %}
+  {% endfor %}
+
+  {% assign remaining = site_pages | slice: 3,4 %}
+  {% for post in remaining %}
+    {% include post_panel.html post=post %}
   {% endfor %}
 </div>
 

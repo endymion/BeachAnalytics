@@ -6,7 +6,7 @@ featured: true
 published: true
 excerpt_separator: <!--more-->
 image_16_5:   images/posts/vietnam-memorial-16_5.jpg
-image_16_9: images/posts/vietnam-memorial-1_1.jpg
+image_16_9: images/posts/vietnam-memorial-16_9.jpg
 image_1_1:  images/posts/vietnam-memorial-1_1.jpg
 image_copyright: https://www.flickr.com/photos/howardignatius/15917012001/in/photolist-qfwR8p-2hDq723-6wzq1y-6wvSKn-P6FQKD-RgByA6-4tFPvN-2hzJUND-fVDBsJ-fVDWme-fVDEYJ-2hHs2cs-nyNpEU-nR9skj-qxnDTc-nyNa36-nyNaK7-5zGEx8-nRdQzJ-nQZKA8-5zLWLs-Ny8BZ-6wvfeT-6wvKLZ-6wvfkv-pRqTa1-2hDq773-rZnAf-6wvfqB-2hsU1h3-2mKVX-6wzpWu-d3Rvt-5924gQ-6wA2Pw-22StiyS-6wvSPg-6wvKGR-6wzUYs-d3Rv8-8G5EBM-21YejXY-6Yi7jU-et68xo-c6P3sU-6r31wN-4zSDzJ-9rWwpF-iNHAq-c6P4kh
 image_copyright2: Bernt Rostad https://www.flickr.com/photos/brostad/3548338026/in/photolist-6pyagQ-7psdNz-22sLqD-cWtKhq-it6rG-cjgrQb-8j87Qw-EQpX3y-ERzevP-KDinc-2aS4eji-KDit4-8j88Dh-KDbc5-KDhEM-cWtKeC-6R69SB-KDhG8-2JZDv8-CMYLxa-6r52WM-n5CHm8-6r52Ni-ZePCC-Zb4KSN-rz3TBH-7FjMX6-iPfm2c-n5EB4U-6r9dcY-7YMWPz-rZaNa-26hbcqv-5Y9snN-9fZ27D-tbgP6d-CsKWQ9-6r52E4-KvZFgS-HaCtvY-2dodAbG-6r52L6-7Xjfb-9fY8va-5Y5e3n-zvkYmG-9g39BA-n53Df-RzEM2b-cWtKmy

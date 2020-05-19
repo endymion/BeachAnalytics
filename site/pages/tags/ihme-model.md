@@ -10,7 +10,7 @@ sidebar: home_sidebar
 folder: tags
 toc: false
 image_16_5:   images/posts/ihme-16_5.jpg
-image_16_9: images/posts/ihme-1_1.jpg
+image_16_9: images/posts/ihme-16_9.jpg
 image_1_1:  images/posts/ihme-1_1.jpg
 excerpt: One of the most widely influential COVID-19 forecasting models
   has also been one of the most misinterpreted.

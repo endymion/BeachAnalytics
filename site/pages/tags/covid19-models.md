@@ -7,6 +7,7 @@ permalink: covid19-models.html
 sidebar: home_sidebar
 folder: Topics
 toc: false
+featured: true
 image_copyright: https://pixabay.com/photos/source-code-software-computer-4280758/
 image_16_5: images/posts/source-4280758-16x5.png
 image_16_9: images/posts/source-4280758-16x9.png

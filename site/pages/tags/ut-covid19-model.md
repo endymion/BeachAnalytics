@@ -3,6 +3,7 @@ title: University of Texas COVID-19 Forecasting Model
 slug: ut-covid19-model
 author: Ryan Alyn Porter
 category: model
+featured: true
 tagName: ut-covid19-model
 search: include
 permalink: ut-covid19-model.html
@@ -12,7 +13,6 @@ image_16_5: images/posts/ut-16x5.png
 image_16_9: images/posts/ut-16x9.png
 image_1_1:  images/posts/ut-1x1.png
 excerpt: University of Texas COVID-19 model builds on the IHME model by adding real-time daily social-distancing data in order to project deaths from the first wave.
-featured: true
 ---
 
 The University of Texas COVID-19 model builds on the <a href="/ihme-model.html">IHME model</a> by adding real-time daily social-distancing data.{% cite UT:projections-for-first-wave %}
