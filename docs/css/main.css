@@ -2186,7 +2186,7 @@ body { background-color: #FAFAFA; }
 
 .navbar .logo a:link, .navbar .logo a:visited, .navbar .logo a:hover, .navbar .logo a:active, body > footer .logo a:link, body > footer .logo a:visited, body > footer .logo a:hover, body > footer .logo a:active { text-decoration: none; }
 
-.navbar .logotype, body > footer .logotype { font-weight: bold; }
+.navbar .logotype, body > footer .logotype { font-family: 'Oswald', sans-serif; font-weight: 600; }
 
 .navbar code, body > footer code { color: #f8f9fa; font-size: 80%; line-height: smaller; }
 
