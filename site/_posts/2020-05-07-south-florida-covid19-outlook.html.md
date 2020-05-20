@@ -64,7 +64,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 20.
+    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 19.  It's even higher in Miami: about one in eight.
     </div>
   </div>
 </div>
