@@ -546,10 +546,11 @@ a[href^="http://"]:after, a[href^="https://"]:after {
 
 #draft-notice {
     position:absolute;
-    z-index:0;
+    z-index: 2;
     display:block;
     top: 18em;
     width:100%;
+    pointer-events: none;
 }
 .overlay-text {
     color: lightgrey;

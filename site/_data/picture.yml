@@ -39,3 +39,14 @@ markup_presets:
       s: 'calc(25vw - 1.5rem*2)'
       m: 'calc(25vw - 1.5rem*2)'
       l: 'calc(25vw - 1.5rem*2)'
+  figure:
+    formats: [webp, jpg]
+    quality: 70
+    link_source: true
+    nomarkdown: false
+    widths: [576, 768, 992, 1152, 1536, 1984, 1200, 2400]
+    size: 'calc(100vw - 1.5rem*2)'
+    sizes:
+      s: 'calc(25vw - 1.5rem*2)'
+      m: 'calc(25vw - 1.5rem*2)'
+      l: 'calc(25vw - 1.5rem*2)'

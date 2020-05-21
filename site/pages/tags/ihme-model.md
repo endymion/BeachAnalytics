@@ -80,7 +80,7 @@ incubation period of the disease or the percentage of asymptomatic people, or
 anything else about the disease itself.  It only looks for <mark>patterns in the curves</mark>.  Other researchers have criticized the model's methods for departing from classic epidemiological modeling and for optimistically assuming that the shape of the curve will be curtailed by social distancing.{% cite UT:projections-for-first-wave %}
 
 <div class="alert alert-info" role="alert">
-  <h4 class="alert-heading"><i class="fa fa-info-circle" aria-hidden="true"></i> See also</h4>
+  <h4 class="alert-heading">See also</h4>
   <p>The <a href="/ut-covid19-model.html">University of Texas COVID-19 model</a> builds on the IHME model by adding real-time daily social-distancing data.{% cite UT:projections-for-first-wave %}</p>
   <hr>
   <p class="mb-0">The UT model also differs from the IHME model by using only US data, instead of assuming that the epidemic in the US will follow the same patterns seen in other countries.  And it attempts to improve on the verifiably-wrong IHME model's uncertainty calculations.</p>
