@@ -2,9 +2,9 @@
 title: South Florida may see a new outbreak soon
 summary: A model aimed at local forecasts projects a rapid spread of coronavirus in Miami-Dade and Broward counties, based on mobility, population density, age, insurance status, smoking prevalence, and weather.
 author: Ryan Alyn Porter
-draft: true
+draft: false
 published: true
-featured: false
+featured: true
 image_1_1:  images/posts/south-florida-new-outbreak-soon-1x1.jpg
 image_16_9: images/posts/south-florida-new-outbreak-soon-16x9.jpg
 image_16_5: images/posts/south-florida-new-outbreak-soon-16x5.jpg
