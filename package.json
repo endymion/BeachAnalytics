@@ -1,0 +1,25 @@
+{
+  "name": "beachanalytics",
+  "version": "1.0.0",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endymion/BeachAnalytics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/endymion/BeachAnalytics/issues"
+  },
+  "homepage": "https://github.com/endymion/BeachAnalytics#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -18,7 +18,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-      There were more than twice as many new confirmed infections in the last week in Miami Beach as there were the week before.
+      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have a lot more new confirmed cases in the last week than the week before.
     </div>
   </div>
 </div>
@@ -26,11 +26,6 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
 <div class="panel">
   <div class="banner">
   {% include current_chart.html chart_type="number-of-covid19-cases" area="/miami-beach/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have new confirmed cases each day.
-    </div>
   </div>
 </div>
 

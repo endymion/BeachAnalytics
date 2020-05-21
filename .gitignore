@@ -3,3 +3,4 @@
 credentials.json
 token.yaml
 site/.jekyll-cache
+node_modules
