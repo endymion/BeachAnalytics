@@ -15,7 +15,7 @@ Epidemiologists widely agree that reducing social distancing while we still have
 
 <!--more-->
 
-We already know that cellphone data shows that <mark>South Florida has <a href="{% post_url 2020-05-16-south-florida-gives-up-on-social-distancing %}">not been</a> engaging in social distancing</mark> as well as we were during the start of the first wave of our coronavirus epidemic.{% cite unacast:social-distancing-scoreboard-miami-dade safegraph:us-geographic-responsed-to-shelter-in-place-orders %}  But what does that mean for us?
+We already know that cellphone data shows that <mark>South Florida has <a href="{% post_url 2020-05-16-south-florida-gives-up-on-social-distancing %}">not been</a> engaging in social distancing</mark> as well as we were during the start of the first wave of our coronavirus epidemic.{% cite unacast:social-distancing-scoreboard-miami-dade safegraph:us-geographic-responsed-to-shelter-in-place-orders descartes-lab:changes-in-us-mobility %}  But what does that mean for us?
 
 Data analysis shows a clear pattern: <mark>States that have successfully limited the spread have practiced social distancing more aggressively</mark>, and even more so when their death rate started to rise.{% cite ut:mortality-modeling-faq %}  But there aren't a lot of epidemiologists tailoring advice to South Florida.
 
