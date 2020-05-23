@@ -9,7 +9,7 @@ featured: true
 image_1_1:  images/posts/south-florida-new-outbreak-soon-1x1.jpg
 image_16_9: images/posts/south-florida-new-outbreak-soon-16x9.jpg
 image_16_5: images/posts/south-florida-new-outbreak-soon-16x5.jpg
-image_copyright: https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us
+image_copyright: https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us 
 ---
 
 Epidemiologists widely agree that reducing social distancing while we still have active community transmission will lead to an increase in cases, and possibly an uncontrollable outbreak.
