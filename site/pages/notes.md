@@ -85,3 +85,7 @@ https://github.com/CSSEGISandData/COVID-
 ## Misinformation
 
 https://www.forbes.com/sites/seanlawson/2020/04/21/right-wing-responsible-for-pushing-coronavirus-disinformation-on-twitter-worldwide-new-report-says/
+
+## Community data journalism
+
+https://github.com/PhantomInsights/covid-19

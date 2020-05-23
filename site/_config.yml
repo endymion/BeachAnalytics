@@ -170,6 +170,7 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jekyll-last-modified-at
+  - jekyll-redirect-from
 
 scholar:
   style: _bibliography/style.csl

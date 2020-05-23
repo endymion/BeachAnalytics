@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem 'jekyll_picture_tag', :github => 'rbuchberger/jekyll_picture_tag', :branch => 'master'
   gem 'jekyll-twitter-plugin', '~> 2.1'
   gem 'jekyll-last-modified-at', '~> 1.2', '>= 1.2.1'
+  gem 'jekyll-redirect-from', '~> 0.16.0'
   gem 'rmagick', '~> 4.1.2'
   gem 'classifier-reborn'
 end
