@@ -1,6 +1,7 @@
 ---
 title: South Florida gives up on social distancing
 slug: south-florida-gives-up-on-social-distancing
+tags: [mobility-data, unacast]
 author: Ryan Alyn Porter
 featured: true
 published: true
@@ -17,7 +18,7 @@ Miami-Dade County started to give up on social distancing even before it started
 
 ## How do you measure social distancing?
 
-At the beginning of April, residents of Miami-Dade County were moving around a lot less than before the coronavirus pandemic, based on data from cellphones.  A compamny called [Unacast](https://www.unacast.com), a spinoff of the Tidal music service, collects location data from app partners and uses it to analyze people’s movements.{% cite unacast:methodology %}  Their data shows Miami-Dade residents moving around 55% to 70% less than in February.{% cite unacast:social-distancing-scoreboard-miami-dade %}
+At the beginning of April, residents of Miami-Dade County were moving around a lot less than before the coronavirus pandemic, based on data from cellphones.  A company called [Unacast](https://www.unacast.com), a spinoff of the Tidal music service, collects location data from app partners and uses it to analyze people’s movements.{% cite unacast:methodology %}  Their data shows Miami-Dade residents moving around 55% to 70% less than in February.{% cite unacast:social-distancing-scoreboard-miami-dade %}
 
 But even before we started to ease our restrictions, data shows that Miami-Dade residents have increased their mobility.  Now their data shows people climbing to only about 45% less than February levels.  A significant increase from the approximately 70% reduction in mobility that we saw in early April.
 

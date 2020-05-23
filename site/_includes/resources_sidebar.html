@@ -10,6 +10,9 @@
         {% assign page = site.pages | where: "slug", "covid19-models" | first %}
         {% include post_panel.html post=page type="compact" %}
 
+        {% assign page = site.pages | where: "slug", "covid19-data-sources" | first %}
+        {% include post_panel.html post=page type="compact" %}
+
       </div>
     </div>
   </div>

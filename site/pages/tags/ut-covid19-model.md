@@ -1,8 +1,8 @@
 ---
-title: University of Texas COVID-19 Forecasting Model
+title: University of Texas COVID-19 forecasting model
 slug: ut-covid19-model
 author: Ryan Alyn Porter
-category: model
+category: covid19-model
 featured: true
 tagName: ut-covid19-model
 search: include

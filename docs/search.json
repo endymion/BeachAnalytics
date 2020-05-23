@@ -48,65 +48,10 @@
 
 
 {
-"title": "COVID-19 Forecasting Models",
+"title": "COVID-19 forecasting models",
 "tags": "",
 "keywords": "",
 "url": "/covid19-models.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/doubling-time-for-number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current COVID-19 Dashboards",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/covid19-dashboard/current.html",
 "summary": ""
 }
 ,
@@ -136,6 +81,61 @@
 
 
 {
+"title": "Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current COVID-19 Dashboards",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/covid19-dashboard/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/doubling-time-for-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Dashboard",
 "tags": "",
 "keywords": "",
@@ -151,6 +151,17 @@
 "tags": "",
 "keywords": "",
 "url": "/data-engineering.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 data sources",
+"tags": "",
+"keywords": "",
+"url": "/pages/tags/data-sources.html",
 "summary": ""
 }
 ,
@@ -193,7 +204,7 @@
 
 
 {
-"title": "IHME COVID-19 Forecasting Model",
+"title": "IHME COVID-19 forecasting model",
 "tags": "",
 "keywords": "",
 "url": "/ihme-model.html",
@@ -204,21 +215,10 @@
 
 
 {
-"title": "Imperial College of London COVID-19 Forecasting Model",
+"title": "Imperial College of London COVID-19 forecasting model",
 "tags": "",
 "keywords": "",
 "url": "/imperial-college-model.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Estimated One-In-X SARS-CoV2 Infection Odds",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html",
 "summary": ""
 }
 ,
@@ -237,43 +237,10 @@
 
 
 {
-"title": "South Florida COVID-19 analysis from Miami Beach",
-"tags": "",
-"keywords": "news, blog, updates, release notes, announcements",
-"url": "/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "COVID-19 Dashboard",
+"title": "Estimated One-In-X SARS-CoV2 Infection Odds",
 "tags": "",
 "keywords": "",
-"url": "/visualizations/covid19-dashboard/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/percent-increase-in-number-of-covid19-cases/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "SARS-CoV-2 Infection Percentage Projection",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/projected-percentage-of-sarscov2-infections/index.html",
+"url": "/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html",
 "summary": ""
 }
 ,
@@ -292,10 +259,54 @@
 
 
 {
+"title": "South Florida COVID-19 analysis from Miami Beach",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/index.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Number of Confirmed COVID-19 Cases",
 "tags": "",
 "keywords": "",
 "url": "/visualizations/number-of-covid19-cases/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "SARS-CoV-2 Infection Percentage Projection",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/projected-percentage-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/percent-increase-in-number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -323,6 +334,17 @@
 ,
 
 
+
+
+
+{
+"title": "Mobility data",
+"tags": "",
+"keywords": "",
+"url": "/pages/tags/mobility-data.html",
+"summary": ""
+}
+,
 
 
 
@@ -360,10 +382,10 @@
 
 
 {
-"title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
+"title": "COVID-19 Dashboard Archive",
 "tags": "",
 "keywords": "",
-"url": "/visualizations/percent-increase-in-number-of-covid19-cases/older.html",
+"url": "/visualizations/covid19-dashboard/older.html",
 "summary": ""
 }
 ,
@@ -371,10 +393,10 @@
 
 
 {
-"title": "COVID-19 Dashboard Archive",
+"title": "Percent Increase in Number of Confirmed COVID-19 Cases Chart Archive",
 "tags": "",
 "keywords": "",
-"url": "/visualizations/covid19-dashboard/older.html",
+"url": "/visualizations/percent-increase-in-number-of-covid19-cases/older.html",
 "summary": ""
 }
 ,
@@ -452,7 +474,7 @@
 
 
 {
-"title": "Second Wave",
+"title": "Second wave",
 "tags": "",
 "keywords": "",
 "url": "/second-wave.html",
@@ -473,7 +495,18 @@
 
 
 {
-"title": "University of Texas COVID-19 Forecasting Model",
+"title": "Unacast Social Distancing Scoreboard",
+"tags": "data-sourcesmobility-data",
+"keywords": "",
+"url": "/pages/tags/unacast.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "University of Texas COVID-19 forecasting model",
 "tags": "",
 "keywords": "",
 "url": "/ut-covid19-model.html",
@@ -498,7 +531,7 @@
 
 {
 "title": "South Florida may see a new outbreak soon",
-"tags": "",
+"tags": "covid19-modelsmobilityunacast",
 "keywords": "",
 "url": "/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html",
 "summary": "A model aimed at local forecasts projects a rapid spread of coronavirus in Miami-Dade and Broward counties, based on mobility, population density, age, insurance status, smoking prevalence, and weather."
@@ -508,7 +541,7 @@
 
 {
 "title": "South Florida gives up on social distancing",
-"tags": "",
+"tags": "mobility-dataunacast",
 "keywords": "",
 "url": "/2020/05/16/south-florida-gives-up-on-social-distancing.html",
 "summary": "Miami-Dade County started to give up on social distancing even before it started reopening.  And South Florida currently has one of the lowest success rates of anywhere in the US, according to a company that’s analyzing location data to determine how many contacts each person has."

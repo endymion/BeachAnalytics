@@ -1,5 +1,5 @@
 ---
-title: Second Wave
+title: Second wave
 author: Ryan Alyn Porter
 tagName: second-wave
 search: include

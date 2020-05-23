@@ -1,5 +1,6 @@
 ---
-title: COVID-19 Forecasting Models
+title: COVID-19 forecasting models
+author: Ryan Alyn Porter
 tagName: covid19-models
 slug: covid19-models
 search: include
@@ -18,7 +19,7 @@ excerpt: Learn about the assumptions, methods, strengths and weaknesses of the c
 Interpretations from COVID-19 forecasting models make headlines nearly every day lately.  To interpret the results of a predictive analytics model you have to understand the assumptions behind the model and its methods.  I'm compiling a catalog of the more prominent models, along with ensemble visualizations that combine the forecasts of all of the models.
 
 <div class="post-list">
-  {% assign model_pages = site.pages | where_exp:"item", "item.category == 'model'" | reverse %}
+  {% assign model_pages = site.pages | where_exp:"item", "item.category == 'covid19-model'" | reverse %}
   {% for page in model_pages limit:4 %}
     {% include post_panel.html post=page %}
   {% endfor %}

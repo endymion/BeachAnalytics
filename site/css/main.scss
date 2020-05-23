@@ -261,6 +261,11 @@ hr {
   }
   margin-bottom: 2em;
 }
+hr.the-thin-black-line {
+  border-width: 2px;
+  border-radius: 2px 2px 2px 2px;
+  margin: 1ex 0 1ex 0;
+}
 
 .post-header {
   position: relative;
@@ -280,6 +285,11 @@ hr {
 }
 .headline {
   margin-bottom: 0;
+}
+
+.see-also {
+  width: 33%;
+  margin-left: $grid-gutter-width/2;
 }
 
 #summary {

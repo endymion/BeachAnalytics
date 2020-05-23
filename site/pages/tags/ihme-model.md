@@ -1,8 +1,8 @@
 ---
-title: IHME COVID-19 Forecasting Model
+title: IHME COVID-19 forecasting model
 slug: ihme-model
 author: Ryan Alyn Porter
-category: model
+category: covid19-model
 tagName: ihme-model
 search: include
 permalink: ihme-model.html

@@ -116,19 +116,13 @@
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/doubling-time-for-number-of-covid19-cases/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/current.html</loc>
   </url>
   
   
@@ -146,13 +140,19 @@
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/doubling-time-for-number-of-covid19-cases/current.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
   </url>
   
   
@@ -165,6 +165,12 @@
   
   <url>
     <loc>http://0.0.0.0:4000/data-engineering.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/pages/tags/data-sources.html</loc>
   </url>
   
   
@@ -202,37 +208,13 @@
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://0.0.0.0:4000/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://0.0.0.0:4000/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/index.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html</loc>
   </url>
   
   
@@ -244,7 +226,31 @@
   
   
   <url>
+    <loc>http://0.0.0.0:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://0.0.0.0:4000/visualizations/number-of-covid19-cases/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/index.html</loc>
   </url>
   
   
@@ -260,6 +266,12 @@
   </url>
   
   
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/pages/tags/mobility-data.html</loc>
+  </url>
   
   
   
@@ -282,13 +294,13 @@
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/older.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/older.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/older.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/older.html</loc>
   </url>
   
   
@@ -346,6 +358,12 @@
   
   
   
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/pages/tags/unacast.html</loc>
+  </url>
   
   
   

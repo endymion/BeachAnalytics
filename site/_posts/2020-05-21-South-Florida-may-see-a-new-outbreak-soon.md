@@ -1,6 +1,7 @@
 ---
 title: South Florida may see a new outbreak soon
 summary: A model aimed at local forecasts projects a rapid spread of coronavirus in Miami-Dade and Broward counties, based on mobility, population density, age, insurance status, smoking prevalence, and weather.
+tags: [covid19-models, mobility, unacast]
 author: Ryan Alyn Porter
 draft: false
 published: true
@@ -17,14 +18,12 @@ Epidemiologists widely agree that reducing social distancing while we still have
 
 We already know that cellphone data shows that <mark>South Florida has <a href="{% post_url 2020-05-16-south-florida-gives-up-on-social-distancing %}">not been</a> engaging in social distancing</mark> as well as we were during the start of the first wave of our coronavirus epidemic.{% cite unacast:social-distancing-scoreboard-miami-dade safegraph:us-geographic-responsed-to-shelter-in-place-orders descartes-lab:changes-in-us-mobility %}  But what does that mean for us?
 
-Data analysis shows a clear pattern: <mark>States that have successfully limited the spread have practiced social distancing more aggressively</mark>, and even more so when their death rate started to rise.{% cite ut:mortality-modeling-faq %}  But there aren't a lot of epidemiologists tailoring advice to South Florida.
-
-<div class="alert alert-info" role="alert">
+<div class="alert alert-info float-right see-also" role="alert">
   <h4 class="alert-heading">See also</h4>
   <p><a href="{% post_url 2020-05-16-south-florida-gives-up-on-social-distancing %}">South Florida gives up on social distancing</a></p>
-  <hr>
-  <p class="mb-0">Miami-Dade County started to give up on social distancing even before it started reopening.{% cite unacast:social-distancing-scoreboard-miami-dade %}  And South Florida currently has one of the lowest success rates of any area in the United States in terms of social distancing, according to a company that’s analyzing location data to determine how many contacts each person has.</p>
 </div>
+
+Data analysis shows a clear pattern: <mark>States that have successfully limited the spread have practiced social distancing more aggressively</mark>, and even more so when their death rate started to rise.{% cite ut:mortality-modeling-faq %}  But there aren't a lot of epidemiologists tailoring advice to South Florida.
 
 <h2>What do the forecast models say?</h2>
 
@@ -32,11 +31,7 @@ Most of the computer models <mark>can't tell us much about what might happen in 
 
 Many of the models can’t help us to forecast our future in South Florida because they have a <mark>coarse granularity</mark>, only issuing projections at the state level.  Our situation in South Florida is very different from a lot of the rest of the state of Florida, and we need forecasts that can see the difference between a dense, urban area like Miami or Miami Beach, versus rural communities like Dixie County or Highlands County.  Researchers have found that <mark>the risk of infection and death is different in crowded areas like South Florida</mark>, versus rural areas.  Large, densely-populated areas like New York and Chicago had nearly <mark>twice the rate of transmission</mark> in the first two weeks of their outbreaks than less densely-populated areas like Birmingham, Alabama, or the metro area of Portland, Oregon.{% cite nytimes:crowding-affects-the-spread %}
 
-<div class="alert alert-info" role="alert">
-  <p class="mb-0"><i class="fa fa-info-circle" aria-hidden="true"></i> PolicyLab researchers found that warming spring temperatures are helping to reduce the spread of SARS-CoV-2 infections in some areas, but that effect is dwarfed by the impact of population density in our largest and most dense cities.</p>
-</div>
-
-Some models, like the University of Texas and IHME models, do account for changes in social distancing, but they <mark>update their assumptions about social distancing levels infrequently</mark>, and they <mark>assume that levels will remain constant</mark> until the next update.{% cite ut:mortality-modeling-faq %},{% cite @article{ihme:forecasting-the-impact-of-the-first-wave %}  Researchers at the University of Texas provide this caveat for their forecasts:
+Some models, like the University of Texas and IHME models, do account for changes in social distancing, but they <mark>update their assumptions about social distancing levels infrequently</mark>, and they <mark>assume that levels will remain constant</mark> until the next update.{% cite ut:mortality-modeling-faq %},{% cite ihme:forecasting-the-impact-of-the-first-wave %}  Researchers at the University of Texas provide this caveat{% cite ut:mortality-modeling-faq %} for their forecasts:
 
 <blockquote class="blockquote">
 Our model explicitly assumes that social distancing behavior remains at the levels we've observed over the last seven days of data. If that doesn't happen, you can <mark>throw our model's projections out the window beyond about ten days in the future</mark>.
@@ -53,7 +48,11 @@ Experts in public health at PolicyLab at the Children’s Hospital of Philadelph
  <footer class="blockquote-footer">Dr. David Rubin, director of PolicyLab and a professor of Pediatrics at the University of Pennsylvania’s Perelman School of Medicine{% cite policylab:new-model %}</footer>
 </blockquote>
 
-The PolicyLab model, known as COVID-Lab: Mapping COVID-19 in Your Community looks at how population factors like <mark>age, insurance status, and smoking prevalence</mark> have affected the number and spread of coronavirus cases across a county.  Their model also looks at city characteristics like density.  It uses the <mark>same cellphone mobility data from [Unacast](https://www.unacast.com){% cite unacast:methodology %} that showed us recently that South Florida has started to give up on social distancing</mark>, and it has identified <mark>social distancing as the most important factor</mark> in reducing transmission.
+<div class="alert alert-info float-right see-also" role="alert">
+  <p class="mb-0"><i class="fa fa-info-circle" aria-hidden="true"></i> PolicyLab researchers found that warming spring temperatures are helping to reduce the spread of SARS-CoV-2 infections in some areas, but that effect is dwarfed by the impact of population density.</p>
+</div>
+
+The PolicyLab model, known as COVID-Lab: Mapping COVID-19 in Your Community looks at how population factors like <mark>age, insurance status, and smoking prevalence</mark> have affected the number and spread of coronavirus cases across a county.  Their model also looks at city characteristics like density.  It uses the <mark>same cellphone mobility data from <a href="https://www.unacast.com">Unacast</a> that showed us recently that South Florida has started to give up on social distancing</mark>,{% cite unacast:methodology %} and it has identified <mark>social distancing as the most important factor</mark> in reducing transmission.
 
 <blockquote class="blockquote">
 Measured against a number of local factors, we saw that strict social distancing policies and low population density, and, to a lesser extent, warming weather were all important in slowing the spread of this dangerous virus.  We were especially interested to find that rising temperatures may have helped reduce the spread of COVID-19, particularly in our less populous counties, but unfortunately the effect of weather, in the absence of strict social distancing policies, has not been strong enough to prevent resurgent transmission in our most crowded cities and their metropolitan areas.
@@ -87,6 +86,12 @@ The model estimates that <mark>each person infected with SARS-CoV-2 in Miami-Dad
 David Rubin and Paul A. Offit from PolicyLab advise that rural areas that are less densely populated or that are already benefiting from warmer spring temperatures will probably be able to reopen more quickly, as long as the number of cases in their area has sharply reduced.{% cite nytimes:crowding-affects-the-spread %}
 
 But they say that large, <mark>densely populated cities like Miami need a more cautious plan</mark>.  For two reasons: <mark>More crowded areas increase the risk of spread</mark>.  And also because we're learning that <mark>crowding itself may also affect the death rate</mark>. You could get sicker and have a <mark>higher risk of dying if you're exposed to more of the virus</mark> because you're in a densely-populated area. That's also what seems to have happened during the 1918 Influenza pandemic.{% cite plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves %}
+
+One of the biggest factors in the PolicyLab projections is social distancing,
+and their model assumes that social distancing levels will remain constant in
+the future.{% cite poicylab:small-area-projections %}  So, if social distancing
+levels continue to decrease as South Florida reopens then updates of the model
+could look even worse for us here.
 
 In South Florida, we should remember as we make decisions about reopening that nation-wide and state-wide trends and forecasts don't necessarily apply directly to us.  Because they include a lot of areas where we know that the rate of the spread and the death rate will probably be significantly lower than we will experience here. The only forecast model currently available that's aimed at helping us with those decisions for our local community is warning that we may soon see a new outbreak that may be impossible to control.
 

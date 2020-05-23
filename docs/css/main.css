@@ -2162,6 +2162,8 @@ hr { color: #999999; border-width: 8px; border-radius: 4px 4px 4px 4px; }
 
 .section-header hr { margin-top: 1ex; }
 
+hr.the-thin-black-line { border-width: 2px; border-radius: 2px 2px 2px 2px; margin: 1ex 0 1ex 0; }
+
 .post-header { position: relative; z-index: -1; line-height: 1rem; }
 
 .post-header h1 { margin: 0; }
@@ -2171,6 +2173,8 @@ hr { color: #999999; border-width: 8px; border-radius: 4px 4px 4px 4px; }
 .post-content { position: relative; z-index: 1; }
 
 .headline { margin-bottom: 0; }
+
+.see-also { width: 33%; margin-left: 15px; }
 
 #summary { font-size: 1.5rem; }
 
