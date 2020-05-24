@@ -64,7 +64,8 @@ How many more infections?  We can't know.  It depends on too many factors, and t
 To estimate the cost of reaching herd immunity in the United States, I'm using
 the estimate that the Imperial College of London used to estimate what
 would happen if the virus were to spread uncontrolled through our country.
-Because <mark>that's what people are suggesting</mark> when they propose <mark>surrendering to the virus</mark> and trying to reach herd immunity by letting everyone get exposed.
+Because <mark>that's what people are suggesting</mark> when they propose <mark>surrendering to the virus</mark> and trying to reach herd immunity by letting everyone get exposed.  And I'm using the estimated infection prevalence
+rates for the US and Florida from their report this week.{% cite imperial-college:report-23-us-states %}
 
 Those researchers estimated that 81% of Americans would be
 infected if we were to do that.{% cite imperial-collect:impact-of-non-pharmaceutical-interventions %}  I used that same percentage to illustrate the
@@ -79,7 +80,7 @@ This resulting chart illustrates that <mark>millions of people in the US could d
   image='charts/the-cost-of-herd-immunity/united-states/2020-05-23.jpg' %}
 
 The Imperial College report also includes an infection prevalence estimate for
-US states.  I used that estimate and current public data from the Florida Department of Health to provide the same visualization for the state of Florida:
+US states.{% cite imperial-college:report-23-us-states %}  I used that estimate and current public data from the Florida Department of Health to provide the same visualization for the state of Florida:
 
 {% include responsive-image-article-figure.html
   image='charts/the-cost-of-herd-immunity/florida/2020-05-23.jpg' %}
