@@ -87,7 +87,7 @@ US states.  I used that estimate and current public data from the Florida Depart
 Infection prevalence estimates are not available at the county level, but
 an ongoing study that attempts to estimate the amount of
 underreporting of SARS-CoV-2 infections in the United States.{% cite cmmid %}
-I have been using their estimate of how many infections are reported as cases to estimate the number of infected people at the county and city levels, and those estimates have proven to be in line with infection prevalence estimates from many different researchers. I used the same estimation method to provide visualization of the cost of reaching herd immunity for Miami-Dade and Broward Counties.
+I have been using their estimate of how many infections are reported as cases to estimate the number of infected people at the county and city levels, and those estimates have proven to be in-line with infection prevalence estimates from many different researchers. I used the same estimation method to provide visualization of the cost of reaching herd immunity for Miami-Dade and Broward Counties.
 
 {% include responsive-image-article-figure.html
   image='charts/the-cost-of-herd-immunity/miami-dade/2020-05-23.jpg' %}
