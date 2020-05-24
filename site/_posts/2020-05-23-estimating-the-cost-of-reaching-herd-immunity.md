@@ -110,7 +110,8 @@ This is the challenge of our lifetime.  <mark>We can't simply surrender to the v
 ## Your community
 
 If you're reading this from somewhere outside of South Florida, and you're
-interested in seeing <mark>what the cost of reaching herd immunity might look like for your community</mark>, please take a look at the Excel file that I used to generate these charts.  I designed it so that it's easy for you to plug in data for your area.  You'll need a population count, and if you want to go
+interested in seeing <mark>what the cost of reaching herd immunity might look like for your community</mark>, please take a look at the
+<a href="https://github.com/endymion/BeachAnalytics/blob/master/analysis/The%20cost%20of%20reaching%20herd%20immunity.xlsx">Excel file</a> that I used to generate these charts.  I designed it so that it's easy for you to plug in data for your area.  You'll need a population count, and if you want to go
 more fine-grained than the state level, then you'll currently need to use a
 confirmed case count to estimate your true infection prevalence in your area.
 Please be sure to check the latest underreporting estimate from the Center
