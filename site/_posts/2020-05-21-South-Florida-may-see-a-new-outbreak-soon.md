@@ -65,21 +65,47 @@ Unfortunately, the projections from the PolicyLab model don't look good for us.
 
 {% include responsive-image-article-figure.html
   image='images/posts/Miami-Dade--Projected-cases-for-four-weeks--PolicyLab.jpg'
-  caption="Miami-Dade County - Projected cases for four weeks.<br/>[credit: <a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>]" %}
+  caption="Miami-Dade County - Projected cases for four weeks.<br/>credit:&nbsp;<a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>" %}
 
 {% include responsive-image-article-figure.html
   image='images/posts/Broward--Projected-cases-for-four-weeks--PolicyLab.jpg'
-  caption="Broward County - Projected cases for four weeks.<br/>[credit: <a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>]" %}
+  caption="Broward County - Projected cases for four weeks.<br/>credit:&nbsp;<a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>" %}
 
 The model estimates that <mark>each person infected with SARS-CoV-2 in Miami-Dade County might already be infecting more than one person</mark>, on average.  The infection will <mark>begin to spread exponentially again</mark> if this metric goes above 1.0 for an extended period.
 
 {% include responsive-image-article-figure.html
   image='images/posts/Miami-Dade--R-estimate--PolicyLab.jpg'
-  caption="Miami-Dade County - Estimated R, a metric representing the rate of spread.<br/>[credit: <a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>]" %}
+  caption="Miami-Dade County - Estimated R, a metric representing the rate of spread.<br/>credit:&nbsp;<a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>" %}
 
 {% include responsive-image-article-figure.html
   image='images/posts/Broward--R-estimate--PolicyLab.jpg'
-  caption="Miami-Dade County - Estimated R, a metric representing the rate of spread.<br/>[credit: <a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>]" %}
+  caption="Miami-Dade County - Estimated R, a metric representing the rate of spread.<br/>credit:&nbsp;<a href='https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community'>PolicyLab</a>" %}
+
+<h2>Another model echoes the same warning for Florida</h2>
+
+The Imperial College COVID-19 Response Team is using a <mark>similar statistical
+model</mark> that projects the impact of increases in mobility.{% cite imperial-college:report-23-us-states %}  Their model does not
+address the potential impact of changes in behavior.  Like mask-wearing and
+attempts at social distancing in public settings like restaurants and beaches.
+Their model doesn't reach the county-level granularity that the PolicyLab model
+does, but it <mark>reinforces the PolicyLab suggestion that the outbreak is not
+under control in Florida</mark>.  And that changes in mobility could lead to an
+<mark>exponential growth in infections and deaths</mark>.
+
+Their model avoids [conveying false precision]({% post_url 2020-04-29-dont-focus-on-the-center-line %}) by preventing results as a range of confidence instead of a single center line like the PolicyLab model.  They give projections based on three different scenarios:
+
+1. Mobility stays constant, which was can clearly see is not the scenario that's happening.
+2. Mobility increases by 20%.  We know from other data that this has [already happened]({% post_url 2020-05-16-south-florida-gives-up-on-social-distancing %}).
+3. Mobility increasing by 40%.
+
+Their [dashboard for Florida](https://mrc-ide.github.io/covid19usa/#/details/FL) for their model output shows a few disturbing
+charts, including this one for projected deaths:
+
+{% include responsive-image-article-figure.html
+  image='/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17.jpg'
+  caption="Florida - Projected number of deaths - May 17, 2020<br/>credit:&nbsp;<a href='https://mrc-ide.github.io/covid19usa/#/details/FL'>Imperial College COVID-19 Response Team</a>" %}
+
+The Imperial College model also doesn't account for Memorial Day weekend crowds.
 
 <h2>What does this mean for us here?</h2>
 
