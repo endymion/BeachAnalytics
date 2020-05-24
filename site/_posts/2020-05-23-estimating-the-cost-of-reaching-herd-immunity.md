@@ -107,6 +107,16 @@ that point.
 
 This is the challenge of our lifetime.  <mark>We can't simply surrender to the virus.  Too many people who we love and who we need would die.</mark>  We must do this.  I'm aiming my visualizations here at reminding us <mark>what we're fighting for</mark>.
 
+## So then what __**IS**__ the answer?
+
+There is no way to avoid an enormous cost from this.  <mark>The only control that we have is over WHERE the cost is.</mark>  We can either
+
+1. Surrender to the virus, and the cost will be hundreds of millions of human lives worldwide,
+2. Shut down forever, and the cost will be the irreparable destruction of the global economy, and mass suffering from that, or
+3. Mobilize and invest in testing and tracing and isolating so that we can quarantine the correct people instead of quarantining everyone.
+
+If you decide not to choose, you still have made a choice.{% cite rush:free-will %}
+
 ## Your community
 
 If you're reading this from somewhere outside of South Florida, and you're
