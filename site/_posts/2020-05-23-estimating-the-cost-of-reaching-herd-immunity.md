@@ -109,7 +109,7 @@ This is the challenge of our lifetime.  <mark>We can't simply surrender to the v
 
 ## So then what <i>IS</i> the answer?
 
-There is no way to avoid an enormous cost from this.  <mark>The only control that we have is over WHERE the cost is.</mark>  We can either
+There is no way to avoid an enormous cost from this.  <mark>The only control that we have is over <b><i>where</i></b> the cost is.</mark>  We can either
 
 1. Surrender to the virus, and the cost will be hundreds of millions of human lives worldwide,
 2. Shut down forever, and the cost will be the irreparable destruction of the global economy, and mass suffering from that, or
