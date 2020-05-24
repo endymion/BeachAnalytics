@@ -57,7 +57,7 @@ Depending on the pace of the outbreak, the COVID-19 outbreak could <mark>continu
 months after we reach the herd immunity threshold</mark>, resulting in many more
 infections and many more deaths.  This concept is called "overshoot."
 
-How many more infections?  We can't know.  It depends on too many factors, and there are too many unknowns.  <mark>Allowing the virus to spread uncontrolled would make the spread faster</mark> and would result in going <mark>farther over the threshold</mark>.{% cite 538:herd-immunity-shinyapp %}
+How many more infections?  We can't know.  It depends on too many factors, and there are too many unknowns.  But we do know that <mark>allowing the virus to spread uncontrolled would make the spread faster</mark> and would result in going <mark>farther over the threshold</mark>.{% cite 538:herd-immunity-shinyapp %}
 
 ## How many people would die getting to that point?
 
