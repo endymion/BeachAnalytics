@@ -115,7 +115,7 @@ There is no way to avoid an enormous cost from this.  <mark>The only control tha
 2. Shut down forever, and the cost will be the irreparable destruction of the global economy, and mass suffering from that, or
 3. Mobilize and invest in testing and tracing and isolating so that we can quarantine the correct people instead of quarantining everyone.
 
-If you decide not to choose, you still have made a choice.{% cite rush:free-will %}
+If you decide not to choose, <mark>you still have made a choice</mark>.{% cite rush:free-will %}
 
 ## Your community
 
