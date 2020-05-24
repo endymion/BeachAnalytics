@@ -23,7 +23,7 @@ the virus has trouble spreading because each newly-infected person is less
 likely to come in contact with other vulnerable people.{% cite jhsph:what-is-herd-immunity %}  For example, measles, mumps, polio, and chickenpox were all common diseases in the United States.  But <mark>now those diseases are all rare</mark> in the US, thanks to <mark>high levels of vaccinations</mark> that have achieved herd immunity.
 
 <div class="alert alert-info float-right see-also" role="alert">
-  <h4 class="alert-heading">See also</h4>
+  <h4 class="alert-heading">Factoid</h4>
   <p>The MMR vaccine for measles, mumps and rubella may offer some protection against COVID-19.{% cite jgold:mmr-vaccine-appears-to-confer-protection-from-covid19 %}</p>
 </div>
 
@@ -98,7 +98,7 @@ I have been using their estimate of how many infections are reported as cases to
 
 ## Okay, so what does this mean?
 
-Intentionally aiming at herd immunity is not the answer.  If we allow the
+Intentionally <mark>aiming at herd immunity is not the answer</mark>.  If we allow the
 virus to spread uncontrolled, or if we go so far as to encourage the spread,
 then the outbreak will rocket past the herd immunity threshold, and people will
 continue to be infected.  And we will have more deaths for months after we reach
