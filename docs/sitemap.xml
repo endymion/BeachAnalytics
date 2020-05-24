@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://0.0.0.0:4000/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</loc>
   </url>
   
@@ -369,6 +375,18 @@
   
   <url>
     <loc>http://0.0.0.0:4000/ut-covid19-model.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/cost-of-herd-immunity</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/redirects.json</loc>
   </url>
   
   

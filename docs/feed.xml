@@ -5,9 +5,179 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 22 May 2020 22:06:27 -0400</pubDate>
-        <lastBuildDate>Fri, 22 May 2020 22:06:27 -0400</lastBuildDate>
+        <pubDate>Sat, 23 May 2020 23:06:44 -0400</pubDate>
+        <lastBuildDate>Sat, 23 May 2020 23:06:44 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
+        
+        <item>
+            <title>Estimating the cost of reaching herd immunity</title>
+            <description>&lt;p&gt;How many people would die if we were to simply surrender to the coronavirus?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;When enough people have been exposed to a virus and have developed immunity,
+the virus has trouble spreading because each newly-infected person is less
+likely to come in contact with other vulnerable people.&lt;a class=&quot;citation&quot; href=&quot;#jhsph:what-is-herd-immunity&quot;&gt;[1]&lt;/a&gt;  For example, measles, mumps, polio, and chickenpox were all common diseases in the United States.  But &lt;mark&gt;now those diseases are all rare&lt;/mark&gt; in the US, thanks to &lt;mark&gt;high levels of vaccinations&lt;/mark&gt; that have achieved herd immunity.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-info float-right see-also&quot; role=&quot;alert&quot;&gt;
+  &lt;h4 class=&quot;alert-heading&quot;&gt;See also&lt;/h4&gt;
+  &lt;p&gt;The MMR vaccine for measles, mumps and rubella may offer some protection against COVID-19.&lt;a class=&quot;citation&quot; href=&quot;#jgold:mmr-vaccine-appears-to-confer-protection-from-covid19&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;mark&gt;Resistance to vaccination&lt;/mark&gt; in the US has recently led to lapses in herd immunity protection from some of those diseases, which has led to &lt;mark&gt;new outbreaks of formerly-rare diseases&lt;/mark&gt;.  For example, the 2019 outbreak of measles at Disneyland in California,&lt;a class=&quot;citation&quot; href=&quot;#wapo:2019-measles-outbreak-at-disneyland&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-threshold&quot;&gt;What’s the threshold?&lt;/h2&gt;
+
+&lt;p&gt;Different viruses are different.  &lt;mark&gt;We can't stop every virus through herd immunity&lt;/mark&gt;.  It doesn’t seem to be possible with the strain of HIV that causes AIDS.&lt;a class=&quot;citation&quot; href=&quot;#nature:no-herd-immunity-for-HIV-1&quot;&gt;[4]&lt;/a&gt;  And we still don’t know enough about the SARS-CoV-2 virus that causes the COVID-19 disease to be certain that herd immunity will even stop it.&lt;/p&gt;
+
+&lt;p&gt;For a really contagious disease like measles, 90 to 93 percent of the population
+needs to develop immunity to stop the spread of infection.&lt;a class=&quot;citation&quot; href=&quot;#whoint:herd-immunity-thresholds-for-measles&quot;&gt;[5]&lt;/a&gt;  Which explains why
+it’s so easy for herd immunity to lapse for measles, and why it’s so easy for
+new outbreaks to start when enough people reject vaccination.&lt;/p&gt;
+
+&lt;p&gt;For SARS-CoV-2, epidemiologists think that &lt;mark&gt;about 70% to 90% of the population may need
+to develop immunity&lt;/mark&gt; to have herd protection.&lt;a class=&quot;citation&quot; href=&quot;#jhsph:what-is-herd-immunity&quot;&gt;[1]&lt;/a&gt;  But there is a caveat:&lt;/p&gt;
+
+&lt;h2 id=&quot;would-it-even-stop-at-that-point&quot;&gt;Would it even stop at that point?&lt;/h2&gt;
+
+&lt;p&gt;Herd immunity protects a population against new infections.  But if there is
+already an infection in progress, then it &lt;mark&gt;won't immediately stop&lt;/mark&gt; when the
+proportion of infected people reaches the herd immunity threshold.&lt;a class=&quot;citation&quot; href=&quot;#nytimes:overshoot&quot;&gt;[6]&lt;/a&gt;  An infection
+that’s already underway will continue to spread.&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+A runaway train doesn’t stop when the track begins to slope uphill, and a rapidly spreading virus doesn’t stop right when herd immunity is attained.
+&lt;footer class=&quot;blockquote-footer&quot;&gt;Carl T Bergstrom and Natalie Dean&lt;a class=&quot;citation&quot; href=&quot;#nytimes:overshoot&quot;&gt;[6]&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Depending on the pace of the outbreak, the COVID-19 outbreak could &lt;mark&gt;continue to spread through the United States for
+months after we reach the herd immunity threshold&lt;/mark&gt;, resulting in many more
+infections and many more deaths.  This concept is called “overshoot.”&lt;/p&gt;
+
+&lt;p&gt;How many more infections?  We can’t know.  It depends on too many factors, and there are too many unknowns.  &lt;mark&gt;Allowing the virus to spread uncontrolled would make the spread faster&lt;/mark&gt; and would result in going &lt;mark&gt;farther over the threshold&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#538:herd-immunity-shinyapp&quot;&gt;[7]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-people-would-die-getting-to-that-point&quot;&gt;How many people would die getting to that point?&lt;/h2&gt;
+
+&lt;p&gt;To estimate the cost of reaching herd immunity in the United States, I’m using
+the estimate that the Imperial College of London used to estimate what
+would happen if the virus were to spread uncontrolled through our country.
+Because &lt;mark&gt;that's what people are suggesting&lt;/mark&gt; when they propose &lt;mark&gt;surrendering to the virus&lt;/mark&gt; and trying to reach herd immunity by letting everyone get exposed.&lt;/p&gt;
+
+&lt;p&gt;Those researchers estimated that 81% of Americans would be
+infected if we were to do that.&lt;a class=&quot;citation&quot; href=&quot;#imperial-collect:impact-of-non-pharmaceutical-interventions&quot;&gt;[8]&lt;/a&gt;  I used that same percentage to illustrate the
+&lt;mark&gt;cost in human lives&lt;/mark&gt; of reaching that point, based on the amount of death that we have already seen.&lt;/p&gt;
+
+&lt;p&gt;David Dowdy, MD, PhD, infectious disease epidemiologist from Johns Hopkins University, inspired this visualization with a
+&lt;a href=&quot;https://twitter.com/davidwdowdy/status/1260675514416664577&quot;&gt;powerful illustration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This resulting chart illustrates that &lt;mark&gt;millions of people in the US could die&lt;/mark&gt; if we were to surrender to the virus and allow it to spread freely:&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/charts/the-cost-of-herd-immunity/united-states/2020-05-23.jpg&quot;&gt;
+  &lt;picture&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-576-205566.webp 576w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-768-205566.webp 768w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-992-205566.webp 992w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1152-205566.webp 1152w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1200-205566.webp 1200w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1396-205566.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-576-205566.jpg 576w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-768-205566.jpg 768w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-992-205566.jpg 992w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1152-205566.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1200-205566.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1396-205566.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-800-205566.jpg&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/a&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;The Imperial College report also includes an infection prevalence estimate for
+US states.  I used that estimate and current public data from the Florida Department of Health to provide the same visualization for the state of Florida:&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/charts/the-cost-of-herd-immunity/florida/2020-05-23.jpg&quot;&gt;
+  &lt;picture&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-576-cf90e1.webp 576w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-768-cf90e1.webp 768w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-992-cf90e1.webp 992w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1152-cf90e1.webp 1152w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1200-cf90e1.webp 1200w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1396-cf90e1.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-576-cf90e1.jpg 576w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-768-cf90e1.jpg 768w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-992-cf90e1.jpg 992w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1152-cf90e1.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1200-cf90e1.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1396-cf90e1.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-800-cf90e1.jpg&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/a&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Infection prevalence estimates are not available at the county level, but
+an ongoing study that attempts to estimate the amount of
+underreporting of SARS-CoV-2 infections in the United States.&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[9]&lt;/a&gt;
+I have been using their estimate of how many infections are reported as cases to estimate the number of infected people at the county and city levels, and those estimates have proven to be in line with infection prevalence estimates from many different researchers. I used the same estimation method to provide visualization of the cost of reaching herd immunity for Miami-Dade and Broward Counties.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23.jpg&quot;&gt;
+  &lt;picture&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-576-17887d.webp 576w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-768-17887d.webp 768w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-992-17887d.webp 992w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1152-17887d.webp 1152w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1200-17887d.webp 1200w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1396-17887d.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-576-17887d.jpg 576w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-768-17887d.jpg 768w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-992-17887d.jpg 992w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1152-17887d.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1200-17887d.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1396-17887d.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-800-17887d.jpg&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/a&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/charts/the-cost-of-herd-immunity/broward/2020-05-23.jpg&quot;&gt;
+  &lt;picture&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-576-040f1e.webp 576w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-768-040f1e.webp 768w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-992-040f1e.webp 992w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1152-040f1e.webp 1152w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1200-040f1e.webp 1200w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1396-040f1e.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-576-040f1e.jpg 576w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-768-040f1e.jpg 768w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-992-040f1e.jpg 992w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1152-040f1e.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1200-040f1e.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1396-040f1e.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-800-040f1e.jpg&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/a&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;okay-so-what-does-this-mean&quot;&gt;Okay, so what does this mean?&lt;/h2&gt;
+
+&lt;p&gt;Intentionally aiming at herd immunity is not the answer.  If we allow the
+virus to spread uncontrolled, or if we go so far as to encourage the spread,
+then the outbreak will rocket past the herd immunity threshold, and people will
+continue to be infected.  And we will have more deaths for months after we reach
+that point.&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;We &lt;i&gt;&lt;b&gt;must&lt;/b&gt;&lt;/i&gt; reduce the final death count.&lt;/mark&gt;  The only way to do that is by &lt;mark&gt;lowering the fatality rate&lt;/mark&gt; through new therapies, or by &lt;mark&gt;stopping the spread with a vaccine&lt;/mark&gt;.  We must buy time for those things by limiting the spread now.  The biggest factor that affects the spread is under our control: social distancing.  Weather, overall health, and other things are all factors, but social distancing dwarfs those factors.&lt;a class=&quot;citation&quot; href=&quot;#policylab:forecasting-impacts-of-weather&quot;&gt;[10,11]&lt;/a&gt;  We’re at a point right now where we risk a second outbreak that we might not be able to control, and the best way that we have to stop it is to maintain social distancing.&lt;/p&gt;
+
+&lt;p&gt;This is the challenge of our lifetime.  &lt;mark&gt;We can't simply surrender to the virus.  Too many people who we love and who we need would die.&lt;/mark&gt;  We must do this.  I’m aiming my visualizations here at reminding us &lt;mark&gt;what we're fighting for&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-community&quot;&gt;Your community&lt;/h2&gt;
+
+&lt;p&gt;If you’re reading this from somewhere outside of South Florida, and you’re
+interested in seeing &lt;mark&gt;what the cost of reaching herd immunity might look like for your community&lt;/mark&gt;, please take a look at the Excel file that I used to generate these charts.  I designed it so that it’s easy for you to plug in data for your area.  You’ll need a population count, and if you want to go
+more fine-grained than the state level, then you’ll currently need to use a
+confirmed case count to estimate your true infection prevalence in your area.
+Please be sure to check the latest underreporting estimate from the Center
+for Mathematical Modeling of Infectious Diseases at the London School of Hygiene
+and Tropical Medicine&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[9]&lt;/a&gt;, because they update their estimates frequently.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;jhsph:what-is-herd-immunity&quot;&gt;1. &lt;b&gt;What is Herd Immunity and How Can We Achieve It With COVID-19?&lt;/b&gt; Johns Hopkins Bloomberg School of Public Health; April 19, 2020&lt;a href=&quot;https://www.jhsph.edu/covid-19/articles/achieving-herd-immunity-with-covid19.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 12:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;jgold:mmr-vaccine-appears-to-confer-protection-from-covid19&quot;&gt;2. Gold JE. &lt;b&gt;MMR Vaccine Appears to Confer Strong Protection from COVID-19: Few Deaths from SARS-CoV-2 in Highly Vaccinated Populations&lt;/b&gt;. ResearchGate; May 2020&lt;a href=&quot;https://www.researchgate.net/publication/341354165_MMR_Vaccine_Appears_to_Confer_Strong_Protection_from_COVID-19_Few_Deaths_from_SARS-CoV-2_in_Highly_Vaccinated_Populations&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wapo:2019-measles-outbreak-at-disneyland&quot;&gt;3. &lt;b&gt;A tourist infected with measles visited Disneyland and other Southern California hot spots in mid-August&lt;/b&gt;. The Washington Post; August 24, 2019&lt;a href=&quot;https://www.washingtonpost.com/health/2019/08/24/tourist-infected-with-measles-visited-disneyland-other-southern-california-hotspots-mid-august/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;nature:no-herd-immunity-for-HIV-1&quot;&gt;4. &lt;b&gt;Pandemic HIV-1 Vpu overcomes intrinsic herd immunity mediated by tetherin&lt;/b&gt;. Springer Nature Limited; July 17, 2015&lt;a href=&quot;https://www.nature.com/articles/srep12256&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;whoint:herd-immunity-thresholds-for-measles&quot;&gt;5. Funk S. &lt;b&gt;Critical immunity thresholds  for measles elimination&lt;/b&gt;. Centre for the Mathematical Modelling of Infectious Diseases London School of Hygiene &amp;amp; Tropical Medicine; October 9, 2017&lt;a href=&quot;https://www.who.int/immunization/sage/meetings/2017/october/2._target_immunity_levels_FUNK.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;nytimes:overshoot&quot;&gt;6. Bergstrom CT, Dean N. &lt;b&gt;What the Proponents of ‘Natural’ Herd Immunity Don’t Say&lt;/b&gt;. The New York Times; May 1, 2020&lt;a href=&quot;https://www.nytimes.com/2020/05/01/opinion/sunday/coronavirus-herd-immunity.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:40) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;538:herd-immunity-shinyapp&quot;&gt;7. Rogers K, Wolfe J, Bronner L. &lt;b&gt;Without A Vaccine, Herd Immunity Won’t Save Us&lt;/b&gt;. 538; May 13, 2020&lt;a href=&quot;https://fivethirtyeight.com/features/without-a-vaccine-herd-immunity-wont-save-us/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 22:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-collect:impact-of-non-pharmaceutical-interventions&quot;&gt;8. &lt;b&gt;Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand&lt;/b&gt;. Imperial College London - MRC Centre for Global Infectious Disease Analysis; April 16, 2020&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;cmmid&quot;&gt;9. Russell TW, Hellewell J, Abbott S, et al. &lt;b&gt;Using a delay-adjusted case fatality ratio to estimate under-reporting&lt;/b&gt;. Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020 Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020.&lt;a href=&quot;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 19:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;policylab:forecasting-impacts-of-weather&quot;&gt;10. &lt;b&gt;Forecasting the Impacts of Weather and Social Distancing on COVID-19 Transmission Across the U.S.&lt;/b&gt; PolicyLab at the Children’s Hospital of Philadelphia Research Institute; &lt;a href=&quot;https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;policylab:studying-effect-of-weather&quot;&gt;11. &lt;b&gt;PolicyLab Studying Effect of Weather, Social Distancing on Local COVID-19 Spread&lt;/b&gt;. PolicyLab at the Children’s Hospital of Philadelphia Research Institute; April 21, 2020&lt;a href=&quot;https://policylab.chop.edu/blog/policylab-studying-effect-weather-social-distancing-local-covid-19-spread&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:15) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Sat, 23 May 2020 00:00:00 -0400</pubDate>
+            <link>http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</guid>
+            
+            
+        </item>
         
         <item>
             <title>South Florida may see a new outbreak soon</title>
@@ -999,41 +1169,6 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
             <category>how-widespread</category>
             
             <category>herd-immunity</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>FDEM data now available in Google Sheets</title>
-            <description>&lt;p&gt;It’s easy to analyze the Florida Division of Emergency Management’s COVID-19 data now that I got it into spreadsheet form.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
-
-&lt;p&gt;The Florida Division of Emergency Management releases their twice-daily updates as PDF files.  The data in those files is not easy to analyze without extracting it into a spreadsheet or a data file.  I have been pulling numbers by hand out of the PDF files into an Excel spreadsheet for analysis.  It’s time-consuming and it delays my updates, and if I take a day off then the visualizations don’t update themselves.&lt;/p&gt;
-
-&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
-
-&lt;p&gt;I wrote some &lt;a href=&quot;https://github.com/endymion/BeachCov2/tree/master/data&quot;&gt;code&lt;/a&gt; that extracts the city-by-city data from those PDF files into a spreadsheet in Google Sheets.  I can run it periodically to get the latest updates.  Then I can use that spreadsheet directly for visualizations with Google Data Studio, or I can transform the data to other spreadsheets with Ruby or R for further analysis and use those spreadsheets in visualizations.&lt;/p&gt;
-
-&lt;p&gt;I made &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1us_aePT2_OQoc3iBXckrBAeYZb8j4bVAY_cr8t6V8r0/edit?usp=sharing&quot;&gt;the spreadsheet&lt;/a&gt; public, and I’ll update it with each new FDEM update:&lt;/p&gt;
-
-&lt;iframe style=&quot;width:100%;&quot; height=&quot;500px&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vTs88ZRLrHIs9YQyzyhuONV7lQfpGB6Y0KhmkfkJNpnYkcGMW2jOSyjXSabu3iUYyVnI8-hWajTXES_/pubhtml?widget=true&amp;amp;headers=false&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;All that I have so far is the city-by-city data, but that’s a start.  Next I’ll add the county-level data to another Google Sheets spreadsheet, and then also the Florida-wide data..&lt;/p&gt;
-
-&lt;p&gt;I’m currently not using the case-by-case data in the FDEM reports, and I don’t have any plans to extract that data.  Please contact me if you need that data in machine-readable form and it might help you if I did extract it.  I’d be happy to do that.&lt;/p&gt;
-
-&lt;p&gt;I still have to run this each time, but I designed all of the code to run in AWS Lambda.&lt;/p&gt;
-</description>
-            <pubDate>Fri, 17 Apr 2020 15:00:00 -0400</pubDate>
-            <link>http://0.0.0.0:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</link>
-            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</guid>
-            
-            <category>meta</category>
-            
-            <category>data-engineering</category>
             
             
         </item>
