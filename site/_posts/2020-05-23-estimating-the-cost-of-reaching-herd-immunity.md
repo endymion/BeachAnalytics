@@ -44,7 +44,7 @@ to develop immunity</mark> to have herd protection.{% cite jhsph:what-is-herd-im
 ## Would it even stop at that point?
 
 Herd immunity protects a population against new infections.  But if there is
-already an infection in progress, then it <mark>won't immediately stop</mark> when the
+already an outbreak in progress, then it <mark>won't immediately stop</mark> when the
 proportion of infected people reaches the herd immunity threshold.{% cite nytimes:overshoot %}  An infection
 that's already underway will continue to spread.
 
