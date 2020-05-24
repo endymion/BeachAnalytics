@@ -107,7 +107,7 @@ that point.
 
 This is the challenge of our lifetime.  <mark>We can't simply surrender to the virus.  Too many people who we love and who we need would die.</mark>  We must do this.  I'm aiming my visualizations here at reminding us <mark>what we're fighting for</mark>.
 
-## So then what __**IS**__ the answer?
+## So then what <i>IS</i> the answer?
 
 There is no way to avoid an enormous cost from this.  <mark>The only control that we have is over WHERE the cost is.</mark>  We can either
 
