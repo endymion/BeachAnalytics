@@ -98,11 +98,7 @@ I have been using their estimate of how many infections are reported as cases to
 
 ## Okay, so what does this mean?
 
-Intentionally <mark>aiming at herd immunity is not the answer</mark>.  If we allow the
-virus to spread uncontrolled, or if we go so far as to encourage the spread,
-then the outbreak will rocket past the herd immunity threshold, and people will
-continue to be infected.  And we will have more deaths for months after we reach
-that point.
+Intentionally <mark>aiming at herd immunity is not the answer</mark>.  If we allow the virus to spread uncontrolled, or if we go so far as to encourage the spread, then the outbreak will rocket past the herd immunity threshold, and people will continue to be infected.  And we will have more deaths for months after we reach that point.
 
 <mark>We <i><b>must</b></i> reduce the final death count.</mark>  The only way to do that is by <mark>lowering the fatality rate</mark> through new therapies, or by <mark>stopping the spread with a vaccine</mark>.  We must buy time for those things by limiting the spread now.  The biggest factor that affects the spread is under our control: social distancing.  Weather, overall health, and other things are all factors, but social distancing dwarfs those factors.{% cite policylab:forecasting-impacts-of-weather policylab:studying-effect-of-weather %}  We're at a point right now where we risk a second outbreak that we might not be able to control, and the best way that we have to stop it is to maintain social distancing.
 
