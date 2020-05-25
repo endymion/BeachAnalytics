@@ -58,7 +58,7 @@
     </group>
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix=" DOI: " />
+        <text variable="DOI" prefix="; DOI: " />
       </if>
     </choose>
   </macro>
