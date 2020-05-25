@@ -113,7 +113,9 @@ behavioral changes may be a contributing factor, and they're trying to account
 for it.  Other prominent statistical models like the new Bayesian models
 from PolicyLab and Imperial College that are [forecasting exponential new
 outbreaks]({% post_url 2020-05-21-South-Florida-may-see-a-new-outbreak-soon %}) in some areas account for changes in mobility but they don't yet
-account for that kind of behavioral change.
+account for that kind of behavioral change.  This change led to a revision
+downward for the number of projected deaths in Florida from May 18, 2020 through
+August by about 20%, from about six thousand deaths to less than 5000.
 
 ## Conclusion
 
