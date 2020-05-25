@@ -102,6 +102,19 @@ This is an example of [false precision](https://en.wikipedia.org/wiki/False_prec
 
 We can't blame CNN too much in this case, because the false precision comes from the IHME dashboard.  The charts on the dashboard clearly show a forecast _range_, but they also give a handy total.  Currently "74,073 COVID-19 deaths projected by August 4, 2020", as of this writing.  The number of [significant figures](https://en.wikipedia.org/wiki/Significant_figures) in the dashboard totals are inappropriately overstating the precision of the forecast,{% cite wikipedia:significant_figures %} and are misleading to the public.
 
+## Update includes mask-wearing as a factor
+
+The researchers at IHME have recently added mask-wearing as a factor{% cite ihme:updates %}, based
+on polling data from an app called Premise.  They feel that empirical data
+has recently not tracked their projections because they assumed that increasing
+mobility data would indicate more infections and deaths, and that the effect
+was less pronounced than they were expecting.  So they hypothesize that
+behavioral changes may be a contributing factor, and they're trying to account
+for it.  Other prominent statistical models like the new Bayesian models
+from PolicyLab and Imperial College that are [forecasting exponential new
+outbreaks]({% post_url 2020-05-21-South-Florida-may-see-a-new-outbreak-soon %}) in some areas account for changes in mobility but they don't yet
+account for that kind of behavioral change.
+
 ## Conclusion
 
 The IHME model can be useful for planning how long an area will need to maintain social distancing but it's <mark>easily misinterpreted</mark>, and people changing their behavior based on <mark>misinterpretation of the projections <could cost lives</mark>.  It's critical for journalists who report on the model to understand its assumptions and methods.
