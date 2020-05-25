@@ -12,6 +12,7 @@ module Jekyll
       href_override = Jekyll.globals[@variable_name]
       unless href_override.blank?
         return href_override
+        Jekyll.globals[@variable_name] = nil
       else
         return text
       end
