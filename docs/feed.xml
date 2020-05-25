@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 24 May 2020 23:04:12 -0400</pubDate>
-        <lastBuildDate>Sun, 24 May 2020 23:04:12 -0400</lastBuildDate>
+        <pubDate>Sun, 24 May 2020 23:08:49 -0400</pubDate>
+        <lastBuildDate>Sun, 24 May 2020 23:08:49 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
@@ -521,8 +521,6 @@ could look even worse for us here.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;!--more--&gt;
-
 &lt;div class=&quot;panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
   
@@ -568,6 +566,8 @@ could look even worse for us here.&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;!--more--&gt;
 
 &lt;div class=&quot;panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;

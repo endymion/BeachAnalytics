@@ -56,8 +56,6 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
 </div>
 
-<!--more-->
-
 <div class="panel">
   <div class="banner">
   {% include current_chart.html chart_type="estimated-one-in-x-sarscov2-infection-odds" area="/miami-beach/" %}
@@ -80,7 +78,9 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
 </div>
 
-<div class="panel">
+<!--more-->
+
+<!-- <div class="panel">
   <div class="banner">
   {% include current_chart.html chart_type="new-confirmed-covid19-cases-weekly-comparison" area="/miami-beach/" %}
   </div>
@@ -89,7 +89,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
       The number of new confirmed cases week over week was declining, but now it's starting to flatten out.  Will it start to increase?
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="panel">
   <div class="banner">
