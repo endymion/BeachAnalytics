@@ -10,7 +10,7 @@ module Jekyll
     def render(context)
       text = super
       href_override = Jekyll.globals[@variable_name]
-      unless href_override.blank?
+      unless href_override.blank? || href_override.nil?
         return href_override
         Jekyll.globals[@variable_name] = nil
       else
