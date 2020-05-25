@@ -35,23 +35,37 @@
   <macro name="publisher">
     <text variable="publisher-place" suffix=": "/>
     <text variable="publisher" suffix="; "/>
+  </macro>
+  <macro name="date">
     <group>
-      <date variable="issued">
-        <date-part name="month" suffix=" " />
-        <date-part name="day" suffix=", " />
-        <date-part name="year" />
-      </date>
+      <choose>
+        <if variable="issued">
+          <date variable="issued">
+            <date-part name="day" form="numeric" suffix="-"/>
+            <date-part name="month" form="long" suffix="-" strip-periods="true"/>
+            <date-part name="year" form="long"/>
+          </date>
+        </if>
+        <else>
+          <text term="no date listed" />
+        </else>
+      </choose>
     </group>
   </macro>
   <macro name="access">
     <group>
-      <text variable="URL"/>
+      <text variable="URL" />
     </group>
+    <choose>
+      <if variable="DOI">
+        <text variable="DOI" prefix="DOI: " />
+      </if>
+    </choose>
   </macro>
   <macro name="accessed-date">
     <choose>
       <if variable="URL">
-        <group prefix="(" suffix=") " delimiter=" ">
+        <group prefix=" (" suffix=") " delimiter=" ">
           <text term="accessed" text-case="capitalize-first"/>
           <date variable="accessed" prefix=" ">
             <date-part name="month"/>
@@ -119,40 +133,10 @@
       <text variable="citation-number" suffix=". "/>
       <text macro="author"/>
       <text macro="title" suffix=". " font-weight="bold" />
-      <text macro="publisher" prefix=" "/>
-      <choose>
-        <if type="article webpage video bill book graphic legal_case legislation motion_picture report song thesis" match="any">
-          <text macro="edition" prefix=" " suffix=" "/>
-          <group suffix=".">
-            <text macro="publisher" prefix=" "/>
-            <text variable="number-of-pages" suffix=" p." prefix=" "/>
-          </group>
-        </if>
-        <else-if type="chapter paper-conference" match="any">
-          <group prefix=" " suffix=". ">
-            <text term="in" suffix=": " text-case="capitalize-first"/>
-            <text macro="editor"/>
-            <text variable="container-title" font-style="italic"/>
-          </group>
-          <text macro="publisher" prefix=" "/>
-          <text variable="page" prefix=":" suffix="."/>
-        </else-if>
-        <else>
-          <text macro="journal-title"/>
-          <!-- <group suffix=" ">
-            <date variable="issued">
-              <date-part name="year"/>
-            </date>
-          </group> -->
-          <group suffix=". ">
-            <text variable="volume"/>
-            <text variable="issue" prefix="(" suffix=")"/>
-            <text variable="page" prefix=":"/>
-          </group>
-        </else>
-      </choose>
-      <text macro="access"/>
-      <text macro="accessed-date" prefix=". "/>
+      <text macro="publisher" prefix=" " />
+      <text macro="date" prefix=" " />
+      <text macro="access" prefix=" " />
+      <text macro="accessed-date" />
     </layout>
   </bibliography>
 </style>

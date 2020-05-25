@@ -176,6 +176,8 @@ scholar:
   style: _bibliography/style.csl
   bibtex_filters:
     - htmllinks
+    - doilinks
+
 
 github: [metadata]
 
