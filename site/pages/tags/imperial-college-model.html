@@ -1,5 +1,5 @@
 ---
-title: Imperial College of London COVID-19 forecasting model
+title: Imperial College of London COVID-19 forecasting models
 category: covid19-model
 tagName: imperial-college-model
 search: include
@@ -11,20 +11,20 @@ image_16_5:   images/posts/imperial-college-16_5.png
 image_16_9: images/posts/imperial-college-1_1.png
 image_1_1:  images/posts/imperial-college-1_1.png
 excerpt: Arguably the most influential computer forecasting model in history,
-  this model is the one that led the UK and US governments to begin mitigation measures.
+  the first model from Imperial College was the one that led the UK and US governments to begin mitigation measures.
 ---
 
-The MRC Centre for Global Infectious Disease Analysis at Imperial College of London captured the world's attention with their report in March 2020 that projected that the British healthcare system and <mark>healthcare systems around the world would be overwhelmed</mark> with COVID-19 patients unless countries immediately took aggressive measures to slow the spread of the virus.{% cite imperial-college:global-impact %}
+The MRC Centre for Global Infectious Disease Analysis at Imperial College of London captured the world's attention with their report in March 2020 from their first COVID-19 model that projected that the British healthcare system and <mark>healthcare systems around the world would be overwhelmed</mark> with coronavirus patients unless countries immediately took aggressive measures to slow the spread of the virus.{% cite imperial-college:global-impact %}
 
 <blockquote class="blockquote">
 The world faces a severe and acute public health emergency due to the ongoing COVID-19 global pandemic. How individual countries respond in the coming weeks will be critical in influencing the trajectory of national epidemics.
 <footer>{% reference imperial-college:global-impact %}</footer>
 </blockquote>
 
-Their COVID-19 model is an existing model built in 2005 to study H5N1 avian
-flu that they adapted to model SARS-CoV-2.{% cite nature:covid19-simulations %}
+Their first COVID-19 model is an existing model built in 2005 to study H5N1 avian flu that they adapted to model SARS-CoV-2.{% cite nature:covid19-simulations %}  They have since added a second model, a Bayesian statistical
+model similar to the models at <a href="/ihme-model.html">IHME</a>, the <a href="/ut-covid19-model.html">University of Texas</a>, and <a href="{% post_url 2020-05-21-South-Florida-may-see-a-new-outbreak-soon %}">PolicyLab</a>.
 
-## What does it say?
+<h2>What does that first model say?</h2>
 
 The key conclusion of the model that has had a big impact is the estimation that COVID-19 could kill 40 million people worldwide, without any intervention.  And that the number of deaths could be cut in half through mitigation to slow the spread of the virus.
 
@@ -34,6 +34,16 @@ We estimate that in the absence of interventions, COVID-19 would have resulted i
 </blockquote>
 
 The report concludes the need to <mark>begin suppression strategies immediately</mark> in multiple countries in order to <mark>save tens of millions of lives</mark>.
+
+<h2>The new model from Imperial College</h2>
+
+The early COVID-19 models didn't have a fine level of granularity.  The first
+model from Imperial College issued reports at the country level.  It looked
+at the entire UK, and the entire United States, as one area.
+
+Imperial College has since responded to the call to provided finer-grained forecasting for making local decisions by creating a second model that can generate projections at the state level.{% cite imperial-college:covid-19-model-introduction %}  The new model is a Bayesian statistical model, unlike their first model that was an epidemological model.{% cite imperial-college:report-23-us-states %}  The new model features a <a href="https://mrc-ide.github.io/covid19usa/#/overview">dashboard</a> that shows a US overview, and a page for each US state.  Each state includes projections for infections, deaths, and also an estimate for the current reprodution number.
+
+The Imperial College COVID-19 Response Team has apparently learned from some of the criticism that Neil Ferguson endured for not immediately providing the source code for their original epidemiological model, and they provided the <a href="https://github.com/ImperialCollegeLondon/covid19model">source code</a> for their new model along with their first published report based on its projections.
 
 <!-- ## What does it _NOT_ say?
 
