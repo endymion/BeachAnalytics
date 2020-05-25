@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 23 May 2020 23:06:44 -0400</pubDate>
-        <lastBuildDate>Sat, 23 May 2020 23:06:44 -0400</lastBuildDate>
+        <pubDate>Sun, 24 May 2020 23:04:12 -0400</pubDate>
+        <lastBuildDate>Sun, 24 May 2020 23:04:12 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
@@ -20,7 +20,7 @@ the virus has trouble spreading because each newly-infected person is less
 likely to come in contact with other vulnerable people.&lt;a class=&quot;citation&quot; href=&quot;#jhsph:what-is-herd-immunity&quot;&gt;[1]&lt;/a&gt;  For example, measles, mumps, polio, and chickenpox were all common diseases in the United States.  But &lt;mark&gt;now those diseases are all rare&lt;/mark&gt; in the US, thanks to &lt;mark&gt;high levels of vaccinations&lt;/mark&gt; that have achieved herd immunity.&lt;/p&gt;
 
 &lt;div class=&quot;alert alert-info float-right see-also&quot; role=&quot;alert&quot;&gt;
-  &lt;h4 class=&quot;alert-heading&quot;&gt;See also&lt;/h4&gt;
+  &lt;h4 class=&quot;alert-heading&quot;&gt;Factoid&lt;/h4&gt;
   &lt;p&gt;The MMR vaccine for measles, mumps and rubella may offer some protection against COVID-19.&lt;a class=&quot;citation&quot; href=&quot;#jgold:mmr-vaccine-appears-to-confer-protection-from-covid19&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
@@ -41,7 +41,7 @@ to develop immunity&lt;/mark&gt; to have herd protection.&lt;a class=&quot;citat
 &lt;h2 id=&quot;would-it-even-stop-at-that-point&quot;&gt;Would it even stop at that point?&lt;/h2&gt;
 
 &lt;p&gt;Herd immunity protects a population against new infections.  But if there is
-already an infection in progress, then it &lt;mark&gt;won't immediately stop&lt;/mark&gt; when the
+already an outbreak in progress, then it &lt;mark&gt;won't immediately stop&lt;/mark&gt; when the
 proportion of infected people reaches the herd immunity threshold.&lt;a class=&quot;citation&quot; href=&quot;#nytimes:overshoot&quot;&gt;[6]&lt;/a&gt;  An infection
 that’s already underway will continue to spread.&lt;/p&gt;
 
@@ -54,17 +54,18 @@ A runaway train doesn’t stop when the track begins to slope uphill, and a rapi
 months after we reach the herd immunity threshold&lt;/mark&gt;, resulting in many more
 infections and many more deaths.  This concept is called “overshoot.”&lt;/p&gt;
 
-&lt;p&gt;How many more infections?  We can’t know.  It depends on too many factors, and there are too many unknowns.  &lt;mark&gt;Allowing the virus to spread uncontrolled would make the spread faster&lt;/mark&gt; and would result in going &lt;mark&gt;farther over the threshold&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#538:herd-immunity-shinyapp&quot;&gt;[7]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;How many more infections?  We can’t know.  It depends on too many factors, and there are too many unknowns.  But we do know that &lt;mark&gt;allowing the virus to spread uncontrolled would make the spread faster&lt;/mark&gt; and would result in going &lt;mark&gt;farther over the threshold&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#538:herd-immunity-shinyapp&quot;&gt;[7]&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;how-many-people-would-die-getting-to-that-point&quot;&gt;How many people would die getting to that point?&lt;/h2&gt;
 
 &lt;p&gt;To estimate the cost of reaching herd immunity in the United States, I’m using
 the estimate that the Imperial College of London used to estimate what
 would happen if the virus were to spread uncontrolled through our country.
-Because &lt;mark&gt;that's what people are suggesting&lt;/mark&gt; when they propose &lt;mark&gt;surrendering to the virus&lt;/mark&gt; and trying to reach herd immunity by letting everyone get exposed.&lt;/p&gt;
+Because &lt;mark&gt;that's what people are suggesting&lt;/mark&gt; when they propose &lt;mark&gt;surrendering to the virus&lt;/mark&gt; and trying to reach herd immunity by letting everyone get exposed.  And I’m using the estimated infection prevalence
+rates for the US and Florida from their report this week.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:report-23-us-states&quot;&gt;[8]&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Those researchers estimated that 81% of Americans would be
-infected if we were to do that.&lt;a class=&quot;citation&quot; href=&quot;#imperial-collect:impact-of-non-pharmaceutical-interventions&quot;&gt;[8]&lt;/a&gt;  I used that same percentage to illustrate the
+infected if we were to do that.&lt;a class=&quot;citation&quot; href=&quot;#imperial-collect:impact-of-non-pharmaceutical-interventions&quot;&gt;[9]&lt;/a&gt;  I used that same percentage to illustrate the
 &lt;mark&gt;cost in human lives&lt;/mark&gt; of reaching that point, based on the amount of death that we have already seen.&lt;/p&gt;
 
 &lt;p&gt;David Dowdy, MD, PhD, infectious disease epidemiologist from Johns Hopkins University, inspired this visualization with a
@@ -76,9 +77,9 @@ infected if we were to do that.&lt;a class=&quot;citation&quot; href=&quot;#impe
 &lt;figure class=&quot;figure&quot;&gt;
   &lt;a href=&quot;/charts/the-cost-of-herd-immunity/united-states/2020-05-23.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-576-205566.webp 576w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-768-205566.webp 768w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-992-205566.webp 992w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1152-205566.webp 1152w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1200-205566.webp 1200w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1396-205566.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-576-205566.jpg 576w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-768-205566.jpg 768w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-992-205566.jpg 992w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1152-205566.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1200-205566.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1396-205566.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-800-205566.jpg&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-576-f8f81d.webp 576w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-768-f8f81d.webp 768w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-992-f8f81d.webp 992w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1152-f8f81d.webp 1152w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1200-f8f81d.webp 1200w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1396-f8f81d.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-576-f8f81d.jpg 576w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-768-f8f81d.jpg 768w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-992-f8f81d.jpg 992w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1152-f8f81d.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1200-f8f81d.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-1396-f8f81d.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/united-states/2020-05-23-800-f8f81d.jpg&quot; /&gt;
   &lt;/picture&gt;
 &lt;/a&gt;
 
@@ -87,15 +88,15 @@ infected if we were to do that.&lt;a class=&quot;citation&quot; href=&quot;#impe
 &lt;/center&gt;
 
 &lt;p&gt;The Imperial College report also includes an infection prevalence estimate for
-US states.  I used that estimate and current public data from the Florida Department of Health to provide the same visualization for the state of Florida:&lt;/p&gt;
+US states.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:report-23-us-states&quot;&gt;[8]&lt;/a&gt;  I used that estimate and current public data from the Florida Department of Health to provide the same visualization for the state of Florida:&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
   &lt;a href=&quot;/charts/the-cost-of-herd-immunity/florida/2020-05-23.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-576-cf90e1.webp 576w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-768-cf90e1.webp 768w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-992-cf90e1.webp 992w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1152-cf90e1.webp 1152w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1200-cf90e1.webp 1200w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1396-cf90e1.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-576-cf90e1.jpg 576w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-768-cf90e1.jpg 768w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-992-cf90e1.jpg 992w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1152-cf90e1.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1200-cf90e1.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1396-cf90e1.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-800-cf90e1.jpg&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-576-286670.webp 576w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-768-286670.webp 768w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-992-286670.webp 992w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1152-286670.webp 1152w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1200-286670.webp 1200w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1396-286670.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-576-286670.jpg 576w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-768-286670.jpg 768w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-992-286670.jpg 992w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1152-286670.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1200-286670.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-1396-286670.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/florida/2020-05-23-800-286670.jpg&quot; /&gt;
   &lt;/picture&gt;
 &lt;/a&gt;
 
@@ -105,16 +106,16 @@ US states.  I used that estimate and current public data from the Florida Depart
 
 &lt;p&gt;Infection prevalence estimates are not available at the county level, but
 an ongoing study that attempts to estimate the amount of
-underreporting of SARS-CoV-2 infections in the United States.&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[9]&lt;/a&gt;
-I have been using their estimate of how many infections are reported as cases to estimate the number of infected people at the county and city levels, and those estimates have proven to be in line with infection prevalence estimates from many different researchers. I used the same estimation method to provide visualization of the cost of reaching herd immunity for Miami-Dade and Broward Counties.&lt;/p&gt;
+underreporting of SARS-CoV-2 infections in the United States.&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[10]&lt;/a&gt;
+I have been using their estimate of how many infections are reported as cases to estimate the number of infected people at the county and city levels, and those estimates have proven to be in-line with infection prevalence estimates from many different researchers. I used the same estimation method to provide visualization of the cost of reaching herd immunity for Miami-Dade and Broward Counties.&lt;/p&gt;
 
 &lt;center&gt;
 &lt;figure class=&quot;figure&quot;&gt;
   &lt;a href=&quot;/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-576-17887d.webp 576w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-768-17887d.webp 768w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-992-17887d.webp 992w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1152-17887d.webp 1152w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1200-17887d.webp 1200w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1396-17887d.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-576-17887d.jpg 576w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-768-17887d.jpg 768w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-992-17887d.jpg 992w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1152-17887d.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1200-17887d.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1396-17887d.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-800-17887d.jpg&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-576-714ecd.webp 576w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-768-714ecd.webp 768w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-992-714ecd.webp 992w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1152-714ecd.webp 1152w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1200-714ecd.webp 1200w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1396-714ecd.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-576-714ecd.jpg 576w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-768-714ecd.jpg 768w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-992-714ecd.jpg 992w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1152-714ecd.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1200-714ecd.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-1396-714ecd.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/miami-dade/2020-05-23-800-714ecd.jpg&quot; /&gt;
   &lt;/picture&gt;
 &lt;/a&gt;
 
@@ -126,9 +127,9 @@ I have been using their estimate of how many infections are reported as cases to
 &lt;figure class=&quot;figure&quot;&gt;
   &lt;a href=&quot;/charts/the-cost-of-herd-immunity/broward/2020-05-23.jpg&quot;&gt;
   &lt;picture&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-576-040f1e.webp 576w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-768-040f1e.webp 768w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-992-040f1e.webp 992w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1152-040f1e.webp 1152w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1200-040f1e.webp 1200w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1396-040f1e.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
-    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-576-040f1e.jpg 576w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-768-040f1e.jpg 768w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-992-040f1e.jpg 992w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1152-040f1e.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1200-040f1e.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1396-040f1e.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-800-040f1e.jpg&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-576-c79cfc.webp 576w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-768-c79cfc.webp 768w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-992-c79cfc.webp 992w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1152-c79cfc.webp 1152w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1200-c79cfc.webp 1200w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1396-c79cfc.webp 1396w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-576-c79cfc.jpg 576w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-768-c79cfc.jpg 768w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-992-c79cfc.jpg 992w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1152-c79cfc.jpg 1152w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1200-c79cfc.jpg 1200w, /generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-1396-c79cfc.jpg 1396w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/the-cost-of-herd-immunity/broward/2020-05-23-800-c79cfc.jpg&quot; /&gt;
   &lt;/picture&gt;
 &lt;/a&gt;
 
@@ -138,25 +139,34 @@ I have been using their estimate of how many infections are reported as cases to
 
 &lt;h2 id=&quot;okay-so-what-does-this-mean&quot;&gt;Okay, so what does this mean?&lt;/h2&gt;
 
-&lt;p&gt;Intentionally aiming at herd immunity is not the answer.  If we allow the
-virus to spread uncontrolled, or if we go so far as to encourage the spread,
-then the outbreak will rocket past the herd immunity threshold, and people will
-continue to be infected.  And we will have more deaths for months after we reach
-that point.&lt;/p&gt;
+&lt;p&gt;Intentionally &lt;mark&gt;aiming at herd immunity is not the answer&lt;/mark&gt;.  If we allow the virus to spread uncontrolled, or if we go so far as to encourage the spread, then the outbreak will rocket past the herd immunity threshold, and people will continue to be infected.  And we will have more deaths for months after we reach that point.&lt;/p&gt;
 
-&lt;p&gt;&lt;mark&gt;We &lt;i&gt;&lt;b&gt;must&lt;/b&gt;&lt;/i&gt; reduce the final death count.&lt;/mark&gt;  The only way to do that is by &lt;mark&gt;lowering the fatality rate&lt;/mark&gt; through new therapies, or by &lt;mark&gt;stopping the spread with a vaccine&lt;/mark&gt;.  We must buy time for those things by limiting the spread now.  The biggest factor that affects the spread is under our control: social distancing.  Weather, overall health, and other things are all factors, but social distancing dwarfs those factors.&lt;a class=&quot;citation&quot; href=&quot;#policylab:forecasting-impacts-of-weather&quot;&gt;[10,11]&lt;/a&gt;  We’re at a point right now where we risk a second outbreak that we might not be able to control, and the best way that we have to stop it is to maintain social distancing.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;We &lt;i&gt;&lt;b&gt;must&lt;/b&gt;&lt;/i&gt; reduce the final death count.&lt;/mark&gt;  The only way to do that is by &lt;mark&gt;lowering the fatality rate&lt;/mark&gt; through new therapies, or by &lt;mark&gt;stopping the spread with a vaccine&lt;/mark&gt;.  We must buy time for those things by limiting the spread now.  The biggest factor that affects the spread is under our control: social distancing.  Weather, overall health, and other things are all factors, but social distancing dwarfs those factors.&lt;a class=&quot;citation&quot; href=&quot;#policylab:forecasting-impacts-of-weather&quot;&gt;[11,12]&lt;/a&gt;  We’re at a point right now where we risk a second outbreak that we might not be able to control, and the best way that we have to stop it is to maintain social distancing.&lt;/p&gt;
 
 &lt;p&gt;This is the challenge of our lifetime.  &lt;mark&gt;We can't simply surrender to the virus.  Too many people who we love and who we need would die.&lt;/mark&gt;  We must do this.  I’m aiming my visualizations here at reminding us &lt;mark&gt;what we're fighting for&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-then-what-is-the-answer&quot;&gt;So then what &lt;i&gt;IS&lt;/i&gt; the answer?&lt;/h2&gt;
+
+&lt;p&gt;There is no way to avoid an enormous cost from this.  &lt;mark&gt;The only control that we have is over &lt;b&gt;&lt;i&gt;where&lt;/i&gt;&lt;/b&gt; the cost is.&lt;/mark&gt;  We can either&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Surrender to the virus, and the cost will be hundreds of millions of human lives worldwide,&lt;/li&gt;
+  &lt;li&gt;Shut down forever, and the cost will be the irreparable destruction of the global economy, and mass suffering from that, or&lt;/li&gt;
+  &lt;li&gt;Mobilize and invest in testing and tracing and isolating so that we can quarantine the correct people instead of quarantining everyone.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you choose not to decide, &lt;mark&gt;you still have made a choice&lt;/mark&gt;.&lt;a class=&quot;citation&quot; href=&quot;#rush:free-will&quot;&gt;[13]&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;your-community&quot;&gt;Your community&lt;/h2&gt;
 
 &lt;p&gt;If you’re reading this from somewhere outside of South Florida, and you’re
-interested in seeing &lt;mark&gt;what the cost of reaching herd immunity might look like for your community&lt;/mark&gt;, please take a look at the Excel file that I used to generate these charts.  I designed it so that it’s easy for you to plug in data for your area.  You’ll need a population count, and if you want to go
+interested in seeing &lt;mark&gt;what the cost of reaching herd immunity might look like for your community&lt;/mark&gt;, please take a look at the
+&lt;a href=&quot;https://github.com/endymion/BeachAnalytics/raw/master/analysis/The%20cost%20of%20reaching%20herd%20immunity.xlsx&quot;&gt;Excel file&lt;/a&gt; that I used to generate these charts.  I designed it so that it’s easy for you to plug in data for your area.  You’ll need a population count, and if you want to go
 more fine-grained than the state level, then you’ll currently need to use a
 confirmed case count to estimate your true infection prevalence in your area.
 Please be sure to check the latest underreporting estimate from the Center
 for Mathematical Modeling of Infectious Diseases at the London School of Hygiene
-and Tropical Medicine&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[9]&lt;/a&gt;, because they update their estimates frequently.&lt;/p&gt;
+and Tropical Medicine&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt;[10]&lt;/a&gt;, because they update their estimates frequently.&lt;/p&gt;
 
 &lt;h2&gt;References&lt;/h2&gt;
 
@@ -167,10 +177,12 @@ and Tropical Medicine&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt
 &lt;li&gt;&lt;span id=&quot;whoint:herd-immunity-thresholds-for-measles&quot;&gt;5. Funk S. &lt;b&gt;Critical immunity thresholds  for measles elimination&lt;/b&gt;. Centre for the Mathematical Modelling of Infectious Diseases London School of Hygiene &amp;amp; Tropical Medicine; October 9, 2017&lt;a href=&quot;https://www.who.int/immunization/sage/meetings/2017/october/2._target_immunity_levels_FUNK.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:30) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;nytimes:overshoot&quot;&gt;6. Bergstrom CT, Dean N. &lt;b&gt;What the Proponents of ‘Natural’ Herd Immunity Don’t Say&lt;/b&gt;. The New York Times; May 1, 2020&lt;a href=&quot;https://www.nytimes.com/2020/05/01/opinion/sunday/coronavirus-herd-immunity.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 18:40) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;538:herd-immunity-shinyapp&quot;&gt;7. Rogers K, Wolfe J, Bronner L. &lt;b&gt;Without A Vaccine, Herd Immunity Won’t Save Us&lt;/b&gt;. 538; May 13, 2020&lt;a href=&quot;https://fivethirtyeight.com/features/without-a-vaccine-herd-immunity-wont-save-us/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-23 22:00) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;imperial-collect:impact-of-non-pharmaceutical-interventions&quot;&gt;8. &lt;b&gt;Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand&lt;/b&gt;. Imperial College London - MRC Centre for Global Infectious Disease Analysis; April 16, 2020&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;cmmid&quot;&gt;9. Russell TW, Hellewell J, Abbott S, et al. &lt;b&gt;Using a delay-adjusted case fatality ratio to estimate under-reporting&lt;/b&gt;. Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020 Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020.&lt;a href=&quot;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 19:30) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;policylab:forecasting-impacts-of-weather&quot;&gt;10. &lt;b&gt;Forecasting the Impacts of Weather and Social Distancing on COVID-19 Transmission Across the U.S.&lt;/b&gt; PolicyLab at the Children’s Hospital of Philadelphia Research Institute; &lt;a href=&quot;https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;policylab:studying-effect-of-weather&quot;&gt;11. &lt;b&gt;PolicyLab Studying Effect of Weather, Social Distancing on Local COVID-19 Spread&lt;/b&gt;. PolicyLab at the Children’s Hospital of Philadelphia Research Institute; April 21, 2020&lt;a href=&quot;https://policylab.chop.edu/blog/policylab-studying-effect-weather-social-distancing-local-covid-19-spread&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:15) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-college:report-23-us-states&quot;&gt;8. Unwin HJT, Mishra∗2 S, Bradley VC, et al. &lt;b&gt;Report 23: State-level tracking of COVID-19 in the United States&lt;/b&gt;. Imperial College COVID-19 Response Team; May 21, 2020&lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-23-united-states/&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-collect:impact-of-non-pharmaceutical-interventions&quot;&gt;9. &lt;b&gt;Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand&lt;/b&gt;. Imperial College London - MRC Centre for Global Infectious Disease Analysis; April 16, 2020&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;cmmid&quot;&gt;10. Russell TW, Hellewell J, Abbott S, et al. &lt;b&gt;Using a delay-adjusted case fatality ratio to estimate under-reporting&lt;/b&gt;. Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020 Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene &amp;amp; Tropical Medicine; April 17, 2020.&lt;a href=&quot;https://cmmid.github.io/topics/covid19/severity/global_cfr_estimates.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-17 19:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;policylab:forecasting-impacts-of-weather&quot;&gt;11. &lt;b&gt;Forecasting the Impacts of Weather and Social Distancing on COVID-19 Transmission Across the U.S.&lt;/b&gt; PolicyLab at the Children’s Hospital of Philadelphia Research Institute; &lt;a href=&quot;https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;policylab:studying-effect-of-weather&quot;&gt;12. &lt;b&gt;PolicyLab Studying Effect of Weather, Social Distancing on Local COVID-19 Spread&lt;/b&gt;. PolicyLab at the Children’s Hospital of Philadelphia Research Institute; April 21, 2020&lt;a href=&quot;https://policylab.chop.edu/blog/policylab-studying-effect-weather-social-distancing-local-covid-19-spread&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:15) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;rush:free-will&quot;&gt;13. Peart N. &lt;b&gt;Free Will&lt;/b&gt;. Mercury Records; January 14, 1980 Mercury Records; January 14, 1980.&lt;a href=&quot;https://www.rush.com/songs/freewill/&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 23 May 2020 00:00:00 -0400</pubDate>
             <link>http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</link>
@@ -242,7 +254,7 @@ Measured against a number of local factors, we saw that strict social distancing
   &lt;/picture&gt;
 &lt;/a&gt;
 
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Miami-Dade County - Projected cases for four weeks.&lt;br /&gt;[credit: &lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;]&lt;/figcaption&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Miami-Dade County - Projected cases for four weeks.&lt;br /&gt;credit:&amp;nbsp;&lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
 
@@ -256,7 +268,7 @@ Measured against a number of local factors, we saw that strict social distancing
   &lt;/picture&gt;
 &lt;/a&gt;
 
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Broward County - Projected cases for four weeks.&lt;br /&gt;[credit: &lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;]&lt;/figcaption&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Broward County - Projected cases for four weeks.&lt;br /&gt;credit:&amp;nbsp;&lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
 
@@ -272,7 +284,7 @@ Measured against a number of local factors, we saw that strict social distancing
   &lt;/picture&gt;
 &lt;/a&gt;
 
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Miami-Dade County - Estimated R, a metric representing the rate of spread.&lt;br /&gt;[credit: &lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;]&lt;/figcaption&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Miami-Dade County - Estimated R, a metric representing the rate of spread.&lt;br /&gt;credit:&amp;nbsp;&lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
 
@@ -286,15 +298,53 @@ Measured against a number of local factors, we saw that strict social distancing
   &lt;/picture&gt;
 &lt;/a&gt;
 
-  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Miami-Dade County - Estimated R, a metric representing the rate of spread.&lt;br /&gt;[credit: &lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;]&lt;/figcaption&gt;
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Miami-Dade County - Estimated R, a metric representing the rate of spread.&lt;br /&gt;credit:&amp;nbsp;&lt;a href=&quot;https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community&quot;&gt;PolicyLab&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/center&gt;
+
+&lt;h2&gt;Another model echoes the same warning for Florida&lt;/h2&gt;
+
+&lt;p&gt;The Imperial College COVID-19 Response Team is using a &lt;mark&gt;similar statistical
+model&lt;/mark&gt; that projects the impact of increases in mobility.&lt;a class=&quot;citation&quot; href=&quot;#imperial-college:report-23-us-states&quot;&gt;[11]&lt;/a&gt;  Their model does not
+address the potential impact of changes in behavior.  Like mask-wearing and
+attempts at social distancing in public settings like restaurants and beaches.
+Their model doesn’t reach the county-level granularity that the PolicyLab model
+does, but it &lt;mark&gt;reinforces the PolicyLab suggestion that the outbreak is not
+under control in Florida&lt;/mark&gt;.  And that changes in mobility could lead to an
+&lt;mark&gt;exponential growth in infections and deaths&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;p&gt;Their model avoids &lt;a href=&quot;/2020/04/29/dont-focus-on-the-center-line.html&quot;&gt;conveying false precision&lt;/a&gt; by preventing results as a range of confidence instead of a single center line like the PolicyLab model.  They give projections based on three different scenarios:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mobility stays constant, which was can clearly see is not the scenario that’s happening.&lt;/li&gt;
+  &lt;li&gt;Mobility increases by 20%.  We know from other data that this has &lt;a href=&quot;/2020/05/16/south-florida-gives-up-on-social-distancing.html&quot;&gt;already happened&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Mobility increasing by 40%.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Their &lt;a href=&quot;https://mrc-ide.github.io/covid19usa/#/details/FL&quot;&gt;dashboard for Florida&lt;/a&gt; for their model output shows a few disturbing
+charts, including this one for projected deaths:&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17.jpg&quot;&gt;
+  &lt;picture&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-576-d63575.webp 576w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-768-d63575.webp 768w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-992-d63575.webp 992w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-1152-d63575.webp 1152w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-1200-d63575.webp 1200w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-1332-d63575.webp 1332w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-576-d63575.jpg 576w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-768-d63575.jpg 768w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-992-d63575.jpg 992w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-1152-d63575.jpg 1152w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-1200-d63575.jpg 1200w, /generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-1332-d63575.jpg 1332w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/imperial-college-london-covid19-model-florida-deaths-2020-05-17-800-d63575.jpg&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/a&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Florida - Projected number of deaths - May 17, 2020&lt;br /&gt;credit:&amp;nbsp;&lt;a href=&quot;https://mrc-ide.github.io/covid19usa/#/details/FL&quot;&gt;Imperial College COVID-19 Response Team&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;The Imperial College model also doesn’t account for Memorial Day weekend crowds.&lt;/p&gt;
 
 &lt;h2&gt;What does this mean for us here?&lt;/h2&gt;
 
 &lt;p&gt;David Rubin and Paul A. Offit from PolicyLab advise that rural areas that are less densely populated or that are already benefiting from warmer spring temperatures will probably be able to reopen more quickly, as long as the number of cases in their area has sharply reduced.&lt;a class=&quot;citation&quot; href=&quot;#nytimes:crowding-affects-the-spread&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;But they say that large, &lt;mark&gt;densely populated cities like Miami need a more cautious plan&lt;/mark&gt;.  For two reasons: &lt;mark&gt;More crowded areas increase the risk of spread&lt;/mark&gt;.  And also because we’re learning that &lt;mark&gt;crowding itself may also affect the death rate&lt;/mark&gt;. You could get sicker and have a &lt;mark&gt;higher risk of dying if you're exposed to more of the virus&lt;/mark&gt; because you’re in a densely-populated area. That’s also what seems to have happened during the 1918 Influenza pandemic.&lt;a class=&quot;citation&quot; href=&quot;#plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;[11]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But they say that large, &lt;mark&gt;densely populated cities like Miami need a more cautious plan&lt;/mark&gt;.  For two reasons: &lt;mark&gt;More crowded areas increase the risk of spread&lt;/mark&gt;.  And also because we’re learning that &lt;mark&gt;crowding itself may also affect the death rate&lt;/mark&gt;. You could get sicker and have a &lt;mark&gt;higher risk of dying if you're exposed to more of the virus&lt;/mark&gt; because you’re in a densely-populated area. That’s also what seems to have happened during the 1918 Influenza pandemic.&lt;a class=&quot;citation&quot; href=&quot;#plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;[12]&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;One of the biggest factors in the PolicyLab projections is social distancing,
 and their model assumes that social distancing levels will remain constant in
@@ -311,12 +361,13 @@ could look even worse for us here.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;descartes-lab:changes-in-us-mobility&quot;&gt;3. &lt;b&gt;Coronavirus: Changes in US Mobility&lt;/b&gt;. Descartes Labs; &lt;a href=&quot;https://www.descarteslabs.com/mobility/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 21:30) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;ut:mortality-modeling-faq&quot;&gt;4. &lt;b&gt;Mortality Modeling FAQ&lt;/b&gt;. The University of Texas at Austin COVID-19 Modeling Consortium; &lt;a href=&quot;https://covid-19.tacc.utexas.edu/mortality-projection-faq/&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 14:30) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;nytimes:crowding-affects-the-spread&quot;&gt;5. &lt;b&gt;We Know Crowding Affects the Spread. It May Affect the Death Rate.&lt;/b&gt; The New York Times; April 27, 2020&lt;a href=&quot;https://www.nytimes.com/2020/04/27/opinion/coronavirus-crowds.html&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:00) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;6. team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. April 21, 2020&lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;6. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. IHME COVID-19 health service utilization forecasting team; April 21, 2020&lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;policylab:new-model&quot;&gt;7. &lt;b&gt;New Model Shows Competing Influences of Social Distancing, Population Density &amp;amp; Temperature on Local COVID-19 Transmission&lt;/b&gt;. PolicyLab at the Children’s Hospital of Philadelphia Research Institute; April 22, 2020&lt;a href=&quot;https://policylab.chop.edu/press-releases/new-model-shows-competing-influences-social-distancing-population-density-temperature&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:10) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;policylab:studying-effect-of-weather&quot;&gt;8. &lt;b&gt;PolicyLab Studying Effect of Weather, Social Distancing on Local COVID-19 Spread&lt;/b&gt;. PolicyLab at the Children’s Hospital of Philadelphia Research Institute; April 21, 2020&lt;a href=&quot;https://policylab.chop.edu/blog/policylab-studying-effect-weather-social-distancing-local-covid-19-spread&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:15) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;policylab:forecasting-impacts-of-weather&quot;&gt;9. &lt;b&gt;Forecasting the Impacts of Weather and Social Distancing on COVID-19 Transmission Across the U.S.&lt;/b&gt; PolicyLab at the Children’s Hospital of Philadelphia Research Institute; &lt;a href=&quot;https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;unacast:methodology&quot;&gt;10. Walle T. &lt;b&gt;The Unacast Social Distancing Scoreboard - Methodology&lt;/b&gt;. Unacast; &lt;a href=&quot;https://www.unacast.com/post/the-unacast-social-distancing-scoreboard&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-16 21:00) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;11. &lt;b&gt;Influenza Infectious Dose May Explain the High Mortality of the Second and Third Wave of 1918–1919 Influenza Pandemic&lt;/b&gt;. PLoS One; &lt;a href=&quot;https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0011655&amp;amp;type=printable&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;li&gt;&lt;span id=&quot;imperial-college:report-23-us-states&quot;&gt;11. Unwin HJT, Mishra∗2 S, Bradley VC, et al. &lt;b&gt;Report 23: State-level tracking of COVID-19 in the United States&lt;/b&gt;. Imperial College COVID-19 Response Team; May 21, 2020&lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-23-united-states/&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;12. &lt;b&gt;Influenza Infectious Dose May Explain the High Mortality of the Second and Third Wave of 1918–1919 Influenza Pandemic&lt;/b&gt;. PLoS One; &lt;a href=&quot;https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0011655&amp;amp;type=printable&quot;&gt;link&lt;/a&gt;. (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Thu, 21 May 2020 00:00:00 -0400</pubDate>
             <link>http://0.0.0.0:4000/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</link>
@@ -378,16 +429,16 @@ could look even worse for us here.&lt;/p&gt;
         
         <item>
             <title>South Florida COVID-19 Outlook</title>
-            <description>&lt;div class=&quot;panel&quot;&gt;
+            <description>&lt;!-- &lt;div class=&quot;panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
   
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-576-82e98a.webp 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-768-82e98a.webp 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-992-82e98a.webp 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1152-82e98a.webp 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1180-82e98a.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-576-82e98a.jpg 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-768-82e98a.jpg 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-992-82e98a.jpg 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1152-82e98a.jpg 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1180-82e98a.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-800-82e98a.png&quot; /&gt;
+&lt;a href=&quot;/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-576-6d937d.webp 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-768-6d937d.webp 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-992-6d937d.webp 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1152-6d937d.webp 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1180-6d937d.webp 1180w&quot; type=&quot;image/webp&quot;&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-576-6d937d.jpg 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-768-6d937d.jpg 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-992-6d937d.jpg 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1152-6d937d.jpg 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1180-6d937d.jpg 1180w&quot; type=&quot;image/jpeg&quot;&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-800-6d937d.png&quot;&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -399,7 +450,7 @@ could look even worse for us here.&lt;/p&gt;
       In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have a lot more new confirmed cases in the last week than the week before.
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 
 &lt;div class=&quot;panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
@@ -417,6 +468,11 @@ could look even worse for us here.&lt;/p&gt;
 
 
   &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;panel&quot;&gt;
@@ -425,10 +481,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-576-761860.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-768-761860.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-992-761860.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-1152-761860.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-1180-761860.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-576-761860.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-768-761860.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-992-761860.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-1152-761860.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-1180-761860.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-19-B-evening-800-761860.png&quot; /&gt;
+&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-576-43d140.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-768-43d140.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-992-43d140.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-1152-43d140.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-1180-43d140.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-576-43d140.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-768-43d140.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-992-43d140.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-1152-43d140.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-1180-43d140.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-05-23-B-evening-800-43d140.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -448,10 +504,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-576-063cfc.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-768-063cfc.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-992-063cfc.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-1152-063cfc.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-1180-063cfc.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-576-063cfc.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-768-063cfc.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-992-063cfc.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-1152-063cfc.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-1180-063cfc.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-19-B-evening-800-063cfc.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-576-c5b14c.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-768-c5b14c.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-992-c5b14c.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-1152-c5b14c.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-1180-c5b14c.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-576-c5b14c.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-768-c5b14c.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-992-c5b14c.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-1152-c5b14c.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-1180-c5b14c.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-05-23-B-evening-800-c5b14c.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -460,7 +516,7 @@ could look even worse for us here.&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-    Around 2.7% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
+    Around 2.8% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -473,10 +529,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-576-d86f64.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-768-d86f64.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-992-d86f64.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-1152-d86f64.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-1170-d86f64.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-576-d86f64.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-768-d86f64.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-992-d86f64.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-1152-d86f64.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-1170-d86f64.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-19-B-evening-800-d86f64.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-576-97df32.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-768-97df32.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-992-97df32.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-1152-97df32.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-1170-97df32.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-576-97df32.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-768-97df32.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-992-97df32.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-1152-97df32.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-1170-97df32.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-05-23-B-evening-800-97df32.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -519,10 +575,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-576-82e98a.webp 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-768-82e98a.webp 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-992-82e98a.webp 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1152-82e98a.webp 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1180-82e98a.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-576-82e98a.jpg 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-768-82e98a.jpg 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-992-82e98a.jpg 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1152-82e98a.jpg 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-1180-82e98a.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-19-800-82e98a.png&quot; /&gt;
+&lt;a href=&quot;/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-576-6d937d.webp 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-768-6d937d.webp 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-992-6d937d.webp 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1152-6d937d.webp 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1180-6d937d.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-576-6d937d.jpg 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-768-6d937d.jpg 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-992-6d937d.jpg 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1152-6d937d.jpg 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-1180-6d937d.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-23-800-6d937d.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -542,10 +598,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-576-ef0a76.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-768-ef0a76.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-992-ef0a76.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-1152-ef0a76.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-1180-ef0a76.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-576-ef0a76.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-768-ef0a76.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-992-ef0a76.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-1152-ef0a76.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-1180-ef0a76.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-19-B-evening-800-ef0a76.png&quot; /&gt;
+&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-576-cc1397.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-768-cc1397.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-992-cc1397.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-1152-cc1397.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-1180-cc1397.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-576-cc1397.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-768-cc1397.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-992-cc1397.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-1152-cc1397.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-1180-cc1397.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-05-23-B-evening-800-cc1397.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -560,10 +616,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-576-2f381e.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-768-2f381e.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-992-2f381e.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-1152-2f381e.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-1180-2f381e.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-576-2f381e.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-768-2f381e.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-992-2f381e.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-1152-2f381e.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-1180-2f381e.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-19-B-evening-800-2f381e.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-576-081b10.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-768-081b10.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-992-081b10.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-1152-081b10.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-1180-081b10.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-576-081b10.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-768-081b10.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-992-081b10.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-1152-081b10.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-1180-081b10.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-05-23-B-evening-800-081b10.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -578,10 +634,10 @@ could look even worse for us here.&lt;/p&gt;
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-576-68ec1a.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-768-68ec1a.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-992-68ec1a.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-1152-68ec1a.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-1170-68ec1a.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-576-68ec1a.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-768-68ec1a.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-992-68ec1a.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-1152-68ec1a.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-1170-68ec1a.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-19-B-evening-800-68ec1a.png&quot; /&gt;
+&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-576-e60bf0.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-768-e60bf0.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-992-e60bf0.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-1152-e60bf0.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-1170-e60bf0.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-576-e60bf0.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-768-e60bf0.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-992-e60bf0.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-1152-e60bf0.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-1170-e60bf0.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-05-23-B-evening-800-e60bf0.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -828,7 +884,7 @@ projected by August 4, 2020
 
 &lt;blockquote class=&quot;blockquote&quot;&gt;
 It is critical to note that &lt;mark&gt;we restrict our projections to the first wave&lt;/mark&gt; of the pandemic under a scenario of continued implementation of social distancing mandates and &lt;mark&gt;do not yet incorporate the possibility of a resurgence&lt;/mark&gt; or subsequent waves.
-&lt;footer&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. April 21, 2020&lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/footer&gt;
+&lt;footer&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;&lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. IHME COVID-19 health service utilization forecasting team; April 21, 2020&lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The problem is that the widely-cited dashboard for the model’s forecasts is not clear about this crucial background information about the model.  Giving people an easily-accessible dashboard that they can easily misunderstand could potentially backfire.  In the worst case, &lt;mark&gt;people will misinterpret the IHME model's reports&lt;/mark&gt; as saying that the threat of COVID-19 is over, and that it’s okay to stop the social distancing.&lt;/p&gt;
@@ -841,7 +897,7 @@ It is critical to note that &lt;mark&gt;we restrict our projections to the first
 
 &lt;h2&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;1. team IHMECOVID-19 health service utilization forecasting. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. April 21, 2020&lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ihme:forecasting-the-impact-of-the-first-wave&quot;&gt;1. &lt;b&gt;Forecasting the impact of the first wave of the COVID-19 pandemic on hospital demand and deaths for the USA and European Economic Area countries&lt;/b&gt;. IHME COVID-19 health service utilization forecasting team; April 21, 2020&lt;a href=&quot;http://www.healthdata.org/sites/default/files/files/Projects/COVID/RA_COVID-forecasting-USA-EEA_042120.pdf&quot;&gt;link&lt;/a&gt;. (Accessed 2020-04-27 16:00) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;2. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. Institute for Health Metrics and Evaluation; Institute for Health Metrics and Evaluation; .&lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>

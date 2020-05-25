@@ -138,9 +138,9 @@ module Scraper
         extracted_text
       end
 
-      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
-      # puts extracted_text[0..500].red
-      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      puts extracted_text[0..500].red
+      puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
 
       # Extract the report date.
       date = extracted_text.string_between('Data verified as of', 'at')
