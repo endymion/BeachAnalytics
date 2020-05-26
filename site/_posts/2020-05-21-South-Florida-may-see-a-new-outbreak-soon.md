@@ -111,7 +111,12 @@ The Imperial College model also doesn't account for Memorial Day weekend crowds.
 
 David Rubin and Paul A. Offit from PolicyLab advise that rural areas that are less densely populated or that are already benefiting from warmer spring temperatures will probably be able to reopen more quickly, as long as the number of cases in their area has sharply reduced.{% cite nytimes:crowding-affects-the-spread %}
 
-But they say that large, <mark>densely populated cities like Miami need a more cautious plan</mark>.  For two reasons: <mark>More crowded areas increase the risk of spread</mark>.  And also because we're learning that <mark>crowding itself may also affect the death rate</mark>. You could get sicker and have a <mark>higher risk of dying if you're exposed to more of the virus</mark> because you're in a densely-populated area. That's also what seems to have happened during the 1918 Influenza pandemic.{% cite plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves %}
+But they say that large, <mark>densely populated cities like Miami need a more cautious plan</mark>.  For two reasons: <mark>More crowded areas increase the risk of spread</mark>.  And also because we're learning that <mark>crowding itself may also affect the death rate</mark>. You could get sicker and have a <mark>higher risk of dying if you're exposed to more of the virus</mark> because you're in a densely-populated area. That's also what seems to have happened during the 1918 Influenza pandemic.{% cite plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves %}  One of the first studies of a documented super-spreading event from carnival festivities in Germany also showed that people who were infected in dense crowds ended up sicker than those who were infected in other scenarios.{% cite streeck:ifr-from-superspreading-at-carnival-in-germany %}
+
+<blockquote class="blockquote">
+We found a <mark>highly significant increase in both infection rate and number of symptoms</mark> when people attended carnival festivities, as compared to people who did not celebrate carnival.
+  <footer class="blockquote-footer">Hendrik Streeck et al, University Hospital of Bonn, Germany{% cite streeck:ifr-from-superspreading-at-carnival-in-germany %}</footer>
+</blockquote>
 
 One of the biggest factors in the PolicyLab projections is social distancing,
 and their model assumes that social distancing levels will remain constant in
