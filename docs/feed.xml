@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>/</link>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 26 May 2020 00:33:56 -0400</pubDate>
-        <lastBuildDate>Tue, 26 May 2020 00:33:56 -0400</lastBuildDate>
+        <pubDate>Tue, 26 May 2020 10:53:58 -0400</pubDate>
+        <lastBuildDate>Tue, 26 May 2020 10:53:58 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
@@ -181,7 +181,12 @@ charts, including this one for projected deaths:&lt;/p&gt;
 
 &lt;p&gt;David Rubin and Paul A. Offit from PolicyLab advise that rural areas that are less densely populated or that are already benefiting from warmer spring temperatures will probably be able to reopen more quickly, as long as the number of cases in their area has sharply reduced.&lt;a class=&quot;citation&quot; href=&quot;#nytimes:crowding-affects-the-spread&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;But they say that large, &lt;mark&gt;densely populated cities like Miami need a more cautious plan&lt;/mark&gt;.  For two reasons: &lt;mark&gt;More crowded areas increase the risk of spread&lt;/mark&gt;.  And also because we’re learning that &lt;mark&gt;crowding itself may also affect the death rate&lt;/mark&gt;. You could get sicker and have a &lt;mark&gt;higher risk of dying if you're exposed to more of the virus&lt;/mark&gt; because you’re in a densely-populated area. That’s also what seems to have happened during the 1918 Influenza pandemic.&lt;a class=&quot;citation&quot; href=&quot;#plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;[12]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But they say that large, &lt;mark&gt;densely populated cities like Miami need a more cautious plan&lt;/mark&gt;.  For two reasons: &lt;mark&gt;More crowded areas increase the risk of spread&lt;/mark&gt;.  And also because we’re learning that &lt;mark&gt;crowding itself may also affect the death rate&lt;/mark&gt;. You could get sicker and have a &lt;mark&gt;higher risk of dying if you're exposed to more of the virus&lt;/mark&gt; because you’re in a densely-populated area. That’s also what seems to have happened during the 1918 Influenza pandemic.&lt;a class=&quot;citation&quot; href=&quot;#plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;[12]&lt;/a&gt;  One of the first studies of a documented super-spreading event from carnival festivities in Germany also showed that people who were infected in dense crowds ended up sicker than those who were infected in other scenarios.&lt;a class=&quot;citation&quot; href=&quot;#streeck:ifr-from-superspreading-at-carnival-in-germany&quot;&gt;[13]&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+We found a &lt;mark&gt;highly significant increase in both infection rate and number of symptoms&lt;/mark&gt; when people attended carnival festivities, as compared to people who did not celebrate carnival.
+  &lt;footer class=&quot;blockquote-footer&quot;&gt;Hendrik Streeck et al, University Hospital of Bonn, Germany&lt;a class=&quot;citation&quot; href=&quot;#streeck:ifr-from-superspreading-at-carnival-in-germany&quot;&gt;[13]&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;One of the biggest factors in the PolicyLab projections is social distancing,
 and their model assumes that social distancing levels will remain constant in
@@ -204,7 +209,8 @@ could look even worse for us here.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;policylab:forecasting-impacts-of-weather&quot;&gt;9. &lt;b&gt;Forecasting the Impacts of Weather and Social Distancing on COVID-19 Transmission Across the U.S.&lt;/b&gt; PolicyLab at the Children’s Hospital of Philadelphia Research Institute; &lt;a href=&quot;https://policylab.chop.edu/project/forecasting-impacts-weather-and-social-distancing-covid-19-transmission-across-us&quot;&gt;link&lt;/a&gt; (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;unacast:methodology&quot;&gt;10. Walle T. &lt;b&gt;The Unacast Social Distancing Scoreboard - Methodology&lt;/b&gt;. Unacast; &lt;a href=&quot;https://www.unacast.com/post/the-unacast-social-distancing-scoreboard&quot;&gt;link&lt;/a&gt; (Accessed 2020-05-16 21:00) &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;imperial-college:report-23-us-states&quot;&gt;11. Unwin HJT, Mishra∗2 S, Bradley VC, et al. &lt;b&gt;Report 23: State-level tracking of COVID-19 in the United States&lt;/b&gt;. Imperial College COVID-19 Response Team; 21-May-2020 &lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-23-united-states/&quot;&gt;link&lt;/a&gt;; DOI: &lt;a href=&quot;https://doi.org/10.25561/79231&quot;&gt;10.25561/79231&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;12. &lt;b&gt;Influenza Infectious Dose May Explain the High Mortality of the Second and Third Wave of 1918–1919 Influenza Pandemic&lt;/b&gt;. PLoS One; &lt;a href=&quot;https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0011655&amp;amp;type=printable&quot;&gt;link&lt;/a&gt; (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;li&gt;&lt;span id=&quot;plosone:influenza-dose-may-explain-high-mortailty-in-subsequent-waves&quot;&gt;12. &lt;b&gt;Influenza Infectious Dose May Explain the High Mortality of the Second and Third Wave of 1918–1919 Influenza Pandemic&lt;/b&gt;. PLoS One; &lt;a href=&quot;https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0011655&amp;amp;type=printable&quot;&gt;link&lt;/a&gt; (Accessed 2020-05-21 15:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;streeck:ifr-from-superspreading-at-carnival-in-germany&quot;&gt;13. &lt;b&gt;Infection fatality rate of SARS-CoV-2 infection in a German community with a super-spreading event&lt;/b&gt;. Cold Spring Harbor Laboratory Press; 18-May-2020 &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.05.04.20090076v1&quot;&gt;link&lt;/a&gt;; DOI: &lt;a href=&quot;https://doi.org/10.1101/2020.05.04.20090076&quot;&gt;10.1101/2020.05.04.20090076&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Thu, 21 May 2020 00:00:00 -0400</pubDate>
             <link>/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</link>
