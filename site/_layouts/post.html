@@ -33,15 +33,14 @@ layout: default
             {{page.excerpt}}
           {% else %}
             <div id="summary">
-              <p>
                 {{page.excerpt}}
-              </p>
             </div>
           {% endif %}
         {% endif %}
 
         {{ page.content | split: site.excerpt_separator | last }}
-    </div>
+
+      </div>
 
     {% assign tags = page.tags %}
     {% if tags != empty %}

@@ -139,7 +139,7 @@ module Scraper
       end
 
       puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
-      puts extracted_text[0..500].red
+      puts extracted_text.red
       puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
 
       # Extract the report date.

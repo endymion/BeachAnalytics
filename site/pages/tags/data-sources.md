@@ -3,9 +3,11 @@ title: COVID-19 data sources
 author: Ryan Alyn Porter
 tagName: covid19-data-sources
 slug: covid19-data-sources
+permalink: covid19-data-sources.html
 search: include
 folder: Topics
 toc: false
+featured: true
 featured: true
 image_copyright: https://www.pxfuel.com/en/free-photo-oonqr
 image_16_5: images/posts/data-sources-16x5.jpg

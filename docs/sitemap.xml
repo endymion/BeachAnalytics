@@ -104,6 +104,12 @@
   
   
   <url>
+    <loc>/aws-data-exchange.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>/charts.html</loc>
   </url>
   
@@ -128,19 +134,7 @@
   
   
   <url>
-    <loc>/visualizations/projected-percentage-of-sarscov2-infections/current.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/percent-increase-in-number-of-covid19-cases/current.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/number-of-covid19-cases/current.html</loc>
+    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/current.html</loc>
   </url>
   
   
@@ -152,19 +146,31 @@
   
   
   <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/current.html</loc>
+    <loc>/visualizations/number-of-covid19-cases/current.html</loc>
   </url>
   
   
   
   <url>
     <loc>/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/visualizations/projected-percentage-of-sarscov2-infections/current.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/visualizations/percent-increase-in-number-of-covid19-cases/current.html</loc>
   </url>
   
   
@@ -182,7 +188,7 @@
   
   
   <url>
-    <loc>/pages/tags/data-sources.html</loc>
+    <loc>/covid19-data-sources.html</loc>
   </url>
   
   
@@ -220,7 +226,7 @@
   
   
   <url>
-    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
+    <loc>/visualizations/covid19-dashboard/index.html</loc>
   </url>
   
   
@@ -238,19 +244,7 @@
   
   
   <url>
-    <loc>/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>/visualizations/number-of-covid19-cases/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/covid19-dashboard/index.html</loc>
   </url>
   
   
@@ -262,7 +256,19 @@
   
   
   <url>
+    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>/visualizations/percent-increase-in-number-of-covid19-cases/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/index.html</loc>
   </url>
   
   
@@ -282,7 +288,7 @@
   
   
   <url>
-    <loc>/pages/tags/mobility-data.html</loc>
+    <loc>/mobility-data.html</loc>
   </url>
   
   
@@ -300,13 +306,25 @@
   
   
   <url>
+    <loc>/visualizations/covid19-dashboard/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>/visualizations/projected-percentage-of-sarscov2-infections/older.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/covid19-dashboard/older.html</loc>
+    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/older.html</loc>
   </url>
   
   
@@ -325,18 +343,6 @@
   
   <url>
     <loc>/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/older.html</loc>
   </url>
   
   
@@ -374,7 +380,7 @@
   
   
   <url>
-    <loc>/pages/tags/unacast.html</loc>
+    <loc>/unacast.html</loc>
   </url>
   
   

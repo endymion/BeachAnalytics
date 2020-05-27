@@ -2166,7 +2166,7 @@ hr.the-thin-black-line { border-width: 2px; border-radius: 2px 2px 2px 2px; marg
 
 .post-header { position: relative; z-index: -1; line-height: 1rem; }
 
-.post-header h1 { margin: 0; }
+.post-header h1 { margin: 0 0 1rem 0; }
 
 .post-header img { border: 1px solid #999999; width: 100%; }
 

@@ -1,7 +1,7 @@
 ---
 title: South Florida may see a new outbreak soon
 summary: A model aimed at local forecasts projects a rapid spread of coronavirus in Miami-Dade and Broward counties, based on mobility, population density, age, insurance status, smoking prevalence, and weather.
-tags: [covid19-models, mobility, unacast]
+tags: [covid19-models, mobility-data, unacast]
 author: Ryan Alyn Porter
 draft: false
 published: true
