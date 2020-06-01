@@ -26,6 +26,17 @@
 
 
 {
+"title": "Big Local News",
+"tags": "covid19-data-sourcesihme-modeldata-exchanges",
+"keywords": "",
+"url": "/big-local-news.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Charts",
 "tags": "",
 "keywords": "",
@@ -70,50 +81,6 @@
 
 
 {
-"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/doubling-time-for-number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current COVID-19 Dashboards",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/covid19-dashboard/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Number of Confirmed COVID-19 Cases Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/number-of-covid19-cases/current.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/estimated-number-of-sarscov2-infections/current.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Current SARS-CoV-2 Infection Percentage Projection Charts",
 "tags": "",
 "keywords": "",
@@ -140,6 +107,50 @@
 "tags": "",
 "keywords": "",
 "url": "/visualizations/percent-increase-in-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Estimated Number of SARS-CoV-2 Infections Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/estimated-number-of-sarscov2-infections/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Doubling Time in Current Number of Confirmed COVID-19 Cases Charts",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/doubling-time-for-number-of-covid19-cases/current.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Current COVID-19 Dashboards",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/covid19-dashboard/current.html",
 "summary": ""
 }
 ,
@@ -237,10 +248,10 @@
 
 
 {
-"title": "COVID-19 Dashboard",
+"title": "South Florida COVID-19 analysis from Miami Beach",
 "tags": "",
-"keywords": "",
-"url": "/visualizations/covid19-dashboard/index.html",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "/index.html",
 "summary": ""
 }
 ,
@@ -252,28 +263,6 @@
 "tags": "",
 "keywords": "",
 "url": "/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Estimated Number of SARS-CoV-2 Infections",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/estimated-number-of-sarscov2-infections/index.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Number of Confirmed COVID-19 Cases",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -303,6 +292,28 @@
 
 
 {
+"title": "Estimated Number of SARS-CoV-2 Infections",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/estimated-number-of-sarscov2-infections/index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/covid19-dashboard/index.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Percent Increase in Number of Confirmed COVID-19 Cases",
 "tags": "",
 "keywords": "",
@@ -314,10 +325,10 @@
 
 
 {
-"title": "South Florida COVID-19 analysis from Miami Beach",
+"title": "Number of Confirmed COVID-19 Cases",
 "tags": "",
-"keywords": "news, blog, updates, release notes, announcements",
-"url": "/index.html",
+"keywords": "",
+"url": "/visualizations/number-of-covid19-cases/index.html",
 "summary": ""
 }
 ,
@@ -382,17 +393,6 @@
 
 
 {
-"title": "COVID-19 Dashboard Archive",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/covid19-dashboard/older.html",
-"summary": ""
-}
-,
-
-
-
-{
 "title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
 "tags": "",
 "keywords": "",
@@ -404,21 +404,10 @@
 
 
 {
-"title": "SARS-CoV-2 Infection Percentage Projection Archive",
+"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
 "tags": "",
 "keywords": "",
-"url": "/visualizations/projected-percentage-of-sarscov2-infections/older.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
-"tags": "",
-"keywords": "",
-"url": "/visualizations/doubling-time-for-number-of-covid19-cases/older.html",
+"url": "/visualizations/estimated-number-of-sarscov2-infections/older.html",
 "summary": ""
 }
 ,
@@ -437,6 +426,28 @@
 
 
 {
+"title": "SARS-CoV-2 Infection Percentage Projection Archive",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/projected-percentage-of-sarscov2-infections/older.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "COVID-19 Dashboard Archive",
+"tags": "",
+"keywords": "",
+"url": "/visualizations/covid19-dashboard/older.html",
+"summary": ""
+}
+,
+
+
+
+{
 "title": "Number of Confirmed COVID-19 Cases Chart Archive",
 "tags": "",
 "keywords": "",
@@ -448,10 +459,10 @@
 
 
 {
-"title": "Estimated Number of SARS-CoV-2 Infections Chart Archive",
+"title": "Doubling Time in Number of Confirmed COVID-19 Cases Chart Archive",
 "tags": "",
 "keywords": "",
-"url": "/visualizations/estimated-number-of-sarscov2-infections/older.html",
+"url": "/visualizations/doubling-time-for-number-of-covid19-cases/older.html",
 "summary": ""
 }
 ,

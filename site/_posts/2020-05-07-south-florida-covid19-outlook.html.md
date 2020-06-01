@@ -23,6 +23,10 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
 </div> -->
 
+<p style="margin-bottom: 1rem;">
+    <b>If you participated in protests then please consider getting a COVID-19 test.  COVID-19 is <a href="https://www.miamiherald.com/news/coronavirus/article242039576.html">killing black people in South Florida</a> in disproportionate numbers.</b>
+</p>
+
 <div class="panel">
   <div class="banner">
   {% include current_chart.html chart_type="estimated-percentage-of-sarscov2-infections" area="/miami-beach/" %}
