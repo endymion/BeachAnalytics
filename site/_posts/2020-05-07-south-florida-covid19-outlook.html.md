@@ -29,12 +29,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-    See the gap in the data?  The state simply did not release an
-    update on Sunday, May 24.  Maybe this is what Rebekah Jones
-    meant when she <a href="https://www.floridatoday.com/story/news/2020/05/18/censorship-covid-19-data-researcher-removed-florida-moves-re-open-state/5212398002/">warned</a> that the people replacing her wouldn't
-    continue the same level of accessibility?  Should we not
-    expect daily updates any more?
-    <!-- Around 2.8% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718. -->
+    Around 2.9% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
     </div>
   </div>
 </div>
