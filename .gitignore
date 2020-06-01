@@ -2,5 +2,5 @@
 .env
 credentials.json
 token.yaml
-site/.jekyll-cache
+data/.scraper-cache
 node_modules
