@@ -27,7 +27,7 @@ module Scraper
     # latest updates at the FDEM web site.
     def update
       puts (' Updating raw data from the ' +
-        'Florida Department of Emergency Management ').
+        'Florida Division of Emergency Management ').
         colorize(color: :white, background: :blue)
       update_urls.each_with_index do |update_url, i|
         # No point going too far back.
