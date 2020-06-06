@@ -4,7 +4,7 @@ require 'colorize'
 class Cache
 
   def self.cache_filename key
-    path = File.join('/tmp/beachanalysis', key)
+    path = File.join('.scraper-cache', key)
 
     # Ensure that the cache folder exists.
     path_names = path.split(File::SEPARATOR)
