@@ -12,28 +12,28 @@ require 'pdf-reader'
 ##########
 # A web scraper for automatically fetching data from the
 # Florida Department of Emergency Management
-# at: https://www.floridadisaster.org/news-media/news/
+# at: http://www.floridahealth.gov
 
 module Scraper
-  class FDEM
+  class FDOH
 
     @@first_page_only = false
 
     def news_url
-      'https://www.floridadisaster.org/news-media/news/'
+      'http://www.floridahealth.gov/newsroom/all-articles.html'
     end
 
     # Update the Google Sheets spreadsheet that stores the raw data, from the
-    # latest updates at the FDEM web site.
+    # latest updates at the FDOH web site.
     def update
       puts (' Updating raw data from the ' +
-        'Florida Division of Emergency Management ').
+        'Florida Department of Health ').
         colorize(color: :white, background: :blue)
 
       walk_update_urls
     end
 
-    # Get a list of URLs for the pages at FDEM that contain the data updates.
+    # Get a list of URLs for the pages at FDOH that contain the data updates.
     def walk_update_urls(url=nil)
       # Start on the known news URL page.
       # Or load a different page, as we page through everything.
@@ -54,23 +54,14 @@ module Scraper
 
       # Get a list of news items on the current page.
       news_items = []
-      doc.css('#mainContent .thumb-list h4 a').each do |news_item|
+      doc.css('.article_list li a').each do |news_item|
         next unless
-          news_item.attr('href') =~ /covid\-19.*update\b/i ||
-           news_item.children.first.text =~ /COVID-19\s+\d+\/\d+\/\d+/i
+          news_item.children.first.text =~ /Updates\ New\ COVID\-19\ Cases/i
         news_items << news_item.attr('href')
       end
 
       # Process each of those PDFs.
       news_items.each_with_index do |news_item, i|
-        if news_item.include?(
-         '20200322-florida-department-of-health-updates-new-covid-19-cases-6-p.m'
-        )
-          puts "Found stopping point at March 22, 2020.".
-            colorize(color: :black, background: :red)
-          return
-        end
-
         update_url = URI::join(news_url, news_item)
         puts ' Update page: '.
           colorize(color: :black, background: :light_blue) + ' ' +
@@ -82,28 +73,26 @@ module Scraper
 
         puts ('-' * 70).light_white if i > 0
       end
-
-      # If there is a next page then recurse into that page.
-      unless(@@first_page_only ||
-        (next_page_link = doc.css('li.pag-nav-next a')).empty?)
-
-        walk_update_urls(URI::join(news_url, next_page_link.attr('href')))
-      end
     end
 
-    # There is an HTML page for each update post from FDEM.
+    # There is an HTML page for each update post from FDOH.
     # This method tries to locate the URL to the raw data PDF file in that page.
     def find_data_url(url)
       # Fetch the URL.
       html = open(url).read
 
-      # I'm not parsing the HTML.  I'm just grabbing the PDF URL lexically.
-      if html =~ /case\-by\-case basis.*href\=\"([^\"]+)\"/
-        return $1
-      else
+      doc = Nokogiri::HTML(html)
+
+      data_urls = doc.css('p').select{|p| p.to_s =~ /case\-by\-case\ basis/}
+      unless data_urls.count.eql? 1
         puts ' COULD NOT FIND DATA URL '.
           colorize(color: :black, background: :red)
+          return
       end
+
+      data_url = data_urls.first.css('a').attr('href')
+      # puts " Found data URL: #{data_url} ".light_blue
+      data_url
     end
 
     def process_data_pdf(update_url:, data_url:)
@@ -115,10 +104,10 @@ module Scraper
       # For stopping at specific files when they're a problem.
       # return unless filename.eql? 'covid-19-data---daily-report-2020-03-22-0951.pdf'
 
-      cache_filename = Cache.file(File.join('fdem/pdf/' + filename)) do
-        puts ' Fetching from: ' + cache_filename.light_blue
+      cache_filename = Cache.file(File.join('fdoh/pdf/' + filename)) do
+        puts " Fetching from: #{cache_filename} ".light_blue
         begin
-          Net::HTTP.get(URI.parse(data_url))
+          open(data_url).read
         rescue => error
           puts "ERROR: #{error.message}"
           return
@@ -128,7 +117,7 @@ module Scraper
       ed_complaints =
         'Statewide emergency department (ED)'
 
-      extracted_text = Cache.load(File.join('fdem/pdf/' + filename + '.txt')) do
+      extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
         reader = PDF::Reader.new(cache_filename)
         extracted_text = ''
         reader.pages.first(50).each do |page|
@@ -139,9 +128,9 @@ module Scraper
         extracted_text
       end
 
-      puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
-      puts extracted_text.red
-      puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      # puts extracted_text.red
+      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
 
       # Extract the report date.
       date = extracted_text.string_between('Data verified as of', 'at')
@@ -196,7 +185,7 @@ module Scraper
       ap city_data.first(6).map{|city| [city[:city], city[:county], city[:count]] }
 
       GoogleSheets.new.write_city_data(
-        spreadsheet_id: ENV['FDEM_BY_CITY_SPREADSHEET_ID'],
+        spreadsheet_id: ENV['FDOH_BY_CITY_SPREADSHEET_ID'],
         date: Chronic.parse(date),
         series_name: series_name,
         city_data: city_data)
