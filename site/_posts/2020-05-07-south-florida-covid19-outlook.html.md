@@ -33,7 +33,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-    Around 2.9% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
+    Around 3.1% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
     </div>
   </div>
 </div>
@@ -66,7 +66,7 @@ image_16_5: images/posts/South-Florida-outlook-16x5.png
   </div>
   <div class="headline">
     <div class="meta">
-    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 18.  It's even higher in Miami: about one in eight.
+    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 17.  It's even higher in Miami: about one in 7.
     </div>
   </div>
 </div>
