@@ -49,26 +49,27 @@ class GoogleSheets
 
   def write_city_data(spreadsheet_id:, date:, series_name:, city_data:)
 
-    sheet_name = date.strftime('%y-%m-%d-') + series_name
+    sheet_name = 'data'
     puts 'Sheet name:'.colorize(color: :black, background: :light_blue) + ' ' +
       sheet_name
     begin
+      puts " Adding data sheet ".
+        colorize(color: :white, background: :blue)
       add_sheet(
         spreadsheet_id:spreadsheet_id,
         sheet_name: sheet_name,
-        column_count: 3 )
+        column_count: 1 )
+
+      # Write the header.
+      write_values(
+        spreadsheet_id: spreadsheet_id,
+        range_name: "#{sheet_name}!A1:A1",
+        values: [['Date']] )
     rescue Google::Apis::ClientError => e
       # Abort if the sheet already exists.
       throw e unless e.message =~ /A sheet with the name.*already exists/
       puts '[cached]'.green + ' sheet already exists -- skipping.'
-      return
     end
-
-    # Write the header.
-    write_values(
-      spreadsheet_id: spreadsheet_id,
-      range_name: "#{sheet_name}!A1:C1",
-      values: [['City', 'County', 'Case Count']] )
 
     # Transform the city-by-city data hashes into whatever Google Sheets needs.
     google_sheets_values = city_data.
@@ -76,10 +77,41 @@ class GoogleSheets
 
     range_name = "#{sheet_name}!A2:C#{google_sheets_values.length+1}"
 
-    write_values(
+    date_row = find_or_create_row_for_date(
       spreadsheet_id: spreadsheet_id,
-      range_name: range_name,
-      values: google_sheets_values )
+      date: date)
+    puts " ROW: #{date_row} ".colorize(color: :black, background: :red)
+
+    # write_values(
+    #   spreadsheet_id: spreadsheet_id,
+    #   range_name: range_name,
+    #   values: google_sheets_values )
+  end
+
+  def find_or_create_row_for_date(spreadsheet_id:, date:)
+    result = @@service.get_spreadsheet_values(spreadsheet_id, 'A:A',
+      value_render_option:'UNFORMATTED_VALUE')
+    result.values.flatten.each_with_index do |value, i|
+      next unless value.class.eql? Integer # Skip the header, not an integer.
+      # The values for dates are integers representing the number of days
+      # since December 30, 1899.
+      if (Date.new(1899,12,30) + value).eql? date
+        # Rows are indexed from 1, not 0-indexed.
+        return 1 + i
+      end
+    end
+    puts " Creating row for date: #{date.to_s} ".
+      colorize(color: :white, background: :blue)
+    response = @@service.append_spreadsheet_value(spreadsheet_id, 'data!A:A',
+      {
+        major_dimension: "COLUMNS",
+        values: [
+           [date.to_s]
+         ]
+      },
+      value_input_option: 'USER_ENTERED')
+    ap response
+    exit
   end
 
   def write_values(spreadsheet_id:, range_name:, values:)

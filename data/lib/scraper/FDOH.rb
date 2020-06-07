@@ -105,7 +105,8 @@ module Scraper
       # return unless filename.eql? 'covid-19-data---daily-report-2020-03-22-0951.pdf'
 
       cache_filename = Cache.file(File.join('fdoh/pdf/' + filename)) do
-        puts " Fetching from: #{cache_filename} ".light_blue
+        puts " Fetching from: #{cache_filename} ".
+          colorize(color: :white, background: :blue)
         begin
           open(data_url).read
         rescue => error
@@ -118,6 +119,8 @@ module Scraper
         'Statewide emergency department (ED)'
 
       extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
+        puts (' Exctracting text from PDF... ').
+          colorize(color: :white, background: :blue)
         reader = PDF::Reader.new(cache_filename)
         extracted_text = ''
         reader.pages.first(50).each do |page|
@@ -186,7 +189,7 @@ module Scraper
 
       GoogleSheets.new.write_city_data(
         spreadsheet_id: ENV['FDOH_BY_CITY_SPREADSHEET_ID'],
-        date: Chronic.parse(date),
+        date: Chronic.parse(date).to_date,
         series_name: series_name,
         city_data: city_data)
 
