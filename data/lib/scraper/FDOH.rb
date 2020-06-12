@@ -147,6 +147,9 @@ module Scraper
         '          ' +
         date.colorize(color: :white, background: :green)
 
+      # For skipping recent days and starting at a past date.
+      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-11')
+
       # Determine the update series ("morning" / "evening") from the URL.
       series_name = discern_series_name(update_url.to_s)
       puts ' Series: '.colorize(color: :black, background: :light_blue) +

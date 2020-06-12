@@ -39,6 +39,8 @@ https://www.forbes.com/sites/hershshefrin/2020/04/18/what-makes-the-covid-19-mor
 
 https://www.npr.org/sections/health-shots/2020/04/21/839456638/what-happens-if-u-s-reopens-too-fast-federal-documents-show-coronavirus-projecti?utm_term=nprnews&utm_medium=social&utm_campaign=npr&utm_source=twitter.com
 
+https://www.medrxiv.org/content/10.1101/2020.05.13.20101253v1
+
 ### Excess fatalities
 
 https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html
@@ -80,7 +82,23 @@ https://www.sciencemag.org/news/2020/04/ending-coronavirus-lockdowns-will-be-dan
 
 ## Data sources
 
+https://www.miamidade.gov/information/library/2020-06-09-new-normal-dashboard.pdf
+
 https://github.com/CSSEGISandData/COVID-
+
+https://www.apple.com/covid19/mobility
+
+https://www.miamidade.gov/information/library/2020-06-08-new-normal-dashboard.pdf
+
+## mobility
+
+https://www.medrxiv.org/content/10.1101/2020.04.16.20068163v2
+
+https://arxiv.org/abs/2004.04145
+
+https://www.google.com/covid19/mobility/
+
+https://www.gstatic.com/covid19/mobility/2020-05-16_US_Florida_Mobility_Report_en.pdf
 
 ## Misinformation
 
@@ -89,3 +107,43 @@ https://www.forbes.com/sites/seanlawson/2020/04/21/right-wing-responsible-for-pu
 ## Community data journalism
 
 https://github.com/PhantomInsights/covid-19
+
+https://gijn.org/2020/05/07/data-journalism-top-10-hidden-covid-19-deaths-post-lockdown-traffic-pandemic-data-overload-wealth-inequality/
+
+## Wastewater
+
+https://www.medrxiv.org/content/10.1101/2020.04.05.20051540v1
+
+https://www.medrxiv.org/content/10.1101/2020.05.19.20105999v1.full.pdf
+
+## overdispersion
+
+https://cmmid.github.io/topics/covid19/overdispersion-from-outbreaksize.html
+
+https://www.reuters.com/article/us-health-coronavirus-austria-ischgl/ski-resort-ischgl-is-source-of-austrias-biggest-coronavirus-cluster-idUSKBN21K1Z4
+
+https://pubmed.ncbi.nlm.nih.gov/30778107/
+
+https://wellcomeopenresearch.org/articles/5-67
+
+https://www.nature.com/articles/nature04153
+
+https://www.sciencemag.org/news/2020/05/why-do-some-covid-19-patients-infect-many-others-whereas-most-don-t-spread-virus-all
+
+https://www.nytimes.com/2020/02/21/world/asia/south-korea-coronavirus-shincheonji.html
+
+https://www.theguardian.com/world/2020/apr/09/the-cluster-effect-how-social-gatherings-were-rocket-fuel-for-coronavirus
+
+https://www.medrxiv.org/content/10.1101/2020.05.04.20090076v2
+
+https://www.uni-bonn.de/news/111-2020
+
+## Africa
+
+https://africacdc.org/covid-19/
+
+## CBD
+
+https://www.dailymail.co.uk/health/article-8341213/Canadian-scientists-testing-marijuana-compound-prevent-coronavirus-infection.html?ito=facebook_share_fbia-top&fbclid=IwAR3i8W-CPGf5ZS4oaq7mg6PB5VoKrCfMgkKn1-YbGXlKIqlmXJ6ruigHqcA
+
+https://www.preprints.org/manuscript/202004.0315/v1

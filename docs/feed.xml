@@ -3,11 +3,182 @@
     <channel>
         <title></title>
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
-        <link>/</link>
-        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 06 Jun 2020 20:39:47 -0400</pubDate>
-        <lastBuildDate>Sat, 06 Jun 2020 20:39:47 -0400</lastBuildDate>
+        <link>http://0.0.0.0:4000/</link>
+        <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 12 Jun 2020 12:05:22 -0400</pubDate>
+        <lastBuildDate>Fri, 12 Jun 2020 12:05:22 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
+        
+        <item>
+            <title>Censored state date scientist launches Florida COVID-19 dashboard independently</title>
+            <description>&lt;p&gt;Rebekah Jones managed the Florida COVID-19 dashboard until she tried to add a feature to show which counties comply with the reopening criteria.  Now you can see what got her fired.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Jones was the &lt;mark&gt;original architect of the dashboard&lt;/mark&gt; that was hailed by Dr. Birx from the White House Coronavirus Task Force as one of the best in the country.&lt;a class=&quot;citation&quot; href=&quot;#floridapolitics:birx-dashboard&quot;&gt;[1]&lt;/a&gt;  She made a different kind of news in May when the Florida Department of Health &lt;mark&gt;removed her from her post&lt;/mark&gt;&lt;a class=&quot;citation&quot; href=&quot;#floridatoday:rebekah-jones-sidelined&quot;&gt;[2]&lt;/a&gt; after reprimanding her for making unauthorized public statements.&lt;a class=&quot;citation&quot; href=&quot;#cbslocalmiami:jones-fired-for-public-statements&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Her supervisor has reported that the incident that led to her removal was specifically about the “EventDate” data, the self-reported date that a patient remembers first developing symptoms.  This kind of information can be useful for the kind of timing analysis that researchers like Steve McConnell are using to provide &lt;a href=&quot;https://stevemcconnell.com/covid/covid-19-information-center-state-data/&quot;&gt;open-readiness reports&lt;/a&gt; at the state level.&lt;/p&gt;
+
+&lt;p&gt;Jones released a &lt;a href=&quot;https://geojones.org/2020/05/22/public-statement/&quot;&gt;public statement&lt;/a&gt; saying that the issue was that she &lt;mark&gt;refused &quot;to manually change data in a misleading way&lt;/mark&gt; to drum up public support of resuming pre-pandemic level of activities without a &lt;mark&gt;science-based assessment of each county’s respective risk or readiness&lt;/mark&gt; to do so.”&lt;a class=&quot;citation&quot; href=&quot;#rebehakjones:response-to-media&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+If refusing to mislead the public during a health crisis is insubordination then I will wear that badge with honor.
+&lt;footer class=&quot;blockquote-footer&quot;&gt;Rebekah Jones(missing reference)&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;is-florida-ready-to-reopen&quot;&gt;Is Florida ready to reopen?&lt;/h2&gt;
+
+&lt;p&gt;The COVID-19 Task Force at the State of Florida announced in their &lt;a href=&quot;https://www.flgov.com/wp-content/uploads/covid19/Taskforce%20Report.pdf&quot;&gt;Plan for Florida’s Recovery&lt;/a&gt; that &lt;mark&gt;Florida would follow the &lt;i&gt;White House Guidelines for Opening up America Again&lt;/i&gt;&lt;/mark&gt; as a baseline for reopening.  That plan requires &lt;mark&gt;satisfying three benchmarks&lt;/mark&gt; before reopening:&lt;a class=&quot;citation&quot; href=&quot;#florida:plan-for-floridas-recovery&quot;&gt;[5]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A downward trajectory of influenza-like illnesses (ILI) &lt;i&gt;and&lt;/i&gt; a downward trajectory of COVID-19-like illnesses (fever, cough, shortness of breath)&lt;/li&gt;
+  &lt;li&gt;A downward trajectory of documented COVID-19 cases
+&lt;i&gt;or&lt;/i&gt; a downward trajectory of positive tests as a percent of total tests (at or increasing volume of tests)&lt;/li&gt;
+  &lt;li&gt;The capability to treat all patients without triggering surge capacity &lt;i&gt;and&lt;/i&gt; robust testing program in place for at-risk healthcare workers, including emerging antibody testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Florida is in the final stages of reopening, including in South Florida.  But do we meet those criteria?  Shouldn’t we be able to monitor that?&lt;/p&gt;
+
+&lt;h2 id=&quot;now-you-can-see-that-information&quot;&gt;Now you can see that information&lt;/h2&gt;
+
+&lt;p&gt;Jones has used her skills to launch an &lt;mark&gt;independent dashboard using the same public data&lt;/mark&gt; that she used in the Florida Department of Health dashboard.  Her dashboard is called &lt;a href=&quot;https://experience.arcgis.com/experience/7572b118dc3c48d885d1c643c195314e/&quot;&gt;Florida’s Community Coronavirus Dashboard&lt;/a&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/images/posts/community-coronavirus-dashboard-dade-reopening-criteria.jpg&quot;&gt;
+  &lt;picture&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-576-f806cc.webp 576w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-768-f806cc.webp 768w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-992-f806cc.webp 992w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1152-f806cc.webp 1152w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1536-f806cc.webp 1536w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1984-f806cc.webp 1984w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1200-f806cc.webp 1200w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-2400-f806cc.webp 2400w&quot; type=&quot;image/webp&quot; /&gt;
+    &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-576-f806cc.jpg 576w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-768-f806cc.jpg 768w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-992-f806cc.jpg 992w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1152-f806cc.jpg 1152w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1536-f806cc.jpg 1536w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1984-f806cc.jpg 1984w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-1200-f806cc.jpg 1200w, /generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-2400-f806cc.jpg 2400w&quot; type=&quot;image/jpeg&quot; /&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/images/posts/community-coronavirus-dashboard-dade-reopening-criteria-800-f806cc.jpg&quot; /&gt;
+  &lt;/picture&gt;
+&lt;/a&gt;
+
+  &lt;figcaption class=&quot;figure-caption small&quot;&gt;Florida's Community Coronavirus Dashboard&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;One of the key differences is that her dashboard includes the county-by-county “report cards” for monitoring whether each county satisfies the reopening criteria.  It shows that &lt;mark&gt;many counties do not meet the State of Florida's criteria for reopening&lt;/mark&gt;.  For example, most of Florida is in Phase 2 of reopening, and Miami-Dade County is in Phase 1.&lt;a class=&quot;citation&quot; href=&quot;#nbcmiami:florida-governor-announces-phase-2&quot;&gt;[6]&lt;/a&gt;  Orange county went to Phase 2 on Friday, June 5, and theme parks have reopened.  But Jones’ dashboard includes an assessment from June 5 showing that &lt;mark&gt;Orange County does not meet the criteria&lt;/mark&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+&lt;h2&gt;Report Card for Orange County&lt;/h2&gt;
+&lt;h3&gt;Last report date: 6/5/2020&lt;/h3&gt;
+
+&lt;p&gt;
+According to data published by the Florida Department of Health, Orange County does NOT meet the criteria for entering the next phase of reopening.
+&lt;/p&gt;
+
+&lt;p&gt;
+Have the following criteria decreased for a minimum of two reporting weeks?
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ER Visits for Influenza-like Illness: &lt;b style=&quot;color:red;&quot;&gt;NO&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;ER Visits for COVID-like Illness: &lt;b style=&quot;color:red;&quot;&gt;NO&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;New cases by date: &lt;b style=&quot;color:red;&quot;&gt;NO&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;i&gt;
+&lt;p&gt;
+Information about Orange in the last one reporting week (5/30/2020-6/5/2020):
+&lt;/p&gt;
+
+&lt;p&gt;
+During the most recent reporting week in Orange County, ER visits for Influenza-like illness decreased by 4% and visits for COVID-like illness decreased by 35%. New cases increased by 46%.
+&lt;/p&gt;
+
+&lt;p&gt;
+Criteria data is measured and determined based on the trend over the last two reporting weeks, excluding the current week, summarized from Sunday-Saturday. The last report date was issued 6/5/2020. To review the state's reopening criteria, click here.
+&lt;/p&gt;
+
+&lt;p&gt;
+Whether or not a county meets the criteria is based on the previous two-week trend, so data from the last reporting week may show a decrease in cases or ER visits but the county still may not qualify for reopening if those figures increased during the previous reporting week. Both of the two previous weeks must show a consistent downward trend, and those that increase one week or decrease the next, or for counties where there was no change, would not meet the specified criteria outlined by state.
+&lt;/p&gt;
+&lt;/i&gt;
+&lt;footer class=&quot;blockquote-footer&quot;&gt;Florida's Community Coronavirus Dashboard - Dade County Reopening Criteria&lt;a class=&quot;citation&quot; href=&quot;#rebekahjones:dashboard&quot;&gt;[7]&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Miami-Dade County &lt;mark&gt;also does not meet the reopening criteria&lt;/mark&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&quot;blockquote&quot;&gt;
+&lt;h2&gt;Report Card for Dade County&lt;/h2&gt;
+&lt;h3&gt;Last report date: 6/5/2020&lt;/h3&gt;
+
+&lt;p&gt;
+According to data published by the Florida Department of Health, Dade County does NOT meet the criteria for entering the next phase of reopening.
+&lt;/p&gt;
+
+&lt;p&gt;
+Have the following criteria decreased for a minimum of two reporting weeks?
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ER Visits for Influenza-like Illness: &lt;b style=&quot;color:red;&quot;&gt;NO&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;ER Visits for COVID-like Illness: &lt;b style=&quot;color:green;&quot;&gt;YES&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;New cases by date: &lt;b style=&quot;color:red;&quot;&gt;NO&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Information about Dade in the last one reporting week (5/30/2020-6/5/2020):
+&lt;/p&gt;
+
+&lt;p&gt;
+During the most recent reporting week in Dade County, ER visits for Influenza-like illness increased by 6% and visits for COVID-like illness decreased by 12%. New cases increased by 29%.
+&lt;/p&gt;
+
+&lt;p&gt;
+Criteria data is measured and determined based on the trend over the last two reporting weeks, excluding the current week, summarized from Sunday-Saturday. The last report date was issued 6/5/2020. To review the state's reopening criteria, click here.
+&lt;/p&gt;
+
+&lt;p&gt;
+Whether or not a county meets the criteria is based on the previous two-week trend, so data from the last reporting week may show a decrease in cases or ER visits but the county still may not qualify for reopening if those figures increased during the previous reporting week. Both of the two previous weeks must show a consistent downward trend, and those that increase one week or decrease the next, or for counties where there was no change, would not meet the specified criteria outlined by state.
+&lt;/p&gt;
+&lt;footer class=&quot;blockquote-footer&quot;&gt;Florida's Community Coronavirus Dashboard - Dade County Reopening Criteria&lt;a class=&quot;citation&quot; href=&quot;#rebekahjones:dashboard&quot;&gt;[7]&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;other-differences&quot;&gt;Other differences&lt;/h2&gt;
+
+&lt;p&gt;The new, independent dashboard also counts coronavirus deaths differently from the official Florida dashboard.  The &lt;mark&gt;number of deaths is higher on the new dashboard&lt;/mark&gt; because it includes deaths of non-residents who were infected in Florida.  Including deaths of visitors could help to address a serious issue in tourist areas like Miami Beach.&lt;/p&gt;
+
+&lt;p&gt;Consider an extreme example like the Las Vegas Strip: Very few people live on the Strip.  A significant number of &lt;mark&gt;people who will be infected in Las Vegas as it reopens will not show up in the coronavirus data&lt;/mark&gt; for Clark County, Nevada.  Their positive tests, hospitalizations, and deaths will be recorded in other places like California and Arizona instead of in Nevada.  The absence of those cases &lt;mark&gt;could lead to statistics that give a false sense of security&lt;/mark&gt; by under-reporting the impact of reopening.  Paying attention to deaths resulting from infections in Florida’s tourist areas will be important for assessing the true situation places like Miami Beach and other popular destinations.&lt;/p&gt;
+
+&lt;p&gt;The &lt;mark&gt;number of cases is also higher on the new dashboard&lt;/mark&gt; because it &lt;mark&gt;includes positive antibody tests&lt;/mark&gt;, not just positive tests for the live virus.  At least one doctor has cautioned against including these extra tests because of the false-positive rates of many of the antibody tests.&lt;a class=&quot;citation&quot; href=&quot;#palmbeachpost:rebekah-jones-dashboard&quot;&gt;[8]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The false-positive rates are a serious concern because &lt;mark&gt;the errors resulting from a test that is &quot;95% accurate&quot; can be surprisingly significant&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;including-antibody-tests-is-a-problem&quot;&gt;Including antibody tests is a problem&lt;/h2&gt;
+
+&lt;p&gt;A surprisingly low false-positive rate can have a &lt;mark&gt;significant impact on conclusions about overall infections&lt;/mark&gt; because of the base rate fallacy.&lt;a class=&quot;citation&quot; href=&quot;#wikipedia:base-rate-fallacy&quot;&gt;[9]&lt;/a&gt;  In an example from Wikipedia:&lt;/p&gt;
+
+&lt;p&gt;Imagine running an infectious disease test on a population A of 1000 people, in which &lt;mark&gt;40% are infected&lt;/mark&gt;. The test has a false positive rate of 5%, and no false negatives. 400 people would receive a true positive, and 30 people would receive a false positive.  A person receiving a positive test could be &lt;mark&gt;over 93% confident that it correctly indicates infection&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now consider the same test applied to population B, in which &lt;mark&gt;only 2% is infected&lt;/mark&gt;. 20 people would receive a true positive. 49 people would receive a false positive.&lt;/p&gt;
+
+&lt;p&gt;In population B, only 20 of the 69 total people with a positive test result are actually infected. So, the &lt;mark&gt;probability of actually being infected after testing positive is only 29%&lt;/mark&gt; for a test that otherwise appears to be “95% accurate”.&lt;/p&gt;
+
+&lt;p&gt;The base rate for coronavirus infections is currently &lt;mark&gt;closer to the range in population B&lt;/mark&gt; than it is in population A. Please &lt;mark&gt;remember this when interpreting coronavirus data that includes antibody tests in the number of cases&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you-rebekah-jones&quot;&gt;Thank you, Rebekah Jones&lt;/h2&gt;
+
+&lt;p&gt;The push from the governor’s office to reopen Florida counties that don’t meet the state’s reopening benchmarks is an &lt;mark&gt;obvious political problem for the governor's office&lt;/mark&gt;.  It wouldn’t be possible for the Florida Department of Health to provide a dashboard with the level of transparency that the White House Coronavirus Task Force praised if the dashboard were to show that Florida isn’t ready to reopen.  Thanks to Rebekah Jones and her independent dashboard, we now have that level of transparency again.&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;floridapolitics:birx-dashboard&quot;&gt;1. Downey R. &lt;b&gt;Dr. Deborah Birx highlights Florida Department of Health COVID-19 website&lt;/b&gt;. Florida Politics; 20-April-2020 &lt;a href=&quot;https://floridapolitics.com/archives/328990-dr-deborah-birx-highlights-florida-department-of-health-covid-19-website&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 09:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;floridatoday:rebekah-jones-sidelined&quot;&gt;2. Sassoon AM. &lt;b&gt;Coronavirus: As Florida re-opens, COVID-19 data chief gets sidelined and researchers cry foul&lt;/b&gt;. Florida Today; 18-May-2020 &lt;a href=&quot;https://www.floridatoday.com/story/news/2020/05/18/censorship-covid-19-data-researcher-removed-florida-moves-re-open-state/5212398002/&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 09:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;cbslocalmiami:jones-fired-for-public-statements&quot;&gt;3. &lt;b&gt;State Records Show Rebekah Jones Fired For Violating Health Department Policy On Public Remarks&lt;/b&gt;. CBSMiami; 24-May-2020 &lt;a href=&quot;https://miami.cbslocal.com/2020/05/24/state-records-show-rebekah-jones-fired-violating-health-department-policy-public-remarks/&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 09:45) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;rebehakjones:response-to-media&quot;&gt;4. Jones R. &lt;b&gt;Response to media: #Insubordinate #Scientists&lt;/b&gt;. Rebekah Jones; 22-May-2020 &lt;a href=&quot;https://geojones.org/2020/05/22/public-statement/&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 09:45) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;florida:plan-for-floridas-recovery&quot;&gt;5. &lt;b&gt;Plan for Florida's Recovery&lt;/b&gt;. The State of Florida; 28-April-2020 &lt;a href=&quot;https://www.flgov.com/wp-content/uploads/covid19/Taskforce%20Report.pdf&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 10:15) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;nbcmiami:florida-governor-announces-phase-2&quot;&gt;6. &lt;b&gt;Florida Gov. Announces Phase Two of Reopening; Miami-Dade, Broward Excluded&lt;/b&gt;. NBC Miami; 3-June-2020 &lt;a href=&quot;https://www.nbcmiami.com/news/local/gov-ron-desantis-speaking-at-universal-orlando-ahead-of-fridays-reopening-to-public/2243199/&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 10:15) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;rebekahjones:dashboard&quot;&gt;7. Jones R. &lt;b&gt;Florida's Community Coronavirus Dashboard&lt;/b&gt;. &lt;a href=&quot;https://experience.arcgis.com/experience/7572b118dc3c48d885d1c643c195314e/&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;palmbeachpost:rebekah-jones-dashboard&quot;&gt;8. &lt;b&gt;Fired scientist Rebekah Jones builds coronavirus dashboard to rival Florida’s&lt;/b&gt;. The Palm Beach Post; 11-June-2020 &lt;a href=&quot;https://www.palmbeachpost.com/news/20200611/fired-scientist-rebekah-jones-builds-coronavirus-dashboard-to-rival-floridarsquos&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 10:30) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;wikipedia:base-rate-fallacy&quot;&gt;9. &lt;b&gt;Base rate fallacy&lt;/b&gt;. Wikipedia; 4-June-2020 &lt;a href=&quot;https://en.wikipedia.org/wiki/Base_rate_fallacy&quot;&gt;link&lt;/a&gt; (Accessed 2020-06-12 10:45) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Fri, 12 Jun 2020 00:00:00 -0400</pubDate>
+            <link>http://0.0.0.0:4000/2020/06/12/censored-state-data-scientist-launches-independent-covid19-dashboard.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/06/12/censored-state-data-scientist-launches-independent-covid19-dashboard.html</guid>
+            
+            
+        </item>
         
         <item>
             <title>Super-spreading has happened outdoors</title>
@@ -22,8 +193,8 @@
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 23 May 2020 00:00:00 -0400</pubDate>
-            <link>/2020/05/23/super-spreading-has-happened-outdoors.html</link>
-            <guid isPermaLink="true">/2020/05/23/super-spreading-has-happened-outdoors.html</guid>
+            <link>http://0.0.0.0:4000/2020/05/23/super-spreading-has-happened-outdoors.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/05/23/super-spreading-has-happened-outdoors.html</guid>
             
             
         </item>
@@ -204,8 +375,8 @@ and Tropical Medicine&lt;a class=&quot;citation&quot; href=&quot;#cmmid&quot;&gt
 &lt;li&gt;&lt;span id=&quot;rush:free-will&quot;&gt;13. Peart N. &lt;b&gt;Free Will&lt;/b&gt;. Mercury Records; 14-January-1980 &lt;a href=&quot;https://www.rush.com/songs/freewill/&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 23 May 2020 00:00:00 -0400</pubDate>
-            <link>/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</link>
-            <guid isPermaLink="true">/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</guid>
+            <link>http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</guid>
             
             
         </item>
@@ -395,8 +566,8 @@ could look even worse for us here.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;streeck:ifr-from-superspreading-at-carnival-in-germany&quot;&gt;13. &lt;b&gt;Infection fatality rate of SARS-CoV-2 infection in a German community with a super-spreading event&lt;/b&gt;. Cold Spring Harbor Laboratory Press; 18-May-2020 &lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.05.04.20090076v1&quot;&gt;link&lt;/a&gt;; DOI: &lt;a href=&quot;https://doi.org/10.1101/2020.05.04.20090076&quot;&gt;10.1101/2020.05.04.20090076&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Thu, 21 May 2020 00:00:00 -0400</pubDate>
-            <link>/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</link>
-            <guid isPermaLink="true">/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</guid>
+            <link>http://0.0.0.0:4000/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</guid>
             
             <category>covid19-models</category>
             
@@ -442,8 +613,8 @@ could look even worse for us here.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;oxford:overshoot&quot;&gt;5. Tanaka MM, Althouse BM, Bergstrom CT. &lt;b&gt;Timing of antimicrobial use influences the evolution of antimicrobial resistance during disease epidemics&lt;/b&gt;. Evolution, Medicine, and Public Health; &lt;a href=&quot;https://academic.oup.com/emph/article/2014/1/150/1846924&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Sat, 16 May 2020 00:00:00 -0400</pubDate>
-            <link>/2020/05/16/south-florida-gives-up-on-social-distancing.html</link>
-            <guid isPermaLink="true">/2020/05/16/south-florida-gives-up-on-social-distancing.html</guid>
+            <link>http://0.0.0.0:4000/2020/05/16/south-florida-gives-up-on-social-distancing.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/05/16/south-florida-gives-up-on-social-distancing.html</guid>
             
             <category>mobility-data</category>
             
@@ -676,8 +847,8 @@ could look even worse for us here.&lt;/p&gt;
 &lt;/div&gt;
 </description>
             <pubDate>Thu, 07 May 2020 00:00:00 -0400</pubDate>
-            <link>/south-florida-covid19-outlook.html</link>
-            <guid isPermaLink="true">/south-florida-covid19-outlook.html</guid>
+            <link>http://0.0.0.0:4000/south-florida-covid19-outlook.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/south-florida-covid19-outlook.html</guid>
             
             
         </item>
@@ -805,8 +976,8 @@ projected by August 4, 2020
 &lt;li&gt;&lt;span id=&quot;wikipedia:significant_figures&quot;&gt;5. &lt;b&gt;Significant figures&lt;/b&gt;. Wikipedia; 24-April-2020 &lt;a href=&quot;https://en.wikipedia.org/wiki/Significant_figures&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-28 10:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/29/dont-focus-on-the-center-line.html</link>
-            <guid isPermaLink="true">/2020/04/29/dont-focus-on-the-center-line.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/29/dont-focus-on-the-center-line.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/29/dont-focus-on-the-center-line.html</guid>
             
             <category>covid19-models</category>
             
@@ -885,8 +1056,8 @@ projected by August 4, 2020
 &lt;li&gt;&lt;span id=&quot;latimes:vietnam-lifting-restrictions&quot;&gt;2. &lt;b&gt;Without a single COVID-19 death, Vietnam starts easing its coronavirus lockdown&lt;/b&gt;. The LA Times; 23-April-2020 &lt;a href=&quot;https://www.latimes.com/world-nation/story/2020-04-23/vietnam-eases-coronavirus-lockdown&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-28 17:00) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Tue, 28 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
-            <guid isPermaLink="true">/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</guid>
             
             
         </item>
@@ -930,8 +1101,8 @@ It is critical to note that &lt;mark&gt;we restrict our projections to the first
 &lt;li&gt;&lt;span id=&quot;ihme:faq&quot;&gt;2. &lt;b&gt;IHME COVID-19 model FAQs&lt;/b&gt;. Institute for Health Metrics and Evaluation; &lt;a href=&quot;http://www.healthdata.org/covid/faqs&quot;&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 27 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/27/its-not-the-peak-its-this-peak.html</link>
-            <guid isPermaLink="true">/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/27/its-not-the-peak-its-this-peak.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/27/its-not-the-peak-its-this-peak.html</guid>
             
             <category>covid19-models</category>
             
@@ -1078,57 +1249,12 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
 &lt;li&gt;&lt;span id=&quot;nature:covid19-simulations&quot;&gt;6. &lt;b&gt;Special report: The simulations driving the world’s response to COVID-19&lt;/b&gt;. Nature; 2-April-2020 &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01003-6&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-20 19:30) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
             <pubDate>Mon, 20 Apr 2020 00:00:00 -0400</pubDate>
-            <link>/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
-            <guid isPermaLink="true">/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
+            <link>http://0.0.0.0:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</guid>
             
             <category>covid19-models</category>
             
             <category>imperial-college-model</category>
-            
-            
-        </item>
-        
-        <item>
-            <title>Nearly a third of people in a town near Boston tested positive for antibodies</title>
-            <description>&lt;p&gt;People stopped randomly in public for antibody tests showed a surprising infection proportion.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[1]&lt;/a&gt;  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.&lt;/p&gt;
-
-&lt;p&gt;A new study in Boston showed an even higher percentage of positive antibody tests, and from a better sample.  &lt;mark&gt;Nearly a third of 200 blood samples taken from people in Chelsea, a town across the river from Boston, tested positive.&lt;/mark&gt;&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:athirdinchelsea&quot;&gt;[2]&lt;/a&gt;  The researchers avoided bias toward people who wanted to be tested, by not announcing the sample collection in advance and randomly walking up to people in a town square and asking them to volunteer.  The volunteers were not offered results.&lt;/p&gt;
-
-&lt;p&gt;Chelsea has been hit hard by the pandemic because of two factors.&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:whychelsea&quot;&gt;[3]&lt;/a&gt;  It is &lt;mark&gt;one of the most dense places in Massachusetts.  And it's also a working-class neighborhood, with residents working in essential sectors&lt;/mark&gt; like food establishments and engaged with high levels of public interaction like healthcare and personal services.&lt;/p&gt;
-
-&lt;p&gt;Walking up to random people in public with no warning does avoid bias toward people who wanted to be tested.  But it also had the effect of biasing the sample toward people who were walking around in public.&lt;/p&gt;
-
-&lt;p&gt;The big variation between the Santa Clara study and the Chelsea study show that we need many more studies like this to learn how widespread SARS-CoV-2 infections really are.&lt;/p&gt;
-
-&lt;p&gt;Until that starts to happen here, statistical methods are the best way that we have for estimating how widespread the virus is right now.  Here’s the current best estimate, as of this writing:&lt;/p&gt;
-
-&lt;p&gt;
-&lt;center&gt;
-&lt;figure&gt;
-  
-    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-18-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
-  
-  
-&lt;/figure&gt;
-
-&lt;/center&gt;
-&lt;/p&gt;
-
-&lt;h2&gt;References&lt;/h2&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;1. Ng C, Abdelmalek DM. &lt;b&gt;Antibody research indicates coronavirus may be far more widespread than known&lt;/b&gt;. ABC News; 17-April-2020 &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-17 17:20) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;bostonglobe:athirdinchelsea&quot;&gt;2. Saltzman J. &lt;b&gt;Nearly a third of 200 blood samples taken in Chelsea show exposure to coronavirus&lt;/b&gt;. The Boston Globe; 17-April-2020 &lt;a href=&quot;https://www.bostonglobe.com/2020/04/17/business/nearly-third-200-blood-samples-taken-chelsea-show-exposure-coronavirus/&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-18 19:20) &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. &lt;b&gt;Why the city of Chelsea has been so hard hit by coronavirus&lt;/b&gt;. The Boston Globe; 10-April-2020 &lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-18 19:45) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
-</description>
-            <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
-            <link>/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
-            <guid isPermaLink="true">/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
-            
-            <category>how-widespread</category>
             
             
         </item>
