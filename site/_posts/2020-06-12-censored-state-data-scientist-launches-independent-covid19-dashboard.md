@@ -1,5 +1,5 @@
 ---
-title: Censored state date scientist launches Florida COVID-19 dashboard independently
+title: Censored state data scientist launches Florida COVID-19 dashboard independently
 <!-- summary: lorem ipsum -->
 author: Ryan Alyn Porter
 draft: false
