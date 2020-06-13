@@ -150,7 +150,7 @@ class GoogleSheets
       return column_name
     end
 
-    result = @@service.get_spreadsheet_values(spreadsheet_id, '1:1',
+    result = @@service.get_spreadsheet_values(spreadsheet_id, 'data!1:1',
       value_render_option:'UNFORMATTED_VALUE')
     sleep 1 # API rate limiting
 
@@ -158,7 +158,7 @@ class GoogleSheets
     unless result.values.nil?
       result.values.flatten.each_with_index do |value, i|
         # Return the range letter for the column if the header matches.
-        # binding.pry
+
         # The values for dates are integers representing the number of days
         # since December 30, 1899.
         if value.eql? header

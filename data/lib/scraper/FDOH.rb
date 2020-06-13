@@ -115,25 +115,69 @@ module Scraper
         end
       end
 
-      ed_complaints =
-        'Statewide emergency department (ED)'
+      # process_daily_number_of_tests_data(
+      #   filename: filename,
+      #   cache_filenane: cache_filename
+      # )
+      process_city_by_city_new_cases_data(
+        filename: filename,
+        cache_filenane: cache_filename
+      )
+    end
 
+    def process_daily_number_of_tests_data(filename:)
+      stop_phrase = "Number and percent of positive labs"
       extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
-        puts (' Exctracting text from PDF... ').
+        puts (' Exctracting number of people tested per day text from PDF... ').
           colorize(color: :white, background: :blue)
         reader = PDF::Reader.new(cache_filename)
         extracted_text = ''
         reader.pages.first(50).each do |page|
           extracted_text << page.text
           # We don't need anything below this string.
-          break if page.text.include?(ed_complaints)
+          break if page.text.include?(stop_phrase)
+        end
+      end
+
+      # Now narrow it down farther.
+      match = extracted_text.match(
+        /Number of people tested per day(.*)(Percent positivity for new cases|Number and percent of positive labs)/m
+      )
+      extracted_text = match[1]
+
+      # Narrow it even farther.
+      match = extracted_text.match(
+        /received\.\s*\n(\s+\d[^\(]*)\s+Date\(/m
+      )
+      extracted_text = match[1]
+
+      # Trim off the last few lines.
+      match = extracted_text.match(
+        /^(.*\d)\n+$/m
+      )
+      extracted_text = match[1]
+
+      puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      puts extracted_text.red
+      puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+    end
+
+    def process_city_by_city_new_cases_data(filename:)
+      stop_phrase =
+        'Statewide emergency department (ED)'
+
+      extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
+        puts (' Exctracting city-by-city new cases text from PDF... ').
+          colorize(color: :white, background: :blue)
+        reader = PDF::Reader.new(cache_filename)
+        extracted_text = ''
+        reader.pages.first(50).each do |page|
+          extracted_text << page.text
+          # We don't need anything below this string.
+          break if page.text.include?(stop_phrase)
         end
         extracted_text
       end
-
-      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
-      # puts extracted_text.red
-      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
 
       # Extract the report date.
       date = extracted_text.string_between('Data verified as of', 'at')
@@ -148,7 +192,7 @@ module Scraper
         date.colorize(color: :white, background: :green)
 
       # For skipping recent days and starting at a past date.
-      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-11')
+      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-12')
 
       # Determine the update series ("morning" / "evening") from the URL.
       series_name = discern_series_name(update_url.to_s)
@@ -167,7 +211,7 @@ module Scraper
       per_city_raw_text = extracted_text.string_between(
         'The table below includes the cities and counties of ' +
         'residence for cases in Florida residents',
-        ed_complaints
+        stop_phrase
       )
       # puts "EXTRACTED".colorize(color: :black, background: :yellow)
       # puts per_city_raw_text
