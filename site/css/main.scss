@@ -93,8 +93,11 @@ article {
 .chart.panel {
   .headline {
     background-color: #fff;
-    // padding: 0 12.5% 0 12.5%;
+    margin: 0;
     text-align: center;
+    h4 {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -146,6 +149,7 @@ article {
       }
       .headline {
         padding: 0.5rem 0 0 0;
+        margin: 0;
         height: unset;
       }
     }
@@ -544,40 +548,75 @@ figure img {
     padding: 0;
     margin: 0;
   }
+  .chart.panel {
+    .headline {
+      margin: 0;
+    }
+  }
 }
 @media (max-width: 576px) {
-  #page-contents figure {
-    background-color: $paper;
-    width: 100%;
-    padding: 1em 0 1em 0;
+  #page-contents {
+    figure {
+      background-color: $paper;
+      width: 100%;
+      padding: 1em 0 1em 0;
+    }
+    .chart.panel {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      .banner {
+        figure {
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
   }
 }
 @media (min-width: 577px) {
-  #page-contents figure {
-    width: 85%;
-    padding: $grid-gutter-width/2;
-  }
-  #page-contents .chart.panel {
-    .headline {
-      // margin: 0 7.5% 0 7.5%;
-    }
+  #page-contents {
     figure {
-      padding: 0;
-      margin-top: 0;
+      width: 85%;
+      padding: $grid-gutter-width/2;
+    }
+    .chart.panel {
+      .headline {
+        margin: 0 7.5% 0 7.5%;
+      }
+      figure {
+        padding: 0;
+        margin-top: 0;
+      }
     }
   }
-
 }
 @media (min-width: 993px) {
-  #page-contents figure {
-    width: 65%;
-    padding: $grid-gutter-width;
+  #page-contents {
+    figure {
+      width: 85%;
+      padding: $grid-gutter-width;
+    }
+    .chart.panel {
+      .headline {
+        margin: 0 7.5% 0 7.5%;
+      }
+    }
   }
 }
 @media (min-width: 1201px) {
-  #page-contents figure {
-    width: 600px;
-    padding: $grid-gutter-width;
+  #page-contents {
+    figure {
+      width: 700px;
+      padding: $grid-gutter-width;
+    }
+    .chart.panel {
+      .headline {
+        margin: 0;
+        .meta {
+          width: 700px;
+        }
+      }
+    }
   }
 }
 
