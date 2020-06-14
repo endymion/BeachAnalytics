@@ -5,12 +5,12 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 12 Jun 2020 12:05:22 -0400</pubDate>
-        <lastBuildDate>Fri, 12 Jun 2020 12:05:22 -0400</lastBuildDate>
+        <pubDate>Sat, 13 Jun 2020 21:04:17 -0400</pubDate>
+        <lastBuildDate>Sat, 13 Jun 2020 21:04:17 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
-            <title>Censored state date scientist launches Florida COVID-19 dashboard independently</title>
+            <title>Censored state data scientist launches Florida COVID-19 dashboard independently</title>
             <description>&lt;p&gt;Rebekah Jones managed the Florida COVID-19 dashboard until she tried to add a feature to show which counties comply with the reopening criteria.  Now you can see what got her fired.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -625,16 +625,46 @@ could look even worse for us here.&lt;/p&gt;
         
         <item>
             <title>South Florida COVID-19 Outlook</title>
-            <description>&lt;!-- &lt;div class=&quot;panel&quot;&gt;
+            <description>&lt;!--more--&gt;
+
+&lt;div class=&quot;chart panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
-  
+    
+
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-576-9af73c.webp 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-768-9af73c.webp 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-992-9af73c.webp 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1152-9af73c.webp 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1180-9af73c.webp 1180w&quot; type=&quot;image/webp&quot;&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-576-9af73c.jpg 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-768-9af73c.jpg 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-992-9af73c.jpg 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1152-9af73c.jpg 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1180-9af73c.jpg 1180w&quot; type=&quot;image/jpeg&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-800-9af73c.png&quot;&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-576-73a62d.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-768-73a62d.webp 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-900-73a62d.webp 900w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-576-73a62d.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-768-73a62d.jpg 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-900-73a62d.jpg 900w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-800-73a62d.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;The second wave of the outbreak is now clearly visible in the daily
+      new confirmed case counts.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+    &lt;h4&gt;Daily New Confirmed Case Counts&lt;/h4&gt;
+    &lt;a href=&quot;https://en.wikipedia.org/wiki/Miami_metropolitan_area&quot; target=&quot;wikipedia&quot;&gt;Miami Metropolitan Area&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;chart panel&quot;&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+    
+
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-576-d031b5.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-768-d031b5.webp 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-900-d031b5.webp 900w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-576-d031b5.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-768-d031b5.jpg 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-900-d031b5.jpg 900w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-800-d031b5.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -643,206 +673,36 @@ could look even worse for us here.&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have a lot more new confirmed cases in the last week than the week before.
+    &lt;h4&gt;Daily New Confirmed Case Counts&lt;/h4&gt;
+    Miami &amp;amp; Miami Beach
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt; --&gt;
+&lt;/div&gt;
 
-&lt;p style=&quot;margin-bottom: 1rem;&quot;&gt;
-    &lt;b&gt;If you participated in protests then please consider getting a COVID-19 test.  COVID-19 is &lt;a href=&quot;https://www.miamiherald.com/news/coronavirus/article242039576.html&quot;&gt;killing black people in South Florida&lt;/a&gt; in disproportionate numbers.&lt;/b&gt;
-&lt;/p&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
+&lt;div class=&quot;chart panel&quot;&gt;
   &lt;div class=&quot;banner&quot;&gt;
-  
+    
+
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-576-6e093b.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-768-6e093b.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-992-6e093b.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1152-6e093b.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1180-6e093b.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-576-6e093b.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-768-6e093b.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-992-6e093b.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1152-6e093b.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1180-6e093b.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-800-6e093b.png&quot; /&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-576-9a45b4.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-768-9a45b4.webp 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-900-9a45b4.webp 900w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-576-9a45b4.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-768-9a45b4.jpg 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-900-9a45b4.jpg 900w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-800-9a45b4.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
 
 
+    &lt;p&gt;The first wave hit the Miami metropolitan area hard, but now there
+      are more cases in the rest of Florida.&lt;/p&gt;
   &lt;/div&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-    Around 3.1% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
+    &lt;h4&gt;Daily New Confirmed Case Counts&lt;/h4&gt;
+    &lt;a href=&quot;https://en.wikipedia.org/wiki/Miami_metropolitan_area&quot; target=&quot;wikipedia&quot;&gt;Miami Metropolitan Area&lt;/a&gt; vs The Rest of Florida
     &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-576-ca8b0b.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-768-ca8b0b.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-992-ca8b0b.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1152-ca8b0b.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1180-ca8b0b.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-576-ca8b0b.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-768-ca8b0b.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-992-ca8b0b.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1152-ca8b0b.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-1180-ca8b0b.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami-beach/2020-06-06-B-evening-800-ca8b0b.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-576-bd9e47.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-768-bd9e47.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-992-bd9e47.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-1152-bd9e47.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-1180-bd9e47.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-576-bd9e47.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-768-bd9e47.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-992-bd9e47.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-1152-bd9e47.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-1180-bd9e47.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami-beach/2020-06-06-B-evening-800-bd9e47.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-      Has &lt;a href=&quot;/2020/05/16/south-florida-gives-up-on-social-distancing.html&quot;&gt;loosening social distancing&lt;/a&gt; caused the spread to increase?
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-576-6c5940.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-768-6c5940.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-992-6c5940.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-1152-6c5940.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-1178-6c5940.webp 1178w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-576-6c5940.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-768-6c5940.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-992-6c5940.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-1152-6c5940.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-1178-6c5940.jpg 1178w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami-beach/2020-06-06-B-evening-800-6c5940.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 17.  It's even higher in Miami: about one in 7.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-576-2bd574.webp 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-768-2bd574.webp 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-992-2bd574.webp 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-1152-2bd574.webp 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-1180-2bd574.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-576-2bd574.jpg 576w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-768-2bd574.jpg 768w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-992-2bd574.jpg 992w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-1152-2bd574.jpg 1152w, /generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-1180-2bd574.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-number-of-sarscov2-infections/miami/2020-06-06-B-evening-800-2bd574.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-      Miami has a larger population and so the curve is smoother.  The conclusion is the same: Miami has flattened the curve but the virus is still simmering.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!--more--&gt;
-
-&lt;!-- &lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-576-9af73c.webp 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-768-9af73c.webp 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-992-9af73c.webp 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1152-9af73c.webp 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1180-9af73c.webp 1180w&quot; type=&quot;image/webp&quot;&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-576-9af73c.jpg 576w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-768-9af73c.jpg 768w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-992-9af73c.jpg 992w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1152-9af73c.jpg 1152w, /generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-1180-9af73c.jpg 1180w&quot; type=&quot;image/jpeg&quot;&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/new-confirmed-covid19-cases-weekly-comparison/miami-beach/2020-05-25-800-9af73c.png&quot;&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-      The number of new confirmed cases week over week was declining, but now it's starting to flatten out.  Will it start to increase?
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt; --&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-576-e0fbab.webp 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-768-e0fbab.webp 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-992-e0fbab.webp 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-1152-e0fbab.webp 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-1180-e0fbab.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-576-e0fbab.jpg 576w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-768-e0fbab.jpg 768w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-992-e0fbab.jpg 992w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-1152-e0fbab.jpg 1152w, /generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-1180-e0fbab.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/percent-increase-in-number-of-covid19-cases/miami/2020-06-06-B-evening-800-e0fbab.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-576-6af593.webp 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-768-6af593.webp 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-992-6af593.webp 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-1152-6af593.webp 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-1180-6af593.webp 1180w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-576-6af593.jpg 576w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-768-6af593.jpg 768w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-992-6af593.jpg 992w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-1152-6af593.jpg 1152w, /generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-1180-6af593.jpg 1180w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-percentage-of-sarscov2-infections/miami/2020-06-06-B-evening-800-6af593.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-  
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-576-b4ea85.webp 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-768-b4ea85.webp 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-992-b4ea85.webp 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-1152-b4ea85.webp 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-1170-b4ea85.webp 1170w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-576-b4ea85.jpg 576w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-768-b4ea85.jpg 768w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-992-b4ea85.jpg 992w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-1152-b4ea85.jpg 1152w, /generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-1170-b4ea85.jpg 1170w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/estimated-one-in-x-sarscov2-infection-odds/miami/2020-06-06-B-evening-800-b4ea85.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
