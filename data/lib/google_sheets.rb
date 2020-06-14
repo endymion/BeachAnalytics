@@ -48,7 +48,7 @@ class GoogleSheets
     credentials
   end
 
-  def write_city_data(spreadsheet_id:, date:, series_name:, city_data:)
+  def write_city_data(spreadsheet_id:, date:, city_data:)
 
     sheet_name = 'data'
     puts 'Sheet name:'.colorize(color: :black, background: :light_blue) + ' ' +
@@ -108,7 +108,7 @@ class GoogleSheets
   end
 
   def find_or_create_row_for_date(spreadsheet_id:, date:)
-    result = @@service.get_spreadsheet_values(spreadsheet_id, 'A:A',
+    result = @@service.get_spreadsheet_values(spreadsheet_id, 'data!A:A',
       value_render_option:'UNFORMATTED_VALUE')
     sleep 1 # API rate limiting
     unless result.values.nil?

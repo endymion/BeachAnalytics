@@ -117,15 +117,15 @@ module Scraper
 
       # process_daily_number_of_tests_data(
       #   filename: filename,
-      #   cache_filenane: cache_filename
+      #   cache_filename: cache_filename
       # )
       process_city_by_city_new_cases_data(
         filename: filename,
-        cache_filenane: cache_filename
+        cache_filename: cache_filename
       )
     end
 
-    def process_daily_number_of_tests_data(filename:)
+    def process_daily_number_of_tests_data(filename:, cache_filename:)
       stop_phrase = "Number and percent of positive labs"
       extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
         puts (' Exctracting number of people tested per day text from PDF... ').
@@ -162,7 +162,7 @@ module Scraper
       puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
     end
 
-    def process_city_by_city_new_cases_data(filename:)
+    def process_city_by_city_new_cases_data(filename:, cache_filename:)
       stop_phrase =
         'Statewide emergency department (ED)'
 
@@ -193,12 +193,6 @@ module Scraper
 
       # For skipping recent days and starting at a past date.
       return unless Chronic.parse(date).to_date >= Date.parse('2020-06-12')
-
-      # Determine the update series ("morning" / "evening") from the URL.
-      series_name = discern_series_name(update_url.to_s)
-      puts ' Series: '.colorize(color: :black, background: :light_blue) +
-        '        ' +
-        series_name.colorize(color: :white, background: :green)
 
       # Extract the count for Florida.
       florida_count = extracted_text.string_between(
@@ -237,19 +231,8 @@ module Scraper
       GoogleSheets.new.write_city_data(
         spreadsheet_id: ENV['FDOH_BY_CITY_SPREADSHEET_ID'],
         date: Chronic.parse(date).to_date,
-        series_name: series_name,
         city_data: city_data)
 
-    end
-
-    def discern_series_name(string)
-      # puts "DISCERN SERIES NAME: " + string.
-      #   colorize(color: :black, background: :white)
-      return 'morning' if string =~ /morning\-update/
-      return 'morning' if string =~ /11\-a.m/
-      return 'evening' if string =~ /evening\-update/
-      return 'evening' if string =~ /6\-p.m/
-      'evening'
     end
 
   end
