@@ -52,6 +52,7 @@ body {
     flex: 1 100%;
     order: 2;
     padding-left: 0;
+    height: 100%;
     h3 {
       margin: 0.25rem 0 0 0;
     }
@@ -88,6 +89,15 @@ article {
     width: 100%;
   }
 }
+
+.chart.panel {
+  .headline {
+    background-color: #fff;
+    // padding: 0 12.5% 0 12.5%;
+    text-align: center;
+  }
+}
+
 .chart.sidebar {
   .headline {
     h2 {
@@ -99,7 +109,6 @@ article {
     @include vertical-panel;
     .headline {
       order: 1;
-
       h4 {
         margin: 0;
       }
@@ -107,6 +116,12 @@ article {
     .banner {
       order: 2;
       line-height: 150%;
+    }
+    p {
+      margin-bottom: 0.5rem;
+    }
+    p:last-of-type {
+      margin-bottom: 0;
     }
   }
 }
@@ -117,17 +132,28 @@ article {
     flex-wrap: wrap;
     .headline {
       flex: 1 100%;
-      text-align: center;
       padding: 0;
     }
     .chart.panel {
       flex: 1 50%;
       .banner {
         height: 100%;
+        img {
+          background-color: #fff;
+          padding-bottom: 0.5rem;
+          margin-bottom: 0.5rem;
+        }
       }
       .headline {
-        padding: 0;
+        padding: 0.5rem 0 0 0;
+        height: unset;
       }
+    }
+    .chart.panel:nth-child(even) {
+      padding-right: 15px;
+    }
+    .chart.panel:nth-child(odd) {
+      padding-left: 15px;
     }
   }
 }
@@ -152,8 +178,14 @@ article {
     }
     .chart.panel {
       .headline {
-        text-align: center;
+
       }
+    }
+    .chart.panel:nth-child(even) {
+      padding-right: 0;
+    }
+    .chart.panel:nth-child(odd) {
+      padding-left: 0;
     }
   }
 }
@@ -525,6 +557,16 @@ figure img {
     width: 85%;
     padding: $grid-gutter-width/2;
   }
+  #page-contents .chart.panel {
+    .headline {
+      // margin: 0 7.5% 0 7.5%;
+    }
+    figure {
+      padding: 0;
+      margin-top: 0;
+    }
+  }
+
 }
 @media (min-width: 993px) {
   #page-contents figure {
