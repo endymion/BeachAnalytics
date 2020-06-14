@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 13 Jun 2020 21:04:17 -0400</pubDate>
-        <lastBuildDate>Sat, 13 Jun 2020 21:04:17 -0400</lastBuildDate>
+        <pubDate>Sun, 14 Jun 2020 16:19:42 -0400</pubDate>
+        <lastBuildDate>Sun, 14 Jun 2020 16:19:42 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
@@ -628,16 +628,22 @@ could look even worse for us here.&lt;/p&gt;
             <description>&lt;!--more--&gt;
 
 &lt;div class=&quot;chart panel&quot;&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+    &lt;h4&gt;Miami Metropolitan Area&lt;/h4&gt;
+    Daily New Confirmed Cases
+    &lt;/div&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;banner&quot;&gt;
     
 
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-576-73a62d.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-768-73a62d.webp 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-900-73a62d.webp 900w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-576-73a62d.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-768-73a62d.jpg 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-900-73a62d.jpg 900w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area/2020-06-13-800-73a62d.png&quot; /&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-576-8d0920.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-600-8d0920.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-576-8d0920.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-600-8d0920.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-600-8d0920.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -645,51 +651,28 @@ could look even worse for us here.&lt;/p&gt;
 
     &lt;p&gt;The second wave of the outbreak is now clearly visible in the daily
       new confirmed case counts.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Daily New Confirmed Case Counts&lt;/h4&gt;
-    &lt;a href=&quot;https://en.wikipedia.org/wiki/Miami_metropolitan_area&quot; target=&quot;wikipedia&quot;&gt;Miami Metropolitan Area&lt;/a&gt;
-    &lt;/div&gt;
+    &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Miami_metropolitan_area&quot; target=&quot;wikipedia&quot;&gt;Miami metropolitan area&lt;/a&gt; includes the urban areas
+      in South Florida, and ranges from Homestead to West Palm Beach.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;chart panel&quot;&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+    &lt;h4&gt;Miami Metropolitan Area vs The Rest of Florida&lt;/h4&gt;
+    Daily New Confirmed Case Counts
+    &lt;/div&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;banner&quot;&gt;
     
 
 
 
 &lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-576-d031b5.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-768-d031b5.webp 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-900-d031b5.webp 900w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-576-d031b5.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-768-d031b5.jpg 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-900-d031b5.jpg 900w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-and-miami-beach/2020-06-13-800-d031b5.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Daily New Confirmed Case Counts&lt;/h4&gt;
-    Miami &amp;amp; Miami Beach
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;chart panel&quot;&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-    
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-576-9a45b4.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-768-9a45b4.webp 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-900-9a45b4.webp 900w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-576-9a45b4.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-768-9a45b4.jpg 768w, /generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-900-9a45b4.jpg 900w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases-outlook/miami-metropolitan-area-vs-rest-of-florida/2020-06-13-800-9a45b4.png&quot; /&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-576-1923fd.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-600-1923fd.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-576-1923fd.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-600-1923fd.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-600-1923fd.png&quot; /&gt;
 &lt;/picture&gt;
 &lt;/a&gt;
 &lt;/figure&gt;
@@ -698,11 +681,56 @@ could look even worse for us here.&lt;/p&gt;
     &lt;p&gt;The first wave hit the Miami metropolitan area hard, but now there
       are more cases in the rest of Florida.&lt;/p&gt;
   &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;chart panel&quot;&gt;
   &lt;div class=&quot;headline&quot;&gt;
     &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Daily New Confirmed Case Counts&lt;/h4&gt;
-    &lt;a href=&quot;https://en.wikipedia.org/wiki/Miami_metropolitan_area&quot; target=&quot;wikipedia&quot;&gt;Miami Metropolitan Area&lt;/a&gt; vs The Rest of Florida
+    &lt;h4&gt;Miami &amp;amp; Miami Beach&lt;/h4&gt;
+    Daily New Confirmed Case Counts
     &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+    
+
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-576-7d988e.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-600-7d988e.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-576-7d988e.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-600-7d988e.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-600-7d988e.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;chart panel&quot;&gt;
+  &lt;div class=&quot;headline&quot;&gt;
+    &lt;div class=&quot;meta&quot;&gt;
+    &lt;h4&gt;Florida, Outside of South Florida&lt;/h4&gt;
+    Daily New Confirmed Cases
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;banner&quot;&gt;
+    
+
+
+
+&lt;figure&gt;
+&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14.png&quot;&gt;&lt;picture&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-576-b71f63.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-600-b71f63.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
+  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-576-b71f63.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-600-b71f63.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
+  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-600-b71f63.png&quot; /&gt;
+&lt;/picture&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;This chart shows all new cases with a city identified, where the city is outside of the Miami metropolitan area.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 </description>

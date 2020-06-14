@@ -192,7 +192,7 @@ module Scraper
         date.colorize(color: :white, background: :green)
 
       # For skipping recent days and starting at a past date.
-      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-12')
+      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-14')
 
       # Extract the count for Florida.
       florida_count = extracted_text.string_between(

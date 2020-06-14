@@ -23,6 +23,11 @@ module Charts
         area: 'miami-metropolitan-area-vs-rest-of-florida',
         url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=460911684&format=image'
       },
+      {
+        type: 'daily-new-confirmed-covid19-cases',
+        area: 'rest-of-florida',
+        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=1666907523&format=image'
+      },
 
       # Full-sized charts (smaller fonts) for the South Florida Outlook.
       # These are designed to be published at a larger size.
@@ -38,8 +43,13 @@ module Charts
       },
       {
         type: 'daily-new-confirmed-covid19-cases-outlook',
-        area: 'miami-metropolitan-area-vs-rest-of-florida',
+        area: 'rest-of-florida',
         url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=1578342545&format=image'
+      },
+      {
+        type: 'daily-new-confirmed-covid19-cases-outlook',
+        area: 'miami-metropolitan-area-vs-rest-of-florida',
+        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=2096722478&format=image'
       }
     ]
 
@@ -68,7 +78,7 @@ module Charts
         print 'fetching...'
         FileUtils.mkdir_p folder
         open(file_path, 'wb') do |file|
-          file << open(chart[:url]).read
+          file.print open(chart[:url], &:read)
         end
         puts ' done '.colorize(color: :white, background: :green)
       end
