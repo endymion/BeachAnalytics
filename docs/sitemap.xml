@@ -3,97 +3,97 @@
   
   
   <url>
-    <loc>/2020/06/12/censored-state-data-scientist-launches-independent-covid19-dashboard.html</loc>
+    <loc>http://0.0.0.0:4000/2020/06/12/censored-state-data-scientist-launches-independent-covid19-dashboard.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/05/23/super-spreading-has-happened-outdoors.html</loc>
+    <loc>http://0.0.0.0:4000/2020/05/23/super-spreading-has-happened-outdoors.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</loc>
+    <loc>http://0.0.0.0:4000/2020/05/23/estimating-the-cost-of-reaching-herd-immunity.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</loc>
+    <loc>http://0.0.0.0:4000/2020/05/21/South-Florida-may-see-a-new-outbreak-soon.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/05/16/south-florida-gives-up-on-social-distancing.html</loc>
+    <loc>http://0.0.0.0:4000/2020/05/16/south-florida-gives-up-on-social-distancing.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/south-florida-covid19-outlook.html</loc>
+    <loc>http://0.0.0.0:4000/south-florida-covid19-outlook.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/29/dont-focus-on-the-center-line.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/29/dont-focus-on-the-center-line.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/28/more-us-deaths-to-covid-than-to-vietnam-war.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/27/its-not-the-peak-its-this-peak.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/27/its-not-the-peak-its-this-peak.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/20/the-computer-forecast-model-that-changed-the-world.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/17/estimates-for-percentage-of-population-infected-consistent-with-new-research.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/17/FEDM-data-in-Google-Sheets.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/17/FEDM-data-in-Google-Sheets.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/14/are-we-there-yet.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/14/are-we-there-yet.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/13/wider-infection-estimate-range.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/13/wider-infection-estimate-range.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/2020/04/13/dashboard-product-documentation.html</loc>
+    <loc>http://0.0.0.0:4000/2020/04/13/dashboard-product-documentation.html</loc>
   </url>
   
   
@@ -104,195 +104,109 @@
   
   
   <url>
-    <loc>/about.html</loc>
+    <loc>http://0.0.0.0:4000/about.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/aws-data-exchange.html</loc>
+    <loc>http://0.0.0.0:4000/aws-data-exchange.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/big-local-news.html</loc>
+    <loc>http://0.0.0.0:4000/big-local-news.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/charts.html</loc>
+    <loc>http://0.0.0.0:4000/charts.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/contact-tracing.html</loc>
+    <loc>http://0.0.0.0:4000/contact-tracing.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/contact.html</loc>
+    <loc>http://0.0.0.0:4000/contact.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/covid19-models.html</loc>
+    <loc>http://0.0.0.0:4000/covid19-models.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/projected-percentage-of-sarscov2-infections/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/percent-increase-in-number-of-covid19-cases/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/number-of-covid19-cases/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/number-of-covid19-cases/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/doubling-time-for-number-of-covid19-cases/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/covid19-dashboard/current.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/current.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/dashboard.html</loc>
+    <loc>http://0.0.0.0:4000/dashboard.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/data-engineering.html</loc>
+    <loc>http://0.0.0.0:4000/data-engineering.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/covid19-data-sources.html</loc>
+    <loc>http://0.0.0.0:4000/covid19-data-sources.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/fatality-rates.html</loc>
-  </url>
-  
-  
-  
-  
-  
-  <url>
-    <loc>/herd-immunity.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/how-widespread.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/ihme-model.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/imperial-college-model.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/projected-percentage-of-sarscov2-infections/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/covid19-dashboard/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/percent-increase-in-number-of-covid19-cases/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/visualizations/number-of-covid19-cases/index.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/license.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>/css/main.css</loc>
+    <loc>http://0.0.0.0:4000/fatality-rates.html</loc>
   </url>
   
   
@@ -300,123 +214,209 @@
   
   
   <url>
-    <loc>/mobility-data.html</loc>
+    <loc>http://0.0.0.0:4000/herd-immunity.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/news_archive.html</loc>
+    <loc>http://0.0.0.0:4000/how-widespread.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/notes.html</loc>
+    <loc>http://0.0.0.0:4000/ihme-model.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
+    <loc>http://0.0.0.0:4000/imperial-college-model.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
+    <loc>http://0.0.0.0:4000/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/percent-increase-in-number-of-covid19-cases/older.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-one-in-x-sarscov2-infection-odds/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/projected-percentage-of-sarscov2-infections/older.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/covid19-dashboard/older.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/doubling-time-for-number-of-covid19-cases/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/number-of-covid19-cases/older.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/visualizations/doubling-time-for-number-of-covid19-cases/older.html</loc>
-  </url>
-  
-  
-  
-  
-  
-  <url>
-    <loc>/references.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/index.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/resources.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/index.html</loc>
   </url>
-  
-  
   
   
   
   <url>
-    <loc>/second-wave.html</loc>
+    <loc>http://0.0.0.0:4000/visualizations/number-of-covid19-cases/index.html</loc>
   </url>
   
   
   
+  <url>
+    <loc>http://0.0.0.0:4000/license.html</loc>
+  </url>
   
   
   
-  
-  
+  <url>
+    <loc>http://0.0.0.0:4000/css/main.css</loc>
+  </url>
   
   
   
   
   
   <url>
-    <loc>/unacast.html</loc>
+    <loc>http://0.0.0.0:4000/mobility-data.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/ut-covid19-model.html</loc>
+    <loc>http://0.0.0.0:4000/news_archive.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/cost-of-herd-immunity</loc>
+    <loc>http://0.0.0.0:4000/notes.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/redirects.json</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
   </url>
   
   
   
   <url>
-    <loc>/css/main.css.map</loc>
+    <loc>http://0.0.0.0:4000/visualizations/estimated-number-of-sarscov2-infections/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/percent-increase-in-number-of-covid19-cases/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/projected-percentage-of-sarscov2-infections/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/covid19-dashboard/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/number-of-covid19-cases/older.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/visualizations/doubling-time-for-number-of-covid19-cases/older.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/references.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/resources.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/second-wave.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/unacast.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/ut-covid19-model.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/cost-of-herd-immunity</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/redirects.json</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/css/main.css.map</loc>
   </url>
   
   
