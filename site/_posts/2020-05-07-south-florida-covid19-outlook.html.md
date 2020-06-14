@@ -11,104 +11,52 @@ image_1_1:  images/posts/South-Florida-outlook-1x1.png
 image_16_9: images/posts/South-Florida-outlook-16x9.png
 image_16_5: images/posts/South-Florida-outlook-16x5.png
 ---
-
-<!-- <div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="new-confirmed-covid19-cases-weekly-comparison" area="/miami-beach/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.  We still have a lot more new confirmed cases in the last week than the week before.
-    </div>
-  </div>
-</div> -->
-
-<p style="margin-bottom: 1rem;">
-    <b>If you participated in protests then please consider getting a COVID-19 test.  COVID-19 is <a href="https://www.miamiherald.com/news/coronavirus/article242039576.html">killing black people in South Florida</a> in disproportionate numbers.</b>
-</p>
-
-<div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="estimated-percentage-of-sarscov2-infections" area="/miami-beach/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-    Around 3.1% of the total population of Miami Beach may have been infected with the SARS-CoV-2 virus, based on an estimated population of 91,718.
-    </div>
-  </div>
-</div>
-
-<div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="estimated-number-of-sarscov2-infections" area="/miami-beach/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-      In Miami Beach, we successfully flattened the curve.  But the virus is still simmering.
-    </div>
-  </div>
-</div>
-
-<div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="percent-increase-in-number-of-covid19-cases" area="/miami-beach/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-      Has <a href="/2020/05/16/south-florida-gives-up-on-social-distancing.html">loosening social distancing</a> caused the spread to increase?
-    </div>
-  </div>
-</div>
-
-<div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="estimated-one-in-x-sarscov2-infection-odds" area="/miami-beach/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-    The odds of any given person in Miami Beach having been infected are currently estimated to be around one in 17.  It's even higher in Miami: about one in 7.
-    </div>
-  </div>
-</div>
-
-<div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="estimated-number-of-sarscov2-infections" area="/miami/" %}
-  </div>
-  <div class="headline">
-    <div class="meta">
-      Miami has a larger population and so the curve is smoother.  The conclusion is the same: Miami has flattened the curve but the virus is still simmering.
-    </div>
-  </div>
-</div>
-
 <!--more-->
 
-<!-- <div class="panel">
+<div class="chart panel">
   <div class="banner">
-  {% include current_chart.html chart_type="new-confirmed-covid19-cases-weekly-comparison" area="/miami-beach/" %}
+    {% include current_chart.html
+      chart_type="daily-new-confirmed-covid19-cases-outlook"
+      area="/miami-metropolitan-area/" %}
+    <p>The second wave of the outbreak is now clearly visible in the daily
+      new confirmed case counts.</p>
   </div>
   <div class="headline">
     <div class="meta">
-      The number of new confirmed cases week over week was declining, but now it's starting to flatten out.  Will it start to increase?
+    <h4>Daily New Confirmed Case Counts</h4>
+    <a href="https://en.wikipedia.org/wiki/Miami_metropolitan_area"
+      target="wikipedia">Miami Metropolitan Area</a>
     </div>
   </div>
-</div> -->
+</div>
 
-<div class="panel">
+<div class="chart panel">
   <div class="banner">
-  {% include current_chart.html chart_type="percent-increase-in-number-of-covid19-cases" area="/miami/" %}
+    {% include current_chart.html
+      chart_type="daily-new-confirmed-covid19-cases-outlook"
+      area="/miami-and-miami-beach/" %}
+  </div>
+  <div class="headline">
+    <div class="meta">
+    <h4>Daily New Confirmed Case Counts</h4>
+    Miami & Miami Beach
+    </div>
   </div>
 </div>
 
-<div class="panel">
+<div class="chart panel">
   <div class="banner">
-  {% include current_chart.html chart_type="estimated-percentage-of-sarscov2-infections" area="/miami/" %}
+    {% include current_chart.html
+      chart_type="daily-new-confirmed-covid19-cases-outlook"
+      area="/miami-metropolitan-area-vs-rest-of-florida/" %}
+    <p>The first wave hit the Miami metropolitan area hard, but now there
+      are more cases in the rest of Florida.</p>
   </div>
-</div>
-
-<div class="panel">
-  <div class="banner">
-  {% include current_chart.html chart_type="estimated-one-in-x-sarscov2-infection-odds" area="/miami/" %}
+  <div class="headline">
+    <div class="meta">
+    <h4>Daily New Confirmed Case Counts</h4>
+    <a href="https://en.wikipedia.org/wiki/Miami_metropolitan_area"
+      target="wikipedia">Miami Metropolitan Area</a> vs The Rest of Florida
+    </div>
   </div>
 </div>

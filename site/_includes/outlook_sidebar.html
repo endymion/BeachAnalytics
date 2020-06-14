@@ -1,12 +1,59 @@
-<div class="sidebar">
+<div class="chart sidebar">
   {% assign outlook = site.posts | where: "slug", "south-florida-covid19-outlook" | first %}
 
   <div class="headline">
   <h2><a class="post-link" href="{{ outlook.url }}">South Florida COVID-19 Outlook</a></h2>
-  <div class="date"><code>{{ outlook.last_modified_at | date: "%A %b %-d, %Y" }}</code></div>
   </div>
 
-  {% set_global_variable sidebar_href_override = /south-florida-covid19-outlook.html %}
-  {{ outlook.excerpt }}
-  {% set_global_variable sidebar_href_override =  %}
+  <div class="chart panel">
+    <div class="banner">
+      {% include current_chart.html
+        chart_type="daily-new-confirmed-covid19-cases"
+        area="/miami-metropolitan-area/"
+        href="/south-florida-covid19-outlook.html" %}
+      <p>The second wave of the outbreak is now clearly visible in the daily
+        new confirmed case counts.</p>
+    </div>
+    <div class="headline">
+      <div class="meta">
+      <h4>Daily New Confirmed Case Counts</h4>
+      <a href="https://en.wikipedia.org/wiki/Miami_metropolitan_area"
+        target="wikipedia">Miami Metropolitan Area</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart panel">
+    <div class="banner">
+      {% include current_chart.html
+        chart_type="daily-new-confirmed-covid19-cases"
+        area="/miami-and-miami-beach/"
+        href="/south-florida-covid19-outlook.html" %}
+    </div>
+    <div class="headline">
+      <div class="meta">
+      <h4>Daily New Confirmed Case Counts</h4>
+      Miami & Miami Beach
+      </div>
+    </div>
+  </div>
+
+  <div class="chart panel">
+    <div class="banner">
+      {% include current_chart.html
+        chart_type="daily-new-confirmed-covid19-cases"
+        area="/miami-metropolitan-area-vs-rest-of-florida/"
+        href="/south-florida-covid19-outlook.html" %}
+      <p>The first wave hit the Miami metropolitan area hard, but now there
+        are more cases in the rest of Florida.</p>
+    </div>
+    <div class="headline">
+      <div class="meta">
+      <h4>Daily New Confirmed Case Counts</h4>
+      <a href="https://en.wikipedia.org/wiki/Miami_metropolitan_area"
+        target="wikipedia">Miami Metropolitan Area</a> vs The Rest of Florida
+      </div>
+    </div>
+  </div>
+
 </div>

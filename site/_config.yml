@@ -80,6 +80,16 @@ defaults:
       chart_type: "covid19-dashboard"
       folder: Charts
   - scope:
+      path: "charts/daily-new-confirmed-covid19-cases"
+    values:
+      chart_type: "daily-new-confirmed-covid19-cases"
+      folder: Charts
+  - scope:
+      path: "charts/daily-new-confirmed-covid19-cases-outlook"
+    values:
+      chart_type: "daily-new-confirmed-covid19-cases-outlook"
+      folder: Charts
+  - scope:
       path: "charts/number-of-covid19-cases"
     values:
       chart_type: "number-of-covid19-cases"

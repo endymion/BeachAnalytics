@@ -29,59 +29,6 @@ body {
   }
 }
 
-article {
-  flex: 1 100%;
-}
-.sidebar {
-  flex: 1 100%;
-  .panel {
-    padding: 0 0 2rem 0;
-    .headline {
-      padding-right: $grid-gutter-width/2;
-      .banner {
-        order: 1;
-      }
-      .meta {
-        order: 2;
-      }
-    }
-  }
-  .figure {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  article {
-    flex: 3 65%;
-    padding-right: $grid-gutter-width;
-  }
-  .sidebar {
-    flex: 1 35%;
-    font-size: 0.875rem;
-    h2 {
-      font-size: 1.375rem;
-      margin: 0;
-    }
-  }
-}
-
-.headline {
-  h2 {
-    font-size: 1.375rem;
-    line-height: smaller;
-    margin: 0;
-  }
-  .date {
-    font-size: smaller;
-  }
-  line-height: 1.5rem;
-  p {
-    margin: 0;
-  }
-}
-
-
 .panel {
   // The purpose of this code is to reverse the order of the headline and banner.
   display: flex;
@@ -103,12 +50,126 @@ article {
   }
   .headline {
     flex: 1 100%;
-    height: 100%;
     order: 2;
     padding-left: 0;
     h3 {
       margin: 0.25rem 0 0 0;
     }
+  }
+}
+
+article {
+  flex: 1 100%;
+}
+.sidebar {
+  .headline {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  flex: 1 100%;
+  .panel {
+    margin-bottom: 1rem;
+    .headline {
+      padding-right: $grid-gutter-width/2;
+      .banner {
+        order: 1;
+      }
+      .meta {
+        h2 {
+          margin: 0;
+        }
+        order: 2;
+      }
+    }
+  }
+  .figure {
+    width: 100%;
+  }
+}
+.chart.sidebar {
+  .headline {
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+  display: block;
+  .chart.panel {
+    @include vertical-panel;
+    .headline {
+      order: 1;
+
+      h4 {
+        margin: 0;
+      }
+    }
+    .banner {
+      order: 2;
+      line-height: 150%;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .chart.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    .headline {
+      flex: 1 100%;
+      text-align: center;
+      padding: 0;
+    }
+    .chart.panel {
+      flex: 1 50%;
+      .banner {
+        height: 100%;
+      }
+      .headline {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  article {
+    flex: 3 65%;
+    padding-right: $grid-gutter-width;
+  }
+  .sidebar {
+    flex: 1 35%;
+    font-size: 0.875rem;
+    h2 {
+      font-size: 1.375rem;
+      margin: 0;
+    }
+  }
+  .chart.sidebar {
+    display: block;
+    .headline {
+      text-align: center;
+    }
+    .chart.panel {
+      .headline {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.headline {
+  h2 {
+    font-size: 1.375rem;
+    line-height: smaller;
+    margin: 0;
+  }
+  .date {
+    font-size: smaller;
+  }
+  line-height: 1.5rem;
+  p {
+    margin: 0;
   }
 }
 
@@ -143,15 +204,17 @@ article {
   }
 }
 .sidebar {
-  .banner {
-    flex: 1;
-    order: 2;
-  }
-  .headline {
-    flex: 1;
-    order: 1;
-    padding-right: ($grid-gutter-width / 2);
-    margin-top: 0.25rem;
+  .panel {
+    .banner {
+      flex: 1;
+      order: 2;
+    }
+    .headline {
+      flex: 1;
+      order: 1;
+      padding-right: ($grid-gutter-width / 2);
+      margin-top: 0.25rem;
+    }
   }
 }
 
@@ -236,7 +299,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 1ex 0 1ex 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
@@ -471,7 +534,7 @@ figure img {
 }
 @media (min-width: 1201px) {
   #page-contents figure {
-    width: 75%;
+    width: 600px;
     padding: $grid-gutter-width;
   }
 }
