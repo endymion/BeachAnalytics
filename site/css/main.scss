@@ -92,7 +92,12 @@ article {
 
 .chart.panel {
   .headline {
-    background-color: #fff;
+    .meta {
+      background-color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 0.5rem;
+    }
     margin: 0;
     text-align: center;
     h4 {
@@ -112,6 +117,7 @@ article {
     @include vertical-panel;
     .headline {
       order: 1;
+      padding: 0;
       h4 {
         margin: 0;
       }
@@ -143,12 +149,11 @@ article {
         height: 100%;
         img {
           background-color: #fff;
-          padding-bottom: 0.5rem;
           margin-bottom: 0.5rem;
         }
       }
       .headline {
-        padding: 0.5rem 0 0 0;
+        padding: 0;
         margin: 0;
         height: unset;
       }
@@ -551,6 +556,9 @@ figure img {
   .chart.panel {
     .headline {
       margin: 0;
+      .meta {
+        padding-top: 0.5rem;
+      }
     }
   }
 }
@@ -584,7 +592,7 @@ figure img {
         margin: 0 7.5% 0 7.5%;
       }
       figure {
-        padding: 0;
+        padding: 0 0 0.5rem 0;
         margin-top: 0;
       }
     }
@@ -617,10 +625,12 @@ figure img {
         }
       }
     }
-    .chart.panel {
-      .headline {
-        .meta {
-          width: unset;
+    .sidebar {
+      .chart.panel {
+        .headline {
+          .meta {
+            width: unset;
+          }
         }
       }
     }
