@@ -2282,7 +2282,7 @@ figure img { width: 100%; }
 
 @media (min-width: 993px) { #page-contents figure { width: 85%; padding: 30px; } #page-contents .chart.panel .headline { margin: 0 7.5% 0 7.5%; } }
 
-@media (min-width: 1201px) { #page-contents figure { width: 700px; padding: 30px; } #page-contents .chart.panel .headline { margin: 0; } #page-contents .chart.panel .headline .meta { width: 700px; } }
+@media (min-width: 1201px) { #page-contents figure { width: 700px; padding: 30px; } #page-contents .chart.panel .headline { margin: 0; } #page-contents .chart.panel .headline .meta { width: 700px; } #page-contents .chart.panel .headline .meta { width: unset; } }
 
 #page-contents figure.inset { width: 25%; margin: 0 0 2em 2em; }
 
