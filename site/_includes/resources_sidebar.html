@@ -7,10 +7,10 @@
       <div class="date"><code>{{ resources_page.date | date: "%b %-d, %Y" }}</code></div>
 
       {% assign page = site.pages | where: "slug", "covid19-models" | first %}
-      {% include post_panel.html post=page type="compact" %}
+      {% include post_panel.html post=page type="full_feature" %}
 
       {% assign page = site.pages | where: "slug", "covid19-data-sources" | first %}
-      {% include post_panel.html post=page type="compact" %}
+      {% include post_panel.html post=page type="full_feature" %}
 
     </div>
   </div>

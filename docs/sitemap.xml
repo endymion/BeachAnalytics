@@ -33,12 +33,6 @@
   
   
   <url>
-    <loc>http://0.0.0.0:4000/south-florida-covid19-outlook.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://0.0.0.0:4000/2020/04/29/dont-focus-on-the-center-line.html</loc>
   </url>
   
@@ -380,6 +374,12 @@
   </url>
   
   
+  
+  
+  
+  <url>
+    <loc>http://0.0.0.0:4000/south-florida-covid19-outlook.html</loc>
+  </url>
   
   
   

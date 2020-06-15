@@ -266,6 +266,12 @@ article {
       font-size: 2rem;
     }
 }
+.panel.compact_feature {
+    @include vertical-panel;
+    h2 {
+      font-size: 2rem;
+    }
+}
 .panel.two_up_vertical {
     @include vertical-panel;
     flex: 1 50%;

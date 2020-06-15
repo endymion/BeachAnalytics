@@ -34,8 +34,8 @@ show_meta: false
 <div class="post-list">
   {% assign site_pages = site.pages | where:"featured","true" | sort: "last_modified_at" | reverse %}
 
-  {% assign main_feature = site_pages | first %}
-  {% include post_panel.html post=main_feature type="main_feature" %}
+  {% assign compact_feature = site_pages | first %}
+  {% include post_panel.html post=compact_feature type="compact_feature" %}
 
   {% assign two_up_vertical = site_pages | slice: 1,2 %}
   {% for post in two_up_vertical %}

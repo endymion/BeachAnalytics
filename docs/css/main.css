@@ -2158,6 +2158,16 @@ article { flex: 1 100%; }
 
 .panel.main_feature h2 { font-size: 2rem; }
 
+.panel.compact_feature { flex-wrap: wrap; }
+
+.panel.compact_feature .banner { flex: 1 100%; order: 1; }
+
+.panel.compact_feature .headline { flex: 1 100%; order: 2; padding-left: 0; height: 100%; }
+
+.panel.compact_feature .headline h3 { margin: 0.25rem 0 0 0; }
+
+.panel.compact_feature h2 { font-size: 2rem; }
+
 .panel.two_up_vertical { flex-wrap: wrap; flex: 1 50%; }
 
 .panel.two_up_vertical .banner { flex: 1 100%; order: 1; }

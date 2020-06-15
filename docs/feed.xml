@@ -5,8 +5,8 @@
         <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical visualizations, this theme has all the elements you would need to handle multiple visualizations with both multi-level sidebar navigation, tags, and other documentation features.</description>
         <link>http://0.0.0.0:4000/</link>
         <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 14 Jun 2020 21:06:03 -0400</pubDate>
-        <lastBuildDate>Sun, 14 Jun 2020 21:06:03 -0400</lastBuildDate>
+        <pubDate>Mon, 15 Jun 2020 09:36:01 -0400</pubDate>
+        <lastBuildDate>Mon, 15 Jun 2020 09:36:01 -0400</lastBuildDate>
         <generator>Jekyll v4.0.1</generator>
         
         <item>
@@ -624,124 +624,6 @@ could look even worse for us here.&lt;/p&gt;
         </item>
         
         <item>
-            <title>South Florida COVID-19 Outlook</title>
-            <description>&lt;!--more--&gt;
-
-&lt;div class=&quot;chart panel&quot;&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Miami Metropolitan Area&lt;/h4&gt;
-    Daily New Confirmed Cases
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-    
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-576-8d0920.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-600-8d0920.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-576-8d0920.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-600-8d0920.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area/2020-06-14-600-8d0920.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-    &lt;p&gt;The second wave of the outbreak is now clearly visible in the daily
-      new confirmed case counts.&lt;/p&gt;
-    &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Miami_metropolitan_area&quot; target=&quot;wikipedia&quot;&gt;Miami metropolitan area&lt;/a&gt; includes the urban areas
-      in South Florida, and ranges from Homestead to West Palm Beach.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;chart panel&quot;&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Miami Metropolitan Area vs The Rest of Florida&lt;/h4&gt;
-    Daily New Confirmed Case Counts
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-    
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-576-1923fd.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-600-1923fd.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-576-1923fd.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-600-1923fd.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-metropolitan-area-vs-rest-of-florida/2020-06-14-600-1923fd.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-    &lt;p&gt;The first wave hit the Miami metropolitan area hard, but now there
-      are more cases in the rest of Florida.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;chart panel&quot;&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Miami &amp;amp; Miami Beach&lt;/h4&gt;
-    Daily New Confirmed Case Counts
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-    
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-576-7d988e.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-600-7d988e.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-576-7d988e.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-600-7d988e.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/miami-and-miami-beach/2020-06-14-600-7d988e.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;chart panel&quot;&gt;
-  &lt;div class=&quot;headline&quot;&gt;
-    &lt;div class=&quot;meta&quot;&gt;
-    &lt;h4&gt;Florida, Outside of South Florida&lt;/h4&gt;
-    Daily New Confirmed Cases
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;banner&quot;&gt;
-    
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14.png&quot;&gt;&lt;picture&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-576-b71f63.webp 576w, /generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-600-b71f63.webp 600w&quot; type=&quot;image/webp&quot; /&gt;
-  &lt;source sizes=&quot;(max-width: 768px) calc(25vw - 1.5rem*2), (max-width: 992px) calc(25vw - 1.5rem*2), (max-width: 1200px) calc(25vw - 1.5rem*2), calc(100vw - 1.5rem*2)&quot; srcset=&quot;/generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-576-b71f63.jpg 576w, /generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-600-b71f63.jpg 600w&quot; type=&quot;image/jpeg&quot; /&gt;
-  &lt;img class=&quot;img-fluid&quot; src=&quot;/generated/charts/daily-new-confirmed-covid19-cases/rest-of-florida/2020-06-14-600-b71f63.png&quot; /&gt;
-&lt;/picture&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-
-    &lt;p&gt;This chart shows all new cases with a city identified, where the city is outside of the Miami metropolitan area.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-            <pubDate>Thu, 07 May 2020 00:00:00 -0400</pubDate>
-            <link>http://0.0.0.0:4000/south-florida-covid19-outlook.html</link>
-            <guid isPermaLink="true">http://0.0.0.0:4000/south-florida-covid19-outlook.html</guid>
-            
-            
-        </item>
-        
-        <item>
             <title>Don't focus on the center line</title>
             <description>&lt;p&gt;Don’t treat the center line of the IHME forecast charts as a precise prediction, any more than you would assume that a hurricane will follow the center line on the NHC hurricane forecast cone images.  The forecast is a wide range, not a specific number.&lt;/p&gt;
 
@@ -1143,6 +1025,51 @@ have to wait for him to clean up his code before learning from it.&lt;/p&gt;
             <category>covid19-models</category>
             
             <category>imperial-college-model</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Nearly a third of people in a town near Boston tested positive for antibodies</title>
+            <description>&lt;p&gt;People stopped randomly in public for antibody tests showed a surprising infection proportion.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Researchers in Santa Clara County in California recently found about 2.5% to 4.2% of randomly-selected people tested positive for antibodies.&lt;a class=&quot;citation&quot; href=&quot;#abc:caantibodysurprise&quot;&gt;[1]&lt;/a&gt;  But their methods have been criticized because their sample may have been biased toward people who thought they might have been infected and were seeking a way to be tested.&lt;/p&gt;
+
+&lt;p&gt;A new study in Boston showed an even higher percentage of positive antibody tests, and from a better sample.  &lt;mark&gt;Nearly a third of 200 blood samples taken from people in Chelsea, a town across the river from Boston, tested positive.&lt;/mark&gt;&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:athirdinchelsea&quot;&gt;[2]&lt;/a&gt;  The researchers avoided bias toward people who wanted to be tested, by not announcing the sample collection in advance and randomly walking up to people in a town square and asking them to volunteer.  The volunteers were not offered results.&lt;/p&gt;
+
+&lt;p&gt;Chelsea has been hit hard by the pandemic because of two factors.&lt;a class=&quot;citation&quot; href=&quot;#bostonglobe:whychelsea&quot;&gt;[3]&lt;/a&gt;  It is &lt;mark&gt;one of the most dense places in Massachusetts.  And it's also a working-class neighborhood, with residents working in essential sectors&lt;/mark&gt; like food establishments and engaged with high levels of public interaction like healthcare and personal services.&lt;/p&gt;
+
+&lt;p&gt;Walking up to random people in public with no warning does avoid bias toward people who wanted to be tested.  But it also had the effect of biasing the sample toward people who were walking around in public.&lt;/p&gt;
+
+&lt;p&gt;The big variation between the Santa Clara study and the Chelsea study show that we need many more studies like this to learn how widespread SARS-CoV-2 infections really are.&lt;/p&gt;
+
+&lt;p&gt;Until that starts to happen here, statistical methods are the best way that we have for estimating how widespread the virus is right now.  Here’s the current best estimate, as of this writing:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;center&gt;
+&lt;figure&gt;
+  
+    &lt;img class=&quot;img-fluid&quot; src=&quot;/charts/projected-percentage-of-sarscov2-infections/miami-beach/2020-04-18-B-evening.png&quot; alt=&quot;&quot; style=&quot;max-width: 100%px&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;abc:caantibodysurprise&quot;&gt;1. Ng C, Abdelmalek DM. &lt;b&gt;Antibody research indicates coronavirus may be far more widespread than known&lt;/b&gt;. ABC News; 17-April-2020 &lt;a href=&quot;https://abcnews.go.com/Health/antibody-research-coronavirus-widespread/story?id=70206121&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-17 17:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;bostonglobe:athirdinchelsea&quot;&gt;2. Saltzman J. &lt;b&gt;Nearly a third of 200 blood samples taken in Chelsea show exposure to coronavirus&lt;/b&gt;. The Boston Globe; 17-April-2020 &lt;a href=&quot;https://www.bostonglobe.com/2020/04/17/business/nearly-third-200-blood-samples-taken-chelsea-show-exposure-coronavirus/&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-18 19:20) &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;bostonglobe:whychelsea&quot;&gt;3. DeCosta-Klipa N. &lt;b&gt;Why the city of Chelsea has been so hard hit by coronavirus&lt;/b&gt;. The Boston Globe; 10-April-2020 &lt;a href=&quot;https://www.boston.com/news/local-news/2020/04/10/chelsea-massachusetts-coronavirus&quot;&gt;link&lt;/a&gt; (Accessed 2020-04-18 19:45) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+            <pubDate>Sat, 18 Apr 2020 19:20:00 -0400</pubDate>
+            <link>http://0.0.0.0:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</link>
+            <guid isPermaLink="true">http://0.0.0.0:4000/2020/04/18/nearly-a-third-of-people-in-town-near-boston-have-antibodies.html</guid>
+            
+            <category>how-widespread</category>
             
             
         </item>

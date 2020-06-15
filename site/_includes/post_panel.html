@@ -14,10 +14,14 @@
       <a class="post-link" href="{{ include.post.url }}">
         {% if include.type == "main_feature" %}
           {% picture headline_banner {{ include.post.image_16_9 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% elsif include.type == "compact_feature" %}
+          {% picture headline_banner {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% elsif include.type == "full_feature" %}
+          {% picture headline_banner {{ include.post.image_16_9 }} --alt="{{ page.title }}" --img class="img-fluid" %}
+        {% elsif include.type == "compact" %}
+          {% picture headline_banner {{ include.post.image_16_9 }} s: {{ include.post.image_1_1 }} xs: {{ include.post.image_16_9 }} --alt="{{ page.title }}" --img class="img-fluid" %}
         {% elsif include.type == "two_up_vertical" %}
           {% picture headline_banner {{ include.post.image_16_9 }} l: {{ include.post.image_1_1 }} --alt="{{ page.title }}" --img class="img-fluid" %}
-        {% elsif include.type == "compact" %}
-          {% picture headline_banner {{ include.post.image_16_5 }} s: {{ include.post.image_1_1 }} xs: {{ include.post.image_16_9 }} --alt="{{ page.title }}" --img class="img-fluid" %}
         {% else %}
           {% picture headline_banner {{ include.post.image_1_1 }} {{alternate_width}}: {{ include.post.image_16_5 }} --alt="{{ page.title }}" --img class="img-fluid" %}
         {% endif %}
