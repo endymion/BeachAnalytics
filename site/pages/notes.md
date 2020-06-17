@@ -90,6 +90,10 @@ https://www.apple.com/covid19/mobility
 
 https://www.miamidade.gov/information/library/2020-06-08-new-normal-dashboard.pdf
 
+## Hospital capacity (no historic data)
+
+https://bi.ahca.myflorida.com/t/ABICC/views/Public/ICUBedsCounty?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y&fbclid=IwAR1Z7CsBxHP2GoSi14FDvhWeT2lGKC3yDKT9lvWp2_r8gaG5Y-CcfHWvwwE
+
 ## mobility
 
 https://www.medrxiv.org/content/10.1101/2020.04.16.20068163v2
@@ -147,3 +151,7 @@ https://africacdc.org/covid-19/
 https://www.dailymail.co.uk/health/article-8341213/Canadian-scientists-testing-marijuana-compound-prevent-coronavirus-infection.html?ito=facebook_share_fbia-top&fbclid=IwAR3i8W-CPGf5ZS4oaq7mg6PB5VoKrCfMgkKn1-YbGXlKIqlmXJ6ruigHqcA
 
 https://www.preprints.org/manuscript/202004.0315/v1
+
+## Death classification
+
+https://covid19science.blogspot.com/2020/06/the-cheating-is-getting-worse.html?fbclid=IwAR28BXXEyJCVSCfEDAKeARTCEbPB3nwL7oAxaf-orx_XpQTl6iY5Z-HnKtc
