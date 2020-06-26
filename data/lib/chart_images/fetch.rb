@@ -10,8 +10,8 @@ module Charts
       # small size on a web page.
       {
         type: 'daily-new-confirmed-covid19-cases',
-        area: 'miami-metropolitan-area',
-        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=832042469&format=image'
+        area: 'miami-dade-county',
+        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTcEvIBSFiCY3KMYq6QlF1uXtEgMvj2x9tB9IUOwoWgBL47QhpSbES6vtR-kCek1Efpv_LB4WSmCNvB/pubchart?oid=1841932564&format=image'
       },
       {
         type: 'daily-new-confirmed-covid19-cases',
@@ -33,22 +33,17 @@ module Charts
       # These are designed to be published at a larger size.
       {
         type: 'daily-new-confirmed-covid19-cases-outlook',
-        area: 'miami-metropolitan-area',
-        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=1624042143&format=image'
+        area: 'miami-dade-county',
+        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTcEvIBSFiCY3KMYq6QlF1uXtEgMvj2x9tB9IUOwoWgBL47QhpSbES6vtR-kCek1Efpv_LB4WSmCNvB/pubchart?oid=133006384&format=image'
       },
       {
         type: 'daily-new-confirmed-covid19-cases-outlook',
-        area: 'miami-and-miami-beach',
+        area: 'south-florida',
         url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=375608151&format=image'
       },
       {
         type: 'daily-new-confirmed-covid19-cases-outlook',
-        area: 'rest-of-florida',
-        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=1578342545&format=image'
-      },
-      {
-        type: 'daily-new-confirmed-covid19-cases-outlook',
-        area: 'miami-metropolitan-area-vs-rest-of-florida',
+        area: 'south-florida-vs-rest-of-florida',
         url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQwUar9_gBJLUXC9WrrwcF6gFXvLqqhoRjh2sPTo43Dvh8nCjX-ip7gZeDFCqseZ9dLXpVNi1pqz3OZ/pubchart?oid=2096722478&format=image'
       }
     ]

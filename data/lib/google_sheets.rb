@@ -64,7 +64,7 @@ class GoogleSheets
       # Write the header.
       # write_values(
       #   spreadsheet_id: spreadsheet_id,
-      #   range_name: "#{sheet_name}!A1:A1",
+      #   range_name: "'#{sheet_name}'!A1:A1",
       #   values: [['Date']] )
     rescue Google::Apis::ClientError => e
       # Abort if the sheet already exists.
@@ -81,7 +81,7 @@ class GoogleSheets
     # google_sheets_values = city_data.
     #   map{|city| [city[:city], city[:county], city[:count]]}
 
-    # range_name = "#{sheet_name}!A2:C#{google_sheets_values.length+1}"
+    # range_name = "'#{sheet_name}'!A2:C#{google_sheets_values.length+1}"
 
     date_row = find_or_create_row_for_date(
       spreadsheet_id: spreadsheet_id,
@@ -107,8 +107,146 @@ class GoogleSheets
     #exit
   end
 
-  def find_or_create_row_for_date(spreadsheet_id:, date:)
-    result = @@service.get_spreadsheet_values(spreadsheet_id, 'data!A:A',
+  def write_county_data(spreadsheet_id:, date:, testing_data:)
+    positive_sheet_name = 'positive'
+    puts 'Positive sheet name:'.colorize(color: :white, background: :blue) + ' ' +
+      positive_sheet_name
+    find_or_create_sheet(spreadsheet_id:spreadsheet_id, sheet_name:positive_sheet_name)
+    find_or_create_column_for_header(
+      spreadsheet_id: spreadsheet_id,
+      sheet_name: positive_sheet_name,
+      header: 'date'
+    )
+
+    date_row = find_or_create_row_for_date(
+      spreadsheet_id: spreadsheet_id,
+      sheet_name: positive_sheet_name,
+      date: date)
+
+    testing_data.
+      sort_by{|county| county[:county] }.each do |county|
+      county_column_name = find_or_create_column_for_header(
+        spreadsheet_id: spreadsheet_id,
+        sheet_name: positive_sheet_name,
+        header: county[:county]
+      )
+
+      cell_name = "#{county_column_name}#{date_row}"
+      puts ' Writing count: '.colorize(color: :white, background: :blue) + ' ' +
+        county[:positive].to_s.colorize(color: :black, background: :light_blue) +
+        ' to cell ' +
+        cell_name.to_s.colorize(color: :black, background: :light_blue) +
+        ' for ' +
+        county[:county].to_s.colorize(color: :black, background: :light_blue)
+
+      write_values(
+        spreadsheet_id: spreadsheet_id,
+        range_name: "'#{positive_sheet_name}'!#{cell_name}:#{cell_name}",
+        values: [[county[:positive]]] )
+
+    end
+
+    total_tested_sheet_name = 'total tested'
+    puts 'Total tested sheet name:'.colorize(color: :black, background: :light_blue) + ' ' +
+      total_tested_sheet_name
+    find_or_create_sheet(spreadsheet_id:spreadsheet_id, sheet_name:total_tested_sheet_name)
+    find_or_create_column_for_header(
+      spreadsheet_id: spreadsheet_id,
+      sheet_name: total_tested_sheet_name,
+      header: 'date'
+    )
+
+    date_row = find_or_create_row_for_date(
+      spreadsheet_id: spreadsheet_id,
+      sheet_name: total_tested_sheet_name,
+      date: date)
+
+    testing_data.
+      sort_by{|county| county[:county] }.each do |county|
+      county_column_name = find_or_create_column_for_header(
+        spreadsheet_id: spreadsheet_id,
+        sheet_name: total_tested_sheet_name,
+        header: county[:county]
+      )
+
+      cell_name = "#{county_column_name}#{date_row}"
+      puts ' Writing count: '.colorize(color: :white, background: :blue) + ' ' +
+        county[:total_tested].to_s.colorize(color: :black, background: :light_blue) +
+        ' to cell ' +
+        cell_name.to_s.colorize(color: :black, background: :light_blue) +
+        ' for ' +
+        county[:county].to_s.colorize(color: :black, background: :light_blue)
+      write_values(
+        spreadsheet_id: spreadsheet_id,
+        range_name: "'#{total_tested_sheet_name}'!#{cell_name}:#{cell_name}",
+        values: [[county[:total_tested]]] )
+    end
+
+    percent_positive_sheet_name = 'percent positive'
+    puts 'Percent positive sheet name:'.colorize(color: :white, background: :blue) + ' ' +
+      percent_positive_sheet_name
+    find_or_create_sheet(spreadsheet_id:spreadsheet_id, sheet_name:percent_positive_sheet_name)
+    find_or_create_column_for_header(
+      spreadsheet_id: spreadsheet_id,
+      sheet_name: percent_positive_sheet_name,
+      header: 'date'
+    )
+
+    date_row = find_or_create_row_for_date(
+      spreadsheet_id: spreadsheet_id,
+      sheet_name: percent_positive_sheet_name,
+      date: date)
+
+    testing_data.
+      sort_by{|county| county[:county] }.each do |county|
+      county_column_name = find_or_create_column_for_header(
+        spreadsheet_id: spreadsheet_id,
+        sheet_name: percent_positive_sheet_name,
+        header: county[:county]
+      )
+
+      cell_name = "#{county_column_name}#{date_row}"
+      puts ' Writing count: '.colorize(color: :white, background: :blue) + ' ' +
+        county[:percent_positive].to_s.colorize(color: :black, background: :light_blue) +
+        ' to cell ' +
+        cell_name.to_s.colorize(color: :black, background: :light_blue) +
+        ' for ' +
+        county[:county].to_s.colorize(color: :black, background: :light_blue)
+
+      write_values(
+        spreadsheet_id: spreadsheet_id,
+        range_name: "'#{percent_positive_sheet_name}'!#{cell_name}:#{cell_name}",
+        values: [[county[:percent_positive]]] )
+    end
+
+  end
+
+  def find_or_create_sheet(spreadsheet_id:, sheet_name:)
+    begin
+      puts ' Adding data sheet: '.colorize(color: :white, background: :blue) +
+        ' ' + sheet_name.to_s.colorize(color: :black, background: :light_blue)
+
+      add_sheet(
+        spreadsheet_id:spreadsheet_id,
+        sheet_name: sheet_name,
+        column_count: 1 )
+
+      # Write the header.
+      # write_values(
+      #   spreadsheet_id: spreadsheet_id,
+      #   range_name: "'#{sheet_name}'!A1:A1",
+      #   values: [['Date']] )
+    rescue Google::Apis::ClientError => e
+      # Abort if the sheet already exists.
+      throw e unless e.message =~ /A sheet with the name.*already exists/
+      puts '[cached]'.green + ' sheet already exists -- skipping.'
+    end
+  end
+
+  def find_or_create_row_for_date(spreadsheet_id:, sheet_name:'data', date:)
+    result = @@service.get_spreadsheet_values(
+      spreadsheet_id,
+      "'#{sheet_name}'!A:A",
       value_render_option:'UNFORMATTED_VALUE')
     sleep 1 # API rate limiting
     unless result.values.nil?
@@ -130,7 +268,9 @@ class GoogleSheets
     # Create a new row and return the range number for the row.
     puts " Creating row for date: #{date.to_s} ".
       colorize(color: :white, background: :blue)
-    response = @@service.append_spreadsheet_value(spreadsheet_id, 'data!A:A',
+    response = @@service.append_spreadsheet_value(
+      spreadsheet_id,
+      "'#{sheet_name}'!A:A",
       {
         major_dimension: "COLUMNS",
         values: [
@@ -144,13 +284,16 @@ class GoogleSheets
     response.updates.updated_range.match(/\w(\d+)$/)[1]
   end
 
-  def find_or_create_column_for_header(spreadsheet_id:, header:)
+  def find_or_create_column_for_header(spreadsheet_id:, sheet_name:'data', header:)
     # Check the cache first for the column name.
-    unless (column_name = @@column_names[header]).nil?
+    unless @@column_names[sheet_name].nil? ||
+      (column_name = @@column_names[sheet_name][header]).nil?
       return column_name
     end
 
-    result = @@service.get_spreadsheet_values(spreadsheet_id, 'data!1:1',
+    result = @@service.get_spreadsheet_values(
+      spreadsheet_id,
+      "'#{sheet_name}'!1:1",
       value_render_option:'UNFORMATTED_VALUE')
     sleep 1 # API rate limiting
 
@@ -165,7 +308,8 @@ class GoogleSheets
           column_name = index_to_column_name(i + 1)
           puts '[exists]'.green +
             " column for #{header} already exists: #{column_name}"
-          @@column_names[header] = column_name
+          @@column_names[sheet_name] = {} if @@column_names[sheet_name].nil?
+          @@column_names[sheet_name][header] = column_name
           return column_name
         end
 
@@ -182,7 +326,7 @@ class GoogleSheets
     # The Google Sheets API documentation is some kind of cruel practical joke.
     response = @@service.get_spreadsheet(spreadsheet_id)
     data_sheet = response.sheets.
-      select{|sheet| sheet.properties.title.eql? 'data'}.first
+      select{|sheet| sheet.properties.title.eql? sheet_name}.first
     sheet_id = data_sheet.properties.sheet_id
     sleep 1 # API rate limiting
 
@@ -210,13 +354,14 @@ class GoogleSheets
     end
 
     response = @@service.update_spreadsheet_value(spreadsheet_id,
-      ["data!#{new_column_name}:#{new_column_name}"],
+      ["'#{sheet_name}'!#{new_column_name}:#{new_column_name}"],
       Google::Apis::SheetsV4::ValueRange.new(values:[[header]]),
       value_input_option:'RAW'
     )
     sleep 1 # API rate limiting
 
-    @@column_names[header] = new_column_name
+    @@column_names[sheet_name] = {} if @@column_names[sheet_name].nil?
+    @@column_names[sheet_name][header] = new_column_name
     new_column_name
   end
 
@@ -227,19 +372,44 @@ class GoogleSheets
   end
 
   def write_values(spreadsheet_id:, range_name:, values:)
+    puts ' Writing: '.colorize(color: :white, background: :blue) + ' ' +
+      values.to_s.colorize(color: :black, background: :light_blue) +
+      ' to range ' +
+      range_name.to_s.colorize(color: :black, background: :light_blue)
     value_input_option = 'USER_ENTERED'
     value_range_object =
       Google::Apis::SheetsV4::ValueRange.new(
         range:  range_name,
         values: values)
-    result = @@service.update_spreadsheet_value(
-      spreadsheet_id,
-      range_name,
-      value_range_object,
-      value_input_option: value_input_option)
-    puts " #{result.updated_cells} cell#{'s' if result.updated_cells > 1} updated. ".
-      colorize(color: :white, background: :green)
-    sleep 2 # API rate limiting
+
+    retries = 0
+    max_retries = 10
+    begin
+
+      result = @@service.update_spreadsheet_value(
+        spreadsheet_id,
+        range_name,
+        value_range_object,
+        value_input_option: value_input_option)
+      puts " #{result.updated_cells} cell#{'s' if result.updated_cells > 1} updated. ".
+        colorize(color: :white, background: :green)
+      sleep 1.25 # API rate limiting
+
+    # Retry with exponential backoff.
+    rescue Error => e
+      if retries <= max_retries
+        retries += 1
+
+        seconds = 2 ** retries
+        puts '[OOPS] '.red +
+          "problem #{e} backing off for #{seconds} seconds".gray
+
+        sleep seconds
+        retry
+      else
+        raise "Giving up on the server after #{retries} retries. Got error: #{e.message}"
+      end
+    end
   end
 
   def add_sheet(spreadsheet_id:nil, sheet_name:nil, column_count:10)

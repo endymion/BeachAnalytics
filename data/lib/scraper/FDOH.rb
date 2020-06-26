@@ -7,7 +7,6 @@ require 'open-uri'
 require 'nokogiri'
 require 'chronic'
 require 'fileutils'
-require 'pdf-reader'
 
 ##########
 # A web scraper for automatically fetching data from the
@@ -15,9 +14,16 @@ require 'pdf-reader'
 # at: http://www.floridahealth.gov
 
 module Scraper
+
   class FDOH
 
     @@first_page_only = false
+
+    @@dates_processed_already = {}
+
+    # Set to dates like '2020-06-21' to process archives.
+    @@process_archives_on_or_before = '2020-06-24'
+    @@process_archives_on_or_after = nil
 
     def news_url
       'http://www.floridahealth.gov/newsroom/all-articles.html'
@@ -35,6 +41,23 @@ module Scraper
 
     # Get a list of URLs for the pages at FDOH that contain the data updates.
     def walk_update_urls(url=nil)
+      # Look at the PDF on the main 'today' URL, rather than the archivews.
+      unless(@@process_archives_on_or_before || @@process_archives_on_or_after)
+        current_report_url =
+          'http://ww11.doh.state.fl.us/comm/_partners/action/' +
+            'report_archive/state/state_reports_latest.pdf'
+
+        puts ' Checking current report PDF URL: '.
+          colorize(color: :black, background: :light_blue) + ' ' +
+          current_report_url.to_s
+
+        process_data_pdf(
+          update_url: nil, # Don't cache it.
+          data_url: current_report_url)
+
+        return
+      end
+
       # Start on the known news URL page.
       # Or load a different page, as we page through everything.
       url ||= news_url
@@ -78,8 +101,20 @@ module Scraper
     # There is an HTML page for each update post from FDOH.
     # This method tries to locate the URL to the raw data PDF file in that page.
     def find_data_url(url)
-      # Fetch the URL.
-      html = open(url).read
+      # Fetch the URL if necessary and cache it.
+      cache_key = url.path.gsub(/\//,'_').gsub(/^\_newsroom\_/,'')
+      html = Cache.load(File.join(['fdoh/update_html', cache_key])) do
+        puts " Fetching: ".colorize(color: :white, background: :blue) +
+          ' ' + cache_key
+        puts " From: ".colorize(color: :white, background: :blue) +
+          ' ' + url.to_s
+        begin
+          open(url).read
+        rescue => error
+          puts "ERROR: #{error.message}"
+          return
+        end
+      end
 
       doc = Nokogiri::HTML(html)
 
@@ -96,17 +131,30 @@ module Scraper
     end
 
     def process_data_pdf(update_url:, data_url:)
-      filename = URI(data_url).path.split(/\//).last
+      filename =
+        if update_url
+          URI(data_url).path.split(/\//).last
+        else
+          # Don't cache the file if there is no update URL.
+          # (For checking the 'current' URL.  It doesn't change from day to day.)
+          cache_key_for_current_pdf = 'current'
+          cache_file =
+            Cache.cache_filename(cache_key(filename: cache_key_for_current_pdf))
+          extracted_text_file = cache_file + '.txt'
+          File.delete cache_file if File.exist?(cache_file)
+          File.delete extracted_text_file if File.exist?(extracted_text_file)
+          cache_key_for_current_pdf
+        end
+
       puts ' Data file: '.
         colorize(color: :black, background: :light_blue) + ' ' +
         filename
 
-      # For stopping at specific files when they're a problem.
-      # return unless filename.eql? 'covid-19-data---daily-report-2020-03-22-0951.pdf'
-
-      cache_filename = Cache.file(File.join('fdoh/pdf/' + filename)) do
-        puts " Fetching from: #{cache_filename} ".
-          colorize(color: :white, background: :blue)
+      Cache.file(File.join(['fdoh/pdf', filename])) do
+        puts " Fetching: ".colorize(color: :white, background: :blue) +
+          ' ' + filename
+        puts " From: ".colorize(color: :white, background: :blue) +
+          ' ' + data_url
         begin
           open(data_url).read
         rescue => error
@@ -115,84 +163,212 @@ module Scraper
         end
       end
 
-      # process_daily_number_of_tests_data(
-      #   filename: filename,
-      #   cache_filename: cache_filename
-      # )
-      process_city_by_city_new_cases_data(
-        filename: filename,
-        cache_filename: cache_filename
-      )
+      extract_deaths_lines(filename: filename)
+      # process_daily_number_of_tests_data(filename: filename)
+      # process_city_by_city_new_cases_data(filename: filename)
     end
 
-    def process_daily_number_of_tests_data(filename:, cache_filename:)
-      stop_phrase = "Number and percent of positive labs"
-      extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
-        puts (' Exctracting number of people tested per day text from PDF... ').
-          colorize(color: :white, background: :blue)
-        reader = PDF::Reader.new(cache_filename)
-        extracted_text = ''
-        reader.pages.first(50).each do |page|
-          extracted_text << page.text
-          # We don't need anything below this string.
-          break if page.text.include?(stop_phrase)
+    def extract_deaths_lines(filename:)
+      stop_phrase =
+        'Coronavirus: testing by laboratory'
+
+      extracted_text = extract_text_from_pdf(filename: filename)
+
+      date_text = extract_date_from_pdf_text(text: extracted_text)
+      date = Chronic.parse(date_text).to_date
+
+      if @@process_archives_on_or_before
+        # This one only works in archive mode.
+        unless date <= Date.parse(@@process_archives_on_or_before)
+          puts '[skipping] '.green +
+            "date isn't before #{@@process_archives_on_or_after}.".gray
+          return
         end
       end
 
-      # Now narrow it down farther.
-      match = extracted_text.match(
-        /Number of people tested per day(.*)(Percent positivity for new cases|Number and percent of positive labs)/m
+      # Narrow in on the line list of deaths.
+      parts = extracted_text.split(
+        /Coronavirus\: line list of deaths/,
       )
-      extracted_text = match[1]
+      parts.shift # Discard everything before the first instance of that header.
+      deaths_extracted_text = parts.flatten.join("\n")
 
-      # Narrow it even farther.
-      match = extracted_text.match(
-        /received\.\s*\n(\s+\d[^\(]*)\s+Date\(/m
+      # Trim off the line list of cases.
+      parts = deaths_extracted_text.split(
+        /Coronavirus\: line list of cases/,
       )
-      extracted_text = match[1]
+      deaths_extracted_text = parts.shift # Keep everything before that.
 
-      # Trim off the last few lines.
-      match = extracted_text.match(
-        /^(.*\d)\n+$/m
+      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      # puts extracted_text.red
+      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+
+      # Pull out the data with a regular expression.
+      death_lines =
+        "County, Age, Gender, Travel related, Travel detail and contact with a convirmed case, Jurisdiction, Date case counted\n"
+      deaths_extracted_text.split("\n").each do |line|
+        puts line
+        if match = line.match(/^[\d\,]+\s+(\w+)\s+(\d+)\s+(\w+)\s+(\w+)\s+(.*)\s+(FL resident)\s+([\d\/]+)\s*(\w*)$/)
+          this_line = [
+              match[1].strip,
+              match[2].strip,
+              match[3].strip,
+              match[4].strip,
+              match[5].strip.gsub(/\s+/,' '),
+              match[6].strip,
+              match[7].strip
+            ].join(', ')
+          puts "match: #{this_line}"
+          death_lines << this_line + "\n"
+        else
+          puts "No match: #{line}"
+        end
+      end
+
+      puts '--- DEATHS TEXT ---'.colorize(color: :black, background: :red)
+      puts death_lines.red
+      puts '--- DEATHS TEXT ---'.colorize(color: :black, background: :red)
+
+      directory = "/Users/work/projects/line-lists--florida-department-of-health/#{date.to_s}"
+      Dir.mkdir(directory) unless Dir.exist?(directory)
+      File.open(
+        File.join(directory, 'line-list-of-deaths.txt'),
+        'w') { |file| file.write(death_lines) }
+
+      #####
+
+      # Narrow in on the line list of deaths.
+      parts = extracted_text.split(
+        /Coronavirus\: line list of cases/,
       )
-      extracted_text = match[1]
+      parts.shift # Discard everything before the first instance of that header.
+      cases_extracted_text = parts.flatten.join("\n")
+
+      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+      # puts extracted_text.red
+      # puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+
+      # Pull out the data with a regular expression.
+      cases_lines =
+        "County, Age, Gender, Travel related, Travel detail and contact with a convirmed case, Jurisdiction, Date case counted\n"
+      cases_extracted_text.split("\n").each do |line|
+        puts line
+        if match = line.match(/^[\d\,]+\s+(\w+)\s+(\d+)\s+(\w+)\s+(\w+)\s+(.*)\s+(FL resident)\s+([\d\/]+)\s*(\w*)$/)
+          this_line = [
+              match[1].strip,
+              match[2].strip,
+              match[3].strip,
+              match[4].strip,
+              match[5].strip.gsub(/\s+/,' '),
+              match[6].strip,
+              match[7].strip
+            ].join(', ')
+          puts "match: #{this_line}"
+          cases_lines << this_line + "\n"
+        else
+          puts "No match: #{line}"
+        end
+      end
+
+      puts '--- CASES TEXT ---'.colorize(color: :black, background: :red)
+      puts cases_lines.red
+      puts '--- CASES TEXT ---'.colorize(color: :black, background: :red)
+
+      directory = "/Users/work/projects/line-lists--florida-department-of-health/#{date.to_s}"
+      Dir.mkdir(directory) unless Dir.exist?(directory)
+      File.open(
+        File.join(directory, 'line-list-of-cases.txt'),
+        'w') { |file| file.write(cases_lines) }
+
+    end
+
+    def process_daily_number_of_tests_data(filename:)
+      stop_phrase =
+        'Coronavirus: testing by laboratory'
+
+      extracted_text = extract_text_from_pdf(filename: filename)
+
+      date_text = extract_date_from_pdf_text(text: extracted_text)
+      date = Chronic.parse(date_text).to_date
+
+      # For skipping recent days and starting at a past date.
+      if @@process_archives_on_or_after
+        unless date >= Date.parse(@@process_archives_on_or_after)
+          puts '[skipping] '.green +
+            "date is before #{@@process_archives_on_or_after}.".gray
+          return
+        end
+      elsif @@process_archives_on_or_before
+        unless date <= Date.parse(@@process_archives_on_or_before)
+          puts '[skipping] '.green +
+            "date is before #{@@process_archives_on_or_after}.".gray
+          return
+        end
+      else
+        unless date.eql? Date.today
+          puts '[skipping] '.green +
+            "date is not today.".gray
+          return
+        end
+      end
+
+      # Only process the latest report from each date.
+      if @@dates_processed_already[:testing].nil?
+        @@dates_processed_already[:testing] = {}
+      end
+      if @@dates_processed_already[:testing][date]
+        puts '[skipping] '.green +
+          "later report for #{date_text} already processed".gray
+        return
+      end
+      @@dates_processed_already[:testing][date] = true
+
+      # Extract the number of cases per city.
+      extracted_text = extracted_text.string_between(
+        'Coronavirus: All persons with tests reported',
+        stop_phrase
+      )
 
       puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
       puts extracted_text.red
       puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
+
+      # Pull out the data with a regular expression.
+      testing_data = []
+      unless extracted_text.nil?
+        extracted_text.split("\n").each do |line|
+          # if line =~ /([\D\s\.]+\b)[\s\d]+([\d\,]+)\s+([\d\,]+)\s+([\d\,]+\$)\s+([\d\,]+)/
+          if line =~ /^([\D\s\.]+\b)[\s\d\,]+[\d\,]+\s+([\d\,]+)\s+([\d\,]+\%)\s+([\d\,]+)/
+            testing_data <<
+              {
+                county: $1.strip,
+                positive: $2.strip,
+                percent_positive: $3.strip,
+                total_tested: $4.strip
+              }
+          end
+        end
+      end
+
+      puts ' Testing data: '.colorize(color: :black, background: :light_blue)
+      ap testing_data
+
+      GoogleSheets.new.write_county_data(
+        spreadsheet_id: ENV['FDOH_TESTING_DATA_SPREADSHEET_ID'],
+        date: date,
+        testing_data: testing_data)
     end
 
-    def process_city_by_city_new_cases_data(filename:, cache_filename:)
+    def process_city_by_city_new_cases_data(filename:)
       stop_phrase =
         'Statewide emergency department (ED)'
 
-      extracted_text = Cache.load(File.join('fdoh/pdf/' + filename + '.txt')) do
-        puts (' Exctracting city-by-city new cases text from PDF... ').
-          colorize(color: :white, background: :blue)
-        reader = PDF::Reader.new(cache_filename)
-        extracted_text = ''
-        reader.pages.first(50).each do |page|
-          extracted_text << page.text
-          # We don't need anything below this string.
-          break if page.text.include?(stop_phrase)
-        end
-        extracted_text
-      end
+      extracted_text = extract_text_from_pdf(filename: filename)
 
-      # Extract the report date.
-      date = extracted_text.string_between('Data verified as of', 'at')
-      # For less-standard date headers in March 24 and older.
-      date = extracted_text.string_between('Data as of', 'at') if date.nil?
-      date = extracted_text.string_between('investigation, and cases',
-        'at') if date.nil?
-      date = extracted_text.string_between('830 cases', 'at') if date.nil?
-      date.strip!
-      puts ' Date: '.colorize(color: :black, background: :light_blue) +
-        '          ' +
-        date.colorize(color: :white, background: :green)
+      date = extract_date_from_pdf_text(text: extracted_text)
 
       # For skipping recent days and starting at a past date.
-      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-14')
+      return unless Chronic.parse(date).to_date >= Date.parse('2020-06-19')
 
       # Extract the count for Florida.
       florida_count = extracted_text.string_between(
@@ -230,12 +406,71 @@ module Scraper
 
       GoogleSheets.new.write_city_data(
         spreadsheet_id: ENV['FDOH_BY_CITY_SPREADSHEET_ID'],
-        date: Chronic.parse(date).to_date,
+        date: date,
         city_data: city_data)
 
     end
 
+    def extract_text_from_pdf(filename:)
+      txt_cache_filename = cache_key(filename: filename) + '.txt'
+
+      puts ' Extracted text file: '.
+        colorize(color: :black, background: :light_blue) + ' ' +
+        txt_cache_filename
+
+      Cache.generate(txt_cache_filename) do
+        puts (' Exctracting text from PDF... ').
+          colorize(color: :white, background: :blue)
+        command = 'pdftotext -layout ' +
+          Cache.cache_filename(cache_key(filename: filename))
+        puts (' command: ').
+          colorize(color: :white, background: :blue) + ' ' + command
+        system(command)
+      end
+
+      # Returns a string, not a filename.
+      File.read(Cache.cache_filename(txt_cache_filename))
+    end
+
+    def extract_date_from_pdf_text(text:)
+      # Extract the report date.
+      date = text.string_between('verified as of', 'at')
+      # For less-standard date headers in March 24 and older.
+      date = text.string_between('Data as of', 'at') if date.nil?
+      date = text.string_between('investigation, and cases',
+        'at') if date.nil?
+      date = text.string_between('830 cases', 'at') if date.nil?
+      date.strip!
+
+      puts ' Date: '.colorize(color: :black, background: :light_blue) +
+        '          ' +
+        date.colorize(color: :white, background: :green)
+
+      date
+    end
+
+    def cache_key(filename:)
+      File.join(['fdoh/pdf', filename])
+    end
+
   end
+
+  class BoundingBoxHTMLParser < Nokogiri::XML::SAX::Document
+    def start_element(name, attrs = [])
+      puts "name".colorize(color: :white, background: :blue) + name
+      puts "attrs".colorize(color: :white, background: :blue)
+      ap name
+    end
+
+    def characters(string)
+      # Any characters between the start and end element expected as a string
+    end
+
+    def end_element(name)
+      # Given the name of an element once its closing tag is reached
+    end
+  end
+
 end
 
 class String
@@ -253,4 +488,5 @@ class String
     # after it.
     array_split_by_first_marker.join.split(marker2).first
   end
+
 end

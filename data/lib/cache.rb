@@ -16,13 +16,29 @@ class Cache
 
   # Loads a value from a cached file.
   # The key must be a valid Unix path.
+  # Returns the contents of the file as a string.
   def self.load key
     unless File.exist? cache_filename(key)
+      puts '[not cached] '.red + key.gray
       value = yield
       File.open(cache_filename(key), "wb") do |file|
         file.write(value)
       end
       value
+    else
+      puts '[cached] '.green + key.gray
+      File.read cache_filename(key)
+    end
+  end
+
+  # Generates a cached file using the block passed.
+  # The key must be a valid Unix path.
+  # Returns nothing.  You have to get the data yourself.
+  # Does nothing if the file already exists.
+  def self.generate key
+    unless File.exist? cache_filename(key)
+      puts '[generating] '.red + key.gray
+      value = yield
     else
       puts '[cached] '.green + key.gray
       File.read cache_filename(key)
