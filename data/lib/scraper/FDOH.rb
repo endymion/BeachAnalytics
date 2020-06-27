@@ -21,9 +21,9 @@ module Scraper
 
     @@dates_processed_already = {}
 
-    # Set to dates like '2020-06-21' to process archives.
-    @@process_archives_on_or_before = '2020-06-27'
-    @@process_archives_on_or_after = nil
+    def initialize(options)
+      @options = options
+    end
 
     def news_url
       'http://www.floridahealth.gov/newsroom/all-articles.html'
@@ -31,18 +31,14 @@ module Scraper
 
     # Update the Google Sheets spreadsheet that stores the raw data, from the
     # latest updates at the FDOH web site.
-    def update
+    def scrape
       puts (' Updating raw data from the ' +
         'Florida Department of Health ').
         colorize(color: :white, background: :blue)
 
-      walk_update_urls
-    end
-
-    # Get a list of URLs for the pages at FDOH that contain the data updates.
-    def walk_update_urls(url=nil)
-      # Look at the PDF on the main 'today' URL, rather than the archivews.
-      unless(@@process_archives_on_or_before || @@process_archives_on_or_after)
+      if @options[:before] || @options[:after]
+        walk_update_urls
+      else
         current_report_url =
           'http://ww11.doh.state.fl.us/comm/_partners/action/' +
             'report_archive/state/state_reports_latest.pdf'
@@ -54,9 +50,11 @@ module Scraper
         process_data_pdf(
           update_url: nil, # Don't cache it.
           data_url: current_report_url)
-
-        return
       end
+    end
+
+    # Get a list of URLs for the pages at FDOH that contain the data updates.
+    def walk_update_urls(url=nil)
 
       # Start on the known news URL page.
       # Or load a different page, as we page through everything.
@@ -177,11 +175,11 @@ module Scraper
       date_text = extract_date_from_pdf_text(text: extracted_text)
       date = Chronic.parse(date_text).to_date
 
-      if @@process_archives_on_or_before
+      if @options[:before]
         # This one only works in archive mode.
-        unless date <= Date.parse(@@process_archives_on_or_before)
+        unless date <= Date.parse(@options[:before])
           puts '[skipping] '.green +
-            "date isn't before #{@@process_archives_on_or_after}.".gray
+            "date isn't before #{@options[:before]}.".gray
           return
         end
       end
@@ -292,16 +290,16 @@ module Scraper
       date = Chronic.parse(date_text).to_date
 
       # For skipping recent days and starting at a past date.
-      if @@process_archives_on_or_after
-        unless date >= Date.parse(@@process_archives_on_or_after)
+      if @options[:after]
+        unless date >= Date.parse(@options[:after])
           puts '[skipping] '.green +
-            "date is before #{@@process_archives_on_or_after}.".gray
+            "date is before #{@options[:after]}.".gray
           return
         end
-      elsif @@process_archives_on_or_before
-        unless date <= Date.parse(@@process_archives_on_or_before)
+      elsif @options[:before]
+        unless date <= Date.parse(@options[:before])
           puts '[skipping] '.green +
-            "date is before #{@@process_archives_on_or_after}.".gray
+            "date is before #{@options[:before]}.".gray
           return
         end
       else

@@ -13,6 +13,14 @@ module DB
     Sequel.sqlite(self.filename)
   end
 
+  def self.check
+    unless self.connection.table_exists?(:dim_metrics)
+      puts ' ERROR: No fact_values table '.on_light_red
+      puts 'Please run: ' + 'ruby worker.rb db migrate'.on_light_cyan
+      exit
+    end
+  end
+
   class Sequel::Model
     def self.record(name:nil)
       # find...
@@ -111,6 +119,7 @@ module DB
       end
 
     end
+
   end
 
 end
