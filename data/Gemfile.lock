@@ -35,8 +35,11 @@ GEM
     memoist (0.16.2)
     method_source (1.0.0)
     mini_mime (1.0.2)
+    mini_portile2 (2.4.0)
     multi_json (1.14.1)
     multipart-post (2.1.1)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     os (1.1.0)
     pdf-reader (2.4.0)
       Ascii85 (~> 1.0.0)
@@ -55,11 +58,13 @@ GEM
       uber (< 0.2.0)
     retriable (3.1.2)
     ruby-rc4 (0.1.5)
+    sequel (5.33.0)
     signet (0.14.0)
       addressable (~> 2.3)
       faraday (>= 0.17.3, < 2.0)
       jwt (>= 1.5, < 3.0)
       multi_json (~> 1.10)
+    sqlite3 (1.4.2)
     ttfunk (1.6.2.1)
     uber (0.1.0)
 
@@ -72,9 +77,12 @@ DEPENDENCIES
   colorize (~> 0.8.1)
   dotenv (~> 2.7.5)
   google-api-client (~> 0.40.0)
+  nokogiri (~> 1.10.9)
   pdf-reader (~> 2.4)
   pry (~> 0.13.1)
   rb-readline (~> 0.5.5)
+  sequel (~> 5.33)
+  sqlite3 (~> 1.4, >= 1.4.2)
 
 BUNDLED WITH
    2.1.4

@@ -22,7 +22,7 @@ module Scraper
     @@dates_processed_already = {}
 
     # Set to dates like '2020-06-21' to process archives.
-    @@process_archives_on_or_before = '2020-06-24'
+    @@process_archives_on_or_before = '2020-06-27'
     @@process_archives_on_or_after = nil
 
     def news_url
@@ -163,8 +163,8 @@ module Scraper
         end
       end
 
-      extract_deaths_lines(filename: filename)
-      # process_daily_number_of_tests_data(filename: filename)
+      # extract_deaths_lines(filename: filename)
+      process_county_data(filename: filename)
       # process_city_by_city_new_cases_data(filename: filename)
     end
 
@@ -282,7 +282,7 @@ module Scraper
 
     end
 
-    def process_daily_number_of_tests_data(filename:)
+    def process_county_data(filename:)
       stop_phrase =
         'Coronavirus: testing by laboratory'
 
@@ -334,12 +334,12 @@ module Scraper
       puts '--- EXTRACTED TEXT ---'.colorize(color: :black, background: :red)
 
       # Pull out the data with a regular expression.
-      testing_data = []
+      county_data = []
       unless extracted_text.nil?
         extracted_text.split("\n").each do |line|
           # if line =~ /([\D\s\.]+\b)[\s\d]+([\d\,]+)\s+([\d\,]+)\s+([\d\,]+\$)\s+([\d\,]+)/
           if line =~ /^([\D\s\.]+\b)[\s\d\,]+[\d\,]+\s+([\d\,]+)\s+([\d\,]+\%)\s+([\d\,]+)/
-            testing_data <<
+            county_data <<
               {
                 county: $1.strip,
                 positive: $2.strip,
@@ -350,13 +350,37 @@ module Scraper
         end
       end
 
-      puts ' Testing data: '.colorize(color: :black, background: :light_blue)
-      ap testing_data
+      puts ' County data: '.colorize(color: :black, background: :light_blue)
+      ap county_data
 
-      GoogleSheets.new.write_county_data(
-        spreadsheet_id: ENV['FDOH_TESTING_DATA_SPREADSHEET_ID'],
-        date: date,
-        testing_data: testing_data)
+      county_data.each do |county|
+        DB::FactValue.write(
+          source:'Florida Department of Health',
+          series_group:'counties',
+          series: county[:county],
+          date: date,
+          metric:'positive',
+          raw:county[:positive])
+        DB::FactValue.write(
+          source:'Florida Department of Health',
+          series_group:'counties',
+          series: county[:county],
+          date: date,
+          metric:'percent positive',
+          raw:county[:percent_positive])
+        DB::FactValue.write(
+          source:'Florida Department of Health',
+          series_group:'counties',
+          series: county[:county],
+          date: date,
+          metric:'total tested',
+          raw:county[:total_tested])
+      end
+
+      # GoogleSheets.new.write_county_data(
+      #   spreadsheet_id: ENV['FDOH_TESTING_DATA_SPREADSHEET_ID'],
+      #   date: date,
+      #   data: county_data)
     end
 
     def process_city_by_city_new_cases_data(filename:)

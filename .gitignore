@@ -4,3 +4,4 @@ credentials.json
 token.yaml
 data/.scraper-cache
 node_modules
+*.sqlite3

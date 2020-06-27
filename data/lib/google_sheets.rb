@@ -107,7 +107,7 @@ class GoogleSheets
     #exit
   end
 
-  def write_county_data(spreadsheet_id:, date:, testing_data:)
+  def write_county_data(spreadsheet_id:, date:, data:)
     positive_sheet_name = 'positive'
     puts 'Positive sheet name:'.colorize(color: :white, background: :blue) + ' ' +
       positive_sheet_name
@@ -123,7 +123,7 @@ class GoogleSheets
       sheet_name: positive_sheet_name,
       date: date)
 
-    testing_data.
+    data.
       sort_by{|county| county[:county] }.each do |county|
       county_column_name = find_or_create_column_for_header(
         spreadsheet_id: spreadsheet_id,
@@ -161,7 +161,7 @@ class GoogleSheets
       sheet_name: total_tested_sheet_name,
       date: date)
 
-    testing_data.
+    data.
       sort_by{|county| county[:county] }.each do |county|
       county_column_name = find_or_create_column_for_header(
         spreadsheet_id: spreadsheet_id,
@@ -197,7 +197,7 @@ class GoogleSheets
       sheet_name: percent_positive_sheet_name,
       date: date)
 
-    testing_data.
+    data.
       sort_by{|county| county[:county] }.each do |county|
       county_column_name = find_or_create_column_for_header(
         spreadsheet_id: spreadsheet_id,
